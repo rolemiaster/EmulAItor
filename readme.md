@@ -1,7 +1,7 @@
 # EmulAItor
 
 **EmulAItor** es un emulador "todo en uno" de código abierto para Android, basado en [Libretro](https://www.libretro.com/).
-Es un *fork* avanzado de [Lemuroid](https://github.com/Swordfish90/Lemuroid), diseñado para ofrecer una experiencia de usuario superior con descarga de juegos integrada, soporte para nube/NAS y compatibilidad total con Android TV.
+Es un *fork* avanzado de [Lemuroid](https://github.com/Swordfish90/Lemuroid), diseñado para ofrecer una experiencia de usuario superior con descarga de juegos integrada (archivos alojados en archive.org, sin relación alguna con este proyecto), soporte para nube/NAS y compatibilidad total con Android TV.
 
 ---
 

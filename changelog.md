@@ -1,4 +1,17 @@
 ****************************************************************************************************
+17/12/2025 20:53 - Production Release - v009
+****************************************************************************************************
+- Description:
+  Preparacion completa para Google Play y publicacion de codigo fuente.
+
+- Changes:
+  Script unificado build_creator.bat
+  Automatizacion de GitHub Sync
+  Generacion de AAB Signed
+  Correccion de reglas R8/ProGuard
+  Actualizacion de README.md
+
+****************************************************************************************************
 17/12/2025 17:34 - V8.9: SMB Deletion Support - Beta_v009
 ****************************************************************************************************
 - Description:

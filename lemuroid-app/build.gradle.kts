@@ -15,7 +15,7 @@ android {
     defaultConfig {
         versionCode = 231
         versionName = getChangelogVersion() // Always remember to update Cores Tag!
-        applicationId = "com.swordfish.lemuroid"
+        applicationId = "com.rolemiaster.emulaitor"
 
         val localProperties = Properties()
         val localPropertiesFile = rootProject.file("local.properties")
