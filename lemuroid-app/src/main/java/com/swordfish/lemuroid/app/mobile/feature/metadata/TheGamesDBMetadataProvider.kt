@@ -11,6 +11,7 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import timber.log.Timber
 import java.net.URLEncoder
+import com.swordfish.lemuroid.BuildConfig
 
 class TheGamesDBMetadataProvider(
     private val client: OkHttpClient,

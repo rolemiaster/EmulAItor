@@ -85,3 +85,8 @@
 
 ## LibretroDroid
 -keep class com.swordfish.libretrodroid.** { *; }
+
+## R8 / Missing classes suppression
+-dontwarn javax.el.**
+-dontwarn org.ietf.jgss.**
+-dontwarn net.engio.mbassy.**

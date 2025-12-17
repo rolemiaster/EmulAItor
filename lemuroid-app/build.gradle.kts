@@ -1,3 +1,6 @@
+import java.util.Properties
+import java.io.FileInputStream
+
 plugins {
     id("com.android.application")
     id("kotlin-android")
@@ -14,10 +17,10 @@ android {
         versionName = getChangelogVersion() // Always remember to update Cores Tag!
         applicationId = "com.swordfish.lemuroid"
 
-        val localProperties = java.util.Properties()
+        val localProperties = Properties()
         val localPropertiesFile = rootProject.file("local.properties")
         if (localPropertiesFile.exists()) {
-            localProperties.load(java.io.FileInputStream(localPropertiesFile))
+            localProperties.load(FileInputStream(localPropertiesFile))
         }
         buildConfigField("String", "THEGAMESDB_API_KEY", "\"${localProperties.getProperty("THEGAMESDB_API_KEY", "")}\"")
     }
