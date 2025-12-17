@@ -101,7 +101,7 @@ $env:JAVA_HOME = "C:\Program Files\Android\Android Studio1\jbr"
 
 Este proyecto se distribuye bajo la licencia **GNU General Public License v3.0 (GPLv3)**.
 
-*   EmulAItor Copyright (C) 2024
+*   EmulAItor TM
 *   Basado en Lemuroid Copyright (C) Filippo Scognamiglio (Swordfish90)
 *   Los núcleos de Libretro tienen sus propias licencias individuales.
 
