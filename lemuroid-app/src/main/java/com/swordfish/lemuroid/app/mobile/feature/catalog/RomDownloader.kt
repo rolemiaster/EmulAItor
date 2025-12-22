@@ -5,6 +5,7 @@ import android.app.NotificationManager
 import android.content.Context
 import android.net.Uri
 import android.os.Build
+import android.os.StatFs
 import android.util.Log
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
@@ -30,6 +31,19 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.TimeUnit
+
+/**
+ * Resultado de verificación de espacio de almacenamiento
+ */
+data class StorageCheckResult(
+    val hasEnoughSpace: Boolean,
+    val requiredBytes: Long,
+    val availableBytes: Long,
+    val requiredFormatted: String,
+    val availableFormatted: String,
+    val shortageBytes: Long = 0,
+    val shortageFormatted: String = ""
+)
 
 /**
  * RomDownloader - Descarga múltiples ROMs simultáneamente desde Archive.org
@@ -291,6 +305,92 @@ class RomDownloader(
         } catch (e: Exception) {
             null
         }
+    }
+
+    /**
+     * Formatea bytes a string legible (KB, MB, GB)
+     */
+    fun formatBytes(bytes: Long): String = when {
+        bytes < 1024 -> "$bytes B"
+        bytes < 1024 * 1024 -> String.format("%.1f KB", bytes / 1024.0)
+        bytes < 1024 * 1024 * 1024 -> String.format("%.1f MB", bytes / (1024.0 * 1024))
+        else -> String.format("%.2f GB", bytes / (1024.0 * 1024 * 1024))
+    }
+
+    /**
+     * Obtiene el espacio disponible en el destino configurado (SAF, local o SMB)
+     * Para SMB retorna -1 (no verificable directamente)
+     */
+    fun getAvailableSpace(): Long {
+        // SMB no es verificable directamente
+        if (libraryDestination != null) {
+            return -1L
+        }
+        
+        return try {
+            val safRoot = tryGetRootDocumentFile()
+            if (safRoot != null && isSAFMode()) {
+                // SAF: Obtener espacio a través del URI
+                val uri = safRoot.uri
+                val fd = context.contentResolver.openFileDescriptor(uri, "r")
+                fd?.use {
+                    val statFs = StatFs(it.fileDescriptor.toString())
+                    statFs.availableBytes
+                } ?: run {
+                    // Fallback: intentar con el path del volumen si está disponible
+                    val path = safRoot.uri.path
+                    if (path != null) {
+                        val statFs = StatFs(path)
+                        statFs.availableBytes
+                    } else -1L
+                }
+            } else {
+                // Local: usar StatFs directamente
+                val romsDir = getLocalRomsDirectory()
+                romsDir.mkdirs()
+                val statFs = StatFs(romsDir.absolutePath)
+                statFs.availableBytes
+            }
+        } catch (e: Exception) {
+            Log.w(TAG, "Error getting available space: ${e.message}")
+            -1L
+        }
+    }
+
+    /**
+     * Verifica si hay espacio suficiente para descargar los archivos especificados
+     * @param files Lista de archivos a descargar con sus tamaños
+     * @return StorageCheckResult con el resultado de la verificación
+     */
+    fun checkStorageForDownload(files: List<ArchiveOrgClient.DownloadableFile>): StorageCheckResult {
+        val requiredBytes = files.sumOf { it.size }
+        val availableBytes = getAvailableSpace()
+        
+        // Si no podemos determinar el espacio (SMB o error), permitimos la descarga
+        if (availableBytes < 0) {
+            return StorageCheckResult(
+                hasEnoughSpace = true,
+                requiredBytes = requiredBytes,
+                availableBytes = -1,
+                requiredFormatted = formatBytes(requiredBytes),
+                availableFormatted = "Desconocido (SMB)",
+                shortageBytes = 0,
+                shortageFormatted = ""
+            )
+        }
+        
+        val hasEnough = availableBytes >= requiredBytes
+        val shortage = if (hasEnough) 0L else requiredBytes - availableBytes
+        
+        return StorageCheckResult(
+            hasEnoughSpace = hasEnough,
+            requiredBytes = requiredBytes,
+            availableBytes = availableBytes,
+            requiredFormatted = formatBytes(requiredBytes),
+            availableFormatted = formatBytes(availableBytes),
+            shortageBytes = shortage,
+            shortageFormatted = if (shortage > 0) formatBytes(shortage) else ""
+        )
     }
 
     /**

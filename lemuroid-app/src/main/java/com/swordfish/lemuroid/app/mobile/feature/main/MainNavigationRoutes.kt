@@ -103,6 +103,12 @@ enum class MainRoute(
         parent = SETTINGS,
         showBottomNavigation = false,
     ),
+    SETTINGS_MANUAL(
+        route = "settings/manual",
+        titleId = R.string.settings_title_manual,
+        parent = SETTINGS,
+        showBottomNavigation = false,
+    ),
     SETTINGS_ABOUT(
         route = "settings/about",
         titleId = R.string.settings_title_about,

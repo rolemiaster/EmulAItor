@@ -10,9 +10,12 @@ import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
@@ -170,12 +173,89 @@ class MainActivity : RetrogradeComponentActivity(), BusyActivity {
         }
     }
     
+    private val requestPermissionLauncher =
+        registerForActivityResult(androidx.activity.result.contract.ActivityResultContracts.RequestPermission()) { isGranted ->
+            if (isGranted) {
+                ensureDefaultFolderConfigured()
+            }
+        }
+
     override fun onResume() {
         super.onResume()
         // Resume music when returning from game (with fade-in effect)
         if (::musicPlayer.isInitialized && !musicPlayer.isPlaying.value) {
             musicPlayer.fadeIn()
         }
+        
+        // V10 FIX: Fallback for broken SAF on some devices (Android 10/11)
+        ensureLegacyStoragePermissionsIfNeeded()
+        // If we have "All Files Access", ensure the default folder is set immediately
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.R && android.os.Environment.isExternalStorageManager()) {
+            ensureDefaultFolderConfigured()
+        }
+    }
+    
+    private fun ensureDefaultFolderConfigured() {
+        val prefs = SharedPreferencesHelper.getSharedPreferences(applicationContext)
+        val currentUri = prefs.getString(SharedPreferencesHelper.KEY_STORAGE_FOLDER_URI, null)
+        
+        if (currentUri == null) {
+            // Create default folder "EmulAI_Roms"
+            val defaultFile = java.io.File(android.os.Environment.getExternalStorageDirectory(), "EmulAI_Roms")
+            if (!defaultFile.exists()) defaultFile.mkdirs()
+            
+            // Save as URI
+            val uri = android.net.Uri.fromFile(defaultFile).toString()
+            prefs.edit().putString(SharedPreferencesHelper.KEY_STORAGE_FOLDER_URI, uri).apply()
+            
+            // Trigger sync
+            com.swordfish.lemuroid.app.shared.library.LibraryIndexScheduler.scheduleLibrarySync(applicationContext)
+        }
+    }
+
+    private fun ensureLegacyStoragePermissionsIfNeeded() {
+        // 1. If SAF is ALREADY configured -> Do nothing
+        if (SharedPreferencesHelper.getSAFUri(applicationContext) != null) return
+        
+        // 2. If SAF is SUPPORTED (standard device) -> Do nothing (let user use picker)
+        if (com.swordfish.lemuroid.app.tv.shared.TVHelper.isSAFSupported(this)) {
+            return 
+        }
+
+        // 3. Fallback Logic
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.R) {
+            if (!android.os.Environment.isExternalStorageManager()) {
+                try {
+                    val intent = Intent(android.provider.Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION)
+                    intent.addCategory("android.intent.category.DEFAULT")
+                    intent.data = android.net.Uri.parse(String.format("package:%s", applicationContext.packageName))
+                    startActivity(intent)
+                } catch (e: Exception) {
+                    try {
+                        val intent = Intent()
+                        intent.action = android.provider.Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION
+                        startActivity(intent)
+                    } catch (e2: Exception) {
+                        // ignore
+                    }
+                }
+            }
+        } else {
+            // Android 10 or below (Legacy)
+            if (!isLegacyPermissionGranted()) {
+                requestLegacyStoragePermission()
+            } else {
+                 ensureDefaultFolderConfigured()
+            }
+        }
+    }
+
+    private fun requestLegacyStoragePermission() {
+        requestPermissionLauncher.launch(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
+    }
+
+    private fun isLegacyPermissionGranted(): Boolean {
+        return androidx.core.content.ContextCompat.checkSelfPermission(this, android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == android.content.pm.PackageManager.PERMISSION_GRANTED
     }
     
     override fun onDestroy() {
@@ -246,7 +326,7 @@ class MainActivity : RetrogradeComponentActivity(), BusyActivity {
             }
 
             val onHelpPressed = {
-                infoDialogDisplayed.value = true
+                navController.navigateToRoute(MainRoute.SETTINGS_ABOUT)
             }
 
             val baseUIState =
@@ -468,6 +548,16 @@ class MainActivity : RetrogradeComponentActivity(), BusyActivity {
                                 ),
                         )
                     }
+                    composable(MainRoute.SETTINGS_MANUAL) {
+                        com.swordfish.lemuroid.app.mobile.feature.settings.manual.ManualScreen(
+                            modifier = Modifier.padding(padding),
+                        )
+                    }
+                    composable(MainRoute.SETTINGS_ABOUT) {
+                        com.swordfish.lemuroid.app.mobile.feature.settings.about.AboutScreen(
+                            modifier = Modifier.padding(padding),
+                        )
+                    }
                 }
             }
 
@@ -520,7 +610,16 @@ class MainActivity : RetrogradeComponentActivity(), BusyActivity {
                     }
 
                 AlertDialog(
-                    text = { HtmlText(text = message) },
+                    title = {
+                        Text(text = "EmulAItor v${com.swordfish.lemuroid.BuildConfig.VERSION_NAME}")
+                    },
+                    text = {
+                        androidx.compose.foundation.layout.Column(
+                            modifier = Modifier.verticalScroll(androidx.compose.foundation.rememberScrollState())
+                        ) {
+                            HtmlText(text = message)
+                        }
+                    },
                     onDismissRequest = { infoDialogDisplayed.value = false },
                     confirmButton = { },
                 )

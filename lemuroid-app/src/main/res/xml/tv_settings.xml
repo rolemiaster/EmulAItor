@@ -144,6 +144,12 @@
 
         </PreferenceScreen>
 
+        <Preference
+            android:key="pref_key_manual"
+            android:title="@string/settings_title_manual"
+            android:summary="@string/settings_description_manual"
+            app:iconSpaceReserved="false"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>

@@ -14,10 +14,12 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.swordfish.lemuroid.BuildConfig
+import com.swordfish.lemuroid.R
 
 @Composable
 fun AboutScreen(
@@ -59,7 +61,7 @@ fun AboutScreen(
                     color = MaterialTheme.colorScheme.onPrimaryContainer
                 )
                 Text(
-                    text = "Versión ${BuildConfig.VERSION_NAME}",
+                    text = stringResource(id = R.string.about_version, BuildConfig.VERSION_NAME),
                     fontSize = 14.sp,
                     color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.7f)
                 )
@@ -69,14 +71,14 @@ fun AboutScreen(
         Spacer(modifier = Modifier.height(16.dp))
         
         // Origen del software
-        AboutSection(title = "Origen del software") {
+        AboutSection(title = stringResource(id = R.string.about_section_origin)) {
             Text(
-                text = "Esta aplicación es un fork del proyecto de código abierto Lemuroid, distribuido bajo licencia GPL-3.0.",
+                text = stringResource(id = R.string.about_content_origin_1),
                 style = MaterialTheme.typography.bodyMedium
             )
             Spacer(modifier = Modifier.height(8.dp))
             Text(
-                text = "Se han añadido funciones de exploración de contenidos disponibles públicamente en Archive.org.",
+                text = stringResource(id = R.string.about_content_origin_2),
                 style = MaterialTheme.typography.bodyMedium
             )
         }
@@ -84,16 +86,24 @@ fun AboutScreen(
         Spacer(modifier = Modifier.height(12.dp))
         
         // Código fuente
-        AboutSection(title = "Código fuente") {
+        AboutSection(title = stringResource(id = R.string.about_section_source)) {
             Text(
-                text = "El código fuente de esta versión modificada está disponible bajo licencia GPL-3.0.",
+                text = stringResource(id = R.string.about_content_source),
                 style = MaterialTheme.typography.bodyMedium
             )
             Spacer(modifier = Modifier.height(8.dp))
             OutlinedButton(
                 onClick = {
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/rolemiaster/EmulAItor"))
-                    context.startActivity(intent)
+                    try {
+                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/rolemiaster/EmulAItor"))
+                        context.startActivity(intent)
+                    } catch (e: android.content.ActivityNotFoundException) {
+                        android.widget.Toast.makeText(
+                            context,
+                            context.getString(R.string.about_no_browser),
+                            android.widget.Toast.LENGTH_LONG
+                        ).show()
+                    }
                 }
             ) {
                 Icon(
@@ -102,17 +112,18 @@ fun AboutScreen(
                     modifier = Modifier.size(18.dp)
                 )
                 Spacer(modifier = Modifier.width(8.dp))
-                Text("Ver código fuente (GitHub)")
+                Text(stringResource(id = R.string.about_button_github))
             }
         }
+
         
         Spacer(modifier = Modifier.height(12.dp))
         
         // Licencias de terceros
-        AboutSection(title = "Licencias de terceros") {
+        AboutSection(title = stringResource(id = R.string.about_section_licenses)) {
             LicenseItem("Lemuroid", "GPL-3.0", "Swordfish90")
             LicenseItem("LibretroDroid", "GPL-3.0", "Swordfish90")
-            LicenseItem("Libretro Cores", "Varias (GPL, LGPL, MIT)", "libretro")
+            LicenseItem("Libretro Cores", "Various (GPL, LGPL, MIT)", "libretro")
             LicenseItem("Jetpack Compose", "Apache 2.0", "Google")
             LicenseItem("OkHttp", "Apache 2.0", "Square")
             LicenseItem("Gson", "Apache 2.0", "Google")
@@ -121,15 +132,36 @@ fun AboutScreen(
         Spacer(modifier = Modifier.height(12.dp))
         
         // Aviso legal
-        AboutSection(title = "Aviso legal") {
+        AboutSection(title = stringResource(id = R.string.about_section_legal)) {
             Text(
-                text = "Esta aplicación no incluye ROMs ni descarga contenido automáticamente. " +
-                        "La función de exploración solo muestra colecciones disponibles públicamente en Archive.org. " +
-                        "El usuario es responsable de comprobar si posee los derechos para acceder o usar cualquier archivo externo.",
+                text = stringResource(id = R.string.about_content_legal),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
         }
+        
+        Spacer(modifier = Modifier.height(12.dp))
+        
+        // Reportar un fallo
+        AboutSection(title = stringResource(id = R.string.about_section_report)) {
+            Text(
+                text = stringResource(id = R.string.about_content_report),
+                style = MaterialTheme.typography.bodyMedium
+            )
+            Spacer(modifier = Modifier.height(8.dp))
+            Button(
+                onClick = {
+                    val intent = Intent(context, com.swordfish.lemuroid.app.shared.bugreport.BugReportActivity::class.java)
+                    context.startActivity(intent)
+                },
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = MaterialTheme.colorScheme.error
+                )
+            ) {
+                Text(stringResource(id = R.string.about_button_report))
+            }
+        }
+
         
         Spacer(modifier = Modifier.height(24.dp))
     }
@@ -184,7 +216,7 @@ private fun LicenseItem(
                 fontSize = 14.sp
             )
             Text(
-                text = "por $author",
+                text = "by $author",
                 fontSize = 12.sp,
                 color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f)
             )

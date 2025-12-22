@@ -26,7 +26,6 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.swordfish.lemuroid.lib.library.db.entity.Game
-import androidx.compose.ui.zIndex
 import kotlin.math.absoluteValue
 
 /**
@@ -74,15 +73,15 @@ fun GameCarousel(
     ) {
         Spacer(modifier = Modifier.weight(0.08f))
         
-        // Compact Carousel - cards overlapping
+        // Simple HorizontalPager with fixed values that work well
         HorizontalPager(
             state = pagerState,
             modifier = Modifier
                 .weight(0.55f)
                 .fillMaxWidth(),
-            contentPadding = PaddingValues(horizontal = 299.dp), // + cantidad = más a la derecha (este valor + pageSpacing no ueden superar los 999)
-            pageSpacing = (-500).dp, // espacio entre cartas
-            beyondViewportPageCount = 1
+            contentPadding = PaddingValues(horizontal = 48.dp),
+            pageSpacing = (-80).dp,
+            beyondViewportPageCount = 2
         ) { page ->
             GameCarouselCard(
                 game = games[page],
@@ -115,52 +114,31 @@ private fun GameCarouselCard(
     val pageOffset = ((pagerState.currentPage - page) + pagerState.currentPageOffsetFraction)
     val absoluteOffset = pageOffset.absoluteValue
     
-    // Scale: center = 1.0, sides smaller
+    // Scale: center = 1.0, sides smaller (subtle effect)
     val scale by animateFloatAsState(
-        targetValue = 1f - (absoluteOffset * 0.20f).coerceIn(0f, 0.35f),
+        targetValue = 1f - (absoluteOffset * 0.15f).coerceIn(0f, 0.25f),
         animationSpec = tween(200),
         label = "card_scale"
     )
     
-    // Rotation Y: perspective effect (sides rotate away)
-    val rotationY by animateFloatAsState(
-        targetValue = pageOffset * -25f,
-        animationSpec = tween(200),
-        label = "card_rotation"
-    )
-    
-    // Translation X to push sides behind center
-    val translationX by animateFloatAsState(
-        targetValue = pageOffset * 50f,
-        animationSpec = tween(200),
-        label = "card_translation"
-    )
-    
-    // Alpha: center = 1.0, sides dimmer
+    // Alpha: center = 1.0, sides dimmer (subtle effect)
     val alpha by animateFloatAsState(
-        targetValue = 1f - (absoluteOffset * 0.35f).coerceIn(0f, 0.5f),
+        targetValue = 1f - (absoluteOffset * 0.3f).coerceIn(0f, 0.4f),
         animationSpec = tween(200),
         label = "card_alpha"
     )
-    
-    // Z-index: center on top
-    val zIndex = 10f - absoluteOffset * 5f
     
     Card(
         modifier = Modifier
             .graphicsLayer {
                 scaleX = scale
                 scaleY = scale
-                this.rotationY = rotationY
-                this.translationX = translationX
                 this.alpha = alpha
-                cameraDistance = 8f * density
             }
-            .zIndex(zIndex)
             .fillMaxHeight()
             .aspectRatio(0.7f)
             .shadow(
-                elevation = if (absoluteOffset < 0.5f) 20.dp else 8.dp,
+                elevation = if (absoluteOffset < 0.5f) 16.dp else 6.dp,
                 shape = RoundedCornerShape(16.dp)
             )
             .clip(RoundedCornerShape(16.dp))

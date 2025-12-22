@@ -10,5 +10,7 @@ enum class TVSettingType(val icon: Int, val text: Int) {
     SETTINGS(R.drawable.ic_settings_white_64dp, R.string.settings),
     SAVE_SYNC(R.drawable.ic_cloud_sync_64dp, R.string.save_sync),
     CATALOG(R.drawable.ic_cloud_sync_64dp, R.string.title_catalog),
+    MANUAL(R.drawable.ic_book_white_64dp, R.string.settings_title_manual),
     ABOUT(R.drawable.ic_help, R.string.settings_title_about),
 }
+

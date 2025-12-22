@@ -286,5 +286,44 @@
     <string name="delete_mode_title">Selecciona juegos a eliminar</string>
     <string name="delete_selected">Eliminar seleccionados (%1$d)</string>
 
+    <!-- User Manual -->
+    <string name="settings_title_manual">Manual de Usuario</string>
+    <string name="settings_description_manual">Cómo usar EmulAItor</string>
+    <string name="manual_header">Manual de Usuario</string>
+    <string name="manual_section_first_steps">🚀 Primeros pasos</string>
+    <string name="manual_content_first_steps">1. Selecciona una carpeta donde guardarás tus ROMs desde Opciones → Directorio.\n\n2. Copia tus archivos ROM a esa carpeta.\n\n3. La aplicación escaneará automáticamente y mostrará tus juegos en la pantalla principal.</string>
+    <string name="manual_section_archive">🌐 Explorar Archive.org</string>
+    <string name="manual_content_archive">La sección Catálogo te permite explorar colecciones de ROMs disponibles públicamente en Archive.org.\n\n• Navega por sistema o busca juegos específicos.\n• Pulsa sobre un juego para descargarlo a tu carpeta de ROMs.\n• Los juegos descargados aparecerán automáticamente en tu biblioteca.</string>
+    <string name="manual_section_controls">🎮 Configurar mandos</string>
+    <string name="manual_content_controls">Conecta un mando Bluetooth o USB y ve a Opciones → Configuración de mandos.\n\n• Selecciona tu mando de la lista.\n• Mapea los botones según tus preferencias.\n• Activa la vibración si tu mando lo soporta.</string>
+    <string name="manual_section_bios">💾 BIOS requeridas</string>
+    <string name="manual_content_bios">Algunos sistemas (PlayStation, Game Boy Advance, etc.) necesitan archivos BIOS para funcionar.\n\n• Ve a Opciones → Información de BIOS para ver qué archivos necesitas.\n• Coloca los archivos BIOS en la misma carpeta que tus ROMs.\n• El nombre del archivo debe coincidir exactamente con el requerido.</string>
+    <string name="manual_section_saves">💾 Partidas guardadas</string>
+    <string name="manual_content_saves">El guardado automático está activado por defecto.\n\n• Al salir de un juego, tu progreso se guarda automáticamente.\n• Al volver a abrir el juego, continuarás donde lo dejaste.\n• También puedes usar los guardados propios de cada juego (menú del juego).</string>
+    <string name="manual_section_sync">☁️ Sincronización en la nube</string>
+    <string name="manual_content_sync">Puedes sincronizar tus partidas guardadas con Google Drive.\n\n• Ve a Opciones → Sincronización de guardados.\n• Inicia sesión con tu cuenta de Google.\n• Tus partidas se sincronizarán automáticamente entre dispositivos.</string>
+    <string name="manual_section_gameplay">🕹️ Durante el juego</string>
+    <string name="manual_content_gameplay">Para acceder al menú durante el juego:\n\n• Pulsa el botón de menú (☰) o desliza desde el borde de la pantalla.\n• Desde ahí puedes: guardar/cargar partidas, cambiar ranura de guardado, acceder a opciones rápidas, o salir del juego.</string>
+
+    <!-- About Screen -->
+    <string name="about_version">Versión %1$s</string>
+    <string name="about_section_origin">Origen del software</string>
+    <string name="about_content_origin_1">Esta aplicación es un fork del proyecto de código abierto Lemuroid, distribuido bajo licencia GPL-3.0.</string>
+    <string name="about_content_origin_2">Se han añadido funciones de exploración de contenidos disponibles públicamente en Archive.org.</string>
+    <string name="about_section_source">Código fuente</string>
+    <string name="about_content_source">El código fuente de esta versión modificada está disponible bajo licencia GPL-3.0.</string>
+    <string name="about_button_github">Ver código fuente (GitHub)</string>
+    <string name="about_section_licenses">Licencias de terceros</string>
+    <string name="about_section_legal">Aviso legal</string>
+    <string name="about_content_legal">Esta aplicación no incluye ROMs ni descarga contenido automáticamente. La función de exploración solo muestra colecciones disponibles públicamente en Archive.org. El usuario es responsable de comprobar si posee los derechos para acceder o usar cualquier archivo externo.</string>
+    <string name="about_section_report">Reportar un fallo</string>
+    <string name="about_content_report">¿Has encontrado un error o tienes una sugerencia? Ayúdanos a mejorar enviando un reporte anónimo.</string>
+    <string name="about_button_report">🐛 Reportar un fallo</string>
+    <string name="about_no_browser">No hay navegador web instalado para abrir el enlace</string>
+    <string name="about_no_browser_report">No hay navegador web instalado para abrir la página de reporte de errores</string>
+    <string name="bug_report_error">No se pudo cargar el formulario de reporte. Por favor, comprueba tu conexión a internet.</string>
+    <string name="bug_report_select_images">Seleccionar imágenes</string>
+    <string name="about_open_with">Abrir con</string>
+
 </resources>
 

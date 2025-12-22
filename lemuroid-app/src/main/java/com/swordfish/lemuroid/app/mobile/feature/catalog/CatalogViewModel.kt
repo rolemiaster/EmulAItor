@@ -91,16 +91,7 @@ class CatalogViewModel(
         // V8.4: SmbClient is now internal to RomDownloader
         romDownloader.setLibraryDestination(libraryDestination)
         
-        // VISIBLE DEBUGGING: Show Toast with config status
-        viewModelScope.launch(kotlinx.coroutines.Dispatchers.Main) {
-            val status = if (libraryDestination != null) {
-                "SMB OK: ${libraryDestination.path}"
-            } else {
-                "SMB NULL (Type: $libType)"
-            }
-            android.widget.Toast.makeText(context, status, android.widget.Toast.LENGTH_LONG).show()
-        }
-        
+        // Initialize search
         searchPacks()
     }
     
@@ -306,8 +297,13 @@ class CatalogViewModel(
             val filesToDownload = files.filter { !isFileDownloaded(pack, it.name) }
             Log.d(TAG, "Downloading ${filesToDownload.size} files (${files.size - filesToDownload.size} already downloaded) from ${pack.name}")
             
-            // Validar que hay almacenamiento configurado (SAF o local)
-            // Si ninguno está disponible, el primer download fallará con mensaje apropiado
+            // Verificar espacio disponible antes de iniciar descargas
+            val storageCheck = romDownloader.checkStorageForDownload(filesToDownload)
+            if (!storageCheck.hasEnoughSpace) {
+                Log.w(TAG, "Not enough storage space: required=${storageCheck.requiredFormatted}, available=${storageCheck.availableFormatted}")
+                _uiState.value = _uiState.value.copy(storageCheckResult = storageCheck)
+                return
+            }
             
             filesToDownload.forEach { file ->
                 romDownloader.startDownload(pack, file)
@@ -318,6 +314,10 @@ class CatalogViewModel(
                 error = if (e.message == "NO_ROM_PATH_CONFIGURED") "NO_ROM_PATH_CONFIGURED" else e.message
             )
         }
+    }
+    
+    fun clearStorageError() {
+        _uiState.value = _uiState.value.copy(storageCheckResult = null)
     }
     
     fun cancelDownload(downloadId: String) {
@@ -354,7 +354,8 @@ class CatalogViewModel(
         val selectedPack: ArchiveOrgClient.RomPack? = null,
         val downloadableFiles: List<ArchiveOrgClient.DownloadableFile> = emptyList(),
         val isLoadingFiles: Boolean = false,
-        val showDownloadsPanel: Boolean = false
+        val showDownloadsPanel: Boolean = false,
+        val storageCheckResult: StorageCheckResult? = null
     )
     
     class Factory(

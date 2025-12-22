@@ -162,6 +162,16 @@
             android:theme="@style/LemuroidLeanbackTheme" />
 
         <activity
+            android:name=".app.shared.bugreport.BugReportActivity"
+            android:label="@string/about_section_report"
+            android:theme="@style/LemuroidMaterialTheme" />
+
+        <activity
+            android:name=".app.tv.settings.manual.TVManualActivity"
+            android:label="@string/settings_title_manual"
+            android:theme="@style/LemuroidLeanbackTheme" />
+
+        <activity
             android:name=".app.tv.settings.TVSmbConfigActivity"
             android:label="@string/smb_library_title"
             android:theme="@style/LemuroidLeanbackTheme" />

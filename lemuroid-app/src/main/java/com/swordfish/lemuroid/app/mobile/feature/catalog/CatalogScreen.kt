@@ -518,7 +518,18 @@ fun CatalogScreen(
             pack = pack,
             files = uiState.downloadableFiles,
             isLoadingFiles = uiState.isLoadingFiles,
-            isFileDownloaded = { fileName -> viewModel.isFileDownloaded(pack, fileName) },
+            isFileDownloaded = { fileName -> 
+                val downloadId = "${pack.id}_${fileName}"
+                val isCompletedInMemory = downloads[downloadId]?.status == RomDownloader.DownloadStatus.COMPLETED
+                isCompletedInMemory || viewModel.isFileDownloaded(pack, fileName) 
+            },
+            isFileDownloading = { fileName ->
+                val downloadId = "${pack.id}_${fileName}"
+                val status = downloads[downloadId]?.status
+                status == RomDownloader.DownloadStatus.PENDING || 
+                status == RomDownloader.DownloadStatus.DOWNLOADING || 
+                status == RomDownloader.DownloadStatus.PROCESSING
+            },
             onDismiss = { viewModel.clearSelectedPack() },
             onDownloadFile = { file -> viewModel.startDownload(pack, file) },
             onDownloadAll = { viewModel.downloadAllFiles(pack, uiState.downloadableFiles) }
@@ -596,6 +607,59 @@ fun CatalogScreen(
             }
         )
     }
+
+    // DIÁLOGO DE ERROR: ESPACIO INSUFICIENTE
+    uiState.storageCheckResult?.let { storageCheck ->
+        if (!storageCheck.hasEnoughSpace) {
+            AlertDialog(
+                onDismissRequest = { viewModel.clearStorageError() },
+                title = { 
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Icon(Icons.Default.Warning, null, tint = MaterialTheme.colorScheme.error)
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Text("Espacio Insuficiente") 
+                    }
+                },
+                text = { 
+                    Column {
+                        Text(
+                            "El paquete que pretendes descargar es demasiado grande.",
+                            style = MaterialTheme.typography.bodyMedium
+                        )
+                        Spacer(modifier = Modifier.height(12.dp))
+                        
+                        // Tabla de información
+                        Row(modifier = Modifier.fillMaxWidth()) {
+                            Text("Tamaño de descarga:", modifier = Modifier.weight(1f))
+                            Text(storageCheck.requiredFormatted, fontWeight = FontWeight.Bold)
+                        }
+                        Spacer(modifier = Modifier.height(4.dp))
+                        Row(modifier = Modifier.fillMaxWidth()) {
+                            Text("Espacio disponible:", modifier = Modifier.weight(1f))
+                            Text(storageCheck.availableFormatted, fontWeight = FontWeight.Bold)
+                        }
+                        Spacer(modifier = Modifier.height(4.dp))
+                        Row(modifier = Modifier.fillMaxWidth()) {
+                            Text("Espacio adicional necesario:", modifier = Modifier.weight(1f), color = MaterialTheme.colorScheme.error)
+                            Text(storageCheck.shortageFormatted, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.error)
+                        }
+                        
+                        Spacer(modifier = Modifier.height(12.dp))
+                        Text(
+                            "Libera espacio en tu dispositivo o selecciona menos archivos para descargar.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                },
+                confirmButton = {
+                    TextButton(onClick = { viewModel.clearStorageError() }) {
+                        Text("Entendido")
+                    }
+                }
+            )
+        }
+    }
 }
 
 @Composable
@@ -607,12 +671,24 @@ private fun LoadingContent() {
 
 @Composable
 private fun ErrorContent(error: String, onRetry: () -> Unit) {
+    // Mensaje amigable para errores de servidor de Archive.org
+    val displayMessage = when {
+        error.contains("503") -> "Archive.org está caído o en mantenimiento en este momento. Inténtalo más tarde."
+        error.contains("502") -> "Archive.org está experimentando problemas. Inténtalo más tarde."
+        error.contains("500") -> "Archive.org tiene un error interno. Inténtalo más tarde."
+        error.contains("certificate", ignoreCase = true) || error.contains("SSL", ignoreCase = true) -> 
+            "Error de certificado SSL. Verifica que la fecha y hora de tu dispositivo sean correctas."
+        error.contains("timeout", ignoreCase = true) -> "La conexión con Archive.org ha expirado. Verifica tu conexión a internet."
+        error.contains("Unable to resolve host", ignoreCase = true) -> "Sin conexión a internet. Verifica tu conexión."
+        else -> error
+    }
+    
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-            Icon(Icons.Default.Error, null, tint = MaterialTheme.colorScheme.error)
-            Spacer(modifier = Modifier.height(8.dp))
-            Text(error, color = MaterialTheme.colorScheme.error)
-            Spacer(modifier = Modifier.height(8.dp))
+        Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.padding(16.dp)) {
+            Icon(Icons.Default.Error, null, tint = MaterialTheme.colorScheme.error, modifier = Modifier.size(48.dp))
+            Spacer(modifier = Modifier.height(12.dp))
+            Text(displayMessage, color = MaterialTheme.colorScheme.error, textAlign = androidx.compose.ui.text.style.TextAlign.Center)
+            Spacer(modifier = Modifier.height(12.dp))
             Button(onClick = onRetry) { Text("Reintentar") }
         }
     }
@@ -728,10 +804,20 @@ private fun PackDetailsDialog(
     files: List<ArchiveOrgClient.DownloadableFile>,
     isLoadingFiles: Boolean,
     isFileDownloaded: (String) -> Boolean,
+    isFileDownloading: (String) -> Boolean,
     onDismiss: () -> Unit,
     onDownloadFile: (ArchiveOrgClient.DownloadableFile) -> Unit,
     onDownloadAll: () -> Unit
 ) {
+    // Estado para búsqueda de archivos dentro del paquete
+    var searchQuery by remember { mutableStateOf("") }
+    
+    // Filtrar archivos por búsqueda
+    val filteredFiles = remember(files, searchQuery) {
+        if (searchQuery.isBlank()) files
+        else files.filter { it.name.contains(searchQuery, ignoreCase = true) }
+    }
+    
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { 
@@ -745,59 +831,101 @@ private fun PackDetailsDialog(
             }
         },
         text = {
-            Column(
-                modifier = Modifier
-                    .heightIn(min = 200.dp, max = 400.dp)
-                    .verticalScroll(rememberScrollState())
+            LazyColumn(
+                modifier = Modifier.heightIn(min = 200.dp, max = 400.dp)
             ) {
-                // Descripción
+                // Descripción (ahora scrollable)
                 pack.description?.takeIf { it.isNotBlank() }?.let { desc ->
-                    Text(desc, style = MaterialTheme.typography.bodySmall)
-                    Spacer(modifier = Modifier.height(12.dp))
-                    HorizontalDivider()
-                    Spacer(modifier = Modifier.height(12.dp))
+                    item {
+                        Text(desc, style = MaterialTheme.typography.bodySmall)
+                        Spacer(modifier = Modifier.height(12.dp))
+                        HorizontalDivider()
+                        Spacer(modifier = Modifier.height(12.dp))
+                    }
+                }
+                
+                // Campo de búsqueda (solo si hay más de 10 archivos)
+                if (files.size > 10 && !isLoadingFiles) {
+                    item {
+                        OutlinedTextField(
+                            value = searchQuery,
+                            onValueChange = { searchQuery = it },
+                            placeholder = { Text("Buscar ROM...", style = MaterialTheme.typography.bodySmall) },
+                            leadingIcon = { Icon(Icons.Default.Search, contentDescription = null, modifier = Modifier.size(20.dp)) },
+                            trailingIcon = {
+                                if (searchQuery.isNotEmpty()) {
+                                    IconButton(onClick = { searchQuery = "" }) {
+                                        Icon(Icons.Default.Clear, contentDescription = "Limpiar", modifier = Modifier.size(20.dp))
+                                    }
+                                }
+                            },
+                            singleLine = true,
+                            modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp),
+                            colors = OutlinedTextFieldDefaults.colors()
+                        )
+                    }
                 }
                 
                 // Header archivos + botón descargar todo
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    Text(stringResource(R.string.catalog_files_count, files.size), style = MaterialTheme.typography.labelMedium)
-                    if (files.isNotEmpty() && !isLoadingFiles) {
-                        FilledTonalButton(
-                            onClick = onDownloadAll,
-                            modifier = Modifier.height(32.dp),
-                            contentPadding = PaddingValues(horizontal = 12.dp)
-                        ) {
-                            Icon(Icons.Default.Download, null, modifier = Modifier.size(16.dp))
-                            Spacer(modifier = Modifier.width(4.dp))
-                            Text(stringResource(R.string.catalog_download_all), style = MaterialTheme.typography.labelSmall)
+                item {
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        // Mostrar contador con filtrados si hay búsqueda activa
+                        val countText = if (searchQuery.isNotBlank() && filteredFiles.size != files.size) {
+                            "${filteredFiles.size} de ${files.size} archivos"
+                        } else {
+                            stringResource(R.string.catalog_files_count, files.size)
+                        }
+                        Text(countText, style = MaterialTheme.typography.labelMedium)
+                        if (files.isNotEmpty() && !isLoadingFiles) {
+                            FilledTonalButton(
+                                onClick = onDownloadAll,
+                                modifier = Modifier.height(32.dp),
+                                contentPadding = PaddingValues(horizontal = 12.dp)
+                            ) {
+                                Icon(Icons.Default.Download, null, modifier = Modifier.size(16.dp))
+                                Spacer(modifier = Modifier.width(4.dp))
+                                Text(stringResource(R.string.catalog_download_all), style = MaterialTheme.typography.labelSmall)
+                            }
                         }
                     }
+                    Spacer(modifier = Modifier.height(8.dp))
                 }
                 
-                Spacer(modifier = Modifier.height(8.dp))
-                
+                // Estados de carga/vacío/archivos
                 when {
                     isLoadingFiles -> {
-                        Box(
-                            modifier = Modifier.fillMaxWidth().height(100.dp),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            CircularProgressIndicator(modifier = Modifier.size(24.dp))
+                        item {
+                            Box(
+                                modifier = Modifier.fillMaxWidth().height(100.dp),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                CircularProgressIndicator(modifier = Modifier.size(24.dp))
+                            }
                         }
                     }
                     files.isEmpty() -> {
-                        Text(stringResource(R.string.catalog_no_files_found), color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        item {
+                            Text(stringResource(R.string.catalog_no_files_found), color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        }
+                    }
+                    filteredFiles.isEmpty() -> {
+                        item {
+                            Text("No se encontraron ROMs con \"$searchQuery\"", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        }
                     }
                     else -> {
-                        files.forEach { file ->
+                        // Lista de archivos (ya dentro del LazyColumn)
+                        items(filteredFiles, key = { it.name }) { file ->
                             val downloaded = isFileDownloaded(file.name)
+                            val downloading = isFileDownloading(file.name)
                             FileItem(
                                 file = file,
                                 isDownloaded = downloaded,
+                                isDownloading = downloading,
                                 onDownload = { onDownloadFile(file) }
                             )
                         }
@@ -817,6 +945,7 @@ private fun PackDetailsDialog(
 private fun FileItem(
     file: ArchiveOrgClient.DownloadableFile,
     isDownloaded: Boolean,
+    isDownloading: Boolean,
     onDownload: () -> Unit
 ) {
     Row(
@@ -856,6 +985,12 @@ private fun FileItem(
                 "Descargado",
                 modifier = Modifier.size(24.dp),
                 tint = MaterialTheme.colorScheme.primary
+            )
+        } else if (isDownloading) {
+            CircularProgressIndicator(
+                modifier = Modifier.size(24.dp),
+                strokeWidth = 2.dp,
+                color = MaterialTheme.colorScheme.secondary
             )
         } else {
             IconButton(onClick = onDownload, modifier = Modifier.size(36.dp)) {

@@ -77,7 +77,8 @@ Ejecuta el script `build_creator.bat` en la raíz del proyecto y sigue el menú:
 
 1.  **Opción 1:** Preparar código fuente limpio (para publicar/compartir).
 2.  **Opción 2:** Generar **AAB** (Android App Bundle) para subir a Google Play.
-3.  **Opción 3:** Generar **APK** instalable para pruebas locales.
+3.  **Opción 3:** Generar **APK** instalable para pruebas locales (Release + Logs).
+4.  **Opción 4:** Generar **APK** de desarrollo rápido (Debug Fast Build).
 
 Los archivos generados se guardarán automáticamente en la carpeta:
 `\BUILDS_preparadas\`
@@ -101,7 +102,7 @@ $env:JAVA_HOME = "C:\Program Files\Android\Android Studio1\jbr"
 
 Este proyecto se distribuye bajo la licencia **GNU General Public License v3.0 (GPLv3)**.
 
-*   EmulAItor TM
+*   EmulAItor Copyright (C) 2024
 *   Basado en Lemuroid Copyright (C) Filippo Scognamiglio (Swordfish90)
 *   Los núcleos de Libretro tienen sus propias licencias individuales.
 

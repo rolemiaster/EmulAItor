@@ -1,4 +1,104 @@
 ****************************************************************************************************
+22/12/2025 17:19 - Formulario de Reporte de Bugs Integrado - v016
+****************************************************************************************************
+- Description:
+  Implementado WebView interno para el formulario de reporte de bugs, evitando dependencia del navegador externo
+
+- Changes:
+  BugReportActivity con WebView para formulario de bugs
+  Subida de imagenes multiples desde el formulario
+  Soporte completo para movil y TV
+  Eliminada dependencia del navegador externo
+
+****************************************************************************************************
+22/12/2025 02:23 - Mejoras UI Catálogo + Sistema de Espacio + v014 Fix - v015
+****************************************************************************************************
+- Description:
+  Corrección del scroll en diálogo de paquetes, verificación de espacio antes de descargas masivas, y aplicación correcta de cambios v014 (LazyColumn, búsqueda, contador).
+
+- Changes:
+  Fix: Descripción de paquete ahora scrollable junto con búsqueda y ROMs (no bloquea UI)
+  Fix: v014 correctamente aplicado - LazyColumn+items para archivos (evita ANR)
+  Fix: v014 correctamente aplicado - Campo de búsqueda dentro del diálogo de paquete
+  Fix: v014 correctamente aplicado - Contador de archivos filtrados (X de Y)
+  Nuevo: Verificación de espacio disponible antes de descargar Todo
+  Nuevo: Diálogo de alerta cuando no hay espacio suficiente (muestra tamaño requerido, disponible y faltante)
+  Nuevo: Funciones getAvailableSpace y checkStorageForDownload en RomDownloader
+  Nuevo: Icono de libro para Manual en TV (reemplaza interrogación)
+
+****************************************************************************************************
+21/12/2025 04:20 - Fix ANR Catálogo + Búsqueda en Paquetes - v014
+****************************************************************************************************
+- Description:
+  Resuelto el error ANR que bloqueaba la app al abrir paquetes grandes (347k+ archivos) en el catálogo. Añadido campo de búsqueda dentro del diálogo de paquete.
+
+- Changes:
+  Fix: Cambiado renderizado de archivos de verticalScroll+forEach a LazyColumn+items (solo renderiza ~20 items visibles)
+  Nuevo: Campo de búsqueda para filtrar ROMs por nombre dentro de un paquete
+  Nuevo: Contador de archivos filtrados cuando hay búsqueda activa
+
+****************************************************************************************************
+19/12/2025 01:41 - Mejora del Carrusel Móvil - v013
+****************************************************************************************************
+- Description:
+  Simplificación del carrusel de juegos en la interfaz móvil, eliminando efectos 3D para mejorar la compatibilidad con swipe en todos los dispositivos.
+
+****************************************************************************************************
+18/12/2025 22:01 - Corrección Script Versionado - Beta_v012
+****************************************************************************************************
+- Description:
+  Ajustes al script para compatibilidad con este proyecto.
+
+- Changes:
+  Regex corregido para detectar Beta_vXXX y Alfa_vXXX
+  Eliminado código de version.txt innecesario
+
+****************************************************************************************************
+18/12/2025 21:51 - Optimización de UX de Descargas (UI Optimista) - Beta_v011
+****************************************************************************************************
+- Description:
+  Mejora de feedback visual inmediato en descargas de Archive.org. Al pulsar descargar, el indicador cambia instantáneamente a círculo de progreso.
+
+- Changes:
+  UI Optimista en Catálogo (CircularProgressIndicator inmediato)
+  Corrección de isFileDownloaded para considerar descargas en memoria
+  Unificación Mobile/TV via CatalogScreen compartido
+
+****************************************************************************************************
+18/12/2025 17:06 - Backup Pre-Fix UI Descargas - v010
+****************************************************************************************************
+- Description:
+  Backup de seguridad solicitado antes de corregir indicadores de descarga y refresco de biblioteca.
+
+****************************************************************************************************
+18/12/2025 15:00 - Fix Archive.org Parsing (R8) - Beta_v012
+****************************************************************************************************
+- Description:
+  Corrección crítica para el error parsing error en Archive.org en builds de lanzamiento (Release). [FIX] Añadidas anotaciones @Keep a modelos de datos de Archive.org para evitar ofuscación por R8
+
+****************************************************************************************************
+18/12/2025 05:43 - Final Polish & Music Persistence - Beta_v011
+****************************************************************************************************
+- Description:
+  Correcciones finales de UI y persistencia de música para Release Candidate.
+
+- Changes:
+  [FIX] Persistencia de estado de música (no se reactiva sola)
+  [FIX] Layout botón Guardar en diálogo SMB (móvil)
+  [FIX] Scroll y versión en diálogo About
+
+****************************************************************************************************
+18/12/2025 04:56 - Fix Critical Mobile Permissions - Beta_v010
+****************************************************************************************************
+- Description:
+  Solución crítica para selección de carpetas en Android 10 (Legacy Storage) y manejo de errores en Catálogo.
+
+- Changes:
+  [FIX] Implementado Failback de permisos Legacy (Android 10) para móviles con SAF roto (bypass del selector de sistema)
+  [FIX] Manejo explícito de errores de red en ArchiveOrgClient (evita lista vacía silenciosa)
+  [FIX] Configuración automática de carpeta EmulAI_Roms si se otorga permiso legado
+
+****************************************************************************************************
 17/12/2025 20:53 - Production Release - v009
 ****************************************************************************************************
 - Description:

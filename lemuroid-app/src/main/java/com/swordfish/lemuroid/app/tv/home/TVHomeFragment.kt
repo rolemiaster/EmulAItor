@@ -84,6 +84,7 @@ class TVHomeFragment : BrowseSupportFragment() {
                                     requireContext().applicationContext,
                                 )
                             TVSettingType.CATALOG -> launchCatalog()
+                            TVSettingType.MANUAL -> launchManual()
                             TVSettingType.ABOUT -> launchAbout()
                         }
                     }
@@ -236,6 +237,7 @@ class TVHomeFragment : BrowseSupportFragment() {
             }
 
             add(TVSetting(TVSettingType.SETTINGS, !indexInProgress))
+            add(TVSetting(TVSettingType.MANUAL, !indexInProgress))
             add(TVSetting(TVSettingType.ABOUT, !indexInProgress))
         }
     }
@@ -260,6 +262,10 @@ class TVHomeFragment : BrowseSupportFragment() {
         // Abrir el catálogo nativo de TV
         val intent = Intent(requireContext(), com.swordfish.lemuroid.app.tv.catalog.TVCatalogActivity::class.java)
         startActivity(intent)
+    }
+
+    private fun launchManual() {
+        startActivity(Intent(requireContext(), com.swordfish.lemuroid.app.tv.settings.manual.TVManualActivity::class.java))
     }
 
     private fun launchAbout() {

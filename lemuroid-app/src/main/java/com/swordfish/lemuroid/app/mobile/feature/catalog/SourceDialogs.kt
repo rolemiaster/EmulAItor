@@ -312,14 +312,7 @@ fun SmbConfigForm(
         
         Spacer(modifier = Modifier.height(24.dp))
         
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.End
-        ) {
-            TextButton(onClick = onDismiss) {
-                Text(stringResource(R.string.sources_cancel))
-            }
-            Spacer(modifier = Modifier.width(8.dp))
+        Column(modifier = Modifier.fillMaxWidth()) {
             OutlinedButton(
                 onClick = {
                     connectionTestState = ConnectionTestState.Testing
@@ -340,22 +333,34 @@ fun SmbConfigForm(
                         }
                     }
                 },
+                modifier = Modifier.fillMaxWidth(),
                 enabled = server.isNotBlank() && path.isNotBlank() && connectionTestState !is ConnectionTestState.Testing
             ) {
                 Text(stringResource(R.string.sources_smb_test_connection))
             }
-            Spacer(modifier = Modifier.width(8.dp))
-            Button(
-                onClick = {
-                    val displayName = name.ifBlank { server + path }
-                    val credentials = if (useAuth && username.isNotBlank()) {
-                        SmbCredentials(username, password)
-                    } else null
-                    onSave(displayName, server, path, credentials)
-                },
-                enabled = server.isNotBlank() && path.isNotBlank()
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.End
             ) {
-                Text(stringResource(R.string.sources_save))
+                TextButton(onClick = onDismiss) {
+                    Text(stringResource(R.string.sources_cancel))
+                }
+                Spacer(modifier = Modifier.width(8.dp))
+                Button(
+                    onClick = {
+                        val displayName = name.ifBlank { server + path }
+                        val credentials = if (useAuth && username.isNotBlank()) {
+                            SmbCredentials(username, password)
+                        } else null
+                        onSave(displayName, server, path, credentials)
+                    },
+                    enabled = server.isNotBlank() && path.isNotBlank()
+                ) {
+                    Text(stringResource(R.string.sources_save))
+                }
             }
         }
     }

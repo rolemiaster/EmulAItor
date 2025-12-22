@@ -131,8 +131,12 @@ class MusicPlayerManager(private val context: Context) {
     
     init {
         shuffledTracks = musicTracks.shuffled()
-        // Auto-start with intro
-        startWithIntro()
+        // Check persistence: only auto-start if allowed
+        val prefs = context.getSharedPreferences("music_state", Context.MODE_PRIVATE)
+        val shouldPlay = prefs.getBoolean("music_enabled", true)
+        if (shouldPlay) {
+            startWithIntro()
+        }
     }
     
     /**
@@ -170,6 +174,9 @@ class MusicPlayerManager(private val context: Context) {
     }
     
     fun play() {
+        val prefs = context.getSharedPreferences("music_state", Context.MODE_PRIVATE)
+        prefs.edit().putBoolean("music_enabled", true).apply()
+
         if (mediaPlayer == null) {
             if (!hasPlayedIntro) {
                 startWithIntro()
@@ -186,6 +193,12 @@ class MusicPlayerManager(private val context: Context) {
      * Resume playback with fade-in effect
      */
     fun fadeIn(durationMs: Long = 500) {
+        val prefs = context.getSharedPreferences("music_state", Context.MODE_PRIVATE)
+        // If user explicitly paused (saved state is false), DO NOT fade in automatically on resume
+        if (!prefs.getBoolean("music_enabled", true)) {
+            return
+        }
+
         if (mediaPlayer == null) {
             if (!hasPlayedIntro) {
                 startWithIntro()
@@ -222,6 +235,9 @@ class MusicPlayerManager(private val context: Context) {
     }
     
     fun pause() {
+        val prefs = context.getSharedPreferences("music_state", Context.MODE_PRIVATE)
+        prefs.edit().putBoolean("music_enabled", false).apply()
+        
         mediaPlayer?.pause()
         _isPlaying.value = false
     }
@@ -230,6 +246,15 @@ class MusicPlayerManager(private val context: Context) {
      * Pause playback with fade-out effect
      */
     fun fadeOut(durationMs: Long = 500) {
+        // Note: fadeOut is usually ephemeral (e.g. entering game), but if it's used for stopping, we might want to save state?
+        // Usually fadeOut is temporary. But if the user pauses via UI, it calls pause(). This might be used when leaving app?
+        // If used for backgrounding, we shouldn't necessarily save 'false' permanently if we want it to resume on return?
+        // BUT the requirement is: "si el usuario pausa la música nunca volverá a activarse hasta que vuelva a darle a play".
+        // The user pauses via togglePlayPause -> which calls pause().
+        // fadeOut might be called by system life cycle.
+        // Let's NOT save state in fadeOut to avoid side effects of temporary pausing.
+        // Only explicit pause() saves state.
+        
         mediaPlayer?.let { player ->
             val startVolume = 0.3f // Current background music volume
             val steps = 10

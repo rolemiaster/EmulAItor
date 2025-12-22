@@ -6,6 +6,8 @@
     <string name="title_settings">Settings</string>
     <string name="title_catalog">Catalog</string>
     <string name="settings_title_about">About</string>
+    <string name="settings_title_manual">User Manual</string>
+    <string name="settings_description_manual">How to use EmulAItor</string>
     <string name="recent">Recents</string>
     <string name="favorites">Favorites</string>
     <string name="discover">Discover</string>
@@ -356,6 +358,57 @@
     <string name="settings_thegamesdb_not_configured">Not configured</string>
     <string name="metadata_dialog_apikey_title">Enter API Key</string>
 
+    <!-- ROM Migration -->
+    <string name="rom_migration_title">Move ROMs</string>
+    <string name="rom_migration_message">%1$d ROMs will be moved to:\n\n%2$s\n\nDo you want to continue?</string>
+    <string name="rom_migration_progress_title">Moving ROMs…</string>
+    <string name="rom_migration_progress">Moving %1$s (%2$d of %3$d)</string>
+    <string name="rom_migration_success">%1$d ROMs moved successfully</string>
+    <string name="rom_migration_partial">Moved %1$d of %2$d ROMs. Some files could not be moved.</string>
+    <string name="rom_migration_failed">Could not move ROMs: %1$s</string>
+    <string name="rom_migration_cancel">Cancel</string>
+    <string name="rom_migration_confirm">Move</string>
+    <string name="rom_migration_smb_not_supported">Automatic ROM migration is not available for network libraries (SMB)</string>
+
+    <!-- User Manual -->
+    <string name="manual_header">User Manual</string>
+    <string name="manual_section_first_steps">🚀 First Steps</string>
+    <string name="manual_content_first_steps">1. Select a folder to store your ROMs from Settings → Directory.\n\n2. Copy your ROM files to that folder.\n\n3. The app will automatically scan and display your games on the home screen.</string>
+    <string name="manual_section_archive">🌐 Explore Archive.org</string>
+    <string name="manual_content_archive">The Catalog section lets you explore ROM collections publicly available on Archive.org.\n\n• Browse by system or search for specific games.\n• Tap on a game to download it to your ROMs folder.\n• Downloaded games will automatically appear in your library.</string>
+    <string name="manual_section_controls">🎮 Configure Controllers</string>
+    <string name="manual_content_controls">Connect a Bluetooth or USB controller and go to Settings → Controller settings.\n\n• Select your controller from the list.\n• Map buttons according to your preferences.\n• Enable vibration if your controller supports it.</string>
+    <string name="manual_section_bios">💾 Required BIOS</string>
+    <string name="manual_content_bios">Some systems (PlayStation, Game Boy Advance, etc.) require BIOS files to work.\n\n• Go to Settings → BIOS Information to see what files you need.\n• Place BIOS files in the same folder as your ROMs.\n• The filename must match exactly what is required.</string>
+    <string name="manual_section_saves">💾 Saved Games</string>
+    <string name="manual_content_saves">Auto-save is enabled by default.\n\n• When exiting a game, your progress is saved automatically.\n• When reopening the game, you will continue where you left off.\n• You can also use the game\'s own save system (in-game menu).</string>
+    <string name="manual_section_sync">☁️ Cloud Sync</string>
+    <string name="manual_content_sync">You can sync your saved games with Google Drive.\n\n• Go to Settings → Save Sync.\n• Sign in with your Google account.\n• Your saves will automatically sync across devices.</string>
+    <string name="manual_section_gameplay">🕹️ During Gameplay</string>
+    <string name="manual_content_gameplay">To access the menu during gameplay:\n\n• Press the menu button (☰) or swipe from the screen edge.\n• From there you can: save/load states, change save slot, access quick options, or exit the game.</string>
+
+    <!-- About Screen -->
+    <string name="about_version">Version %1$s</string>
+    <string name="about_section_origin">Software Origin</string>
+    <string name="about_content_origin_1">This application is a fork of the open source Lemuroid project, distributed under the GPL-3.0 license.</string>
+    <string name="about_content_origin_2">Exploration features for publicly available content on Archive.org have been added.</string>
+    <string name="about_section_source">Source Code</string>
+    <string name="about_content_source">The source code of this modified version is available under the GPL-3.0 license.</string>
+    <string name="about_button_github">View source code (GitHub)</string>
+    <string name="about_section_licenses">Third-party Licenses</string>
+    <string name="about_section_legal">Legal Notice</string>
+    <string name="about_content_legal">This application does not include ROMs and does not download content automatically. The exploration feature only shows collections publicly available on Archive.org. The user is responsible for verifying their rights to access or use any external files.</string>
+    <string name="about_section_report">Report a Bug</string>
+    <string name="about_content_report">Found an error or have a suggestion? Help us improve by sending an anonymous report.</string>
+    <string name="about_button_report">🐛 Report a bug</string>
+    <string name="about_no_browser">No web browser installed to open the link</string>
+    <string name="about_no_browser_report">No web browser installed to open the bug report page</string>
+    <string name="bug_report_error">Could not load the bug report form. Please check your internet connection.</string>
+    <string name="bug_report_select_images">Select images</string>
+    <string name="about_open_with">Open with</string>
 
 </resources>
+
+
+
 

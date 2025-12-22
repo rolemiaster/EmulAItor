@@ -1,6 +1,7 @@
 package com.swordfish.lemuroid.app.mobile.feature.catalog
 
 import android.util.Log
+import androidx.annotation.Keep
 import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -83,18 +84,18 @@ class ArchiveOrgClient {
             
             if (!httpResponse.isSuccessful) {
                 Log.e(TAG, "HTTP Error: ${httpResponse.code}")
-                return@withContext SearchResult.empty()
+                throw java.io.IOException("HTTP Error: ${httpResponse.code} - ${httpResponse.message}")
             }
 
             Log.d(TAG, "Reading response body...")
-            val body = httpResponse.body?.string() ?: return@withContext SearchResult.empty()
+            val body = httpResponse.body?.string() ?: throw java.io.IOException("Empty response body from Archive.org")
             Log.d(TAG, "Body received, length: ${body.length}")
             
             val jsonResponse = try {
                 gson.fromJson(body, JsonSearchResponse::class.java)
             } catch (e: Exception) {
                 Log.e(TAG, "Parse error: ${e.message}")
-                return@withContext SearchResult.empty()
+                throw java.io.IOException("Failed to parse Archive.org response: ${e.message}", e)
             }
             
             val apiResults = jsonResponse.response
@@ -125,8 +126,8 @@ class ArchiveOrgClient {
             )
 
         } catch (e: Exception) {
-            Log.e(TAG, "Network error: ${e.message}")
-            SearchResult.empty()
+            Log.e(TAG, "Search failed: ${e.message}")
+            throw e // Rethrow to let ViewModel handle it
         }
     }
 
@@ -210,13 +211,20 @@ class ArchiveOrgClient {
         return ext in listOf("zip", "7z", "nes", "sfc", "smc", "gba", "gbc", "gb", "n64", "z64", "v64", "iso", "bin", "cue", "pbp", "cso", "chd", "pce", "md", "gen", "sms", "gg")
     }
 
+
+
     // JSON response models
+    @Keep
     data class JsonSearchResponse(val response: JsonSearchResults)
+    @Keep
     data class JsonSearchResults(val numFound: Int, val docs: List<JsonDoc>)
+    @Keep
     data class JsonDoc(val identifier: String, val title: String?, val description: String?, val downloads: Int?, val item_size: Long?)
     
     // Metadata response
+    @Keep
     data class JsonMetadataResponse(val files: List<JsonFile> = emptyList())
+    @Keep
     data class JsonFile(val name: String, val size: String?, val format: String?)
     
     // Archivo descargable
