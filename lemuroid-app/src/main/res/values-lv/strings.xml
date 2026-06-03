@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generated/maintained by .agent/scripts/i18n_tool. -->
+    <string name="title_home">Sākums</string>
+    <string name="title_search">Meklēt</string>
+    <string name="title_systems">Sistēmas</string>
+    <string name="title_games">Spēles</string>
+    <string name="title_settings">Iestatījumi</string>
+    <string name="title_catalog">Katalogs</string>
+    <string name="settings_title_about">Par</string>
+    <string name="settings_title_manual">Lietotāja rokasgrāmata</string>
+    <string name="settings_description_manual">Kā lietot EmulAItor</string>
+    <string name="recent">Nesenie</string>
+    <string name="favorites">Izlase</string>
+    <string name="discover">Atklāt</string>
+    <string name="rescan">Skenēt atkārtoti</string>
+    <string name="stop">Apturēt</string>
+    <string name="none">Nav</string>
+    <string name="directory">Direktorija</string>
+    <string name="display_filter">Displeja filtrs</string>
+    <string name="roms">ROMs</string>
+    <string name="ok">Labi</string>
+    <string name="cancel">Atcelt</string>
+    <string name="settings">Iestatījumi</string>
+    <string name="save_sync">Saglabāt sinhronizāciju</string>
+    <string name="show_all">Rādīt visu</string>
+    <string name="back">Atpakaļ</string>
+    <string name="close">Aizvērt</string>
+    <string name="license_not_verified_title">Licence nav verificēta</string>
+    <string name="game_page_search_suggestion">Meklēt spēles</string>
+    <string name="settings_category_general">Vispārīgi</string>
+    <string name="settings_category_input">Ievade</string>
+    <string name="settings_category_misc">Dažādi</string>
+    <string name="settings_title_enable_autosave">Automātiskā saglabāšana</string>
+    <string name="settings_description_enable_autosave">Saglabāt stāvokli, izejot caur spēles izvēlni</string>
+    <string name="settings_title_enable_touch_feedback">Vibrācija pieskaroties</string>
+    <string name="settings_title_tilt_sensitivity">Sasvēršanas sensora jutība</string>
+    <string name="settings_title_hd_quality">HD režīma kvalitāte</string>
+    <string name="settings_title_maximum_cache_usage">Kešatmiņas lieluma ierobežojums</string>
+    <string name="settings_title_hd_mode">HD režīms</string>
+    <string name="settings_description_hd_mode">Lietot pēcapstrādes mērogošanas filtru</string>
+    <string name="settings_description_hd_quality">Pielāgot HD režīma kvalitāti</string>
+    <string name="home_hd_mode_enabled">HD režīms ieslēgts</string>
+    <string name="home_hd_mode_disabled">HD režīms izslēgts</string>
+    <string name="settings_title_immersive_mode">Ieskaujošais režīms</string>
+    <string name="settings_description_immersive_mode">Dinamiski krāso fonu, pamatojoties uz spēles vizuālo noformējumu</string>
+    <string name="settings_title_gamepad_settings">Ārējās ierīces</string>
+    <string name="settings_description_gamepad_settings">Konfigurēt ārējās spēļu pultis un tastatūras</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Iespējotās ierīces</string>
+    <string name="settings_gamepad_category_general">Vispārīgi</string>
+    <string name="settings_gamepad_title_reset_bindings">Atiestatīt taustiņu piesaistes</string>
+    <string name="settings_gamepad_title_game_menu">Izvēlne</string>
+    <string name="settings_title_open_cores_selection">Mainīt kodolus</string>
+    <string name="settings_description_open_cores_selection">Atlasiet, kurš kodols ir saistīts ar sistēmu</string>
+    <string name="settings_core_selection_ds_info">DeSmuME ir novecojis un tiks noņemts kādā no nākamajiem atjauninājumiem. Saglabājiet savu progresu spēlē, pēc tam pārslēdzieties uz melonDS. Spēles iekšējie saglabājumi tiks automātiski ielādēti melonDS, taču saglabāšanas stāvokļus (save states) var izmantot tikai ar to kodolu, kurš tos izveidoja.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Parādīt atklātos un atbalstītos BIOS failus</string>
+    <string name="settings_bios_help">Lai pievienotu BIOS failus, ievietojiet atbalstītos failus savā ROMs mapē un veiciet atkārtotu skenēšanu. Failu nosaukumiem ir precīzi jāsakrīt.</string>
+    <string name="settings_bios_category_detected">Atklātie</string>
+    <string name="settings_bios_category_not_detected">Atbalstītie</string>
+    <string name="settings_title_reset_settings">Rūpnīcas iestatījumu atiestatīšana</string>
+    <string name="settings_description_reset_settings">Atiestatīt EmulAItor uz rūpnīcas iestatījumiem</string>
+    <string name="settings_title_advanced_settings">Papildu iestatījumi</string>
+    <string name="settings_description_advanced_settings">Parādīt papildu iestatījumus</string>
+    <string name="settings_title_low_latency_audio">Dot priekšroku zema latentuma audio</string>
+    <string name="settings_description_low_latency_audio">Samazināt audio latentumu atbalstītajās ierīcēs. Var palielināt audio kļūdas.</string>
+    <string name="settings_title_direct_game_load">Tiešā spēles ielāde</string>
+    <string name="settings_description_direct_game_load">(Eksperimentāli) Samazināt ielādes laiku un kešatmiņas izmantošanu atbalstītajās konsolēs.</string>
+    <string name="settings_title_enable_rumble">Vibrācija (Rumble)</string>
+    <string name="settings_description_enable_rumble">Iespējot vibrāciju atbalstītajās spēlēs un kontrolieros</string>
+    <string name="settings_title_enable_device_rumble">Ierīces vibrācija</string>
+    <string name="settings_description_enable_device_rumble">Ja nav pievienots kontrolieris, vibrēt ierīci</string>
+    <string name="reset_settings_warning_message_title">Vai esat pārliecināts?</string>
+    <string name="reset_settings_warning_message_description">Tas atiestatīs EmulAItor uz rūpnīcas iestatījumiem. Saglabājumi un stāvokļi tiks saglabāti.</string>
+    <string name="settings_title_save_sync">Mākoņa saglabājumi</string>
+    <string name="settings_description_save_sync">Dublējiet un sinhronizējiet savus saglabājumus mākonī</string>
+    <string name="settings_save_sync_refresh">Manuālā sinhronizācija</string>
+    <string name="settings_save_sync_refresh_description">Veikt manuālo sinhronizāciju tagad.
+%1$s</string>
+    <string name="settings_save_sync_enable_auto">Automātiskā sinhronizācija</string>
+    <string name="settings_save_sync_enable_auto_description">Automātiski veikt sinhronizāciju pirms un pēc spēles sesijas, kad ir izveidots savienojums ar Wi-Fi</string>
+    <string name="settings_save_sync_configure">Konfigurēt %1$s</string>
+    <string name="settings_save_sync_include_saves">Sinhronizēt spēles iekšējos saglabājumus</string>
+    <string name="settings_save_sync_include_saves_description">%1$s ierīcē</string>
+    <string name="settings_save_sync_include_states">Sinhronizēt stāvokļus</string>
+    <string name="settings_save_sync_include_states_description">Ērtāk, bet smagāk un mazāk uzticami. Izvēlieties, kurus kodolus/sistēmas vēlaties sinhronizēt</string>
+    <string name="game_context_menu_add_to_favorites">Pievienot izlasei</string>
+    <string name="game_context_menu_remove_from_favorites">Noņemt no izlases</string>
+    <string name="game_context_menu_resume">Turpināt</string>
+    <string name="game_context_menu_restart">Restartēt</string>
+    <string name="game_context_menu_create_shortcut">Piespraust palaidējam</string>
+    <string name="game_context_menu_delete">Dzēst</string>
+    <string name="game_delete_confirmation">Vai tiešām vēlaties dzēst \"%1$s\"? Tas noņems spēli no jūsu bibliotēkas un izdzēsīs failu.</string>
+    <string name="game_deleted">Spēle izdzēsta</string>
+    <string name="home_notification_title">Iespējot paziņojumus</string>
+    <string name="home_notification_message">EmulAItor izmanto paziņojumus, lai informētu jūs, kad spēle vai darbība darbojas fonā.</string>
+    <string name="home_notification_action">Iespējot</string>
+    <string name="home_microphone_title">Iespējot mikrofonu</string>
+    <string name="home_microphone_message">Nintendo DS spēles var izmantot mikrofonu, lai nodrošinātu noteiktas funkcijas.</string>
+    <string name="home_microphone_action">Iespējot</string>
+    <string name="home_empty_title">Atlasiet ROMs direktoriju</string>
+    <string name="home_empty_message">EmulAItor ir jāskenē direktorija, kurā atrodas ROM faili.\nTas var aizņemt dažas minūtes.</string>
+    <string name="home_empty_action">Atlasīt direktoriju</string>
+    <string name="home_storage_inaccessible_title">ROMs direktorija nav pieejama</string>
+    <string name="home_storage_inaccessible_message">Android neļauj EmulAItor piekļūt atlasītajai ROMs direktorijai. Mape, iespējams, ir pārvietota, izdzēsta vai bloķēta ar sistēmas atļaujām. Atlasiet mapi vēlreiz vai izvēlieties citu.</string>
+    <string name="home_storage_inaccessible_action">Izvēlēties citu direktoriju</string>
+    <string name="update_available_banner">Ir pieejama jaunāka EmulAItor versija. Pieskarieties, lai atjauninātu.</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME tiek pārtraukts</string>
+    <string name="home_notification_desmume_deprecated_message">Saglabājiet spēli un pēc tam pārslēdzieties uz melonDS, lai saglabātu savu progresu. Saglabātie stāvokļi netiks pārsūtīti un paliks izmantojami tikai DeSmuME.</string>
+    <string name="home_notification_desmume_deprecated_action">Pārslēgties uz melonDS</string>
+    <string name="game_menu_save">Saglabāt</string>
+    <string name="game_menu_load">Ielādēt</string>
+    <string name="game_menu_restart">Restartēt</string>
+    <string name="game_menu_quit">Iziet</string>
+    <string name="game_menu_settings">Iestatījumi</string>
+    <string name="game_menu_state">Stāvoklis %1$s</string>
+    <string name="game_menu_change_disk_button">Mainīt disku</string>
+    <string name="game_menu_edit_touch_controls">Rediģēt vadīklas</string>
+    <string name="game_menu_mute_audio">Izslēgt skaņu</string>
+    <string name="game_menu_fast_forward">Pārtīt uz priekšu</string>
+    <string name="game_menu_change_disk_disk">Disks %1$s</string>
+    <string name="game_menu_tilt_sensor">Sasvēršanas sensors</string>
+    <string name="game_loading_preparing_game">Sagatavo spēli…</string>
+    <string name="game_toast_settings_button_using_gamepad">Spēļu kontrolieris atpazīts. Piekļūstiet iestatījumu izvēlnei ar %1$s.</string>
+    <string name="game_toast_load_state_failed">Nevar ielādēt šo stāvokli</string>
+    <string name="game_toast_quick_save_loaded">Ātrā ielāde veikta</string>
+    <string name="game_toast_quick_save_saved">Ātrā saglabāšana veikta</string>
+    <string name="empty_view_default">Nav vienumu</string>
+    <string name="core_settings_title">Kodola iestatījumi</string>
+    <string name="core_settings_category_preferences">Preferences</string>
+    <string name="core_settings_category_controllers">Kontrolieri</string>
+    <string name="core_settings_controller">Kontrolieris %1$s</string>
+    <string name="game_menu_title">Spēles izvēlne</string>
+    <string name="notification_channel_name">Visi paziņojumi</string>
+    <string name="library_index_notification_title">Notiek ROM skenēšana</string>
+    <string name="library_index_notification_message">Tas var aizņemt dažas minūtes</string>
+    <string name="library_metadata_enrichment_in_progress">Fona režīmā tiek atjaunināta informācija par ROM. Varat turpināt spēlēt.</string>
+    <string name="save_sync_notification_title">Notiek saglabāto datu sinhronizācija ar mākoni</string>
+    <string name="save_sync_notification_message">Tas var aizņemt dažas minūtes</string>
+    <string name="game_running_notification_title">%1$s darbojas</string>
+    <string name="game_running_notification_title_alternative">Spēle darbojas</string>
+    <string name="game_running_notification_message">Neaizmirstiet saglabāt savu progresu</string>
+    <string name="game_loader_error_gl_incompatible">Šim kodolam ir nepieciešama OpenGL ES versija, kuru jūsu ierīce neatbalsta.</string>
+    <string name="game_loader_error_load_game">Ielādējot spēli, radās kļūda. Pārliecinieties, vai Lemuroid atbalsta šo ROM, un atkārtoti skenējiet savas spēles.</string>
+    <string name="game_loader_error_save">Radās problēma ar jūsu saglabāto failu. Ja problēma nepazūd, mēģiniet atspējot automātisko saglabāšanu.</string>
+    <string name="game_loader_error_unsupported_architecture">Šis kodols netiek atbalstīts jūsu ierīcē.</string>
+    <string name="game_loader_error_generic">Radās kļūda. Izmēģiniet šādas darbības:
+
+• Atspējojiet automātisko saglabāšanu un palaidiet spēli vēlreiz
+• Dodieties uz Android iestatījumiem un notīriet lietotnes kešatmiņu
+• Dodieties uz Lemuroid iestatījumiem un veiciet rūpnīcas datu atiestatīšanu
+
+Ja nekas no iepriekš minētā nepalīdz, iespējams, ka šī spēle/kodols netiek atbalstīts šajā ierīcē.</string>
+    <string name="game_loader_error_missing_bios">Šķiet, ka trūkst nepieciešamā BIOS. Ievietojiet tos savā ROMs direktorijā un skenējiet vēlreiz. Nepieciešamie faili: %1$s</string>
+    <string name="game_shortcut_error">Ielādējot spēli, radās kļūda. Lūdzu, pārliecinieties, vai šī spēle joprojām atrodas jūsu bibliotēkā.</string>
+    <string name="dialog_saf_not_found">Šī ierīce neatbalsta StorageAccessFramework failu atlasītāju. Lūdzu, manuāli nokopējiet nesaspiestus ROM failus uz %1$s un nospiediet \"Skenēt vēlreiz\".</string>
+    <string name="system_grid_details">%1$s spēles</string>
+    <string name="tv_folder_picker_title">Atlasiet ROMs direktoriju</string>
+    <string name="tv_folder_picker_action_choose">Atlasīt</string>
+    <string name="tv_folder_picker_action_cancel">Atcelt</string>
+    <string name="tv_folder_storage_primary">Primārā krātuve</string>
+    <string name="tv_folder_storage_secondary">Sekundārā krātuve %1$s</string>
+    <string name="tv_folder_storage_title">Izvēlieties krātuvi</string>
+    <string name="tv_folder_error_access">Šī mape nav pieejama. Lūdzu, atlasiet apakšmapi vai citu atrašanās vietu.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">ROMs direktorija</string>
+    <string name="settings_description_choose_directory">Atlasiet mapi, kurā atrodas jūsu spēles</string>
+    <string name="tv_home_section_favorites">Izlase</string>
+    <string name="tv_home_section_recents">Nesen spēlētās</string>
+    <string name="tv_home_section_systems">Sistēmas</string>
+    <string name="tv_home_section_settings">Iestatījumi</string>
+    <string name="gamepad_binding_update_title">Piesaistīt \"RetroPad %1$s\"</string>
+    <string name="gamepad_binding_update_description">Nospiediet pogu uz sava \"%1$s\"</string>
+    <string name="shortcut_binding_update_title">Piesaistīt \"Īsceļu %1$s\"</string>
+    <string name="shortcut_binding_update_description">Nospiediet pirmo, tad otro pogu, lai piesaistītu kombināciju savam \"%1$s\"</string>
+    <string name="tv_search_results">Spēles</string>
+    <string name="tv_game_message_missing_gamepad">Lai spēlētu, ir nepieciešami spēļu kontrolieri. Lūdzu, pievienojiet vienu.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Atvienojiet kontrolieri, lai rediģētu skārienvadības elementus</string>
+    <string name="game_interactory_busy">Uzgaidiet, līdz notiekošās darbības tiks pabeigtas</string>
+    <string name="pending_operations_blocked_title">Darbības var būt iestrēgušas</string>
+    <string name="pending_operations_blocked_message_external">Iepriekšējās versijas neizpildīts process var bloķēt ROM indeksēšanu. Varat turpināt gaidīt vai notīrīt lietotnes datus, lai atjaunotu darbību. Jūsu ROM faili netiks dzēsti, taču jums būs atkārtoti jāizvēlas ROM mape. Ja tas ilgst vairāk nekā 5 minūtes, ieteicams notīrīt lietotnes datus.</string>
+    <string name="pending_operations_blocked_message_internal">Iepriekšējās versijas neizpildīts process var bloķēt ROM indeksēšanu. Varat turpināt gaidīt vai atvērt iestatījumus, lai pārskatītu krātuves konfigurāciju.</string>
+    <string name="pending_operations_clear_data">Notīrīt lietotnes datus</string>
+    <string name="pending_operations_keep_waiting">Turpināt gaidīt</string>
+    <string name="pending_operations_clear_data_confirm_title">Notīrīt lietotnes datus?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor tagad atiestatīs savus lietotnes datus. Jūsu ROM faili netiks dzēsti, taču jums būs atkārtoti jāizvēlas ROM mape.</string>
+    <string name="pending_operations_clear_data_confirm_button">Notīrīt datus</string>
+    <string name="mobile_settings_help">Palīdzība</string>
+    <string name="mobile_settings_support">Atbalsts</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Par EmulAItor&lt;/b&gt;&lt;br/&gt;
+        Šī lietojumprogramma ir atvērtā pirmkoda projekta &lt;b&gt;Lemuroid&lt;/b&gt; atvasinājums, kas izplatīts saskaņā ar &lt;b&gt;GPL-3.0&lt;/b&gt; licenci.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Svarīgs paziņojums&lt;/b&gt;&lt;br/&gt;
+        Šī lietojumprogramma neietver spēles un automātiski nelejupielādē nekādu saturu. Pārlūkošanas funkcija parāda saturu, kas ir publiski pieejams Archive.org, un bezmaksas homebrew spēles no itch.io. Lietotājs ir atbildīgs par savu tiesību pārbaudi piekļūt vai izmantot jebkuru ROM no ārējiem avotiem.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Kā lietot šo lietotni?&lt;/b&gt;&lt;br/&gt;
+        Kopējiet savus ROM failus direktorijā savā ierīcē un atlasiet to lietotnē. Šajā direktorijā var būt apakšdirektorijas. Pēc skenēšanas pabeigšanas jūs redzēsiet savas spēles.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Kāpēc manas spēles netiek atklātas?&lt;/b&gt;&lt;br/&gt;
+        Ja jūsu spēles ir saspiestas, mēģiniet tās atspiest. Ja tas nepalīdz, ievietojiet ROM atsevišķās direktorijās, pa vienai katrai sistēmai ar šādiem nosaukumiem: $SYSTEMS.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Licences&lt;/b&gt;&lt;br/&gt;
+        Lemuroid: GPL-3.0 (Swordfish90)&lt;br/&gt;
+        LibretroDroid: GPL-3.0&lt;br/&gt;
+        Libretro Cores: Dažādas licences</string>
+    <string name="lemuroid_crash_disclamer">Izskatās, ka Libretro kodolā radusies neparedzēta problēma. Ja tā atkārtojas, lūdzu, mēģiniet veikt šādas darbības:\n
+        \n• Atspējojiet automātisko saglabāšanu un palaidiet spēli no jauna
+        \n• Dodieties uz Android iestatījumiem un notīriet lietotnes kešatmiņu
+        \n• Dodieties uz Lemuroid iestatījumiem un veiciet rūpnīcas iestatījumu atiestatīšanu
+        \n\n Ja nekas no iepriekš minētā nepalīdz, iespējams, ka šī spēle/kodols netiek atbalstīts šajā ierīcē.</string>
+    <string name="error_message_incompatible_state">Šis saglabāšanas stāvoklis nav saderīgs ar pašreizējo kodola versiju. Lūdzu, ielādējiet jaunāko spēles iekšējo saglabājumu vai izmantojiet iepriekšējo Lemuroid versiju.</string>
+    <string name="shader_filter_names_auto">Automātiski</string>
+    <string name="shader_filter_names_sharp">Ass</string>
+    <string name="shader_filter_names_smooth">Gluds</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Nav</string>
+    <string name="haptic_feedback_mode_names_press">Nospiešana</string>
+    <string name="haptic_feedback_mode_names_press_release">Nospiešana un atlaišana</string>
+    <string name="tilt_configuration_disabled">Atspējots</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Kreisā analogā svira</string>
+    <string name="tilt_configuration_analog_right">Labā analogā svira</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+    <string name="disclaimer_title">Svarīgs paziņojums</string>
+    <string name="disclaimer_software_origin_title">Programmatūras izcelsme</string>
+    <string name="disclaimer_software_origin_text">Šī lietojumprogramma ir atvērtā pirmkoda projekta Lemuroid atvasinājums, kas izplatīts saskaņā ar GPL-3.0 licenci.</string>
+    <string name="disclaimer_no_content_title">Saturs nav iekļauts</string>
+    <string name="disclaimer_no_content_text">Šī lietotne neietver spēles un automātiski nelejupielādē nekādus failus.</string>
+    <string name="disclaimer_archive_title">Publiskā kataloga avoti</string>
+    <string name="disclaimer_archive_text">Pārlūkošanas funkcija parāda saturu, kas ir publiski pieejams Archive.org, un bezmaksas homebrew spēles no itch.io. EmulAItor nav saistīts ne ar vienu no šiem pakalpojumiem. Lietotājs ir atbildīgs par savu tiesību pārbaudi piekļūt vai izmantot jebkuru ROM.</string>
+    <string name="disclaimer_user_responsibility_title">Lietotāja atbildība</string>
+    <string name="disclaimer_user_responsibility_text">Jūs esat atbildīgs par to, lai nodrošinātu, ka jums ir likumīgas tiesības izmantot jebkādus ROM failus ar šo lietojumprogrammu.</string>
+    <string name="disclaimer_accept">Es saprotu un piekrītu</string>
+    <string name="disclaimer_terms">Turpinot, jūs piekrītat šīs lietojumprogrammas lietošanas noteikumiem.</string>
+    <string name="game_context_menu_edit">Rediģēt</string>
+    <string name="game_edit_title">Rediģēt spēli</string>
+    <string name="game_edit_field_title">Nosaukums</string>
+    <string name="game_edit_field_system">Sistēma</string>
+    <string name="game_edit_field_developer">Izstrādātājs</string>
+    <string name="game_edit_file_label">Fails:</string>
+    <string name="game_edit_save">Saglabāt</string>
+    <string name="game_edit_search_online">Meklēt metadatus tiešsaistē</string>
+    <string name="game_edit_searching">Meklē...</string>
+    <string name="game_edit_no_results">Rezultāti nav atrasti</string>
+    <string name="game_edit_apply_metadata">Lietot metadatus</string>
+    <string name="game_edit_unlock_metadata">Atbloķēt metadatus (atļaut automātisko atjaunināšanu)</string>
+    <string name="catalog_search_placeholder">Meklēt ROM...</string>
+    <string name="catalog_filter_all_sources">Visi avoti</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Vietējais</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Rezultāti nav atrasti</string>
+    <string name="catalog_downloads">Lejupielādes</string>
+    <string name="catalog_clear_completed">Notīrīt visu</string>
+    <string name="catalog_downloading">Lejupielādē...</string>
+    <string name="catalog_downloaded">Lejupielādēts</string>
+    <string name="sources_manage_title">Pārvaldīt avotus</string>
+    <string name="sources_add_title">Pievienot avotu</string>
+    <string name="sources_add_local">Pievienot vietējo mapi</string>
+    <string name="sources_add_smb">Pievienot SMB/NAS</string>
+    <string name="sources_smb_name">Nosaukums</string>
+    <string name="sources_smb_server">Serveris</string>
+    <string name="sources_smb_path">Ceļš</string>
+    <string name="sources_smb_username">Lietotājvārds (neobligāti)</string>
+    <string name="sources_smb_password">Parole (neobligāti)</string>
+    <string name="sources_smb_domain">Domēns (neobligāts)</string>
+    <string name="sources_edit">Rediģēt</string>
+    <string name="sources_delete">Dzēst</string>
+    <string name="sources_save">Saglabāt</string>
+    <string name="sources_cancel">Atcelt</string>
+    <string name="sources_add">Pievienot</string>
+    <string name="sources_smb_display_name">Displeja nosaukums</string>
+    <string name="sources_smb_display_name_placeholder">Mans NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Pilns ceļš, ieskaitot koplietojuma nosaukumu</string>
+    <string name="sources_smb_use_auth">Izmantot autentifikāciju</string>
+    <string name="sources_smb_username_label">Lietotājvārds</string>
+    <string name="sources_smb_password_label">Parole</string>
+    <string name="sources_smb_edit_title">Rediģēt SMB avotu</string>
+    <string name="sources_smb_connection_title">SMB savienojums</string>
+    <string name="sources_smb_test_connection">Pārbaudīt savienojumu</string>
+    <string name="sources_smb_testing">Pārbauda savienojumu...</string>
+    <string name="sources_smb_connection_success">Savienojums veiksmīgs!</string>
+    <string name="sources_smb_connection_failed">Savienojums neizdevās: %1$s</string>
+    <string name="sources_no_custom">Nav konfigurētu pielāgotu avotu</string>
+    <string name="sources_local_permission_error">Šo mapi nevar pievienot, jo Android nepiešķīra piekļuvi. Izvēlieties citu mapi.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Vietējie faili</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Meklēt ROMs...</string>
+    <string name="catalog_packs_count">%1$d no %2$d pakotnēm</string>
+    <string name="catalog_games_count">%1$d spēles</string>
+    <string name="catalog_load_more">Ielādēt vēl...</string>
+    <string name="catalog_load_more_packs">Ielādēt vēl pakotnes</string>
+    <string name="catalog_no_packs_found">ROM pakotnes nav atrastas</string>
+    <string name="catalog_no_files_found">Lejupielādējami faili nav atrasti</string>
+    <string name="catalog_files_count">Faili (%1$d):</string>
+    <string name="catalog_download_all">Visi</string>
+    <string name="catalog_downloads_title">Lejupielādes (%1$d)</string>
+    <string name="catalog_downloads_clear">Notīrīt</string>
+    <string name="catalog_no_downloads">Nav lejupielāžu</string>
+    <string name="catalog_error_retry">Mēģināt vēlreiz</string>
+    <string name="catalog_error_occurred">Radās kļūda</string>
+    <string name="catalog_invalid_download_title">Nederīgs kataloga fails</string>
+    <string name="catalog_invalid_download_message">Lejupielādētais fails neizskatās pēc derīga ROM šai sistēmai. Pakalpojuma sniedzējs, iespējams, ir publicējis nepareizu vai neatbalstītu failu. Ja nevarat atrast šo ROM katalogā, varat to lejupielādēt manuāli un pievienot savai ROM mapei.</string>
+    <string name="catalog_region_all">🌍 Visi</string>
+    <string name="catalog_region_usa">🇺🇸 ASV</string>
+    <string name="catalog_region_europe">🇪🇺 Eiropa</string>
+    <string name="catalog_region_japan">🇯🇵 Japāna</string>
+    <string name="catalog_region_spain">🇪🇸 Spānija</string>
+    <string name="catalog_region_france">🇫🇷 Francija</string>
+    <string name="catalog_region_germany">🇩🇪 Vācija</string>
+    <string name="catalog_region_italy">🇮🇹 Itālija</string>
+    <string name="catalog_region_brazil">🇧🇷 Brazīlija</string>
+    <string name="catalog_region_korea">🇰🇷 Koreja</string>
+    <string name="catalog_region_china">🇨🇳 Ķīna</string>
+    <string name="catalog_region_australia">🇦🇺 Austrālija</string>
+    <string name="catalog_sort_downloads">Visvairāk lejupielādētās</string>
+    <string name="catalog_sort_name">Nosaukums A-Z</string>
+    <string name="catalog_sort_size">Lielākais izmērs</string>
+    <string name="catalog_error_503">Archive.org nedarbojas vai notiek apkope. Mēģiniet vēlāk.</string>
+    <string name="catalog_error_502">Archive.org ir radušās problēmas. Mēģiniet vēlāk.</string>
+    <string name="catalog_error_500">Archive.org ir iekšēja kļūda. Mēģiniet vēlāk.</string>
+    <string name="catalog_error_ssl">SSL sertifikāta kļūda. Pārbaudiet, vai ierīces datums un laiks ir pareizi.</string>
+    <string name="catalog_error_timeout">Savienojums ar Archive.org noildza. Pārbaudiet savu interneta savienojumu.</string>
+    <string name="catalog_error_no_internet">Nav interneta savienojuma. Pārbaudiet savu savienojumu.</string>
+    <string name="catalog_error_unknown">Nezināma kļūda</string>
+    <string name="catalog_storage_warning_title">Nepietiek vietas</string>
+    <string name="catalog_storage_too_large">Lejupielādējamā pakotne ir pārāk liela.</string>
+    <string name="catalog_storage_download_size">Lejupielādes izmērs:</string>
+    <string name="catalog_storage_available">Pieejamā vieta:</string>
+    <string name="catalog_storage_needed">Nepieciešamā papildu vieta:</string>
+    <string name="catalog_storage_free_space">Atbrīvojiet vietu ierīcē vai atlasiet mazāk lejupielādējamo failu.</string>
+    <string name="catalog_storage_understood">Sapratu</string>
+    <string name="catalog_path_warning_title">Ceļš nav konfigurēts!</string>
+    <string name="catalog_path_select_folder">Lai lejupielādētu spēles, jums jāizvēlas mape to glabāšanai.</string>
+    <string name="catalog_path_select_button">Izvēlēties mapi</string>
+    <string name="delete_games_title">Dzēst %1$d spēles?</string>
+    <string name="delete_games_warning">Tas noņems atlasītās spēles no jūsu bibliotēkas un izdzēsīs to ROM failus no diska.</string>
+    <string name="delete_games_list_header">Dzēšamās spēles:</string>
+    <string name="delete_games_and_more">...un vēl %1$d</string>
+    <string name="delete_games_confirm">Dzēst</string>
+    <string name="delete_mode_title">Atlasiet dzēšamās spēles</string>
+    <string name="delete_selected">Dzēst atlasīto (%1$d)</string>
+    <string name="settings_category_metadata">Metadati / Skrāpis</string>
+    <string name="settings_title_thegamesdb_apikey">TheGamesDB API atslēga</string>
+    <string name="settings_description_thegamesdb_apikey">Iegūstiet bezmaksas atslēgu vietnē thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Ievadiet savu TheGamesDB API atslēgu, lai iegūtu spēļu vākus, aprakstus un žanrus.</string>
+    <string name="settings_thegamesdb_configured">Konfigurēts</string>
+    <string name="settings_thegamesdb_not_configured">Nav konfigurēts</string>
+    <string name="metadata_dialog_apikey_title">Ievadīt API atslēgu</string>
+    <string name="rom_migration_title">Pārvietot ROM</string>
+    <string name="rom_migration_message">%1$d ROM tiks pārvietoti uz:
+
+%2$s
+
+Vai vēlaties turpināt?</string>
+    <string name="rom_migration_progress_title">Pārvieto ROM…</string>
+    <string name="rom_migration_progress">Pārvieto %1$s (%2$d no %3$d)</string>
+    <string name="rom_migration_success">%1$d ROM veiksmīgi pārvietoti</string>
+    <string name="rom_migration_partial">Pārvietoti %1$d no %2$d ROM. Dažus failus neizdevās pārvietot.</string>
+    <string name="rom_migration_failed">Neizdevās pārvietot ROM: %1$s</string>
+    <string name="rom_migration_cancel">Atcelt</string>
+    <string name="rom_migration_confirm">Pārvietot</string>
+    <string name="rom_migration_smb_not_supported">Automātiskā ROM migrācija nav pieejama tīkla bibliotēkām (SMB)</string>
+    <string name="manual_header">Lietotāja rokasgrāmata</string>
+    <string name="manual_section_first_steps">🚀 Pirmie soļi</string>
+    <string name="manual_content_first_steps">1. Izvēlieties mapi savu ROM glabāšanai sadaļā Iestatījumi → Direktorija.
+
+2. Kopējiet savus ROM failus uz šo mapi.
+
+3. Lietotne automātiski skenēs un parādīs jūsu spēles sākuma ekrānā.</string>
+    <string name="manual_section_archive">🌐 Izpētīt katalogus</string>
+    <string name="manual_content_archive">Katalogu sadaļa ļauj izpētīt ROM kolekcijas no vairākiem publiskiem avotiem:
+
+• Archive.org: Plašas klasisko ROM kolekcijas.
+• itch.io: Bezmaksas homebrew spēles (nepieciešama bezmaksas API atslēga).
+
+• Pārlūkojiet pēc sistēmas vai meklējiet konkrētas spēles.
+• Pieskarieties spēlei, lai lejupielādētu to savā ROM mapē.
+• Lejupielādētās spēles automātiski parādīsies jūsu bibliotēkā.</string>
+    <string name="manual_section_controls">🎮 Konfigurēt kontrolierus</string>
+    <string name="manual_content_controls">Pievienojiet Bluetooth vai USB kontrolieri un dodieties uz Iestatījumi → Kontroliera iestatījumi.
+
+• Izvēlieties savu kontrolieri no saraksta.
+• Kartējiet pogas atbilstoši savām vēlmēm.
+• Iespējojiet vibrāciju, ja jūsu kontrolieris to atbalsta.</string>
+    <string name="manual_section_bios">💾 Nepieciešamais BIOS</string>
+    <string name="manual_content_bios">Dažām sistēmām (PlayStation, Game Boy Advance utt.) ir nepieciešami BIOS faili, lai tās darbotos.
+
+• Dodieties uz Iestatījumi → BIOS informācija, lai redzētu, kādi faili jums ir nepieciešami.
+• Ievietojiet BIOS failus tajā pašā mapē, kurā atrodas jūsu ROM.
+• Failu nosaukumiem ir precīzi jāatbilst prasītajam.</string>
+    <string name="manual_section_saves">💾 Saglabātās spēles</string>
+    <string name="manual_content_saves">Automātiskā saglabāšana ir iespējota pēc noklusējuma.
+
+• Izejot no spēles, jūsu progress tiek saglabāts automātiski.
+• Atkārtoti atverot spēli, jūs turpināsiet no vietas, kur pārtraucāt.
+• Varat arī izmantot spēles pašu saglabāšanas sistēmu (spēles izvēlnē).</string>
+    <string name="manual_section_sync">☁️ Mākoņa sinhronizācija</string>
+    <string name="manual_content_sync">Varat sinhronizēt savas saglabātās spēles ar Google Drive.
+
+• Dodieties uz Iestatījumi → Saglabāšanas sinhronizācija.
+• Pierakstieties ar savu Google kontu.
+• Jūsu saglabātie dati tiks automātiski sinhronizēti starp ierīcēm.</string>
+    <string name="manual_section_gameplay">🕹️ Spēles laikā</string>
+    <string name="manual_content_gameplay">Lai piekļūtu izvēlnei spēles laikā:
+
+• Nospiediet izvēlnes pogu (☰) vai velciet no ekrāna malas.
+• Tur varat: saglabāt/ielādēt stāvokļus, mainīt saglabāšanas slotu, piekļūt ātrajām opcijām vai iziet no spēles.</string>
+    <string name="about_version">Versija %1$s</string>
+    <string name="about_section_origin">Programmatūras izcelsme</string>
+    <string name="about_content_origin_1">Šī lietojumprogramma ir atvērtā pirmkoda Lemuroid projekta atvasinājums, kas izplatīts saskaņā ar GPL-3.0 licenci.</string>
+    <string name="about_content_origin_2">Ir pievienotas izpētes funkcijas publiski pieejamam saturam vietnē Archive.org un bezmaksas homebrew spēlēm no itch.io.</string>
+    <string name="about_section_source">Pirmkods</string>
+    <string name="about_content_source">Šīs modificētās versijas pirmkods ir pieejams saskaņā ar GPL-3.0 licenci.</string>
+    <string name="about_button_github">Skatīt pirmkodu (GitHub)</string>
+    <string name="about_section_licenses">Trešo pušu licences</string>
+    <string name="about_section_legal">Juridisks paziņojums</string>
+    <string name="about_content_legal">Šī lietojumprogramma neietver ROM un automātiski nelejupielādē saturu. Izpētes funkcija parāda tikai kolekcijas, kas ir publiski pieejamas Archive.org, un bezmaksas homebrew spēles no itch.io. Lietotājs ir atbildīgs par savu tiesību pārbaudi piekļūt ārējiem failiem vai tos izmantot.</string>
+    <string name="about_section_report">Ziņot par kļūdu</string>
+    <string name="about_content_report">Atradāt kļūdu vai jums ir ieteikums? Palīdziet mums pilnveidoties, nosūtot anonīmu ziņojumu.</string>
+    <string name="about_button_report">🐛 Ziņot par kļūdu</string>
+    <string name="about_no_browser">Nav instalēta tīmekļa pārlūkprogramma saites atvēršanai</string>
+    <string name="about_no_browser_report">Nav instalēta tīmekļa pārlūkprogramma kļūdu ziņojumu lapas atvēršanai</string>
+    <string name="bug_report_error">Neizdevās ielādēt kļūdu ziņojuma veidlapu. Lūdzu, pārbaudiet interneta savienojumu.</string>
+    <string name="bug_report_select_images">Atlasīt attēlus</string>
+    <string name="about_open_with">Atvērt ar</string>
+    <string name="catalog_disclaimer">⚠️ Šis katalogs izveido savienojumu ar publiskām krātuvēm (Archive.org un itch.io), kas nav saistītas ar EmulAItor. No itch.io tiek uzskaitīts tikai bezmaksas homebrew saturs. Par šī materiāla izmantošanu, lejupielādi un glabāšanu ir atbildīgs tikai lietotājs. 🧠 Lai gan EmulAItor viedi filtrē failus, var būt bojātas saites, nesaderīgi faili vai saturs, kas nav ROM.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io Homebrew</string>
+    <string name="itch_api_key_title">itch.io API atslēga</string>
+    <string name="itch_api_key_subtitle">Nepieciešama, lai lejupielādētu spēles no itch.io</string>
+    <string name="itch_api_key_instructions">Lai lejupielādētu bezmaksas homebrew spēles no itch.io, jums ir nepieciešama API atslēga:\n\n1. Dodieties uz &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; un izveidojiet bezmaksas kontu\n2. Dodieties uz &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Settings → API Keys&lt;/a&gt;\n3. Ģenerējiet jaunu atslēgu un nokopējiet to\n4. Ielīmējiet to zemāk</string>
+    <string name="itch_api_key_hint">Ielīmējiet savu itch.io API atslēgu šeit</string>
+    <string name="itch_api_key_validating">Validē API atslēgu…</string>
+    <string name="itch_api_key_valid">API atslēga derīga ✓</string>
+    <string name="itch_api_key_invalid">Nederīga API atslēga. Lūdzu, pārbaudiet un mēģiniet vēlreiz.</string>
+    <string name="itch_api_key_saved">API atslēga veiksmīgi saglabāta</string>
+    <string name="itch_api_key_required_title">Nepieciešama API atslēga</string>
+    <string name="itch_api_key_required_message">Lai lejupielādētu spēles, jums ir nepieciešama itch.io API atslēga. Vai vēlaties to konfigurēt tagad?</string>
+    <string name="itch_no_results">Šai sistēmai itch.io nav atrasta neviena homebrew spēle</string>
+    <string name="itch_unsupported_system">itch.io nav homebrew satura šai sistēmai. Izmēģiniet NES, SNES, GBA, GBC vai Genesis.</string>
+    <string name="itch_game_free">Bezmaksas</string>
+    <string name="itch_game_by">autors: %1$s</string>
+    <string name="pack_fully_downloaded">Pilnībā lejupielādēts</string>
+    <string name="itch_uploads_title">Pieejamie faili</string>
+    <string name="itch_no_rom_uploads">Šai spēlei nav atrasti lejupielādējami ROM faili</string>
+    <string name="itch_download_error">Neizdevās lejupielādēt no itch.io: %1$s</string>
+    <string name="itch_settings_edit_key">Rediģēt atslēgu</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Atbloķēt pilnu piekļuvi</string>
+    <string name="paywall_description">Bezmaksas izmēģinājuma periods ir beidzies. Lai turpinātu, izvēlieties vienu no tālāk norādītajām opcijām.</string>
+<string name="paywall_buy_button">Pirkt Pro versiju</string>
+    <string name="paywall_restore_title">Jau iegādājāties iepriekš?</string>
+    <string name="paywall_restore_description">Ja iegādājāties EmulAItor pirms tas kļuva par brīvu, ievadiet savu Google Play pasūtījuma ID (GPA...), lai atjaunotu piekļuvi.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Atjaunot pirkumu</string>
+    <string name="paywall_where_is_receipt">Kur es varu atrast savu čeku?</string>
+    <string name="paywall_receipt_instructions_title">Kā atrast savu pasūtījuma ID</string>
+    <string name="paywall_receipt_instructions_1">A variants: Meklējiet \"Google Play Receipt EmulAItor\" savā Gmail.</string>
+    <string name="paywall_receipt_instructions_2">B variants: Dodieties uz pay.google.com, pārbaudiet savu darbību vēsturi (Activity) un meklējiet EmulAItor.</string>
+    <string name="paywall_receipt_open_web">Atvērt pay.google.com</string>
+    <string name="paywall_support_fallback">Ja nevarat to atrast, sazinieties ar atbalsta dienestu.</string>
+    <string name="paywall_success">Pirkums veiksmīgi atjaunots. Paldies!</string>
+    <string name="paywall_error_invalid_gpa">Nederīgs GPA kods vai tas jau ir izmantots.</string>
+    <string name="paywall_error_limit_exceeded">Šis kods jau tiek izmantots maksimālajā atļautajā ierīču skaitā. Lūdzu, iegādājieties jaunu licenci, izmantojot iepriekš minētās opcijas.</string>
+<string name="paywall_error_network">Tīkla kļūda. Lūdzu, pārbaudiet savu savienojumu.</string>
+    <string name="paywall_error_unknown">Radās nezināma kļūda.</string>
+    <string name="paywall_restoring">Atjauno...</string>
+    <string name="paywall_buy_subscription">Ikmēneša abonements</string>
+    <string name="paywall_buy_lifetime">Pastāvīga piekļuve</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>

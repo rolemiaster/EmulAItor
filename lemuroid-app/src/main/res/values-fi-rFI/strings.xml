@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">Koti</string>
+    <string name="title_search">Etsi</string>
+    <string name="title_systems">Järjestelmät</string>
+    <string name="title_games">Pelit</string>
+    <string name="title_settings">Asetukset</string>
+    <string name="recent">Recents</string>
+    <string name="favorites">Suosikit</string>
+    <string name="discover">Löydä</string>
+    <string name="rescan">Uudelleen</string>
+    <string name="stop">Pysäytä</string>
+    <string name="none">Ei Mitään</string>
+    <string name="directory">Hakemisto</string>
+    <string name="display_filter">Näytä suodatin</string>
+    <string name="roms">ROM</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Peruuta</string>
+    <string name="settings">Asetukset</string>
+    <string name="save_sync">Tallenna Synkronointi</string>
+    <string name="show_all">Näytä Kaikki</string>
+    <string name="back">Takaisin</string>
+    <string name="close">Sulje</string>
+    <string name="game_page_search_suggestion">Etsi pelejä</string>
+    <string name="settings_category_general">Yleiset</string>
+    <string name="settings_category_input">Input</string>
+    <string name="settings_category_misc">Sekalaiset</string>
+    <string name="settings_title_enable_autosave">Autosave state</string>
+    <string name="settings_description_enable_autosave">Tallenna tila poistuttaessa pelivalikosta</string>
+    <string name="settings_title_enable_touch_feedback">Värinä kosketettaessa</string>
+    <string name="settings_title_tilt_sensitivity">Kallistusanturin herkkyys</string>
+    <string name="settings_title_hd_quality">HD-tilan laatu</string>
+    <string name="settings_title_maximum_cache_usage">Kätkön kokoraja</string>
+    <string name="settings_title_hd_mode">HD-tila</string>
+    <string name="settings_description_hd_mode">Käytä jälkikäsittelyn suotimia</string>
+    <string name="settings_description_hd_quality">Säädä HD-tilan laatua</string>
+    <string name="settings_title_immersive_mode">Immersive mode</string>
+    <string name="settings_description_immersive_mode">Dynaamisesti värittää pelin visuaalisiin kuviin perustuvan taustan</string>
+    <string name="settings_title_gamepad_settings">Ulkoiset laitteet</string>
+    <string name="settings_description_gamepad_settings">Määritä ulkoiset peliohjaimet ja näppäimistöt</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Käytössä olevat laitteet</string>
+    <string name="settings_gamepad_category_general">Yleiset</string>
+    <string name="settings_gamepad_title_reset_bindings">Nollaa sidokset</string>
+    <string name="settings_gamepad_title_game_menu">Valikko</string>
+    <string name="settings_title_open_cores_selection">Vaihda Ytimiä</string>
+    <string name="settings_description_open_cores_selection">Valitse mikä ydin on liitetty järjestelmään</string>
+    <string name="settings_core_selection_ds_info">DeSmuME on vanhentunut ja se poistetaan pian. Tallenna pelin sisällä, vaihda sitten melonDS:ään: pelinsisäinen tallennus sinne automaattisesti, mutta tallenna valtiot pysyvät ytimessä, joka loi ne.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Näytä havaitut ja tuetut BIOS-tiedostot</string>
+    <string name="settings_bios_category_detected">Havaittu</string>
+    <string name="settings_bios_category_not_detected">Tuettu</string>
+    <string name="settings_title_reset_settings">Tehdasasetusten palautus</string>
+    <string name="settings_description_reset_settings">Nollaa Lemuroid tehdasasetuksiinsa</string>
+    <string name="settings_title_advanced_settings">Edistyneet asetukset</string>
+    <string name="settings_description_advanced_settings">Näytä lisäasetukset</string>
+    <string name="settings_title_low_latency_audio">Suosi alhaisen latenssin ääntä</string>
+    <string name="settings_description_low_latency_audio">Vähentää äänilatenssia tuetuissa laitteissa. Voi lisätä ääniglitches.</string>
+    <string name="settings_title_direct_game_load">Suora peli kuormitus</string>
+    <string name="settings_description_direct_game_load">(Experimental) Vähentää latausaikaa ja välimuistin käyttöä tuetuilla konsoleilla.</string>
+    <string name="settings_title_enable_rumble">Kelaa</string>
+    <string name="settings_description_enable_rumble">Ota rumble käyttöön tuetuissa peleissä ja ohjaimissa</string>
+    <string name="settings_title_enable_device_rumble">Laitteen rumble</string>
+    <string name="settings_description_enable_device_rumble">Kun ohjainta ei ole kytketty, värise laite sen sijaan</string>
+    <string name="reset_settings_warning_message_title">Oletko varma?</string>
+    <string name="reset_settings_warning_message_description">Tämä palauttaa Lemuroidin tehdasasetuksiinsa. Tallennukset ja valtiot säilyvät.</string>
+    <string name="settings_title_save_sync">Pilvi tallentaa</string>
+    <string name="settings_description_save_sync">Varmuuskopioi ja synkronoi tallenteet pilvessä</string>
+    <string name="settings_save_sync_refresh">Manuaalinen Synkronointi</string>
+    <string name="settings_save_sync_refresh_description">Suorita manuaalinen synkronointi nyt.\n%1$s</string>
+    <string name="settings_save_sync_enable_auto">Automaattinen Synkronointi</string>
+    <string name="settings_save_sync_enable_auto_description">Suorita synkronointi automaattisesti ennen ja jälkeen pelin istuntoa Wifiin yhdistettynä</string>
+    <string name="settings_save_sync_configure">Määritä %1$s</string>
+    <string name="settings_save_sync_include_saves">Synkronoi pelin sisäiset tallennukset</string>
+    <string name="settings_save_sync_include_saves_description">%1$s laitteella</string>
+    <string name="settings_save_sync_include_states">Synkronoi tilat</string>
+    <string name="settings_save_sync_include_states_description">Helppokäyttöisempi, mutta raskaampi ja vähemmän luotettava. Valitse mitkä ytimet / järjestelmät haluat synkronoida</string>
+    <string name="game_context_menu_add_to_favorites">Lisää suosikkeihin</string>
+    <string name="game_context_menu_remove_from_favorites">Poista suosikeista</string>
+    <string name="game_context_menu_resume">Jatka</string>
+    <string name="game_context_menu_restart">Käynnistä Uudelleen</string>
+    <string name="game_context_menu_create_shortcut">Kiinnitä käynnistettäväksi</string>
+    <string name="home_notification_title">Ota ilmoitukset käyttöön</string>
+    <string name="home_notification_message">Lemuroid käyttää ilmoituksia ilmoittaakseen sinulle, milloin peli tai operaatio on käynnissä taustalla.</string>
+    <string name="home_notification_action">Aktivoi</string>
+    <string name="home_microphone_title">Ota mikrofoni käyttöön</string>
+    <string name="home_microphone_message">Nintendo DS -pelit voivat käyttää mikrofonia tarjotakseen joitakin toimintoja.</string>
+    <string name="home_microphone_action">Aktivoi</string>
+    <string name="home_empty_title">Valitse ROMien hakemisto</string>
+    <string name="home_empty_message">Lemuroid tarvitsee skannata ROM -tiedostoja sisältävän hakemiston.\nTämä saattaa kestää jopa muutaman minuutin.</string>
+    <string name="home_empty_action">Valitse Hakemisto</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME eläkkeellä pian</string>
+    <string name="home_notification_desmume_deprecated_message">Tallenna pelissä vaihtaaksesi melonDS:ään, ja edistymisesi siirtyy eteenpäin. Tallenna valtiot pysyvät sidottuna DeSmuMEen.</string>
+    <string name="home_notification_desmume_deprecated_action">Vaihda melonDS:ään</string>
+    <string name="game_menu_save">Tallenna</string>
+    <string name="game_menu_load">Lataa</string>
+    <string name="game_menu_restart">Käynnistä Uudelleen</string>
+    <string name="game_menu_quit">Lopeta</string>
+    <string name="game_menu_settings">Asetukset</string>
+    <string name="game_menu_state">Tila %1$s</string>
+    <string name="game_menu_change_disk_button">Vaihda Levy</string>
+    <string name="game_menu_edit_touch_controls">Muokkaa Ohjaimia</string>
+    <string name="game_menu_mute_audio">Mykistä</string>
+    <string name="game_menu_fast_forward">Nopea Eteenpäin</string>
+    <string name="game_menu_change_disk_disk">Levy %1$s</string>
+    <string name="game_menu_tilt_sensor">Kallistus Anturi</string>
+    <string name="game_toast_settings_button_using_gamepad">Pelimatto havaittu. Pääsy asetusvalikkoon %1$s.</string>
+    <string name="game_toast_load_state_failed">Tilaa ei voi ladata</string>
+    <string name="game_toast_quick_save_loaded">Nopea ladattu</string>
+    <string name="game_toast_quick_save_saved">Nopea tallennus</string>
+    <string name="empty_view_default">Ei Kohteita</string>
+    <string name="core_settings_title">Ydin Asetukset</string>
+    <string name="core_settings_category_preferences">Asetukset</string>
+    <string name="core_settings_category_controllers">Ohjaimet</string>
+    <string name="core_settings_controller">Ohjain %1$s</string>
+    <string name="game_menu_title">Pelivalikko</string>
+    <string name="notification_channel_name">Kaikki ilmoitukset</string>
+    <string name="library_index_notification_title">Parhaillaan käynnissä olevat ROMs skannaus</string>
+    <string name="library_index_notification_message">Tämä voi kestää jopa muutaman minuutin</string>
+    <string name="save_sync_notification_title">Synkronointi pilven tallennuksessa käynnissä</string>
+    <string name="save_sync_notification_message">Tämä voi kestää jopa muutaman minuutin</string>
+    <string name="game_running_notification_title">%1$s on käynnissä</string>
+    <string name="game_running_notification_title_alternative">Peli on käynnissä</string>
+    <string name="game_running_notification_message">Varmista, että tallennat edistymisesi</string>
+    <string name="game_loader_error_gl_incompatible">Tämä ydin vaatii OpenGL ES -version, jota laitteesi ei tue.</string>
+    <string name="game_loader_error_load_game">Jotain pahaa tapahtui ladattaessa peliäsi. Varmista, että ROM on Lemuroidin tukema ja käynnistä pelisi uudelleen.</string>
+    <string name="game_loader_error_save">Jotain pahaa tapahtui tallennustiedostollasi. Jos ongelma jatkuu, yritä poistaa automaattinen tallennus käytöstä.</string>
+    <string name="game_loader_error_unsupported_architecture">Laite ei tue tätä ydintä.</string>
+    <string name="game_loader_error_generic">Jotain pahaa tapahtui. Kokeile seuraavia:\n
+        \n• Poista automaattinen tallennus ja käynnistä peli
+        \n• Mene Android-asetuksiin ja tyhjennä sovelluksen välimuisti
+        \n• Mene Lemuroidin asetuksiin ja suorita tehdaspalautus
+        \n\nJos mikään yllämainituista ei toimi, saattaa olla mahdollista, että tämä laite ei tue tätä peliä/ydintä.</string>
+    <string name="game_loader_error_missing_bios">Näyttää siltä, että sinulta puuttuu tarvittava BIOS, laita ne ROM-hakemistoosi ja rescan. Vaaditut tiedostot: %1$s</string>
+    <string name="game_shortcut_error">Jotain pahaa tapahtui ladattaessa peliäsi. Varmista, että tämä peli on edelleen olemassa kirjastossasi.</string>
+    <string name="dialog_saf_not_found">Tämä laite ei tue StorageAccessFramework tiedostojen poimintaa. Kopioi manuaalisesti pakkaamattomat ROM tiedostot %1$s ja paina Rescania.</string>
+    <string name="system_grid_details">%1$s peliä</string>
+    <string name="tv_folder_picker_title">Valitse ROMien Hakemisto</string>
+    <string name="tv_folder_picker_action_choose">Valitse</string>
+    <string name="tv_folder_picker_action_cancel">Peruuta</string>
+    <string name="tv_folder_storage_primary">Ensisijainen tallennustila</string>
+    <string name="tv_folder_storage_secondary">Toissijainen tallennustila %1$s</string>
+    <string name="tv_folder_storage_title">Valitse tallennustila</string>
+    <string name="tv_home_section_favorites">Suosikit</string>
+    <string name="tv_home_section_recents">Viimeisimmät</string>
+    <string name="tv_home_section_systems">Järjestelmät</string>
+    <string name="tv_home_section_settings">Asetukset</string>
+    <string name="gamepad_binding_update_title">Liitä \"RetroPad %1$s\"</string>
+    <string name="gamepad_binding_update_description">Paina painiketta \"%1$s\"</string>
+    <string name="shortcut_binding_update_title">Liitä \"Pikakuvake %1$s\"</string>
+    <string name="shortcut_binding_update_description">Paina ensimmäistä, sitten toista painiketta sitomaan combo sinun \"%1$s\"</string>
+    <string name="tv_search_results">Pelit</string>
+    <string name="tv_game_message_missing_gamepad">Pelitassut vaaditaan pelaamaan. Ole hyvä ja yhdistä yksi.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Katkaise laitteesi yhteys muokataksesi kosketustoimintojasi</string>
+    <string name="game_interactory_busy">Odota, että vireillä olevat toimet saatetaan päätökseen</string>
+    <string name="mobile_settings_help">Ohje</string>
+    <string name="mobile_settings_support">Tuki</string>
+    <string name="lemuroid_crash_disclamer">Näyttää siltä, että Libretro ydin on kokenut odottamattoman ongelman. Jos se on pysyvä, kokeile seuraavasti:\n
+        \n• Poista automaattinen tallennus ja käynnistä peli
+        \n• Mene Android-asetuksiin ja tyhjennä sovelluksen välimuisti
+        \n• Mene Lemuroidin asetuksiin ja suorita tehdas nollaus
+        \n\n Jos mikään yllä olevista teoksista ei toimi, saattaa olla mahdollista, että tämä laite ei tue tätä peliä/ydintä.</string>
+    <string name="error_message_incompatible_state">Tallennustila ei ole yhteensopiva nykyisen ydinversion kanssa. Lataa uusin pelin sisäinen tallennus tai käytä aiempaa Lemuroid-versiota.</string>
+    <string name="shader_filter_names_auto">Automaattinen</string>
+    <string name="shader_filter_names_sharp">Terävä</string>
+    <string name="shader_filter_names_smooth">Pehmeä</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Ei Mitään</string>
+    <string name="haptic_feedback_mode_names_press">Paina</string>
+    <string name="haptic_feedback_mode_names_press_release">Paina &amp; julkaisu</string>
+    <string name="tilt_configuration_disabled">Pois Käytöstä</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Vasen Analoginen</string>
+    <string name="tilt_configuration_analog_right">Oikea Analoginen</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 – R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 – R2</string>
+<!-- Added by local i18n tool. -->
+    <string name="title_catalog">Luettelo</string>
+    <string name="settings_title_about">Tietoja</string>
+    <string name="settings_title_manual">Käyttöopas</string>
+    <string name="settings_description_manual">Kuinka käyttää EmulAItoria</string>
+    <string name="license_not_verified_title">Lisenssiä ei vahvistettu</string>
+    <string name="home_hd_mode_enabled">HD-tila käytössä</string>
+    <string name="home_hd_mode_disabled">HD-tila pois päältä</string>
+    <string name="settings_bios_help">Lisätäksesi BIOS-tiedostoja, aseta tuetut tiedostot ROM-kansioosi ja skannaa uudelleen. Tiedostonimen on vastattava täsmälleen.</string>
+    <string name="game_context_menu_delete">Poista</string>
+    <string name="game_delete_confirmation">Haluatko varmasti poistaa \"%1$s\"? Tämä poistaa pelin kirjastostasi ja poistaa tiedoston.</string>
+    <string name="game_deleted">Peli poistettu</string>
+    <string name="home_storage_inaccessible_title">ROM-hakemisto ei ole käytettävissä</string>
+    <string name="home_storage_inaccessible_message">Android ei anna EmulAItorin käyttää valittua ROM-hakemistoa. Kansio on saattanut siirtyä, poistua tai järjestelmän käyttöoikeudet ovat estäneet sen. Valitse kansio uudelleen tai valitse toinen.</string>
+    <string name="home_storage_inaccessible_action">Valitse toinen hakemisto</string>
+    <string name="update_available_banner">Uudempi versio EmulAItorista on saatavilla. Napauta päivittääksesi.</string>
+    <string name="game_loading_preparing_game">Valmistellaan peliä…</string>
+    <string name="library_metadata_enrichment_in_progress">Päivitetään ROM-tietoja taustalla. Voit jatkaa pelaamista.</string>
+    <string name="tv_folder_error_access">Tämä kansio ei ole käytettävissä. Valitse alikansio tai toinen sijainti.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">ROM-hakemisto</string>
+    <string name="settings_description_choose_directory">Valitse kansio, joka sisältää pelisi</string>
+    <string name="pending_operations_blocked_title">Toiminnot voivat olla jumissa</string>
+    <string name="pending_operations_blocked_message_external">Aiemman version odottava prosessi saattaa estää ROM-indeksointia. Voit jatkaa odottamista tai tyhjentää sovellustiedot palauttaaksesi. ROM-tiedostojasi ei poisteta, mutta sinun on valittava ROM-kansio uudelleen. Jos tämä kestää yli 5 minuuttia, sovellustietojen tyhjentämistä suositellaan.</string>
+    <string name="pending_operations_blocked_message_internal">Aiemman version odottava prosessi saattaa estää ROM-indeksointia. Voit jatkaa odottamista tai avata asetukset tarkistaaksesi tallennuskonfiguraatiosi.</string>
+    <string name="pending_operations_clear_data">Tyhjennä sovellustiedot</string>
+    <string name="pending_operations_keep_waiting">Jatka odottamista</string>
+    <string name="pending_operations_clear_data_confirm_title">Tyhjennä sovellustiedot?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor nollaa sovellustietonsa nyt. ROM-tiedostojasi ei poisteta, mutta sinun on valittava ROM-kansio uudelleen.</string>
+    <string name="pending_operations_clear_data_confirm_button">Tyhjennä tiedot</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Tietoja EmulAItorista&lt;/b&gt;&lt;br/&gt;
+        Tämä sovellus on avoimen lähdekoodin projektin &lt;b&gt;Lemuroid&lt;/b&gt; fork, joka on jaettu &lt;b&gt;GPL-3.0&lt;/b&gt;-lisenssillä.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Tärkeä huomautus&lt;/b&gt;&lt;br/&gt;
+        Tämä sovellus ei sisällä pelejä eikä lataa automaattisesti sisältöä. Selaustoiminto näyttää Archive.orgissa julkisesti saatavilla olevan sisällön ja itch.io:n ilmaiset homebrew-pelit. Käyttäjä on vastuussa oikeuksiensa varmistamisesta käyttää tai hyödyntää mitä tahansa ROM-tiedostoja ulkoisista lähteistä.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Kuinka käytän tätä sovellusta?&lt;/b&gt;&lt;br/&gt;
+        Kopioi ROM-tiedostosi laitteesi hakemistoon ja valitse se sovelluksen sisällä. Tämä hakemisto voi sisältää alihakemistoja. Skannauksen valmistuttua peliesi pitäisi näkyä.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Miksi pelejäni ei tunnisteta?&lt;/b&gt;&lt;br/&gt;
+        Jos pelisi ovat pakattuja, yritä purkaa ne. Jos tämä ei toimi, aseta ROM-tiedostot erillisiin hakemistoihin, yksi per järjestelmä seuraavilla nimillä: $SYSTEMS.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Lisenssit&lt;/b&gt;&lt;br/&gt;
+        Lemuroid: GPL-3.0 (Swordfish90)&lt;br/&gt;
+        LibretroDroid: GPL-3.0&lt;br/&gt;
+        Libretro Cores: Eri lisenssit</string>
+    <string name="disclaimer_title">Tärkeä huomautus</string>
+    <string name="disclaimer_software_origin_title">Ohjelmiston alkuperä</string>
+    <string name="disclaimer_software_origin_text">Tämä sovellus on avoimen lähdekoodin projektin Lemuroid fork, joka on jaettu GPL-3.0-lisenssillä.</string>
+    <string name="disclaimer_no_content_title">Ei sisällytettyä sisältöä</string>
+    <string name="disclaimer_no_content_text">Tämä sovellus ei sisällä pelejä eikä lataa automaattisesti tiedostoja.</string>
+    <string name="disclaimer_archive_title">Julkiset luettelolähteet</string>
+    <string name="disclaimer_archive_text">Selaustoiminto näyttää Archive.orgissa julkisesti saatavilla olevan sisällön ja itch.io:n ilmaiset homebrew-pelit. EmulAItor ei ole sidoksissa kumpaankaan palveluun. Käyttäjä on vastuussa oikeuksiensa varmistamisesta käyttää tai hyödyntää mitä tahansa ROM-tiedostoja.</string>
+    <string name="disclaimer_user_responsibility_title">Käyttäjän vastuu</string>
+    <string name="disclaimer_user_responsibility_text">Olet vastuussa siitä, että sinulla on laillinen oikeus käyttää mitä tahansa ROM-tiedostoja tämän sovelluksen kanssa.</string>
+    <string name="disclaimer_accept">Ymmärrän ja hyväksyn</string>
+    <string name="disclaimer_terms">Jatkamalla hyväksyt tämän sovelluksen käyttöehdot.</string>
+    <string name="game_context_menu_edit">Muokkaa</string>
+    <string name="game_edit_title">Muokkaa peliä</string>
+    <string name="game_edit_field_title">Nimi</string>
+    <string name="game_edit_field_system">Järjestelmä</string>
+    <string name="game_edit_field_developer">Kehittäjä</string>
+    <string name="game_edit_file_label">Tiedosto:</string>
+    <string name="game_edit_save">Tallenna</string>
+    <string name="game_edit_search_online">Etsi metatietoja verkosta</string>
+    <string name="game_edit_searching">Etsitään…</string>
+    <string name="game_edit_no_results">Ei tuloksia</string>
+    <string name="game_edit_apply_metadata">Käytä metatietoja</string>
+    <string name="game_edit_unlock_metadata">Avaa metatiedot (salli automaattinen päivitys)</string>
+    <string name="catalog_search_placeholder">Etsi ROM-levyjä...</string>
+    <string name="catalog_filter_all_sources">Kaikki lähteet</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Paikallinen</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Ei tuloksia</string>
+    <string name="catalog_downloads">Lataukset</string>
+    <string name="catalog_clear_completed">Tyhjennä kaikki</string>
+    <string name="catalog_downloading">Ladataan...</string>
+    <string name="catalog_downloaded">Ladattu</string>
+    <string name="sources_manage_title">Hallitse lähteitä</string>
+    <string name="sources_add_title">Lisää lähde</string>
+    <string name="sources_add_local">Lisää paikallinen kansio</string>
+    <string name="sources_add_smb">Lisää SMB/NAS</string>
+    <string name="sources_smb_name">Nimi</string>
+    <string name="sources_smb_server">Palvelin</string>
+    <string name="sources_smb_path">Polku</string>
+    <string name="sources_smb_username">Käyttäjänimi (valinnainen)</string>
+    <string name="sources_smb_password">Salasana (valinnainen)</string>
+    <string name="sources_smb_domain">Verkkoalue (valinnainen)</string>
+    <string name="sources_edit">Muokkaa</string>
+    <string name="sources_delete">Poista</string>
+    <string name="sources_save">Tallenna</string>
+    <string name="sources_cancel">Peruuta</string>
+    <string name="sources_add">Lisää</string>
+    <string name="sources_smb_display_name">Näyttönimi</string>
+    <string name="sources_smb_display_name_placeholder">Oma NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Koko polku, mukaan lukien jaon nimi</string>
+    <string name="sources_smb_use_auth">Käytä todennusta</string>
+    <string name="sources_smb_username_label">Käyttäjätunnus</string>
+    <string name="sources_smb_password_label">Salasana</string>
+    <string name="sources_smb_edit_title">Muokkaa SMB-lähdettä</string>
+    <string name="sources_smb_connection_title">SMB-yhteys</string>
+    <string name="sources_smb_test_connection">Testaa yhteyttä</string>
+    <string name="sources_smb_testing">Testataan yhteyttä...</string>
+    <string name="sources_smb_connection_success">Yhteys onnistui!</string>
+    <string name="sources_smb_connection_failed">Yhteys epäonnistui: %1$s</string>
+    <string name="sources_no_custom">Mukautettuja lähteitä ei ole määritetty</string>
+    <string name="sources_local_permission_error">Tätä kansiota ei voi lisätä, koska Android ei myöntänyt käyttöoikeutta. Valitse toinen kansio.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Paikalliset tiedostot</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Etsi ROM-levyjä...</string>
+    <string name="catalog_packs_count">%1$d / %2$d pakettia</string>
+    <string name="catalog_games_count">%1$d peliä</string>
+    <string name="catalog_load_more">Lataa lisää...</string>
+    <string name="catalog_load_more_packs">Lataa lisää paketteja</string>
+    <string name="catalog_no_packs_found">ROM-paketteja ei löytynyt</string>
+    <string name="catalog_no_files_found">Ladattavia tiedostoja ei löytynyt</string>
+    <string name="catalog_files_count">Tiedostot (%1$d):</string>
+    <string name="catalog_download_all">Kaikki</string>
+    <string name="catalog_downloads_title">Lataukset (%1$d)</string>
+    <string name="catalog_downloads_clear">Tyhjennä</string>
+    <string name="catalog_no_downloads">Ei latauksia</string>
+    <string name="catalog_error_retry">Yritä uudelleen</string>
+    <string name="catalog_error_occurred">Tapahtui virhe</string>
+    <string name="catalog_invalid_download_title">Virheellinen luettelotiedosto</string>
+    <string name="catalog_invalid_download_message">Ladattu tiedosto ei näytä olevan kelvollinen ROM tälle järjestelmälle. Tarjoaja on saattanut julkaista virheellisen tai yhteensopimattoman tiedoston. Jos et löydä tätä ROM-levyä luettelosta, voit ladata sen manuaalisesti ja lisätä sen ROM-kansioosi.</string>
+    <string name="catalog_region_all">🌍 Kaikki</string>
+    <string name="catalog_region_usa">🇺🇸 USA</string>
+    <string name="catalog_region_europe">🇪🇺 Eurooppa</string>
+    <string name="catalog_region_japan">🇯🇵 Japani</string>
+    <string name="catalog_region_spain">🇪🇸 Espanja</string>
+    <string name="catalog_region_france">🇫🇷 Ranska</string>
+    <string name="catalog_region_germany">🇩🇪 Saksa</string>
+    <string name="catalog_region_italy">🇮🇹 Italia</string>
+    <string name="catalog_region_brazil">🇧🇷 Brasilia</string>
+    <string name="catalog_region_korea">🇰🇷 Korea</string>
+    <string name="catalog_region_china">🇨🇳 Kiina</string>
+    <string name="catalog_region_australia">🇦🇺 Australia</string>
+    <string name="catalog_sort_downloads">Ladatuimmat</string>
+    <string name="catalog_sort_name">Nimi A-Z</string>
+    <string name="catalog_sort_size">Suurin koko</string>
+    <string name="catalog_error_503">Archive.org on alhaalla tai huollossa. Yritä myöhemmin uudelleen.</string>
+    <string name="catalog_error_502">Archive.org:lla on ongelmia. Yritä myöhemmin uudelleen.</string>
+    <string name="catalog_error_500">Archive.org:lla on sisäinen virhe. Yritä myöhemmin uudelleen.</string>
+    <string name="catalog_error_ssl">SSL-sertifikaatin virhe. Varmista, että laitteesi päivämäärä ja kellonaika ovat oikein.</string>
+    <string name="catalog_error_timeout">Yhteys Archive.org:iin aikakatkaistiin. Tarkista internet-yhteytesi.</string>
+    <string name="catalog_error_no_internet">Ei internet-yhteyttä. Tarkista yhteytesi.</string>
+    <string name="catalog_error_unknown">Tuntematon virhe</string>
+    <string name="catalog_storage_warning_title">Ei tarpeeksi tilaa</string>
+    <string name="catalog_storage_too_large">Ladattava paketti on liian suuri.</string>
+    <string name="catalog_storage_download_size">Latauskoko:</string>
+    <string name="catalog_storage_available">Vapaa tila:</string>
+    <string name="catalog_storage_needed">Tarvittava lisätila:</string>
+    <string name="catalog_storage_free_space">Vapaa tila laitteessasi tai valitse vähemmän tiedostoja ladattavaksi.</string>
+    <string name="catalog_storage_understood">Selvä</string>
+    <string name="catalog_path_warning_title">Polkua ei määritetty!</string>
+    <string name="catalog_path_select_folder">Pelien lataamiseksi sinun on valittava kansio niiden tallentamiseksi.</string>
+    <string name="catalog_path_select_button">Valitse kansio</string>
+    <string name="delete_games_title">Poistetaanko %1$d peliä?</string>
+    <string name="delete_games_warning">Tämä poistaa valitut pelit kirjastostasi ja poistaa niiden ROM-tiedostot levyltä.</string>
+    <string name="delete_games_list_header">Poistettavat pelit:</string>
+    <string name="delete_games_and_more">...ja %1$d muuta</string>
+    <string name="delete_games_confirm">Poista</string>
+    <string name="delete_mode_title">Valitse poistettavat pelit</string>
+    <string name="delete_selected">Poista valitut (%1$d)</string>
+    <string name="settings_category_metadata">Metatiedot / Skraperi</string>
+    <string name="settings_title_thegamesdb_apikey">TheGamesDB API-avain</string>
+    <string name="settings_description_thegamesdb_apikey">Hanki ilmainen avain osoitteesta thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Syötä TheGamesDB API-avaimesi pelien kansikuvien, kuvausten ja genrejen hakemiseksi.</string>
+    <string name="settings_thegamesdb_configured">Määritetty</string>
+    <string name="settings_thegamesdb_not_configured">Ei määritetty</string>
+    <string name="metadata_dialog_apikey_title">Syötä API-avain</string>
+    <string name="rom_migration_title">Siirrä ROM-tiedostot</string>
+    <string name="rom_migration_message">%1$d ROM-tiedostoa siirretään kohteeseen:
+
+%2$s
+
+Haluatko jatkaa?</string>
+    <string name="rom_migration_progress_title">Siirretään ROM-tiedostoja…</string>
+    <string name="rom_migration_progress">Siirretään %1$s (%2$d / %3$d)</string>
+    <string name="rom_migration_success">%1$d ROM-tiedostoa siirretty onnistuneesti</string>
+    <string name="rom_migration_partial">Siirretty %1$d / %2$d ROM-tiedostoa. Kaikkia tiedostoja ei voitu siirtää.</string>
+    <string name="rom_migration_failed">ROM-tiedostojen siirto epäonnistui: %1$s</string>
+    <string name="rom_migration_cancel">Peruuta</string>
+    <string name="rom_migration_confirm">Siirrä</string>
+    <string name="rom_migration_smb_not_supported">Automaattinen ROM-tiedostojen siirto ei ole käytettävissä verkkokirjastoille (SMB)</string>
+    <string name="manual_header">Käyttöopas</string>
+    <string name="manual_section_first_steps">🚀 Ensimmäiset askeleet</string>
+    <string name="manual_content_first_steps">1. Valitse kansio ROM-tiedostojesi tallentamiseen kohdasta Asetukset → Hakemisto.
+
+2. Kopioi ROM-tiedostosi tähän kansioon.
+
+3. Sovellus etsii ja näyttää pelisi automaattisesti aloitusnäytössä.</string>
+    <string name="manual_section_archive">🌐 Tutki luetteloita</string>
+    <string name="manual_content_archive">Luettelot-osio antaa sinun tutkia ROM-kokoelmia useista julkisista lähteistä:
+
+• Archive.org: Suuret kokoelmat klassisia ROM-tiedostoja.
+• itch.io: Ilmaisia kotitekoisia pelejä (vaatii ilmaisen API-avaimen).
+
+• Selaa järjestelmän mukaan tai etsi tiettyjä pelejä.
+• Napauta peliä ladataksesi sen ROM-kansioosi.
+• Ladatut pelit ilmestyvät automaattisesti kirjastoosi.</string>
+    <string name="manual_section_controls">🎮 Määritä ohjaimet</string>
+    <string name="manual_content_controls">Yhdistä Bluetooth- tai USB-ohjain ja siirry kohtaan Asetukset → Ohjaimen asetukset.
+
+• Valitse ohjaimesi luettelosta.
+• Määritä painikkeet mieltymystesi mukaan.
+• Ota värinä käyttöön, jos ohjaimesi tukee sitä.</string>
+    <string name="manual_section_bios">💾 Vaaditut BIOS-tiedostot</string>
+    <string name="manual_content_bios">Jotkin järjestelmät (PlayStation, Game Boy Advance jne.) vaativat toimiakseen BIOS-tiedostoja.
+
+• Siirry kohtaan Asetukset → BIOS-tiedot nähdäksesi tarvitsemasi tiedostot.
+• Sijoita BIOS-tiedostot samaan kansioon kuin ROM-tiedostosi.
+• Tiedostonimen on vastattava täsmälleen vaadittua.</string>
+    <string name="manual_section_saves">💾 Tallennetut pelit</string>
+    <string name="manual_content_saves">Automaattinen tallennus on käytössä oletusarvoisesti.
+
+• Kun poistut pelistä, edistymisesi tallennetaan automaattisesti.
+• Kun avaat pelin uudelleen, jatkat siitä, mihin jäit.
+• Voit myös käyttää pelin omaa tallennusjärjestelmää (pelin sisäinen valikko).</string>
+    <string name="manual_section_sync">☁️ Pilvitallennus</string>
+    <string name="manual_content_sync">Voit synkronoida tallennetut pelisi Google Driveen.
+
+• Siirry kohtaan Asetukset → Tallenna synkronointi.
+• Kirjaudu sisään Google-tililläsi.
+• Tallennuksesi synkronoidaan automaattisesti laitteiden välillä.</string>
+    <string name="manual_section_gameplay">🕹️ Pelin aikana</string>
+    <string name="manual_content_gameplay">Päästäksesi valikkoon pelin aikana:
+
+• Paina valikkopainiketta (☰) tai pyyhkäise näytön reunasta.
+• Sieltä voit: tallentaa/ladata tiloja, vaihtaa tallennuspaikkaa, käyttää pikavalintoja tai poistua pelistä.</string>
+    <string name="about_version">Versio %1$s</string>
+    <string name="about_section_origin">Ohjelmiston alkuperä</string>
+    <string name="about_content_origin_1">Tämä sovellus on avoimen lähdekoodin Lemuroid-projektin fork, jaettuna GPL-3.0-lisenssillä.</string>
+    <string name="about_content_origin_2">Julkisesti saatavilla olevan sisällön Archive.orgista ja ilmaiset kotitekoiset pelit itch.io:sta tutkimisominaisuudet on lisätty.</string>
+    <string name="about_section_source">Lähdekoodi</string>
+    <string name="about_content_source">Tämän muokatun version lähdekoodi on saatavilla GPL-3.0-lisenssillä.</string>
+    <string name="about_button_github">Katso lähdekoodi (GitHub)</string>
+    <string name="about_section_licenses">Kolmannen osapuolen lisenssit</string>
+    <string name="about_section_legal">Oikeudellinen huomautus</string>
+    <string name="about_content_legal">Tämä sovellus ei sisällä ROM-tiedostoja eikä lataa sisältöä automaattisesti. Tutkimisominaisuus näyttää vain Archive.orgissa julkisesti saatavilla olevat kokoelmat ja ilmaiset kotitekoiset pelit itch.io:sta. Käyttäjä on vastuussa oikeuksiensa varmistamisesta ulkoisten tiedostojen käyttöön tai käyttämiseen.</string>
+    <string name="about_section_report">Ilmoita virheestä</string>
+    <string name="about_content_report">Löysitkö virheen tai onko sinulla ehdotus? Auta meitä parantamaan lähettämällä anonyymi raportti.</string>
+    <string name="about_button_report">🐛 Ilmoita virheestä</string>
+    <string name="about_no_browser">Verkkoselainta ei ole asennettu linkin avaamiseksi</string>
+    <string name="about_no_browser_report">Verkkoselainta ei ole asennettu virheraporttisivun avaamiseksi</string>
+    <string name="bug_report_error">Virheraporttilomakkeen lataaminen epäonnistui. Tarkista internet-yhteytesi.</string>
+    <string name="bug_report_select_images">Valitse kuvat</string>
+    <string name="about_open_with">Avaa sovelluksella</string>
+    <string name="catalog_disclaimer">⚠️ Tämä luettelo yhdistää julkisiin arkistoihin (Archive.org ja itch.io), jotka eivät ole yhteydessä EmulAItoriin. Itch.io:sta listataan vain ilmaista kotitekoista sisältöä. Tämän materiaalin käyttö, lataaminen ja hallussapito on käyttäjän yksin vastuulla. 🧠 Vaikka EmulAItor suodattaa tiedostoja älykkäästi, voi esiintyä rikkinäisiä linkkejä, yhteensopimattomia tiedostoja tai sisältöä, joka ei ole ROM-tiedostoja.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io Kotitekoinen</string>
+    <string name="itch_api_key_title">itch.io API-avain</string>
+    <string name="itch_api_key_subtitle">Vaaditaan pelien lataamiseen itch.io:sta</string>
+    <string name="itch_api_key_instructions">Ladataksesi ilmaisia kotitekoisia pelejä itch.io:sta tarvitset API-avaimen:
+
+1. Mene osoitteeseen &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; ja luo ilmainen tili
+2. Mene osoitteeseen &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Asetukset → API-avaimet&lt;/a&gt;
+3. Luo uusi avain ja kopioi se
+4. Liitä se alle</string>
+    <string name="itch_api_key_hint">Liitä itch.io API-avaimesi tähän</string>
+    <string name="itch_api_key_validating">Vahvistetaan API-avainta…</string>
+    <string name="itch_api_key_valid">API-avain kelvollinen ✓</string>
+    <string name="itch_api_key_invalid">Virheellinen API-avain. Tarkista ja yritä uudelleen.</string>
+    <string name="itch_api_key_saved">API-avain tallennettu onnistuneesti</string>
+    <string name="itch_api_key_required_title">API-avain vaaditaan</string>
+    <string name="itch_api_key_required_message">Tarvitset itch.io API-avaimen pelien lataamiseen. Haluatko määrittää sen nyt?</string>
+    <string name="itch_no_results">Ei kotitekoisia pelejä tälle järjestelmälle itch.io:ssa</string>
+    <string name="itch_unsupported_system">itch.io:lla ei ole kotitekoista sisältöä tälle järjestelmälle. Kokeile NES, SNES, GBA, GBC tai Genesis.</string>
+    <string name="itch_game_free">Ilmainen</string>
+    <string name="itch_game_by">tekijä %1$s</string>
+    <string name="pack_fully_downloaded">Täysin ladattu</string>
+    <string name="itch_uploads_title">Saatavilla olevat tiedostot</string>
+    <string name="itch_no_rom_uploads">Ei ladattavia ROM-tiedostoja tälle pelille</string>
+    <string name="itch_download_error">Lataus epäonnistui itch.io:sta: %1$s</string>
+    <string name="itch_settings_edit_key">Muokkaa avainta</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Avaa täysi käyttöoikeus</string>
+    <string name="paywall_description">Ilmainen kokeilujakso on päättynyt. Jatkaaksesi valitse yksi seuraavista vaihtoehdoista.</string>
+<string name="paywall_buy_button">Osta Pro-versio</string>
+    <string name="paywall_restore_title">Ostitko sen jo aiemmin?</string>
+    <string name="paywall_restore_description">Jos ostit EmulAItorin ennen kuin siitä tuli ilmainen, syötä Google Play -tilausnumerosi (GPA...) palauttaaksesi käyttöoikeutesi.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Palauta ostos</string>
+    <string name="paywall_where_is_receipt">Mistä löydän kuitin?</string>
+    <string name="paywall_receipt_instructions_title">Kuinka löydät tilausnumerosi</string>
+    <string name="paywall_receipt_instructions_1">Vaihtoehto A: Etsi hakusanalla \"Google Play Receipt EmulAItor\" Gmailistasi.</string>
+    <string name="paywall_receipt_instructions_2">Vaihtoehto B: Mene osoitteeseen pay.google.com, tarkista toimintasi ja etsi EmulAItor.</string>
+    <string name="paywall_receipt_open_web">Avaa pay.google.com</string>
+    <string name="paywall_support_fallback">Jos et löydä sitä, ota yhteyttä tukeen.</string>
+    <string name="paywall_success">Ostos palautettu onnistuneesti. Kiitos!</string>
+    <string name="paywall_error_invalid_gpa">Virheellinen GPA-koodi tai se on jo käytetty.</string>
+    <string name="paywall_error_limit_exceeded">Tätä koodia käytetään jo sallitussa enimmäismäärässä laitteita. Ole hyvä ja osta uusi lisenssi yllä olevista vaihtoehdoista.</string>
+<string name="paywall_error_network">Verkkovirhe. Tarkista yhteytesi.</string>
+    <string name="paywall_error_unknown">Tapahtui tuntematon virhe.</string>
+    <string name="paywall_restoring">Palautetaan...</string>
+    <string name="paywall_buy_subscription">Kuukausitilaus</string>
+    <string name="paywall_buy_lifetime">Pysyvä avaus</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free sisältää yhteensä 3 tunnin kokeilujakson. Kun kokeilujakso päättyy, sinun on avattava sovelluksen lukitus jollakin saatavilla olevista tilauksista, jotta voit jatkaa sen täysipainoista käyttöä ilman rajoituksia.</string>
+</resources>

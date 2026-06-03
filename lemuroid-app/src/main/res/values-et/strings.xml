@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generated/maintained by .agent/scripts/i18n_tool. -->
+    <string name="title_home">Avaleht</string>
+    <string name="title_search">Otsi</string>
+    <string name="title_systems">Süsteemid</string>
+    <string name="title_games">Mängud</string>
+    <string name="title_settings">Seaded</string>
+    <string name="title_catalog">Kataloog</string>
+    <string name="settings_title_about">Teave</string>
+    <string name="settings_title_manual">Kasutusjuhend</string>
+    <string name="settings_description_manual">Kuidas kasutada EmulAItor-it</string>
+    <string name="recent">Hiljutised</string>
+    <string name="favorites">Lemmikud</string>
+    <string name="discover">Avasta</string>
+    <string name="rescan">Skanni uuesti</string>
+    <string name="stop">Peata</string>
+    <string name="none">Puudub</string>
+    <string name="directory">Kataloog</string>
+    <string name="display_filter">Kuva filter</string>
+    <string name="roms">ROM-id</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Tühista</string>
+    <string name="settings">Seaded</string>
+    <string name="save_sync">Salvestiste sünkroonimine</string>
+    <string name="show_all">Kuva kõik</string>
+    <string name="back">Tagasi</string>
+    <string name="close">Sulge</string>
+    <string name="license_not_verified_title">Litsentsi ei kinnitatud</string>
+    <string name="game_page_search_suggestion">Otsi mänge</string>
+    <string name="settings_category_general">Üldine</string>
+    <string name="settings_category_input">Sisend</string>
+    <string name="settings_category_misc">Mitmesugust</string>
+    <string name="settings_title_enable_autosave">Automaatne salvestamine</string>
+    <string name="settings_description_enable_autosave">Salvesta olek mängumenüüst väljumisel</string>
+    <string name="settings_title_enable_touch_feedback">Vibreeri puudutamisel</string>
+    <string name="settings_title_tilt_sensitivity">Kallutusanduri tundlikkus</string>
+    <string name="settings_title_hd_quality">HD-režiimi kvaliteet</string>
+    <string name="settings_title_maximum_cache_usage">Vahemälu mahupiirang</string>
+    <string name="settings_title_hd_mode">HD-režiim</string>
+    <string name="settings_description_hd_mode">Rakenda järeltöötluse skaleerimisfilter</string>
+    <string name="settings_description_hd_quality">Reguleeri HD-režiimi kvaliteeti</string>
+    <string name="home_hd_mode_enabled">HD-režiim sees</string>
+    <string name="home_hd_mode_disabled">HD-režiim väljas</string>
+    <string name="settings_title_immersive_mode">Kaasahaarav režiim</string>
+    <string name="settings_description_immersive_mode">Värvib tausta dünaamiliselt vastavalt mängu visuaalidele</string>
+    <string name="settings_title_gamepad_settings">Välised seadmed</string>
+    <string name="settings_description_gamepad_settings">Konfigureeri väliseid mängupulte ja klaviatuure</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Lubatud seadmed</string>
+    <string name="settings_gamepad_category_general">Üldine</string>
+    <string name="settings_gamepad_title_reset_bindings">Lähtesta nupud</string>
+    <string name="settings_gamepad_title_game_menu">Menüü</string>
+    <string name="settings_title_open_cores_selection">Muuda tuumasid</string>
+    <string name="settings_description_open_cores_selection">Vali, milline tuum on süsteemiga seotud</string>
+    <string name="settings_core_selection_ds_info">DeSmuME on aegunud ja eemaldatakse ühes järgmistest värskendustest. Salvesta oma edusammud mängusiseselt ja lülitu seejärel melonDS-ile. Mängusisesed salvestused laaditakse melonDS-is automaatselt, kuid salvestusolekuid (save states) saab kasutada ainult selle tuumaga, millega need loodi.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Kuva tuvastatud ja toetatud BIOS-failid</string>
+    <string name="settings_bios_help">BIOS-failide lisamiseks paiguta toetatud failid oma ROMs kausta ja skanni uuesti. Failinimi peab täpselt vastama.</string>
+    <string name="settings_bios_category_detected">Tuvastatud</string>
+    <string name="settings_bios_category_not_detected">Toetatud</string>
+    <string name="settings_title_reset_settings">Tehaseseadete taastamine</string>
+    <string name="settings_description_reset_settings">Lähtesta EmulAItor tehaseseadetele</string>
+    <string name="settings_title_advanced_settings">Täpsemad seaded</string>
+    <string name="settings_description_advanced_settings">Kuva täpsemad seaded</string>
+    <string name="settings_title_low_latency_audio">Eelista madala latentsusega heli</string>
+    <string name="settings_description_low_latency_audio">Vähenda heli latentsust toetatud seadmetel. Võib suurendada helihäireid.</string>
+    <string name="settings_title_direct_game_load">Otsene mängu laadimine</string>
+    <string name="settings_description_direct_game_load">(Eksperimentaalne) Vähenda laadimisaega ja vahemälu kasutamist toetatud konsoolidel.</string>
+    <string name="settings_title_enable_rumble">Vibratsioon</string>
+    <string name="settings_description_enable_rumble">Luba vibratsioon toetatud mängudes ja kontrollerites</string>
+    <string name="settings_title_enable_device_rumble">Seadme vibratsioon</string>
+    <string name="settings_description_enable_device_rumble">Kui kontrollerit pole ühendatud, vibreeri selle asemel seadet</string>
+    <string name="reset_settings_warning_message_title">Oled kindel?</string>
+    <string name="reset_settings_warning_message_description">See lähtestab EmulAItori tehaseseadetele. Salvestused ja olekud säilitatakse.</string>
+    <string name="settings_title_save_sync">Pilvesalvestused</string>
+    <string name="settings_description_save_sync">Varunda ja sünkrooni oma salvestused pilves</string>
+    <string name="settings_save_sync_refresh">Käsitsi sünkroonimine</string>
+    <string name="settings_save_sync_refresh_description">Teosta sünkroonimine käsitsi kohe.
+%1$s</string>
+    <string name="settings_save_sync_enable_auto">Automaatne sünkroonimine</string>
+    <string name="settings_save_sync_enable_auto_description">Teosta sünkroonimine automaatselt enne ja pärast mänguseanssi, kui oled ühendatud Wi-Fi-ga</string>
+    <string name="settings_save_sync_configure">Konfigureeri %1$s</string>
+    <string name="settings_save_sync_include_saves">Sünkrooni mängusisesed salvestused</string>
+    <string name="settings_save_sync_include_saves_description">%1$s seadmes</string>
+    <string name="settings_save_sync_include_states">Sünkrooni salvestusseisud</string>
+    <string name="settings_save_sync_include_states_description">Mugavam, kuid mahukam ja vähem töökindel. Vali, milliste tuumade/süsteemide puhul soovid sünkroonimist kasutada</string>
+    <string name="game_context_menu_add_to_favorites">Lisa lemmikutesse</string>
+    <string name="game_context_menu_remove_from_favorites">Eemalda lemmikutest</string>
+    <string name="game_context_menu_resume">Jätka</string>
+    <string name="game_context_menu_restart">Taaskäivita</string>
+    <string name="game_context_menu_create_shortcut">Lisa avakuvale</string>
+    <string name="game_context_menu_delete">Kustuta</string>
+    <string name="game_delete_confirmation">Kas oled kindel, et soovid kustutada \"%1$s\"? See eemaldab mängu sinu kogust ja kustutab faili.</string>
+    <string name="game_deleted">Mäng kustutatud</string>
+    <string name="home_notification_title">Luba märguanded</string>
+    <string name="home_notification_message">EmulAItor kasutab märguandeid, et anda teada, kui mäng või toiming töötab taustal.</string>
+    <string name="home_notification_action">Luba</string>
+    <string name="home_microphone_title">Luba mikrofon</string>
+    <string name="home_microphone_message">Nintendo DS mängud saavad mikrofoni kasutada teatud funktsioonide jaoks.</string>
+    <string name="home_microphone_action">Luba</string>
+    <string name="home_empty_title">Vali ROM-ide kataloog</string>
+    <string name="home_empty_message">EmulAItor peab skannima kataloogi, mis sisaldab ROM-faile.\nSee võib võtta paar minutit.</string>
+    <string name="home_empty_action">Vali kataloog</string>
+    <string name="home_storage_inaccessible_title">ROM-ide kataloog pole ligipääsetav</string>
+    <string name="home_storage_inaccessible_message">Android ei luba EmulAItoril valitud ROM-ide kataloogile ligi pääseda. Kaust võib olla teisaldatud, kustutatud või süsteemiõigustega blokeeritud. Vali kaust uuesti või vali mõni muu.</string>
+    <string name="home_storage_inaccessible_action">Vali teine kataloog</string>
+    <string name="update_available_banner">EmulAItorist on saadaval uuem versioon. Puuduta värskendamiseks.</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME on kasutuselt eemaldumas</string>
+    <string name="home_notification_desmume_deprecated_message">Salvesta mängusiseselt ja lülitu seejärel melonDS-ile, et oma edusamme säilitada. Salvestusseisud ei kandu üle ja jäävad kasutatavaks ainult DeSmuME-s.</string>
+    <string name="home_notification_desmume_deprecated_action">Lülitu melonDS-ile</string>
+    <string name="game_menu_save">Salvesta</string>
+    <string name="game_menu_load">Laadi</string>
+    <string name="game_menu_restart">Taaskäivita</string>
+    <string name="game_menu_quit">Välju</string>
+    <string name="game_menu_settings">Seaded</string>
+    <string name="game_menu_state">Seis %1$s</string>
+    <string name="game_menu_change_disk_button">Vaheta ketast</string>
+    <string name="game_menu_edit_touch_controls">Muuda juhtnuppe</string>
+    <string name="game_menu_mute_audio">Vaigista</string>
+    <string name="game_menu_fast_forward">Kiirendus</string>
+    <string name="game_menu_change_disk_disk">Ketas %1$s</string>
+    <string name="game_menu_tilt_sensor">Kallutusandur</string>
+    <string name="game_loading_preparing_game">Valmistan mängu ette…</string>
+    <string name="game_toast_settings_button_using_gamepad">Mängupult tuvastatud. Ava seadete menüü nupuga %1$s.</string>
+    <string name="game_toast_load_state_failed">Selle oleku laadimine ebaõnnestus</string>
+    <string name="game_toast_quick_save_loaded">Kiirlaadimine tehtud</string>
+    <string name="game_toast_quick_save_saved">Kiirsalvestamine tehtud</string>
+    <string name="empty_view_default">Üksusi pole</string>
+    <string name="core_settings_title">Tuuma seaded</string>
+    <string name="core_settings_category_preferences">Eelistused</string>
+    <string name="core_settings_category_controllers">Kontrollerid</string>
+    <string name="core_settings_controller">Kontroller %1$s</string>
+    <string name="game_menu_title">Mängu menüü</string>
+    <string name="notification_channel_name">Kõik teavitused</string>
+    <string name="library_index_notification_title">ROM-ide skannimine pooleli</string>
+    <string name="library_index_notification_message">See võib võtta paar minutit</string>
+    <string name="library_metadata_enrichment_in_progress">ROM-i üksikasjade värskendamine taustal. Võid mängimist jätkata.</string>
+    <string name="save_sync_notification_title">Pilvesalvestuse sünkroonimine pooleli</string>
+    <string name="save_sync_notification_message">See võib võtta paar minutit</string>
+    <string name="game_running_notification_title">%1$s töötab</string>
+    <string name="game_running_notification_title_alternative">Mäng töötab</string>
+    <string name="game_running_notification_message">Veendu, et salvestad oma edusamme</string>
+    <string name="game_loader_error_gl_incompatible">See tuum nõuab OpenGL ES versiooni, mida sinu seade ei toeta.</string>
+    <string name="game_loader_error_load_game">Mängu laadimisel tekkis tõrge. Veendu, et ROM on Lemuroidi poolt toetatud ja skanni oma mängud uuesti.</string>
+    <string name="game_loader_error_save">Sinu salvestusfailiga tekkis tõrge. Kui probleem püsib, proovi automaatne salvestamine keelata.</string>
+    <string name="game_loader_error_unsupported_architecture">See tuum ei ole sinu seadmes toetatud.</string>
+    <string name="game_loader_error_generic">Midagi läks valesti. Proovi järgmist:
+
+
+• Keela automaatne salvestamine ja käivita mäng uuesti
+
+• Ava Androidi seaded ja tühjenda rakenduse vahemälu
+
+• Ava Lemuroidi seaded ja teosta tehaseseadete taastamine
+
+
+Kui miski eelnev ei aita, võib juhtuda, et see mäng/tuum ei ole selle seadmega ühilduv.</string>
+    <string name="game_loader_error_missing_bios">Tundub, et sul puudub vajalik BIOS. Paiguta need oma ROM-ide kataloogi ja skanni uuesti. Nõutavad failid: %1$s</string>
+    <string name="game_shortcut_error">Mängu laadimisel tekkis tõrge. Palun veendu, et see mäng on endiselt sinu teegis olemas.</string>
+    <string name="dialog_saf_not_found">See seade ei toeta StorageAccessFramework failivalijat. Palun kopeeri lahtipakitud ROM-failid käsitsi kausta %1$s ja vajuta nuppu Skanni uuesti.</string>
+    <string name="system_grid_details">%1$s mängu</string>
+    <string name="tv_folder_picker_title">Vali ROM-ide kataloog</string>
+    <string name="tv_folder_picker_action_choose">Vali</string>
+    <string name="tv_folder_picker_action_cancel">Tühista</string>
+    <string name="tv_folder_storage_primary">Peamine salvestusruum</string>
+    <string name="tv_folder_storage_secondary">Teisene salvestusruum %1$s</string>
+    <string name="tv_folder_storage_title">Vali salvestusruum</string>
+    <string name="tv_folder_error_access">See kaust pole ligipääsetav. Palun vali alamkataloog või muu asukoht.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">ROM-ide kataloog</string>
+    <string name="settings_description_choose_directory">Vali kaust, mis sisaldab sinu mänge</string>
+    <string name="tv_home_section_favorites">Lemmikud</string>
+    <string name="tv_home_section_recents">Hiljutised</string>
+    <string name="tv_home_section_systems">Süsteemid</string>
+    <string name="tv_home_section_settings">Seaded</string>
+    <string name="gamepad_binding_update_title">Seosta \"RetroPad %1$s\"</string>
+    <string name="gamepad_binding_update_description">Vajuta nuppu oma \"%1$s\"-l</string>
+    <string name="shortcut_binding_update_title">Seosta \"Otsetee %1$s\"</string>
+    <string name="shortcut_binding_update_description">Vajuta esmalt esimest ja seejärel teist nuppu, et siduda kombinatsioon oma \"%1$s\"-l</string>
+    <string name="tv_search_results">Mängud</string>
+    <string name="tv_game_message_missing_gamepad">Mängimiseks on vaja mängupulti. Palun ühenda see.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Puutejuhtimise muutmiseks ühenda pult lahti</string>
+    <string name="game_interactory_busy">Oota pooleliolevate toimingute lõpetamist</string>
+    <string name="pending_operations_blocked_title">Toimingud võivad olla kinni jäänud</string>
+    <string name="pending_operations_blocked_message_external">Varasemast versioonist pärit pooleliolev protsess võib blokeerida ROM-ide indekseerimist. Võid oodata või taastamiseks rakenduse andmed kustutada. Sinu ROM-faile ei kustutata, kuid pead ROM-ide kausta uuesti valima. Kui see kestab kauem kui 5 minutit, on soovitatav rakenduse andmed kustutada.</string>
+    <string name="pending_operations_blocked_message_internal">Varasemast versioonist pärit pooleliolev protsess võib blokeerida ROM-ide indekseerimist. Võid oodata või avada seaded, et vaadata üle oma salvestusruumi konfiguratsioon.</string>
+    <string name="pending_operations_clear_data">Kustuta rakenduse andmed</string>
+    <string name="pending_operations_keep_waiting">Oota edasi</string>
+    <string name="pending_operations_clear_data_confirm_title">Kustutada rakenduse andmed?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor lähtestab nüüd oma rakenduse andmed. Sinu ROM-faile ei kustutata, kuid pead ROM-ide kausta uuesti valima.</string>
+    <string name="pending_operations_clear_data_confirm_button">Kustuta andmed</string>
+    <string name="mobile_settings_help">Abi</string>
+    <string name="mobile_settings_support">Tugi</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Teave EmulAItor kohta&lt;/b&gt;&lt;br/&gt;
+        See rakendus on avatud lähtekoodiga projekti &lt;b&gt;Lemuroid&lt;/b&gt; haru, mida levitatakse &lt;b&gt;GPL-3.0&lt;/b&gt; litsentsi alusel.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Tähtis märkus&lt;/b&gt;&lt;br/&gt;
+        See rakendus ei sisalda mänge ega laadi automaatselt alla mingit sisu. Sirvimisfunktsioon näitab Archive.org-is avalikult kättesaadavat sisu ja tasuta kodukootud mänge itch.io-st. Kasutaja vastutab ise oma õiguste kontrollimise eest välistest allikatest pärit ROM-idele juurdepääsuks või nende kasutamiseks.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Kuidas seda rakendust kasutada?&lt;/b&gt;&lt;br/&gt;
+        Kopeeri oma ROM-failid seadmes olevasse kataloogi ja vali see rakenduses. Selles kataloogis võib olla alamkatalooge. Pärast skannimise lõpetamist peaksid oma mänge nägema.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Miks minu mänge ei tuvastata?&lt;/b&gt;&lt;br/&gt;
+        Kui su mängud on tihendatud, proovi need lahti pakkida. Kui see ei aita, paiguta ROM-id eraldi kataloogidesse, üks süsteemi kohta järgmiste nimedega: $SYSTEMS.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Litsentsid&lt;/b&gt;&lt;br/&gt;
+        Lemuroid: GPL-3.0 (Swordfish90)&lt;br/&gt;
+        LibretroDroid: GPL-3.0&lt;br/&gt;
+        Libretro tuumad: Erinevad litsentsid</string>
+    <string name="lemuroid_crash_disclamer">Tundub, et Libretro tuumaga tekkis ootamatu probleem. Kui see kordub, proovi järgmist:\n
+        \n• Keela automaatne salvestamine ja käivita mäng uuesti
+        \n• Mine Androidi seadetesse ja tühjenda rakenduse vahemälu
+        \n• Mine Lemuroidi seadetesse ja teosta tehaseseadete taastamine
+        \n\n Kui miski eelnev ei aita, võib juhtuda, et see mäng/tuum ei ole selle seadmega ühilduv.</string>
+    <string name="error_message_incompatible_state">See salvestusolek ei ühildu praeguse tuuma versiooniga. Palun laadi uusim mängusisene salvestus või kasuta varasemat Lemuroidi versiooni.</string>
+    <string name="shader_filter_names_auto">Automaatne</string>
+    <string name="shader_filter_names_sharp">Terav</string>
+    <string name="shader_filter_names_smooth">Sujuv</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Puudub</string>
+    <string name="haptic_feedback_mode_names_press">Vajutus</string>
+    <string name="haptic_feedback_mode_names_press_release">Vajutus ja vabastus</string>
+    <string name="tilt_configuration_disabled">Keelatud</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Vasak analoog</string>
+    <string name="tilt_configuration_analog_right">Parem analoog</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+    <string name="disclaimer_title">Tähtis märkus</string>
+    <string name="disclaimer_software_origin_title">Tarkvara päritolu</string>
+    <string name="disclaimer_software_origin_text">See rakendus on avatud lähtekoodiga projekti Lemuroid haru, mida levitatakse GPL-3.0 litsentsi alusel.</string>
+    <string name="disclaimer_no_content_title">Sisu puudub</string>
+    <string name="disclaimer_no_content_text">See rakendus ei sisalda mänge ega laadi automaatselt alla ühtegi faili.</string>
+    <string name="disclaimer_archive_title">Avaliku kataloogi allikad</string>
+    <string name="disclaimer_archive_text">Sirvimisfunktsioon kuvab Archive.org-is avalikult kättesaadavat sisu ja tasuta homebrew-mänge saidilt itch.io. EmulAItor ei ole seotud kummagi teenusega. Kasutaja vastutab ise oma õiguste kontrollimise eest mis tahes ROM-i kasutamiseks või sellele juurdepääsuks.</string>
+    <string name="disclaimer_user_responsibility_title">Kasutaja vastutus</string>
+    <string name="disclaimer_user_responsibility_text">Teie vastutate selle eest, et teil on seaduslik õigus kasutada selle rakendusega mis tahes ROM-faile.</string>
+    <string name="disclaimer_accept">Mõistan ja nõustun</string>
+    <string name="disclaimer_terms">Jätkates nõustute selle rakenduse kasutustingimustega.</string>
+    <string name="game_context_menu_edit">Muuda</string>
+    <string name="game_edit_title">Muuda mängu</string>
+    <string name="game_edit_field_title">Pealkiri</string>
+    <string name="game_edit_field_system">Süsteem</string>
+    <string name="game_edit_field_developer">Arendaja</string>
+    <string name="game_edit_file_label">Fail:</string>
+    <string name="game_edit_save">Salvesta</string>
+    <string name="game_edit_search_online">Otsi metaandmeid veebist</string>
+    <string name="game_edit_searching">Otsimine...</string>
+    <string name="game_edit_no_results">Tulemusi ei leitud</string>
+    <string name="game_edit_apply_metadata">Rakenda metaandmed</string>
+    <string name="game_edit_unlock_metadata">Ava metaandmed (luba automaatne värskendamine)</string>
+    <string name="catalog_search_placeholder">Otsi ROM-e...</string>
+    <string name="catalog_filter_all_sources">Kõik allikad</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Kohalik</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Tulemusi ei leitud</string>
+    <string name="catalog_downloads">Allalaadimised</string>
+    <string name="catalog_clear_completed">Tühjenda kõik</string>
+    <string name="catalog_downloading">Allalaadimine...</string>
+    <string name="catalog_downloaded">Alla laaditud</string>
+    <string name="sources_manage_title">Halda allikaid</string>
+    <string name="sources_add_title">Lisa allikas</string>
+    <string name="sources_add_local">Lisa kohalik kaust</string>
+    <string name="sources_add_smb">Lisa SMB/NAS</string>
+    <string name="sources_smb_name">Nimi</string>
+    <string name="sources_smb_server">Server</string>
+    <string name="sources_smb_path">Tee</string>
+    <string name="sources_smb_username">Kasutajanimi (valikuline)</string>
+    <string name="sources_smb_password">Parool (valikuline)</string>
+    <string name="sources_smb_domain">Domeen (valikuline)</string>
+    <string name="sources_edit">Muuda</string>
+    <string name="sources_delete">Kustuta</string>
+    <string name="sources_save">Salvesta</string>
+    <string name="sources_cancel">Loobu</string>
+    <string name="sources_add">Lisa</string>
+    <string name="sources_smb_display_name">Kuvatav nimi</string>
+    <string name="sources_smb_display_name_placeholder">Minu NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Täielik tee koos jagatud kausta nimega</string>
+    <string name="sources_smb_use_auth">Kasuta autentimist</string>
+    <string name="sources_smb_username_label">Kasutajanimi</string>
+    <string name="sources_smb_password_label">Parool</string>
+    <string name="sources_smb_edit_title">Muuda SMB-allikat</string>
+    <string name="sources_smb_connection_title">SMB-ühendus</string>
+    <string name="sources_smb_test_connection">Testi ühendust</string>
+    <string name="sources_smb_testing">Testin ühendust...</string>
+    <string name="sources_smb_connection_success">Ühendus õnnestus!</string>
+    <string name="sources_smb_connection_failed">Ühendus ebaõnnestus: %1$s</string>
+    <string name="sources_no_custom">Kohandatud allikaid pole konfigureeritud</string>
+    <string name="sources_local_permission_error">Seda kausta ei saa lisada, kuna Android ei andnud juurdepääsu. Vali mõni teine kaust.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Kohalikud failid</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Otsi ROM-e...</string>
+    <string name="catalog_packs_count">%1$d pakki %2$d-st</string>
+    <string name="catalog_games_count">%1$d mängu</string>
+    <string name="catalog_load_more">Laadi veel...</string>
+    <string name="catalog_load_more_packs">Laadi veel pakke</string>
+    <string name="catalog_no_packs_found">ROM-pakke ei leitud</string>
+    <string name="catalog_no_files_found">Allalaaditavaid faile ei leitud</string>
+    <string name="catalog_files_count">Failid (%1$d):</string>
+    <string name="catalog_download_all">Kõik</string>
+    <string name="catalog_downloads_title">Allalaadimised (%1$d)</string>
+    <string name="catalog_downloads_clear">Tühjenda</string>
+    <string name="catalog_no_downloads">Allalaadimisi pole</string>
+    <string name="catalog_error_retry">Proovi uuesti</string>
+    <string name="catalog_error_occurred">Ilmnes viga</string>
+    <string name="catalog_invalid_download_title">Vigane kataloogifail</string>
+    <string name="catalog_invalid_download_message">Allalaaditud fail ei paista olevat selle süsteemi jaoks kehtiv ROM. Pakkuja võib olla avaldanud vale või toetamata faili. Kui te ei leia seda ROM-i kataloogist, saate selle käsitsi alla laadida ja oma ROM-i kausta lisada.</string>
+    <string name="catalog_region_all">🌍 Kõik</string>
+    <string name="catalog_region_usa">🇺🇸 USA</string>
+    <string name="catalog_region_europe">🇪🇺 Euroopa</string>
+    <string name="catalog_region_japan">🇯🇵 Jaapan</string>
+    <string name="catalog_region_spain">🇪🇸 Hispaania</string>
+    <string name="catalog_region_france">🇫🇷 Prantsusmaa</string>
+    <string name="catalog_region_germany">🇩🇪 Saksamaa</string>
+    <string name="catalog_region_italy">🇮🇹 Itaalia</string>
+    <string name="catalog_region_brazil">🇧🇷 Brasiilia</string>
+    <string name="catalog_region_korea">🇰🇷 Korea</string>
+    <string name="catalog_region_china">🇨🇳 Hiina</string>
+    <string name="catalog_region_australia">🇦🇺 Austraalia</string>
+    <string name="catalog_sort_downloads">Enim allalaaditud</string>
+    <string name="catalog_sort_name">Nimi A-Z</string>
+    <string name="catalog_sort_size">Suurim suurus</string>
+    <string name="catalog_error_503">Archive.org on maas või hoolduses. Proovige hiljem uuesti.</string>
+    <string name="catalog_error_502">Archive.org-il on probleeme. Proovige hiljem uuesti.</string>
+    <string name="catalog_error_500">Archive.org-is ilmnes sisemine viga. Proovige hiljem uuesti.</string>
+    <string name="catalog_error_ssl">SSL-sertifikaadi viga. Kontrollige, kas teie seadme kuupäev ja kellaaeg on õiged.</string>
+    <string name="catalog_error_timeout">Ühendus Archive.org-iga aegus. Kontrollige oma internetiühendust.</string>
+    <string name="catalog_error_no_internet">Internetiühendus puudub. Kontrollige oma ühendust.</string>
+    <string name="catalog_error_unknown">Tundmatu viga</string>
+    <string name="catalog_storage_warning_title">Pole piisavalt ruumi</string>
+    <string name="catalog_storage_too_large">Allalaaditav pakk on liiga suur.</string>
+    <string name="catalog_storage_download_size">Allalaadimise suurus:</string>
+    <string name="catalog_storage_available">Vaba ruumi:</string>
+    <string name="catalog_storage_needed">Vajalik lisaruum:</string>
+    <string name="catalog_storage_free_space">Vabastage oma seadmes ruumi või valige allalaadimiseks vähem faile.</string>
+    <string name="catalog_storage_understood">Sain aru</string>
+    <string name="catalog_path_warning_title">Asukoht pole konfigureeritud!</string>
+    <string name="catalog_path_select_folder">Mängude allalaadimiseks peate valima kausta nende salvestamiseks.</string>
+    <string name="catalog_path_select_button">Vali kaust</string>
+    <string name="delete_games_title">Kustutada %1$d mängu?</string>
+    <string name="delete_games_warning">See eemaldab valitud mängud teie teegist ja kustutab nende ROM-failid kettalt.</string>
+    <string name="delete_games_list_header">Kustutatavad mängud:</string>
+    <string name="delete_games_and_more">...ja veel %1$d</string>
+    <string name="delete_games_confirm">Kustuta</string>
+    <string name="delete_mode_title">Valige kustutatavad mängud</string>
+    <string name="delete_selected">Kustuta valitud (%1$d)</string>
+    <string name="settings_category_metadata">Metaandmed / Skanner</string>
+    <string name="settings_title_thegamesdb_apikey">TheGamesDB API võti</string>
+    <string name="settings_description_thegamesdb_apikey">Hankige tasuta võti aadressilt thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Sisestage oma TheGamesDB API võti mängude kaante, kirjelduste ja žanrite hankimiseks.</string>
+    <string name="settings_thegamesdb_configured">Konfigureeritud</string>
+    <string name="settings_thegamesdb_not_configured">Pole konfigureeritud</string>
+    <string name="metadata_dialog_apikey_title">Sisesta API võti</string>
+    <string name="rom_migration_title">Liiguta ROM-e</string>
+    <string name="rom_migration_message">%1$d ROM-i liigutatakse:
+
+%2$s
+
+Kas soovite jätkata?</string>
+    <string name="rom_migration_progress_title">ROM-e liigutatakse…</string>
+    <string name="rom_migration_progress">Liigutatakse %1$s (%2$d / %3$d)</string>
+    <string name="rom_migration_success">%1$d ROM-i edukalt liigutatud</string>
+    <string name="rom_migration_partial">%1$d / %2$d ROM-i liigutatud. Mõnda faili ei õnnestunud liigutada.</string>
+    <string name="rom_migration_failed">ROM-e ei õnnestunud liigutada: %1$s</string>
+    <string name="rom_migration_cancel">Tühista</string>
+    <string name="rom_migration_confirm">Liiguta</string>
+    <string name="rom_migration_smb_not_supported">Automaatne ROM-ide migreerimine pole võrgukirjastuste (SMB) jaoks saadaval</string>
+    <string name="manual_header">Kasutusjuhend</string>
+    <string name="manual_section_first_steps">🚀 Esimesed sammud</string>
+    <string name="manual_content_first_steps">1. Valige ROM-ide salvestamiseks kaust jaotises Seaded → Kataloog.
+
+2. Kopeerige oma ROM-failid sellesse kausta.
+
+3. Rakendus skannib automaatselt ja kuvab teie mängud avalehel.</string>
+    <string name="manual_section_archive">🌐 Uurige katalooge</string>
+    <string name="manual_content_archive">Kataloogi jaotis võimaldab teil uurida ROM-kogu mitmest avalikust allikast:
+
+• Archive.org: Suured klassikaliste ROM-ide kogud.
+• itch.io: Tasuta kodumängud (vajab tasuta API võtit).
+
+• Sirvige süsteemi järgi või otsige konkreetseid mänge.
+• Puudutage mängu, et see oma ROM-ide kausta alla laadida.
+• Allalaaditud mängud ilmuvad automaatselt teie teeki.</string>
+    <string name="manual_section_controls">🎮 Konfigureerige kontrollerid</string>
+    <string name="manual_content_controls">Ühendage Bluetoothi või USB-kontroller ja minge jaotisse Seaded → Kontrolleri sätted.
+
+• Valige loendist oma kontroller.
+• Kaardistage nupud vastavalt oma eelistustele.
+• Lubage vibratsioon, kui teie kontroller seda toetab.</string>
+    <string name="manual_section_bios">💾 Nõutav BIOS</string>
+    <string name="manual_content_bios">Mõned süsteemid (PlayStation, Game Boy Advance jne) vajavad töötamiseks BIOS-faile.
+
+• Minge jaotisse Seaded → BIOS-i teave, et näha, milliseid faile vajate.
+• Paigutage BIOS-failid samasse kausta nagu teie ROM-id.
+• Failinimi peab täpselt vastama nõutule.</string>
+    <string name="manual_section_saves">💾 Salvestatud mängud</string>
+    <string name="manual_content_saves">Automaatne salvestamine on vaikimisi lubatud.
+
+• Mängust väljumisel salvestatakse teie edenemine automaatselt.
+• Mängu uuesti avamisel jätkate sealt, kus pooleli jäite.
+• Võite kasutada ka mängu enda salvestussüsteemi (mängusisese menüü).</string>
+    <string name="manual_section_sync">☁️ Pilvesünkroonimine</string>
+    <string name="manual_content_sync">Saate oma salvestatud mänge Google Drive\'iga sünkroonida.
+
+• Minge jaotisse Seaded → Salvestussünkroonimine.
+• Logige sisse oma Google\'i kontoga.
+• Teie salvestused sünkroonitakse automaatselt erinevate seadmete vahel.</string>
+    <string name="manual_section_gameplay">🕹️ Mängimise ajal</string>
+    <string name="manual_content_gameplay">Menüüsse pääsemiseks mängimise ajal:
+
+• Vajutage menüünuppu (☰) või pühkige ekraani servast.
+• Sealt saate: salvestada/laadida olekuid, muuta salvestamise pesa, pääseda juurde kiirvalikutele või mängust väljuda.</string>
+    <string name="about_version">Versioon %1$s</string>
+    <string name="about_section_origin">Tarkvara päritolu</string>
+    <string name="about_content_origin_1">See rakendus on avatud lähtekoodiga Lemuroid projekti kahvel, levitatakse GPL-3.0 litsentsi alusel.</string>
+    <string name="about_content_origin_2">Lisatud on avalikult saadaval oleva sisu uurimisfunktsioonid Archive.org-ist ja tasuta kodumängud itch.io-st.</string>
+    <string name="about_section_source">Allikakood</string>
+    <string name="about_content_source">Selle muudetud versiooni allikakood on saadaval GPL-3.0 litsentsi alusel.</string>
+    <string name="about_button_github">Vaata allikakoodi (GitHub)</string>
+    <string name="about_section_licenses">Litsentsid</string>
+    <string name="about_section_legal">Juriidiline teatis</string>
+    <string name="about_content_legal">See rakendus ei sisalda ROM-faile ega laadi sisu automaatselt alla. Uurimisfunktsioon kuvab ainult Archive.org-is avalikult saadaolevaid kogusid ja tasuta kodus valmistatud mänge saidilt itch.io. Kasutaja vastutab oma õiguste kontrollimise eest mis tahes välistele failidele juurdepääsuks või nende kasutamiseks.</string>
+    <string name="about_section_report">Teata veast</string>
+    <string name="about_content_report">Leidsite vea või teil on soovitus? Aidake meil paremaks muutuda, saates anonüümse teate.</string>
+    <string name="about_button_report">🐛 Teata veast</string>
+    <string name="about_no_browser">Veebibrauserit lingi avamiseks pole installitud</string>
+    <string name="about_no_browser_report">Veebibrauserit veateate lehe avamiseks pole installitud</string>
+    <string name="bug_report_error">Veateate vormi ei õnnestunud laadida. Kontrollige oma Interneti-ühendust.</string>
+    <string name="bug_report_select_images">Valige pildid</string>
+    <string name="about_open_with">Ava rakendusega</string>
+    <string name="catalog_disclaimer">⚠️ See kataloog ühendub avalike hoidlatega (Archive.org ja itch.io), mis ei ole EmulAItoriga seotud. Saidilt itch.io loetletakse ainult tasuta kodus valmistatud sisu. Selle materjali kasutamine, allalaadimine ja omamine on kasutaja ainuvastutus. 🧠 Kuigi EmulAItor filtreerib faile nutikalt, võivad esineda katkised lingid, ühildumatud failid või sisu, mis ei ole ROM-id.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io kodus valmistatud</string>
+    <string name="itch_api_key_title">itch.io API võti</string>
+    <string name="itch_api_key_subtitle">Nõutav mängude allalaadimiseks saidilt itch.io</string>
+    <string name="itch_api_key_instructions">Tasuta kodus valmistatud mängude allalaadimiseks saidilt itch.io vajate API võtit:
+
+1. Minge saidile &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; ja looge tasuta konto
+2. Minge jaotisse &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Settings → API Keys&lt;/a&gt;
+3. Looge uus võti ja kopeerige see
+4. Kleepige see allpool</string>
+    <string name="itch_api_key_hint">Kleepige oma itch.io API võti siia</string>
+    <string name="itch_api_key_validating">API võtme valideerimine…</string>
+    <string name="itch_api_key_valid">API võti kehtib ✓</string>
+    <string name="itch_api_key_invalid">Vigane API võti. Palun kontrollige ja proovige uuesti.</string>
+    <string name="itch_api_key_saved">API võti salvestati edukalt</string>
+    <string name="itch_api_key_required_title">API võti on nõutav</string>
+    <string name="itch_api_key_required_message">Mängude allalaadimiseks vajate itch.io API võtit. Kas soovite selle kohe konfigureerida?</string>
+    <string name="itch_no_results">Selle süsteemi jaoks pole saidilt itch.io kodus valmistatud mänge leitud</string>
+    <string name="itch_unsupported_system">Saidil itch.io pole selle süsteemi jaoks kodus valmistatud sisu. Proovige NES, SNES, GBA, GBC või Genesis.</string>
+    <string name="itch_game_free">Tasuta</string>
+    <string name="itch_game_by">autor %1$s</string>
+    <string name="pack_fully_downloaded">Täielikult alla laaditud</string>
+    <string name="itch_uploads_title">Saadaolevad failid</string>
+    <string name="itch_no_rom_uploads">Selle mängu jaoks pole allalaaditavaid ROM-faile leitud</string>
+    <string name="itch_download_error">Allalaadimine saidilt itch.io ebaõnnestus: %1$s</string>
+    <string name="itch_settings_edit_key">Muuda võtit</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Ava täielik juurdepääs</string>
+    <string name="paywall_description">Tasuta prooviperiood on lõppenud. Jätkamiseks valige üks järgmistest võimalustest.</string>
+<string name="paywall_buy_button">Osta Pro-versioon</string>
+    <string name="paywall_restore_title">Oled selle juba varem ostnud?</string>
+    <string name="paywall_restore_description">Kui ostsid EmulAItori enne, kui see tasuta muutus, sisesta oma Google Play tellimuse ID (GPA...), et taastada juurdepääs.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Taasta ost</string>
+    <string name="paywall_where_is_receipt">Kust ma oma kviitungi leian?</string>
+    <string name="paywall_receipt_instructions_title">Kuidas leida oma tellimuse ID</string>
+    <string name="paywall_receipt_instructions_1">Valik A: Otsi oma Gmailist märksõna \"Google Play Receipt EmulAItor\".</string>
+    <string name="paywall_receipt_instructions_2">Valik B: Mine lehele pay.google.com, kontrolli oma tegevuste ajalugu ja otsi EmulAItorit.</string>
+    <string name="paywall_receipt_open_web">Ava pay.google.com</string>
+    <string name="paywall_support_fallback">Kui sa seda ei leia, võta ühendust klienditoega.</string>
+    <string name="paywall_success">Ost on edukalt taastatud. Aitäh!</string>
+    <string name="paywall_error_invalid_gpa">Kehtetu GPA-kood või juba kasutatud.</string>
+    <string name="paywall_error_limit_exceeded">Seda koodi kasutatakse juba maksimaalsel lubatud arvul seadmetel. Palun ostke uus litsents ülaltoodud valikute hulgast.</string>
+<string name="paywall_error_network">Võrguviga. Palun kontrolli oma ühendust.</string>
+    <string name="paywall_error_unknown">Ilmnes tundmatu viga.</string>
+    <string name="paywall_restoring">Taastamine...</string>
+    <string name="paywall_buy_subscription">Igakuine tellimus</string>
+    <string name="paywall_buy_lifetime">Püsiv avamine</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free sisaldab kokku 3-tunnist prooviperioodi. Kui see prooviperiood lõpeb, peate rakenduse täielikuks ja piiranguteta kasutamiseks avama ühe saadaolevatest plaanidest.</string>
+</resources>

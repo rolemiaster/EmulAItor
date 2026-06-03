@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generated/maintained by .agent/scripts/i18n_tool. -->
+    <string name="title_home">Pradžia</string>
+    <string name="title_search">Paieška</string>
+    <string name="title_systems">Sistemos</string>
+    <string name="title_games">Žaidimai</string>
+    <string name="title_settings">Nustatymai</string>
+    <string name="title_catalog">Katalogas</string>
+    <string name="settings_title_about">Apie</string>
+    <string name="settings_title_manual">Naudotojo vadovas</string>
+    <string name="settings_description_manual">Kaip naudotis EmulAItor</string>
+    <string name="recent">Naujausi</string>
+    <string name="favorites">Mėgstamiausi</string>
+    <string name="discover">Atrasti</string>
+    <string name="rescan">Iš naujo nuskaityti</string>
+    <string name="stop">Stabdyti</string>
+    <string name="none">Nėra</string>
+    <string name="directory">Katalogas</string>
+    <string name="display_filter">Rodymo filtras</string>
+    <string name="roms">ROMs</string>
+    <string name="ok">Gerai</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="settings">Nustatymai</string>
+    <string name="save_sync">Sinchronizuoti išsaugojimus</string>
+    <string name="show_all">Rodyti visus</string>
+    <string name="back">Atgal</string>
+    <string name="close">Uždaryti</string>
+    <string name="license_not_verified_title">Licencija nepatvirtinta</string>
+    <string name="game_page_search_suggestion">Ieškoti žaidimų</string>
+    <string name="settings_category_general">Bendri</string>
+    <string name="settings_category_input">Įvestis</string>
+    <string name="settings_category_misc">Įvairūs</string>
+    <string name="settings_title_enable_autosave">Automatinis išsaugojimas</string>
+    <string name="settings_description_enable_autosave">Išsaugoti būseną išeinant per žaidimo meniu</string>
+    <string name="settings_title_enable_touch_feedback">Vibruoti palietus</string>
+    <string name="settings_title_tilt_sensitivity">Pakreipimo jutiklio jautrumas</string>
+    <string name="settings_title_hd_quality">HD režimo kokybė</string>
+    <string name="settings_title_maximum_cache_usage">Talpyklos dydžio limitas</string>
+    <string name="settings_title_hd_mode">HD režimas</string>
+    <string name="settings_description_hd_mode">Taikyti papildomą vaizdo didinimo filtrą</string>
+    <string name="settings_description_hd_quality">Reguliuoti HD režimo kokybę</string>
+    <string name="home_hd_mode_enabled">HD režimas įjungtas</string>
+    <string name="home_hd_mode_disabled">HD režimas išjungtas</string>
+    <string name="settings_title_immersive_mode">Įtraukiantis režimas</string>
+    <string name="settings_description_immersive_mode">Dinamiškai nuspalvina foną pagal žaidimo vaizdus</string>
+    <string name="settings_title_gamepad_settings">Išoriniai įrenginiai</string>
+    <string name="settings_description_gamepad_settings">Konfigūruokite išorinius žaidimų pultus ir klaviatūras</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Įjungti įrenginiai</string>
+    <string name="settings_gamepad_category_general">Bendrieji</string>
+    <string name="settings_gamepad_title_reset_bindings">Atstatyti susiejimus</string>
+    <string name="settings_gamepad_title_game_menu">Meniu</string>
+    <string name="settings_title_open_cores_selection">Keisti branduolius</string>
+    <string name="settings_description_open_cores_selection">Pasirinkite, kuris branduolys susietas su sistema</string>
+    <string name="settings_core_selection_ds_info">DeSmuME yra pasenęs ir bus pašalintas viename iš kitų atnaujinimų. Išsaugokite savo progresą žaidime, tada perjunkite į melonDS. Žaidimo viduje sukurti išsaugojimai bus automatiškai įkelti į melonDS, tačiau išsaugojimo būsenas (save states) galima naudoti tik su tuo branduoliu, kuriame jos buvo sukurtos.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Rodyti aptiktus ir palaikomus BIOS failus</string>
+    <string name="settings_bios_help">Norėdami pridėti BIOS failus, įkelkite palaikomus failus į savo ROMs aplanką ir nuskaitykite iš naujo. Failo pavadinimas turi tiksliai sutapti.</string>
+    <string name="settings_bios_category_detected">Aptikta</string>
+    <string name="settings_bios_category_not_detected">Palaikoma</string>
+    <string name="settings_title_reset_settings">Gamyklinių parametrų atstatymas</string>
+    <string name="settings_description_reset_settings">Atstatyti EmulAItor į gamyklinius nustatymus</string>
+    <string name="settings_title_advanced_settings">Išplėstiniai nustatymai</string>
+    <string name="settings_description_advanced_settings">Rodyti išplėstinius nustatymus</string>
+    <string name="settings_title_low_latency_audio">Teikti pirmenybę mažo vėlavimo garsui</string>
+    <string name="settings_description_low_latency_audio">Sumažinti garso vėlavimą palaikomuose įrenginiuose. Gali padidinti garso trikdžius.</string>
+    <string name="settings_title_direct_game_load">Tiesioginis žaidimo įkėlimas</string>
+    <string name="settings_description_direct_game_load">(Eksperimentinis) Sumažinti įkėlimo laiką ir talpyklos naudojimą palaikomose konsolėse.</string>
+    <string name="settings_title_enable_rumble">Vibracija (Rumble)</string>
+    <string name="settings_description_enable_rumble">Įjungti vibraciją palaikomuose žaidimuose ir valdikliuose</string>
+    <string name="settings_title_enable_device_rumble">Įrenginio vibracija</string>
+    <string name="settings_description_enable_device_rumble">Kai neprijungtas joks valdiklis, vibruoti įrenginiu</string>
+    <string name="reset_settings_warning_message_title">Ar esate tikri?</string>
+    <string name="reset_settings_warning_message_description">Tai atstatys EmulAItor į gamyklinius nustatymus. Išsaugojimai ir būsenos bus išsaugoti.</string>
+    <string name="settings_title_save_sync">Debesies išsaugojimai</string>
+    <string name="settings_description_save_sync">Kurkite atsargines kopijas ir sinchronizuokite savo išsaugojimus debesyje</string>
+    <string name="settings_save_sync_refresh">Rankinis sinchronizavimas</string>
+    <string name="settings_save_sync_refresh_description">Atlikti sinchronizavimą dabar.
+%1$s</string>
+    <string name="settings_save_sync_enable_auto">Automatinis sinchronizavimas</string>
+    <string name="settings_save_sync_enable_auto_description">Automatiškai atlikti sinchronizavimą prieš ir po žaidimo sesijos, kai esate prisijungę prie „Wi-Fi“</string>
+    <string name="settings_save_sync_configure">Konfigūruoti %1$s</string>
+    <string name="settings_save_sync_include_saves">Sinchronizuoti žaidimo viduje sukurtus išsaugojimus</string>
+    <string name="settings_save_sync_include_saves_description">%1$s įrenginyje</string>
+    <string name="settings_save_sync_include_states">Sinchronizuoti būsenas</string>
+    <string name="settings_save_sync_include_states_description">Patogiau, bet užima daugiau vietos ir yra mažiau patikima. Pasirinkite, kuriuos branduolius / sistemas norite sinchronizuoti</string>
+    <string name="game_context_menu_add_to_favorites">Pridėti prie mėgstamiausių</string>
+    <string name="game_context_menu_remove_from_favorites">Pašalinti iš mėgstamiausių</string>
+    <string name="game_context_menu_resume">Tęsti</string>
+    <string name="game_context_menu_restart">Paleisti iš naujo</string>
+    <string name="game_context_menu_create_shortcut">Prisegti prie paleidimo priemonės</string>
+    <string name="game_context_menu_delete">Ištrinti</string>
+    <string name="game_delete_confirmation">Ar tikrai norite ištrinti „%1$s“? Tai pašalins žaidimą iš jūsų bibliotekos ir ištrins failą.</string>
+    <string name="game_deleted">Žaidimas ištrintas</string>
+    <string name="home_notification_title">Įjungti pranešimus</string>
+    <string name="home_notification_message">EmulAItor naudoja pranešimus, kad informuotų jus, kai žaidimas ar operacija veikia fone.</string>
+    <string name="home_notification_action">Įjungti</string>
+    <string name="home_microphone_title">Įjungti mikrofoną</string>
+    <string name="home_microphone_message">Nintendo DS žaidimai gali naudoti mikrofoną tam tikroms funkcijoms.</string>
+    <string name="home_microphone_action">Įjungti</string>
+    <string name="home_empty_title">Pasirinkite ROM katalogą</string>
+    <string name="home_empty_message">EmulAItor turi nuskaityti katalogą, kuriame yra ROM failai.
+Tai gali užtrukti kelias minutes.</string>
+    <string name="home_empty_action">Pasirinkti katalogą</string>
+    <string name="home_storage_inaccessible_title">ROM katalogas nepasiekiamas</string>
+    <string name="home_storage_inaccessible_message">„Android“ neleidžia EmulAItor pasiekti pasirinkto ROM katalogo. Aplankas galėjo būti perkeltas, ištrintas arba užblokuotas sistemos leidimų. Pasirinkite aplanką dar kartą arba pasirinkite kitą.</string>
+    <string name="home_storage_inaccessible_action">Pasirinkti kitą katalogą</string>
+    <string name="update_available_banner">Yra naujesnė EmulAItor versija. Bakstelėkite, kad atnaujintumėte.</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME yra nutraukiamas</string>
+    <string name="home_notification_desmume_deprecated_message">Išsaugokite žaidimą, tada perjunkite į melonDS, kad išsaugotumėte savo pažangą. Išsaugotos būsenos nebus perkeltos ir liks naudojamos tik DeSmuME.</string>
+    <string name="home_notification_desmume_deprecated_action">Perjungti į melonDS</string>
+    <string name="game_menu_save">Išsaugoti</string>
+    <string name="game_menu_load">Įkelti</string>
+    <string name="game_menu_restart">Paleisti iš naujo</string>
+    <string name="game_menu_quit">Išeiti</string>
+    <string name="game_menu_settings">Nustatymai</string>
+    <string name="game_menu_state">Būsena %1$s</string>
+    <string name="game_menu_change_disk_button">Keisti diską</string>
+    <string name="game_menu_edit_touch_controls">Redaguoti valdiklius</string>
+    <string name="game_menu_mute_audio">Nutildyti</string>
+    <string name="game_menu_fast_forward">Paskubinti</string>
+    <string name="game_menu_change_disk_disk">Diskas %1$s</string>
+    <string name="game_menu_tilt_sensor">Pakreipimo jutiklis</string>
+    <string name="game_loading_preparing_game">Ruošiamas žaidimas…</string>
+    <string name="game_toast_settings_button_using_gamepad">Gamepadas aptiktas. Atidarykite nustatymų meniu su %1$s.</string>
+    <string name="game_toast_load_state_failed">Nepavyko įkelti šios būsenos</string>
+    <string name="game_toast_quick_save_loaded">Greitasis įkėlimas atliktas</string>
+    <string name="game_toast_quick_save_saved">Greitasis išsaugojimas atliktas</string>
+    <string name="empty_view_default">Nėra elementų</string>
+    <string name="core_settings_title">Branduolio nustatymai</string>
+    <string name="core_settings_category_preferences">Nuostatos</string>
+    <string name="core_settings_category_controllers">Valdikliai</string>
+    <string name="core_settings_controller">%1$s valdiklis</string>
+    <string name="game_menu_title">Žaidimo meniu</string>
+    <string name="notification_channel_name">Visi pranešimai</string>
+    <string name="library_index_notification_title">Vyksta ROM nuskaitymas</string>
+    <string name="library_index_notification_message">Tai gali užtrukti kelias minutes</string>
+    <string name="library_metadata_enrichment_in_progress">Fone atnaujinama ROM informacija. Galite tęsti žaidimą.</string>
+    <string name="save_sync_notification_title">Vyksta debesies sinchronizavimas</string>
+    <string name="save_sync_notification_message">Tai gali užtrukti kelias minutes</string>
+    <string name="game_running_notification_title">Veikia %1$s</string>
+    <string name="game_running_notification_title_alternative">Žaidimas veikia</string>
+    <string name="game_running_notification_message">Nepamirškite išsaugoti savo pažangos</string>
+    <string name="game_loader_error_gl_incompatible">Šiam branduoliui reikalinga OpenGL ES versija, kurios jūsų įrenginys nepalaiko.</string>
+    <string name="game_loader_error_load_game">Įkeliant žaidimą įvyko klaida. Įsitikinkite, kad Lemuroid palaiko šį ROM, ir iš naujo nuskaitykite žaidimus.</string>
+    <string name="game_loader_error_save">Įvyko klaida su jūsų išsaugojimo failu. Jei problema išlieka, pabandykite išjungti automatinį išsaugojimą.</string>
+    <string name="game_loader_error_unsupported_architecture">Šis branduolys nepalaikomas jūsų įrenginyje.</string>
+    <string name="game_loader_error_generic">Įvyko klaida. Išbandykite šiuos veiksmus:
+
+• Išjunkite automatinį išsaugojimą ir paleiskite žaidimą iš naujo
+• Eikite į Android nustatymus ir išvalykite programos talpyklą
+• Eikite į Lemuroid nustatymus ir atlikite gamyklinių parametrų atstatymą
+
+Jei niekas nepadeda, gali būti, kad šis žaidimas ar branduolys nėra palaikomas šiame įrenginyje.</string>
+    <string name="game_loader_error_missing_bios">Panašu, kad trūksta reikiamo BIOS. Įkelkite jį į savo ROMs aplanką ir nuskaitykite iš naujo. Reikalingi failai: %1$s</string>
+    <string name="game_shortcut_error">Įkeliant žaidimą įvyko klaida. Įsitikinkite, kad šis žaidimas vis dar yra jūsų bibliotekoje.</string>
+    <string name="dialog_saf_not_found">Šis įrenginys nepalaiko StorageAccessFramework failų parinkiklio. Prašome rankiniu būdu nukopijuoti neišskleistus ROM failus į %1$s ir paspausti „Nuskaityti iš naujo“.</string>
+    <string name="system_grid_details">%1$s žaidimai</string>
+    <string name="tv_folder_picker_title">Pasirinkite ROMs aplanką</string>
+    <string name="tv_folder_picker_action_choose">Pasirinkti</string>
+    <string name="tv_folder_picker_action_cancel">Atšaukti</string>
+    <string name="tv_folder_storage_primary">Pagrindinė atmintis</string>
+    <string name="tv_folder_storage_secondary">Papildoma atmintis %1$s</string>
+    <string name="tv_folder_storage_title">Pasirinkite atmintį</string>
+    <string name="tv_folder_error_access">Šis aplankas nepasiekiamas. Pasirinkite poaplankį arba kitą vietą.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">ROMs aplankas</string>
+    <string name="settings_description_choose_directory">Pasirinkite aplanką, kuriame yra jūsų žaidimai</string>
+    <string name="tv_home_section_favorites">Mėgstamiausi</string>
+    <string name="tv_home_section_recents">Paskutiniai</string>
+    <string name="tv_home_section_systems">Sistemos</string>
+    <string name="tv_home_section_settings">Nustatymai</string>
+    <string name="gamepad_binding_update_title">Susieti „RetroPad %1$s“</string>
+    <string name="gamepad_binding_update_description">Paspauskite mygtuką savo „%1$s“</string>
+    <string name="shortcut_binding_update_title">Susieti „Nuorodą %1$s“</string>
+    <string name="shortcut_binding_update_description">Paspauskite pirmąjį, tada antrąjį mygtuką, kad susietumėte kombinaciją savo „%1$s“</string>
+    <string name="tv_search_results">Žaidimai</string>
+    <string name="tv_game_message_missing_gamepad">Norint žaisti, reikalingi žaidimų pultai. Prašome prijungti vieną.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Atjunkite pultą, kad galėtumėte redaguoti jutiklinius valdiklius</string>
+    <string name="game_interactory_busy">Palaukite, kol bus baigtos vykdomos operacijos</string>
+    <string name="pending_operations_blocked_title">Operacijos gali būti įstrigusios</string>
+    <string name="pending_operations_blocked_message_external">Ankstesnės versijos laukiantis procesas gali blokuoti ROM indeksavimą. Galite palaukti arba išvalyti programos duomenis, kad atkurtumėte veikimą. Jūsų ROM failai nebus ištrinti, tačiau turėsite iš naujo pasirinkti ROM aplanką. Jei tai trunka ilgiau nei 5 minutes, rekomenduojama išvalyti programos duomenis.</string>
+    <string name="pending_operations_blocked_message_internal">Ankstesnės versijos laukiantis procesas gali blokuoti ROM indeksavimą. Galite palaukti arba atidaryti nustatymus, kad peržiūrėtumėte saugyklos konfigūraciją.</string>
+    <string name="pending_operations_clear_data">Išvalyti programos duomenis</string>
+    <string name="pending_operations_keep_waiting">Palaukti</string>
+    <string name="pending_operations_clear_data_confirm_title">Išvalyti programos duomenis?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor dabar iš naujo nustatys savo programos duomenis. Jūsų ROM failai nebus ištrinti, tačiau turėsite iš naujo pasirinkti ROM aplanką.</string>
+    <string name="pending_operations_clear_data_confirm_button">Išvalyti duomenis</string>
+    <string name="mobile_settings_help">Pagalba</string>
+    <string name="mobile_settings_support">Palaikymas</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Apie EmulAItor&lt;/b&gt;&lt;br/&gt;
+        Ši programa yra atvirojo kodo projekto &lt;b&gt;Lemuroid&lt;/b&gt; atšaka, platinama pagal &lt;b&gt;GPL-3.0&lt;/b&gt; licenciją.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Svarbus pranešimas&lt;/b&gt;&lt;br/&gt;
+        Šioje programoje nėra žaidimų ir ji automatiškai neatsisiunčia jokio turinio. Naršymo funkcija rodo viešai prieinamą turinį iš Archive.org ir nemokamus „homebrew“ žaidimus iš itch.io. Vartotojas yra atsakingas už savo teisių pasiekti ar naudoti bet kokį ROM iš išorinių šaltinių patikrinimą.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Kaip naudotis šia programa?&lt;/b&gt;&lt;br/&gt;
+        Nukopijuokite savo ROM failus į įrenginio katalogą ir pasirinkite jį programoje. Šis katalogas gali turėti poaplankius. Kai nuskaitymas bus baigtas, turėtumėte matyti savo žaidimus.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Kodėl mano žaidimai neaptinkami?&lt;/b&gt;&lt;br/&gt;
+        Jei jūsų žaidimai yra suglaudinti, pabandykite juos išskleisti. Jei tai nepadeda, sudėkite ROM failus į atskirus katalogus, po vieną kiekvienai sistemai su šiais pavadinimais: $SYSTEMS.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Licencijos&lt;/b&gt;&lt;br/&gt;
+        Lemuroid: GPL-3.0 (Swordfish90)&lt;br/&gt;
+        LibretroDroid: GPL-3.0&lt;br/&gt;
+        Libretro Cores: Įvairios licencijos</string>
+    <string name="lemuroid_crash_disclamer">Panašu, kad Libretro branduolys susidūrė su netikėta problema. Jei tai kartojasi, pabandykite atlikti šiuos veiksmus:\n
+        \n• Išjunkite automatinį išsaugojimą ir paleiskite žaidimą iš naujo
+        \n• Eikite į Android nustatymus ir išvalykite programos talpyklą
+        \n• Eikite į Lemuroid nustatymus ir atlikite gamyklinių parametrų atstatymą
+        \n\n Jei niekas iš aukščiau išvardytų veiksmų nepadeda, gali būti, kad šis žaidimas/branduolys nėra palaikomas šiame įrenginyje.</string>
+    <string name="error_message_incompatible_state">Ši išsaugojimo būsena nėra suderinama su dabartine branduolio versija. Prašome įkelti naujausią žaidimo išsaugojimą arba naudoti ankstesnę Lemuroid versiją.</string>
+    <string name="shader_filter_names_auto">Automatinis</string>
+    <string name="shader_filter_names_sharp">Aštrus</string>
+    <string name="shader_filter_names_smooth">Lygus</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Nėra</string>
+    <string name="haptic_feedback_mode_names_press">Paspaudimas</string>
+    <string name="haptic_feedback_mode_names_press_release">Paspaudimas ir atleidimas</string>
+    <string name="tilt_configuration_disabled">Išjungta</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Kairysis analoginis</string>
+    <string name="tilt_configuration_analog_right">Dešinysis analoginis</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+    <string name="disclaimer_title">Svarbus pranešimas</string>
+    <string name="disclaimer_software_origin_title">Programinės įrangos kilmė</string>
+    <string name="disclaimer_software_origin_text">Ši programa yra atvirojo kodo projekto „Lemuroid“ atšaka, platinama pagal GPL-3.0 licenciją.</string>
+    <string name="disclaimer_no_content_title">Turinio nėra</string>
+    <string name="disclaimer_no_content_text">Šioje programoje nėra žaidimų ir ji automatiškai neatsisiunčia jokių failų.</string>
+    <string name="disclaimer_archive_title">Viešųjų katalogų šaltiniai</string>
+    <string name="disclaimer_archive_text">Naršymo funkcija rodo viešai prieinamą turinį iš Archive.org ir nemokamus „homebrew“ žaidimus iš itch.io. EmulAItor nėra susijęs su nė viena iš šių paslaugų. Vartotojas yra atsakingas už savo teisių pasiekti ar naudoti bet kurį ROM patikrinimą.</string>
+    <string name="disclaimer_user_responsibility_title">Vartotojo atsakomybė</string>
+    <string name="disclaimer_user_responsibility_text">Jūs esate atsakingi už tai, kad turite teisinę teisę naudoti bet kokius ROM failus su šia programa.</string>
+    <string name="disclaimer_accept">Suprantu ir sutinku</string>
+    <string name="disclaimer_terms">Tęsdami sutinkate su šios programos naudojimo sąlygomis.</string>
+    <string name="game_context_menu_edit">Redaguoti</string>
+    <string name="game_edit_title">Redaguoti žaidimą</string>
+    <string name="game_edit_field_title">Pavadinimas</string>
+    <string name="game_edit_field_system">Sistema</string>
+    <string name="game_edit_field_developer">Kūrėjas</string>
+    <string name="game_edit_file_label">Failas:</string>
+    <string name="game_edit_save">Išsaugoti</string>
+    <string name="game_edit_search_online">Ieškoti metaduomenų internete</string>
+    <string name="game_edit_searching">Ieškoma…</string>
+    <string name="game_edit_no_results">Rezultatų nerasta</string>
+    <string name="game_edit_apply_metadata">Pritaikyti metaduomenis</string>
+    <string name="game_edit_unlock_metadata">Atrakinti metaduomenis (leisti automatinį atnaujinimą)</string>
+    <string name="catalog_search_placeholder">Ieškoti ROM...</string>
+    <string name="catalog_filter_all_sources">Visi šaltiniai</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Vietinis</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Rezultatų nerasta</string>
+    <string name="catalog_downloads">Atsisiuntimai</string>
+    <string name="catalog_clear_completed">Išvalyti viską</string>
+    <string name="catalog_downloading">Atsisiunčiama...</string>
+    <string name="catalog_downloaded">Atsisiųsta</string>
+    <string name="sources_manage_title">Tvarkyti šaltinius</string>
+    <string name="sources_add_title">Pridėti šaltinį</string>
+    <string name="sources_add_local">Pridėti vietinį aplanką</string>
+    <string name="sources_add_smb">Pridėti SMB/NAS</string>
+    <string name="sources_smb_name">Pavadinimas</string>
+    <string name="sources_smb_server">Serveris</string>
+    <string name="sources_smb_path">Kelias</string>
+    <string name="sources_smb_username">Vartotojo vardas (neprivaloma)</string>
+    <string name="sources_smb_password">Slaptažodis (neprivaloma)</string>
+    <string name="sources_smb_domain">Domenas (neprivaloma)</string>
+    <string name="sources_edit">Redaguoti</string>
+    <string name="sources_delete">Ištrinti</string>
+    <string name="sources_save">Išsaugoti</string>
+    <string name="sources_cancel">Atšaukti</string>
+    <string name="sources_add">Pridėti</string>
+    <string name="sources_smb_display_name">Rodomas pavadinimas</string>
+    <string name="sources_smb_display_name_placeholder">Mano NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Visas kelias, įskaitant bendrinamo aplanko pavadinimą</string>
+    <string name="sources_smb_use_auth">Naudoti autentifikavimą</string>
+    <string name="sources_smb_username_label">Naudotojo vardas</string>
+    <string name="sources_smb_password_label">Slaptažodis</string>
+    <string name="sources_smb_edit_title">Redaguoti SMB šaltinį</string>
+    <string name="sources_smb_connection_title">SMB ryšys</string>
+    <string name="sources_smb_test_connection">Tikrinti ryšį</string>
+    <string name="sources_smb_testing">Tikrinamas ryšys...</string>
+    <string name="sources_smb_connection_success">Ryšys sėkmingas!</string>
+    <string name="sources_smb_connection_failed">Ryšys nepavyko: %1$s</string>
+    <string name="sources_no_custom">Nėra sukonfigūruotų pasirinktinių šaltinių</string>
+    <string name="sources_local_permission_error">Šio aplanko pridėti nepavyko, nes „Android“ nesuteikė prieigos. Pasirinkite kitą aplanką.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Vietiniai failai</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Ieškoti ROMs...</string>
+    <string name="catalog_packs_count">%1$d iš %2$d paketų</string>
+    <string name="catalog_games_count">%1$d žaidimų</string>
+    <string name="catalog_load_more">Įkelti daugiau...</string>
+    <string name="catalog_load_more_packs">Įkelti daugiau paketų</string>
+    <string name="catalog_no_packs_found">ROM paketų nerasta</string>
+    <string name="catalog_no_files_found">Atsisiunčiamų failų nerasta</string>
+    <string name="catalog_files_count">Failai (%1$d):</string>
+    <string name="catalog_download_all">Visi</string>
+    <string name="catalog_downloads_title">Atsisiuntimai (%1$d)</string>
+    <string name="catalog_downloads_clear">Išvalyti</string>
+    <string name="catalog_no_downloads">Nėra atsisiuntimų</string>
+    <string name="catalog_error_retry">Bandyti dar kartą</string>
+    <string name="catalog_error_occurred">Įvyko klaida</string>
+    <string name="catalog_invalid_download_title">Neteisingas katalogo failas</string>
+    <string name="catalog_invalid_download_message">Atsisiųstas failas nėra tinkamas ROM šiai sistemai. Tiekėjas galėjo paskelbti neteisingą arba nepalaikomą failą. Jei nerandate šio ROM kataloge, galite jį atsisiųsti rankiniu būdu ir įkelti į savo ROM aplanką.</string>
+    <string name="catalog_region_all">🌍 Visi</string>
+    <string name="catalog_region_usa">🇺🇸 JAV</string>
+    <string name="catalog_region_europe">🇪🇺 Europa</string>
+    <string name="catalog_region_japan">🇯🇵 Japonija</string>
+    <string name="catalog_region_spain">🇪🇸 Ispanija</string>
+    <string name="catalog_region_france">🇫🇷 Prancūzija</string>
+    <string name="catalog_region_germany">🇩🇪 Vokietija</string>
+    <string name="catalog_region_italy">🇮🇹 Italija</string>
+    <string name="catalog_region_brazil">🇧🇷 Brazilija</string>
+    <string name="catalog_region_korea">🇰🇷 Korėja</string>
+    <string name="catalog_region_china">🇨🇳 Kinija</string>
+    <string name="catalog_region_australia">🇦🇺 Australija</string>
+    <string name="catalog_sort_downloads">Daugiausiai atsisiųsta</string>
+    <string name="catalog_sort_name">Pavadinimas A-Z</string>
+    <string name="catalog_sort_size">Didžiausias dydis</string>
+    <string name="catalog_error_503">Archive.org neveikia arba vykdomi techninės priežiūros darbai. Bandykite vėliau.</string>
+    <string name="catalog_error_502">Archive.org susidūrė su problemomis. Bandykite vėliau.</string>
+    <string name="catalog_error_500">Archive.org įvyko vidinė klaida. Bandykite vėliau.</string>
+    <string name="catalog_error_ssl">SSL sertifikato klaida. Patikrinkite, ar jūsų įrenginio data ir laikas nustatyti teisingai.</string>
+    <string name="catalog_error_timeout">Ryšys su Archive.org nutrūko dėl laiko limito. Patikrinkite interneto ryšį.</string>
+    <string name="catalog_error_no_internet">Nėra interneto ryšio. Patikrinkite savo ryšį.</string>
+    <string name="catalog_error_unknown">Nežinoma klaida</string>
+    <string name="catalog_storage_warning_title">Nepakanka vietos</string>
+    <string name="catalog_storage_too_large">Paketas, kurį norite atsisiųsti, yra per didelis.</string>
+    <string name="catalog_storage_download_size">Atsisiuntimo dydis:</string>
+    <string name="catalog_storage_available">Laisva vieta:</string>
+    <string name="catalog_storage_needed">Reikalinga papildoma vieta:</string>
+    <string name="catalog_storage_free_space">Atlaisvinkite vietos įrenginyje arba pasirinkite mažiau failų atsisiuntimui.</string>
+    <string name="catalog_storage_understood">Supratau</string>
+    <string name="catalog_path_warning_title">Kelias nenustatytas!</string>
+    <string name="catalog_path_select_folder">Norėdami atsisiųsti žaidimus, turite pasirinkti aplanką jiems saugoti.</string>
+    <string name="catalog_path_select_button">Pasirinkti aplanką</string>
+    <string name="delete_games_title">Ištrinti %1$d žaidimus?</string>
+    <string name="delete_games_warning">Tai pašalins pasirinktus žaidimus iš jūsų bibliotekos ir ištrins jų ROM failus iš disko.</string>
+    <string name="delete_games_list_header">Žaidimai, kuriuos norite ištrinti:</string>
+    <string name="delete_games_and_more">...ir dar %1$d</string>
+    <string name="delete_games_confirm">Ištrinti</string>
+    <string name="delete_mode_title">Pasirinkite žaidimus trinimui</string>
+    <string name="delete_selected">Ištrinti pasirinktus (%1$d)</string>
+    <string name="settings_category_metadata">Metaduomenys / Skreperis</string>
+    <string name="settings_title_thegamesdb_apikey">TheGamesDB API raktas</string>
+    <string name="settings_description_thegamesdb_apikey">Gaukite nemokamą raktą svetainėje thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Įveskite savo TheGamesDB API raktą, kad atsisiųstumėte žaidimų viršelius, aprašymus ir žanrus.</string>
+    <string name="settings_thegamesdb_configured">Sukonfigūruota</string>
+    <string name="settings_thegamesdb_not_configured">Nesukonfigūruota</string>
+    <string name="metadata_dialog_apikey_title">Įveskite API raktą</string>
+    <string name="rom_migration_title">Perkelti ROM</string>
+    <string name="rom_migration_message">%1$d ROM bus perkelti į:
+
+%2$s
+
+Ar norite tęsti?</string>
+    <string name="rom_migration_progress_title">Perkeliami ROM...</string>
+    <string name="rom_migration_progress">Perkeliamas %1$s (%2$d iš %3$d)</string>
+    <string name="rom_migration_success">%1$d ROM sėkmingai perkelti</string>
+    <string name="rom_migration_partial">Perkelta %1$d iš %2$d ROM. Kai kurių failų nepavyko perkelti.</string>
+    <string name="rom_migration_failed">Nepavyko perkelti ROM: %1$s</string>
+    <string name="rom_migration_cancel">Atšaukti</string>
+    <string name="rom_migration_confirm">Perkelti</string>
+    <string name="rom_migration_smb_not_supported">Automatinis ROM perkėlimas negalimas tinklo bibliotekoms (SMB)</string>
+    <string name="manual_header">Naudotojo vadovas</string>
+    <string name="manual_section_first_steps">🚀 Pirmieji žingsniai</string>
+    <string name="manual_content_first_steps">1. Nustatymuose → Katalogas pasirinkite aplanką, kuriame laikysite savo ROM.
+
+2. Nukopijuokite savo ROM failus į tą aplanką.
+
+3. Programėlė automatiškai nuskaitys ir parodys jūsų žaidimus pagrindiniame ekrane.</string>
+    <string name="manual_section_archive">🌐 Naršyti katalogus</string>
+    <string name="manual_content_archive">Katalogų skiltyje galite naršyti ROM kolekcijas iš kelių viešų šaltinių:
+
+• Archive.org: didelės klasikinių ROM kolekcijos.
+• itch.io: nemokami „homebrew“ žaidimai (reikalingas nemokamas API raktas).
+
+• Naršykite pagal sistemą arba ieškokite konkrečių žaidimų.
+• Bakstelėkite žaidimą, kad atsisiųstumėte jį į savo ROM aplanką.
+• Atsisiųsti žaidimai automatiškai atsiras jūsų bibliotekoje.</string>
+    <string name="manual_section_controls">🎮 Valdiklių konfigūravimas</string>
+    <string name="manual_content_controls">Prijunkite „Bluetooth“ arba USB valdiklį ir eikite į Nustatymai → Valdiklio nustatymai.
+
+• Pasirinkite savo valdiklį iš sąrašo.
+• Susiekite mygtukus pagal savo pageidavimus.
+• Įjunkite vibraciją, jei jūsų valdiklis ją palaiko.</string>
+    <string name="manual_section_bios">💾 Reikalingas BIOS</string>
+    <string name="manual_content_bios">Kai kurioms sistemoms (PlayStation, Game Boy Advance ir kt.) reikalingi BIOS failai.
+
+• Eikite į Nustatymai → BIOS informacija, kad pamatytumėte, kokių failų reikia.
+• Įdėkite BIOS failus į tą patį aplanką, kuriame yra jūsų ROM.
+• Failo pavadinimas turi tiksliai atitikti reikalaujamą.</string>
+    <string name="manual_section_saves">💾 Išsaugoti žaidimai</string>
+    <string name="manual_content_saves">Automatinis išsaugojimas įjungtas pagal numatytuosius nustatymus.
+
+• Išeinant iš žaidimo, jūsų progresas išsaugomas automatiškai.
+• Vėl atidarius žaidimą, tęsite nuo ten, kur baigėte.
+• Taip pat galite naudoti paties žaidimo išsaugojimo sistemą (žaidimo meniu).</string>
+    <string name="manual_section_sync">☁️ Sinchronizavimas su debesimi</string>
+    <string name="manual_content_sync">Galite sinchronizuoti savo išsaugotus žaidimus su „Google Drive“.
+
+• Eikite į Nustatymai → Išsaugojimų sinchronizavimas.
+• Prisijunkite prie savo „Google“ paskyros.
+• Jūsų išsaugojimai bus automatiškai sinchronizuojami visuose įrenginiuose.</string>
+    <string name="manual_section_gameplay">🕹️ Žaidimo metu</string>
+    <string name="manual_content_gameplay">Norėdami pasiekti meniu žaidimo metu:
+
+• Paspauskite meniu mygtuką (☰) arba braukite nuo ekrano krašto.
+• Ten galite: išsaugoti/įkelti būsenas, pakeisti išsaugojimo lizdą, pasiekti greitus nustatymus arba išeiti iš žaidimo.</string>
+    <string name="about_version">Versija %1$s</string>
+    <string name="about_section_origin">Programinės įrangos kilmė</string>
+    <string name="about_content_origin_1">Ši programa yra atvirojo kodo „Lemuroid“ projekto atšaka, platinama pagal GPL-3.0 licenciją.</string>
+    <string name="about_content_origin_2">Pridėtos viešai prieinamo turinio „Archive.org“ svetainėje ir nemokamų „homebrew“ žaidimų iš „itch.io“ tyrinėjimo funkcijos.</string>
+    <string name="about_section_source">Šaltinio kodas</string>
+    <string name="about_content_source">Šios modifikuotos versijos šaltinio kodą galima rasti pagal GPL-3.0 licenciją.</string>
+    <string name="about_button_github">Peržiūrėti šaltinio kodą (GitHub)</string>
+    <string name="about_section_licenses">Trečiųjų šalių licencijos</string>
+    <string name="about_section_legal">Teisinis pranešimas</string>
+    <string name="about_content_legal">Šioje programoje nėra ROM ir ji automatiškai neatsisiunčia turinio. Naršymo funkcija rodo tik viešai prieinamas kolekcijas Archive.org svetainėje ir nemokamus „homebrew“ žaidimus iš itch.io. Vartotojas yra atsakingas už savo teisių pasiekti ar naudoti bet kokius išorinius failus patikrinimą.</string>
+    <string name="about_section_report">Pranešti apie klaidą</string>
+    <string name="about_content_report">Radote klaidą ar turite pasiūlymų? Padėkite mums tobulėti išsiųsdami anoniminę ataskaitą.</string>
+    <string name="about_button_report">🐛 Pranešti apie klaidą</string>
+    <string name="about_no_browser">Nėra įdiegtos interneto naršyklės nuorodai atidaryti</string>
+    <string name="about_no_browser_report">Nėra įdiegtos interneto naršyklės klaidų ataskaitų puslapiui atidaryti</string>
+    <string name="bug_report_error">Nepavyko įkelti klaidų ataskaitos formos. Patikrinkite interneto ryšį.</string>
+    <string name="bug_report_select_images">Pasirinkite vaizdus</string>
+    <string name="about_open_with">Atidaryti su</string>
+    <string name="catalog_disclaimer">⚠️ Šis katalogas jungiasi prie viešų saugyklų (Archive.org ir itch.io), kurios nėra susijusios su EmulAItor. Iš itch.io pateikiamas tik nemokamas „homebrew“ turinys. Už šios medžiagos naudojimą, atsisiuntimą ir laikymą atsako tik vartotojas. 🧠 Nors EmulAItor išmaniai filtruoja failus, gali pasitaikyti neveikiančių nuorodų, nesuderinamų failų arba turinio, kuris nėra ROM.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io Homebrew</string>
+    <string name="itch_api_key_title">itch.io API raktas</string>
+    <string name="itch_api_key_subtitle">Būtinas norint atsisiųsti žaidimus iš itch.io</string>
+    <string name="itch_api_key_instructions">Norėdami atsisiųsti nemokamus „homebrew“ žaidimus iš itch.io, turite turėti API raktą:\n\n1. Eikite į &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; ir susikurkite nemokamą paskyrą\n2. Eikite į &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Settings → API Keys&lt;/a&gt;\n3. Sugeneruokite naują raktą ir nukopijuokite jį\n4. Įklijuokite jį žemiau</string>
+    <string name="itch_api_key_hint">Įklijuokite savo itch.io API raktą čia</string>
+    <string name="itch_api_key_validating">Tikrinamas API raktas…</string>
+    <string name="itch_api_key_valid">API raktas galioja ✓</string>
+    <string name="itch_api_key_invalid">Neteisingas API raktas. Patikrinkite ir bandykite dar kartą.</string>
+    <string name="itch_api_key_saved">API raktas sėkmingai išsaugotas</string>
+    <string name="itch_api_key_required_title">Reikalingas API raktas</string>
+    <string name="itch_api_key_required_message">Norėdami atsisiųsti žaidimus, turite turėti itch.io API raktą. Ar norite jį sukonfigūruoti dabar?</string>
+    <string name="itch_no_results">Šiai sistemai itch.io svetainėje „homebrew“ žaidimų nerasta</string>
+    <string name="itch_unsupported_system">itch.io neturi „homebrew“ turinio šiai sistemai. Išbandykite NES, SNES, GBA, GBC arba Genesis.</string>
+    <string name="itch_game_free">Nemokamas</string>
+    <string name="itch_game_by">autorius: %1$s</string>
+    <string name="pack_fully_downloaded">Visiškai atsisiųsta</string>
+    <string name="itch_uploads_title">Prieinami failai</string>
+    <string name="itch_no_rom_uploads">Šiam žaidimui nerasta atsisiunčiamų ROM failų</string>
+    <string name="itch_download_error">Nepavyko atsisiųsti iš itch.io: %1$s</string>
+    <string name="itch_settings_edit_key">Redaguoti raktą</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Atrakinti visą prieigą</string>
+    <string name="paywall_description">Nemokamas bandomasis laikotarpis baigėsi. Norėdami tęsti, pasirinkite vieną iš šių parinkčių.</string>
+<string name="paywall_buy_button">Įsigyti „Pro“ versiją</string>
+    <string name="paywall_restore_title">Jau pirkote anksčiau?</string>
+    <string name="paywall_restore_description">Jei įsigijote „EmulAItor“ prieš jam tampant nemokamu, įveskite savo „Google Play“ užsakymo ID (GPA...), kad atkurtumėte prieigą.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Atkurti pirkinį</string>
+    <string name="paywall_where_is_receipt">Kur rasti kvitą?</string>
+    <string name="paywall_receipt_instructions_title">Kaip rasti užsakymo ID</string>
+    <string name="paywall_receipt_instructions_1">A variantas: „Gmail“ pašte ieškokite „Google Play Receipt EmulAItor“.</string>
+    <string name="paywall_receipt_instructions_2">B variantas: eikite į pay.google.com, patikrinkite savo veiklą ir ieškokite „EmulAItor“.</string>
+    <string name="paywall_receipt_open_web">Atidaryti pay.google.com</string>
+    <string name="paywall_support_fallback">Jei nerandate, susisiekite su palaikymo komanda.</string>
+    <string name="paywall_success">Pirkinys sėkmingai atkurtas. Ačiū!</string>
+    <string name="paywall_error_invalid_gpa">Neteisingas GPA kodas arba jis jau panaudotas.</string>
+    <string name="paywall_error_limit_exceeded">Šis kodas jau naudojamas maksimaliame leidžiamame įrenginių skaičiuje. Prašome įsigyti naują licenciją pasirinkus vieną iš aukščiau pateiktų parinkčių.</string>
+<string name="paywall_error_network">Tinklo klaida. Patikrinkite savo ryšį.</string>
+    <string name="paywall_error_unknown">Įvyko nežinoma klaida.</string>
+    <string name="paywall_restoring">Atkuriama...</string>
+    <string name="paywall_buy_subscription">Mėnesinė prenumerata</string>
+    <string name="paywall_buy_lifetime">Nuolatinis atrakinimas</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>

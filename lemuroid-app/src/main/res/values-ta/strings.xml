@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generated/maintained by .agent/scripts/i18n_tool. -->
+    <string name="title_home">முகப்பு</string>
+    <string name="title_search">தேடு</string>
+    <string name="title_systems">அமைப்புகள்</string>
+    <string name="title_games">விளையாட்டுகள்</string>
+    <string name="title_settings">அமைப்புகள்</string>
+    <string name="title_catalog">பட்டியல்</string>
+    <string name="settings_title_about">பற்றி</string>
+    <string name="settings_title_manual">பயனர் கையேடு</string>
+    <string name="settings_description_manual">EmulAItor ஐ எவ்வாறு பயன்படுத்துவது</string>
+    <string name="recent">சமீபத்தியவை</string>
+    <string name="favorites">விருப்பமானவை</string>
+    <string name="discover">கண்டுபிடி</string>
+    <string name="rescan">மீண்டும் ஸ்கேன் செய்</string>
+    <string name="stop">நிறுத்து</string>
+    <string name="none">ஏதுமில்லை</string>
+    <string name="directory">கோப்பகம்</string>
+    <string name="display_filter">காட்சி வடிகட்டி</string>
+    <string name="roms">ROMகள்</string>
+    <string name="ok">சரி</string>
+    <string name="cancel">ரத்துசெய்</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="save_sync">ஒத்திசைவைச் சேமி</string>
+    <string name="show_all">அனைத்தையும் காட்டு</string>
+    <string name="back">பின்செல்</string>
+    <string name="close">மூடு</string>
+    <string name="license_not_verified_title">உரிமம் சரிபார்க்கப்படவில்லை</string>
+    <string name="game_page_search_suggestion">விளையாட்டுகளைத் தேடு</string>
+    <string name="settings_category_general">பொது</string>
+    <string name="settings_category_input">உள்ளீடு</string>
+    <string name="settings_category_misc">மற்றவை</string>
+    <string name="settings_title_enable_autosave">தானாகச் சேமி</string>
+    <string name="settings_description_enable_autosave">விளையாட்டு மெனு வழியாக வெளியேறும்போது நிலையைச் சேமி</string>
+    <string name="settings_title_enable_touch_feedback">தொடுதலில் அதிர்வு</string>
+    <string name="settings_title_tilt_sensitivity">சாய்வு உணரி உணர்திறன்</string>
+    <string name="settings_title_hd_quality">HD பயன்முறை தரம்</string>
+    <string name="settings_title_maximum_cache_usage">கேச் அளவு வரம்பு</string>
+    <string name="settings_title_hd_mode">HD பயன்முறை</string>
+    <string name="settings_description_hd_mode">பிந்தைய செயலாக்க மேம்படுத்தல் வடிகட்டியைப் பயன்படுத்து</string>
+    <string name="settings_description_hd_quality">HD பயன்முறையின் தரத்தை சரிசெய்யவும்</string>
+    <string name="home_hd_mode_enabled">HD பயன்முறை ஆன்</string>
+    <string name="home_hd_mode_disabled">HD முறை அணைக்கப்பட்டது</string>
+    <string name="settings_title_immersive_mode">முழுத்திரை முறை</string>
+    <string name="settings_description_immersive_mode">விளையாட்டின் காட்சிகளுக்கு ஏற்ப பின்னணியை மாறும் வண்ணங்களில் மாற்றும்</string>
+    <string name="settings_title_gamepad_settings">வெளிப்புற சாதனங்கள்</string>
+    <string name="settings_description_gamepad_settings">வெளிப்புற கேம்பேடுகள் மற்றும் கீபோர்டுகளை உள்ளமைக்கவும்</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">இயக்கப்பட்ட சாதனங்கள்</string>
+    <string name="settings_gamepad_category_general">பொது</string>
+    <string name="settings_gamepad_title_reset_bindings">பிணைப்புகளை மீட்டமை</string>
+    <string name="settings_gamepad_title_game_menu">மெனு</string>
+    <string name="settings_title_open_cores_selection">கோர்ஸ் மாற்று</string>
+    <string name="settings_description_open_cores_selection">ஒரு அமைப்புக்கு எந்த கோர் இணைக்கப்பட்டுள்ளது என்பதைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="settings_core_selection_ds_info">DeSmuME அடுத்த புதுப்பிப்புகளில் நீக்கப்படும். உங்கள் முன்னேற்றத்தை விளையாட்டிற்குள் சேமித்து, பின்னர் melonDS க்கு மாறவும். விளையாட்டிற்குள் சேமிப்புகள் melonDS இல் தானாகவே ஏற்றப்படும், ஆனால் சேமிப்பு நிலைகளை அவற்றை உருவாக்கிய கோர் மூலம் மட்டுமே பயன்படுத்த முடியும்.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">கண்டறியப்பட்ட மற்றும் ஆதரிக்கப்படும் BIOS கோப்புகளைக் காண்பி</string>
+    <string name="settings_bios_help">BIOS கோப்புகளைச் சேர்க்க, ஆதரிக்கப்படும் கோப்புகளை உங்கள் ROMs கோப்புறையில் வைத்து மீண்டும் ஸ்கேன் செய்யவும். கோப்பு பெயர் சரியாகப் பொருந்த வேண்டும்.</string>
+    <string name="settings_bios_category_detected">கண்டறியப்பட்டது</string>
+    <string name="settings_bios_category_not_detected">ஆதரிக்கப்படுகிறது</string>
+    <string name="settings_title_reset_settings">தொழிற்சாலை மீட்டமைப்பு</string>
+    <string name="settings_description_reset_settings">EmulAItor ஐ அதன் தொழிற்சாலை அமைப்புகளுக்கு மீட்டமைக்கவும்</string>
+    <string name="settings_title_advanced_settings">மேம்பட்ட அமைப்புகள்</string>
+    <string name="settings_description_advanced_settings">மேம்பட்ட அமைப்புகளைக் காண்பி</string>
+    <string name="settings_title_low_latency_audio">குறைந்த தாமத ஆடியோவை விரும்பு</string>
+    <string name="settings_description_low_latency_audio">ஆதரிக்கப்படும் சாதனங்களில் ஆடியோ தாமதத்தைக் குறைக்கும். ஆடியோ தடங்கல்களை அதிகரிக்கக்கூடும்.</string>
+    <string name="settings_title_direct_game_load">நேரடி விளையாட்டு ஏற்றுதல்</string>
+    <string name="settings_description_direct_game_load">(சோதனை) ஆதரிக்கப்படும் கன்சோல்களில் ஏற்றுதல் நேரத்தையும் கேச் பயன்பாட்டையும் குறைக்கும்.</string>
+    <string name="settings_title_enable_rumble">அதிர்வு</string>
+    <string name="settings_description_enable_rumble">ஆதரிக்கப்படும் விளையாட்டுகள் மற்றும் கன்ட்ரோலர்களில் அதிர்வை இயக்கு</string>
+    <string name="settings_title_enable_device_rumble">சாதன அதிர்வு</string>
+    <string name="settings_description_enable_device_rumble">கன்ட்ரோலர் இணைக்கப்படாதபோது அதற்கு பதிலாக சாதனத்தை அதிர்வடையச் செய்யவும்</string>
+    <string name="reset_settings_warning_message_title">உறுதியாகவா?</string>
+    <string name="reset_settings_warning_message_description">இது EmulAItor ஐ அதன் தொழிற்சாலை அமைப்புகளுக்கு மீட்டமைக்கும். சேமிப்புகள் மற்றும் நிலைகள் பாதுகாக்கப்படும்.</string>
+    <string name="settings_title_save_sync">கிளவுட் சேமிப்புகள்</string>
+    <string name="settings_description_save_sync">உங்கள் சேமிப்புகளை கிளவுட்டில் காப்புப் பிரதி எடுத்து ஒத்திசைக்கவும்</string>
+    <string name="settings_save_sync_refresh">கைமுறை ஒத்திசைவு</string>
+    <string name="settings_save_sync_refresh_description">இப்போது கைமுறையாக ஒத்திசைவைச் செய்யவும்.
+%1$s</string>
+    <string name="settings_save_sync_enable_auto">தானியங்கு ஒத்திசைவு</string>
+    <string name="settings_save_sync_enable_auto_description">வைஃபை உடன் இணைக்கப்பட்டிருக்கும் போது விளையாட்டு அமர்வுக்கு முன்னும் பின்னும் தானாகவே ஒத்திசைவைச் செய்யவும்</string>
+    <string name="settings_save_sync_configure">%1$s ஐ உள்ளமைக்கவும்</string>
+    <string name="settings_save_sync_include_saves">விளையாட்டு சேமிப்புகளைச் சேர்</string>
+    <string name="settings_save_sync_include_saves_description">%1$s சாதனத்தில்</string>
+    <string name="settings_save_sync_include_states">நிலைகளை ஒத்திசைக்கவும்</string>
+    <string name="settings_save_sync_include_states_description">மிகவும் வசதியானது, ஆனால் கனமானது மற்றும் நம்பகத்தன்மை குறைந்தது. எந்த கோர்கள்/அமைப்புகளை ஒத்திசைக்க வேண்டும் என்பதைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="game_context_menu_add_to_favorites">பிடித்தவைகளில் சேர்</string>
+    <string name="game_context_menu_remove_from_favorites">பிடித்தவைகளில் இருந்து அகற்று</string>
+    <string name="game_context_menu_resume">தொடர்க</string>
+    <string name="game_context_menu_restart">மறுதொடக்கம் செய்</string>
+    <string name="game_context_menu_create_shortcut">launcher-ல் பின் செய்</string>
+    <string name="game_context_menu_delete">அழி</string>
+    <string name="game_delete_confirmation">\"%1$s\" என்பதை நீங்கள் அழிக்க விரும்புகிறீர்களா? இது விளையாட்டை உங்கள் நூலகத்திலிருந்து அகற்றி கோப்பை அழிக்கும்.</string>
+    <string name="game_deleted">விளையாட்டு நீக்கப்பட்டது</string>
+    <string name="home_notification_title">அறிவிப்புகளை இயக்கு</string>
+    <string name="home_notification_message">பின்னணியில் இயங்கும் விளையாட்டு அல்லது செயல்பாட்டைப் பற்றி உங்களுக்குத் தெரிவிக்க EmulAItor அறிவிப்புகளைப் பயன்படுத்துகிறது.</string>
+    <string name="home_notification_action">இயக்கு</string>
+    <string name="home_microphone_title">மைக்ரோஃபோனை இயக்கு</string>
+    <string name="home_microphone_message">Nintendo DS விளையாட்டுகள் சில செயல்பாடுகளை வழங்க மைக்ரோஃபோனைப் பயன்படுத்தலாம்.</string>
+    <string name="home_microphone_action">இயக்கு</string>
+    <string name="home_empty_title">ROM-களின் கோப்பகத்தைத் தேர்ந்தெடு</string>
+    <string name="home_empty_message">ROM கோப்புகளைக் கொண்ட ஒரு கோப்பகத்தை EmulAItor ஸ்கேன் செய்ய வேண்டும்.\nஇதற்கு சில நிமிடங்கள் ஆகலாம்.</string>
+    <string name="home_empty_action">கோப்பகத்தைத் தேர்ந்தெடு</string>
+    <string name="home_storage_inaccessible_title">ROM-களின் கோப்பகம் அணுக முடியாதது</string>
+    <string name="home_storage_inaccessible_message">Android, தேர்ந்தெடுக்கப்பட்ட ROM-களின் கோப்பகத்தை அணுக EmulAItor-ஐ அனுமதிக்கவில்லை. கோப்புறை நகர்த்தப்பட்டிருக்கலாம், நீக்கப்பட்டிருக்கலாம் அல்லது கணினி அனுமதிகளால் தடுக்கப்பட்டிருக்கலாம். கோப்புறையை மீண்டும் தேர்ந்தெடுக்கவும் அல்லது வேறு ஒன்றைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="home_storage_inaccessible_action">வேறு கோப்பகத்தைத் தேர்ந்தெடு</string>
+    <string name="update_available_banner">EmulAItor-ன் புதிய பதிப்பு கிடைக்கிறது. புதுப்பிக்க தட்டவும்.</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME ஓய்வு பெறுகிறது</string>
+    <string name="home_notification_desmume_deprecated_message">உங்கள் முன்னேற்றத்தைத் தொடர, விளையாட்டில் சேமித்து, பின்னர் melonDS-க்கு மாறவும். சேமிப்பு நிலைகள் மாற்றப்படாது மற்றும் DeSmuME-ல் மட்டுமே பயன்படுத்தக்கூடியதாக இருக்கும்.</string>
+    <string name="home_notification_desmume_deprecated_action">melonDS-க்கு மாறு</string>
+    <string name="game_menu_save">சேமி</string>
+    <string name="game_menu_load">ஏற்று</string>
+    <string name="game_menu_restart">மறுதொடக்கம் செய்</string>
+    <string name="game_menu_quit">வெளியேறு</string>
+    <string name="game_menu_settings">அமைப்புகள்</string>
+    <string name="game_menu_state">நிலை %1$s</string>
+    <string name="game_menu_change_disk_button">வட்டை மாற்று</string>
+    <string name="game_menu_edit_touch_controls">கட்டுப்பாடுகளைத் திருத்து</string>
+    <string name="game_menu_mute_audio">ஒலியை முடக்கு</string>
+    <string name="game_menu_fast_forward">வேகமாக முன்னோக்கி செல்</string>
+    <string name="game_menu_change_disk_disk">வட்டு %1$s</string>
+    <string name="game_menu_tilt_sensor">சாய்வு உணரி</string>
+    <string name="game_loading_preparing_game">விளையாட்டைத் தயார் செய்கிறது…</string>
+    <string name="game_toast_settings_button_using_gamepad">கேம்பேட் கண்டறியப்பட்டது. %1$s உடன் அமைப்புகள் மெனுவை அணுகவும்.</string>
+    <string name="game_toast_load_state_failed">இந்த நிலையை ஏற்ற முடியவில்லை</string>
+    <string name="game_toast_quick_save_loaded">விரைவாக ஏற்றப்பட்டது</string>
+    <string name="game_toast_quick_save_saved">விரைவாக சேமிக்கப்பட்டது</string>
+    <string name="empty_view_default">உருப்படிகள் இல்லை</string>
+    <string name="core_settings_title">கோர் அமைப்புகள்</string>
+    <string name="core_settings_category_preferences">விருப்பத்தேர்வுகள்</string>
+    <string name="core_settings_category_controllers">கட்டுப்படுத்திகள்</string>
+    <string name="core_settings_controller">கட்டுப்படுத்தி %1$s</string>
+    <string name="game_menu_title">விளையாட்டு மெனு</string>
+    <string name="notification_channel_name">அனைத்து அறிவிப்புகள்</string>
+    <string name="library_index_notification_title">ROMகள் ஸ்கேன் செய்யப்படுகின்றன</string>
+    <string name="library_index_notification_message">இதற்கு சில நிமிடங்கள் ஆகலாம்</string>
+    <string name="library_metadata_enrichment_in_progress">பின்னணியில் ROM விவரங்கள் புதுப்பிக்கப்படுகின்றன. நீங்கள் தொடர்ந்து விளையாடலாம்.</string>
+    <string name="save_sync_notification_title">கிளவுட் சேமிப்பு ஒத்திசைவு நடைபெறுகிறது</string>
+    <string name="save_sync_notification_message">இதற்கு சில நிமிடங்கள் ஆகலாம்</string>
+    <string name="game_running_notification_title">%1$s இயங்குகிறது</string>
+    <string name="game_running_notification_title_alternative">விளையாட்டு இயங்குகிறது</string>
+    <string name="game_running_notification_message">உங்கள் முன்னேற்றத்தைச் சேமிப்பதை உறுதிசெய்யவும்</string>
+    <string name="game_loader_error_gl_incompatible">இந்த கோருக்கு OpenGL ES பதிப்பு தேவைப்படுகிறது, இது உங்கள் சாதனத்தால் ஆதரிக்கப்படவில்லை.</string>
+    <string name="game_loader_error_load_game">உங்கள் விளையாட்டை ஏற்றும்போது ஏதோ தவறு நடந்துவிட்டது. ROM ஆனது Lemuroid ஆல் ஆதரிக்கப்படுவதை உறுதிசெய்து உங்கள் விளையாட்டுகளை மீண்டும் ஸ்கேன் செய்யவும்.</string>
+    <string name="game_loader_error_save">உங்கள் சேமிப்பு கோப்பில் ஏதோ தவறு நடந்துவிட்டது. சிக்கல் தொடர்ந்தால், தானியங்கு சேமிப்பை முடக்க முயற்சிக்கவும்.</string>
+    <string name="game_loader_error_unsupported_architecture">இந்த கோர் உங்கள் சாதனத்தால் ஆதரிக்கப்படவில்லை.</string>
+    <string name="game_loader_error_generic">ஏதோ தவறு நடந்துவிட்டது. பின்வருவனவற்றை முயற்சிக்கவும்:
+
+
+• தானியங்கு சேமிப்பை முடக்கி விளையாட்டை மீண்டும் இயக்கவும்
+
+• Android அமைப்புகளுக்குச் சென்று பயன்பாட்டு கேச்-ஐ அழிக்கவும்
+
+• Lemuroid அமைப்புகளுக்குச் சென்று தொழிற்சாலை மீட்டமைப்பைச் செய்யவும்
+
+
+மேலே உள்ள எதுவும் வேலை செய்யவில்லை என்றால், இந்த விளையாட்டு/கோர் இந்த சாதனத்தால் ஆதரிக்கப்படாமல் இருக்கலாம்.</string>
+    <string name="game_loader_error_missing_bios">தேவையான BIOS கோப்புகள் உங்களிடம் இல்லை என்று தெரிகிறது, அவற்றை உங்கள் ROMகள் கோப்பகத்தில் வைத்து மீண்டும் ஸ்கேன் செய்யவும். தேவையான கோப்புகள்: %1$s</string>
+    <string name="game_shortcut_error">உங்கள் விளையாட்டை ஏற்றும்போது ஏதோ தவறு நடந்துவிட்டது. இந்த விளையாட்டு உங்கள் நூலகத்தில் இன்னும் இருப்பதை உறுதிசெய்யவும்.</string>
+    <string name="dialog_saf_not_found">இந்த சாதனம் StorageAccessFramework கோப்பு தேர்வியை ஆதரிக்காது. தயவுசெய்து சுருக்கப்படாத ROM கோப்புகளை %1$s இல் கைமுறையாக நகலெடுத்து Rescan ஐ அழுத்தவும்.</string>
+    <string name="system_grid_details">%1$s விளையாட்டுகள்</string>
+    <string name="tv_folder_picker_title">ROMகள் கோப்பகத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="tv_folder_picker_action_choose">தேர்ந்தெடு</string>
+    <string name="tv_folder_picker_action_cancel">ரத்துசெய்</string>
+    <string name="tv_folder_storage_primary">முதன்மை சேமிப்பு</string>
+    <string name="tv_folder_storage_secondary">இரண்டாம் நிலை சேமிப்பு %1$s</string>
+    <string name="tv_folder_storage_title">சேமிப்பைத் தேர்ந்தெடு</string>
+    <string name="tv_folder_error_access">இந்த கோப்பகத்தை அணுக முடியவில்லை. தயவுசெய்து ஒரு துணை கோப்பகத்தை அல்லது வேறு இடத்தைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">ROMகள் கோப்பகம்</string>
+    <string name="settings_description_choose_directory">உங்கள் விளையாட்டுகளைக் கொண்ட கோப்புறையைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="tv_home_section_favorites">பிடித்தவை</string>
+    <string name="tv_home_section_recents">சமீபத்தியவை</string>
+    <string name="tv_home_section_systems">சிஸ்டம்கள்</string>
+    <string name="tv_home_section_settings">அமைப்புகள்</string>
+    <string name="gamepad_binding_update_title">\"RetroPad %1$s\" ஐ இணைக்கவும்</string>
+    <string name="gamepad_binding_update_description">\"%1$s\" இல் ஒரு பட்டனை அழுத்தவும்</string>
+    <string name="shortcut_binding_update_title">\"Shortcut %1$s\" ஐ இணைக்கவும்</string>
+    <string name="shortcut_binding_update_description">\"%1$s\" இல் ஒரு காம்போவை இணைக்க முதலில் முதல், பின்னர் இரண்டாவது பட்டனை அழுத்தவும்</string>
+    <string name="tv_search_results">கேம்கள்</string>
+    <string name="tv_game_message_missing_gamepad">கேம் விளையாட கேம்பேடுகள் தேவை. தயவுசெய்து ஒன்றை இணைக்கவும்.</string>
+    <string name="game_edit_touch_controls_error_not_visible">உங்கள் டச் கண்ட்ரோல்களைத் திருத்த உங்கள் பேடைத் துண்டிக்கவும்</string>
+    <string name="game_interactory_busy">நிலுவையில் உள்ள செயல்பாடுகள் முடிவடையும் வரை காத்திருக்கவும்</string>
+    <string name="pending_operations_blocked_title">செயல்பாடுகள் சிக்கியிருக்கலாம்</string>
+    <string name="pending_operations_blocked_message_external">முந்தைய பதிப்பிலிருந்து நிலுவையில் உள்ள ஒரு செயல்பாடு ROM இன்டெக்சிங்கைத் தடுக்கலாம். நீங்கள் காத்திருக்கலாம் அல்லது ஆப் டேட்டாவை அழித்து மீட்டெடுக்கலாம். உங்கள் ROM கோப்புகள் நீக்கப்படாது, ஆனால் நீங்கள் ROM கோப்புறையை மீண்டும் தேர்ந்தெடுக்க வேண்டும். இது 5 நிமிடங்களுக்கு மேல் நீடித்தால், ஆப் டேட்டாவை அழிப்பது பரிந்துரைக்கப்படுகிறது.</string>
+    <string name="pending_operations_blocked_message_internal">முந்தைய பதிப்பிலிருந்து நிலுவையில் உள்ள ஒரு செயல்பாடு ROM இன்டெக்சிங்கைத் தடுக்கலாம். நீங்கள் காத்திருக்கலாம் அல்லது உங்கள் சேமிப்பக உள்ளமைவை மதிப்பாய்வு செய்ய அமைப்புகளைத் திறக்கலாம்.</string>
+    <string name="pending_operations_clear_data">ஆப் டேட்டாவை அழி</string>
+    <string name="pending_operations_keep_waiting">காத்திரு</string>
+    <string name="pending_operations_clear_data_confirm_title">ஆப் டேட்டாவை அழிக்கவா?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor இப்போது அதன் ஆப் டேட்டாவை மீட்டமைக்கும். உங்கள் ROM கோப்புகள் நீக்கப்படாது, ஆனால் நீங்கள் ROM கோப்புறையை மீண்டும் தேர்ந்தெடுக்க வேண்டும்.</string>
+    <string name="pending_operations_clear_data_confirm_button">டேட்டாவை அழி</string>
+    <string name="mobile_settings_help">உதவி</string>
+    <string name="mobile_settings_support">ஆதரவு</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;EmulAItor பற்றி&lt;/b&gt;&lt;br/&gt;
+        இந்த பயன்பாடு திறந்த மூல திட்டமான &lt;b&gt;Lemuroid&lt;/b&gt; இன் ஒரு ஃபோர்க் ஆகும், இது &lt;b&gt;GPL-3.0&lt;/b&gt; உரிமத்தின் கீழ் விநியோகிக்கப்படுகிறது.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;முக்கிய அறிவிப்பு&lt;/b&gt;&lt;br/&gt;
+        இந்த பயன்பாட்டில் கேம்கள் சேர்க்கப்படவில்லை மற்றும் எந்த உள்ளடக்கத்தையும் தானாக பதிவிறக்காது. உலாவல் அம்சம் Archive.org இல் பொதுவில் கிடைக்கும் உள்ளடக்கத்தையும் itch.io இலிருந்து இலவச ஹோம்ப்ரூ கேம்களையும் காட்டுகிறது. வெளிப்புற மூலங்களிலிருந்து எந்த ROM ஐ அணுகுவதற்கோ அல்லது பயன்படுத்துவதற்கோ உள்ள உரிமைகளை சரிபார்க்க பயனரே பொறுப்பாவார்.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;இந்த பயன்பாட்டை நான் எப்படி பயன்படுத்துவது?&lt;/b&gt;&lt;br/&gt;
+        உங்கள் ROM கோப்புகளை உங்கள் சாதனத்தில் உள்ள ஒரு கோப்பகத்தில் நகலெடுத்து, பயன்பாட்டிற்குள் அதைத் தேர்ந்தெடுக்கவும். இந்த கோப்பகத்தில் துணை கோப்பகங்கள் இருக்கலாம். ஸ்கேன் முடிந்ததும் உங்கள் கேம்களை நீங்கள் பார்க்க வேண்டும்.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;எனது கேம்கள் ஏன் கண்டறியப்படவில்லை?&lt;/b&gt;&lt;br/&gt;
+        உங்கள் கேம்கள் சுருக்கப்பட்டிருந்தால், அவற்றை அன்சுருக்க முயற்சிக்கவும். இது வேலை செய்யவில்லை என்றால், ROM களை தனித்தனி கோப்பகங்களில், ஒவ்வொரு சிஸ்டத்திற்கும் பின்வரும் பெயர்களுடன் வைக்கவும்: $SYSTEMS.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;உரிமங்கள்&lt;/b&gt;&lt;br/&gt;
+        Lemuroid: GPL-3.0 (Swordfish90)&lt;br/&gt;
+        LibretroDroid: GPL-3.0&lt;br/&gt;
+        Libretro Cores: பல்வேறு உரிமங்கள்</string>
+    <string name="lemuroid_crash_disclamer">Libretro கோர் எதிர்பாராத சிக்கலை எதிர்கொண்டதாகத் தெரிகிறது. இது தொடர்ந்தால், பின்வருவனவற்றை முயற்சிக்கவும்:
+
+
+• தானியங்கு சேமிப்பை முடக்கி, கேமை மீண்டும் இயக்கவும்
+
+• Android அமைப்புகளுக்குச் சென்று ஆப் கேஷை அழிக்கவும்
+
+• Lemuroid அமைப்புகளுக்குச் சென்று தொழிற்சாலை மீட்டமைப்பைச் செய்யவும்
+
+
+ மேலே உள்ள எதுவும் வேலை செய்யவில்லை என்றால், இந்த கேம்/கோர் இந்த சாதனத்தால் ஆதரிக்கப்படாமல் இருக்கலாம்.</string>
+    <string name="error_message_incompatible_state">இந்த சேவ் ஸ்டேட் தற்போதைய கோர் பதிப்புடன் பொருந்தாது. தயவுசெய்து சமீபத்திய இன்-கேம் சேவ் ஐ ஏற்றவும் அல்லது முந்தைய Lemuroid பதிப்பைப் பயன்படுத்தவும்.</string>
+    <string name="shader_filter_names_auto">தானியங்கு</string>
+    <string name="shader_filter_names_sharp">கூர்மையான</string>
+    <string name="shader_filter_names_smooth">மென்மையான</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">இல்லை</string>
+    <string name="haptic_feedback_mode_names_press">அழுத்தவும்</string>
+    <string name="haptic_feedback_mode_names_press_release">அழுத்தி விடுவிக்கவும்</string>
+    <string name="tilt_configuration_disabled">முடக்கப்பட்டது</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">இடது அனலாக்</string>
+    <string name="tilt_configuration_analog_right">வலது அனலாக்</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+    <string name="disclaimer_title">முக்கிய அறிவிப்பு</string>
+    <string name="disclaimer_software_origin_title">மென்பொருள் மூலம்</string>
+    <string name="disclaimer_software_origin_text">இந்த பயன்பாடு Lemuroid என்ற திறந்த மூல திட்டத்தின் ஒரு கிளை ஆகும், இது GPL-3.0 உரிமத்தின் கீழ் விநியோகிக்கப்படுகிறது.</string>
+    <string name="disclaimer_no_content_title">உள்ளடக்கம் சேர்க்கப்படவில்லை</string>
+    <string name="disclaimer_no_content_text">இந்த பயன்பாட்டில் விளையாட்டுகள் சேர்க்கப்படவில்லை மற்றும் எந்த கோப்புகளையும் தானாக பதிவிறக்காது.</string>
+    <string name="disclaimer_archive_title">பொது பட்டியல் மூலங்கள்</string>
+    <string name="disclaimer_archive_text">Browse அம்சம் Archive.org இல் பொதுவில் கிடைக்கும் உள்ளடக்கத்தையும், itch.io இலிருந்து இலவச ஹோம்ப்ரூ கேம்களையும் காட்டுகிறது. EmulAItor எந்த சேவையுடனும் இணைக்கப்படவில்லை. எந்தவொரு ROM ஐ அணுகுவதற்கும் அல்லது பயன்படுத்துவதற்கும் உங்களுக்குள்ள உரிமைகளை சரிபார்க்கும் பொறுப்பு பயனருடையது.</string>
+    <string name="disclaimer_user_responsibility_title">பயனர் பொறுப்பு</string>
+    <string name="disclaimer_user_responsibility_text">இந்த பயன்பாட்டுடன் எந்த ROM கோப்புகளையும் பயன்படுத்த உங்களுக்கு சட்டப்பூர்வ உரிமை இருப்பதை உறுதிசெய்யும் பொறுப்பு உங்களுடையது.</string>
+    <string name="disclaimer_accept">நான் புரிந்துகொண்டு ஏற்றுக்கொள்கிறேன்</string>
+    <string name="disclaimer_terms">தொடர்வதன் மூலம், இந்த பயன்பாட்டின் பயன்பாட்டு விதிமுறைகளை நீங்கள் ஏற்றுக்கொள்கிறீர்கள்.</string>
+    <string name="game_context_menu_edit">திருத்து</string>
+    <string name="game_edit_title">விளையாட்டை திருத்து</string>
+    <string name="game_edit_field_title">தலைப்பு</string>
+    <string name="game_edit_field_system">சிஸ்டம்</string>
+    <string name="game_edit_field_developer">டெவலப்பர்</string>
+    <string name="game_edit_file_label">கோப்பு:</string>
+    <string name="game_edit_save">சேமி</string>
+    <string name="game_edit_search_online">ஆன்லைனில் மெட்டாடேட்டாவைத் தேடு</string>
+    <string name="game_edit_searching">தேடுகிறது...</string>
+    <string name="game_edit_no_results">முடிவுகள் எதுவும் கிடைக்கவில்லை</string>
+    <string name="game_edit_apply_metadata">மெட்டாடேட்டாவைப் பயன்படுத்து</string>
+    <string name="game_edit_unlock_metadata">மெட்டாடேட்டாவைத் திற (தானியங்கு புதுப்பிப்பை அனுமதி)</string>
+    <string name="catalog_search_placeholder">ROM களைத் தேடு...</string>
+    <string name="catalog_filter_all_sources">அனைத்து மூலங்களும்</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">உள்ளூர்</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">முடிவுகள் எதுவும் கிடைக்கவில்லை</string>
+    <string name="catalog_downloads">பதிவிறக்கங்கள்</string>
+    <string name="catalog_clear_completed">அனைத்தையும் அழி</string>
+    <string name="catalog_downloading">பதிவிறக்குகிறது...</string>
+    <string name="catalog_downloaded">பதிவிறக்கப்பட்டது</string>
+    <string name="sources_manage_title">மூலங்களை நிர்வகி</string>
+    <string name="sources_add_title">மூலத்தைச் சேர்</string>
+    <string name="sources_add_local">உள்ளூர் கோப்புறையைச் சேர்</string>
+    <string name="sources_add_smb">SMB/NAS ஐச் சேர்</string>
+    <string name="sources_smb_name">பெயர்</string>
+    <string name="sources_smb_server">சர்வர்</string>
+    <string name="sources_smb_path">பாதை</string>
+    <string name="sources_smb_username">பயனர்பெயர் (விருப்பத்தேர்வு)</string>
+    <string name="sources_smb_password">கடவுச்சொல் (விருப்பத்தேர்வு)</string>
+    <string name="sources_smb_domain">டொமைன் (விருப்பத்தேர்வு)</string>
+    <string name="sources_edit">திருத்து</string>
+    <string name="sources_delete">நீக்கு</string>
+    <string name="sources_save">சேமி</string>
+    <string name="sources_cancel">ரத்துசெய்</string>
+    <string name="sources_add">சேர்</string>
+    <string name="sources_smb_display_name">காட்சி பெயர்</string>
+    <string name="sources_smb_display_name_placeholder">என் NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">பகிர்வு பெயர் உட்பட முழு பாதை</string>
+    <string name="sources_smb_use_auth">அங்கீகாரத்தைப் பயன்படுத்து</string>
+    <string name="sources_smb_username_label">பயனர்பெயர்</string>
+    <string name="sources_smb_password_label">கடவுச்சொல்</string>
+    <string name="sources_smb_edit_title">SMB மூலத்தைத் திருத்து</string>
+    <string name="sources_smb_connection_title">SMB இணைப்பு</string>
+    <string name="sources_smb_test_connection">இணைப்பைச் சோதி</string>
+    <string name="sources_smb_testing">இணைப்பைச் சோதிக்கிறது...</string>
+    <string name="sources_smb_connection_success">இணைப்பு வெற்றிகரமாக முடிந்தது!</string>
+    <string name="sources_smb_connection_failed">இணைப்பு தோல்வியடைந்தது: %1$s</string>
+    <string name="sources_no_custom">தனிப்பயன் மூலங்கள் எதுவும் உள்ளமைக்கப்படவில்லை</string>
+    <string name="sources_local_permission_error">Android அணுகலை வழங்காததால் இந்த கோப்புறையைச் சேர்க்க முடியாது. வேறு கோப்புறையைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 உள்ளூர் கோப்புகள்</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">ROMகளைத் தேடு...</string>
+    <string name="catalog_packs_count">%1$d இல் %2$d தொகுப்புகள்</string>
+    <string name="catalog_games_count">%1$d விளையாட்டுகள்</string>
+    <string name="catalog_load_more">மேலும் ஏற்று...</string>
+    <string name="catalog_load_more_packs">மேலும் தொகுப்புகளை ஏற்று...</string>
+    <string name="catalog_no_packs_found">ROM தொகுப்புகள் எதுவும் காணப்படவில்லை</string>
+    <string name="catalog_no_files_found">பதிவிறக்கக்கூடிய கோப்புகள் எதுவும் காணப்படவில்லை</string>
+    <string name="catalog_files_count">கோப்புகள் (%1$d):</string>
+    <string name="catalog_download_all">அனைத்தும்</string>
+    <string name="catalog_downloads_title">பதிவிறக்கங்கள் (%1$d)</string>
+    <string name="catalog_downloads_clear">அழி</string>
+    <string name="catalog_no_downloads">பதிவிறக்கங்கள் இல்லை</string>
+    <string name="catalog_error_retry">மீண்டும் முயற்சி</string>
+    <string name="catalog_error_occurred">ஒரு பிழை ஏற்பட்டது</string>
+    <string name="catalog_invalid_download_title">தவறான பட்டியல் கோப்பு</string>
+    <string name="catalog_invalid_download_message">பதிவிறக்கம் செய்யப்பட்ட கோப்பு இந்த கணினிக்கு சரியான ROM ஆகத் தெரியவில்லை. வழங்குநர் தவறான அல்லது ஆதரிக்கப்படாத கோப்பை வெளியிட்டிருக்கலாம். பட்டியலில் இந்த ROM ஐ நீங்கள் கண்டுபிடிக்க முடியவில்லை என்றால், அதை கைமுறையாக பதிவிறக்கம் செய்து உங்கள் ROM கோப்புறையில் சேர்க்கலாம்.</string>
+    <string name="catalog_region_all">🌍 அனைத்தும்</string>
+    <string name="catalog_region_usa">🇺🇸 அமெரிக்கா</string>
+    <string name="catalog_region_europe">🇪🇺 ஐரோப்பா</string>
+    <string name="catalog_region_japan">🇯🇵 ஜப்பான்</string>
+    <string name="catalog_region_spain">🇪🇸 ஸ்பெயின்</string>
+    <string name="catalog_region_france">🇫🇷 பிரான்ஸ்</string>
+    <string name="catalog_region_germany">🇩🇪 ஜெர்மனி</string>
+    <string name="catalog_region_italy">🇮🇹 இத்தாலி</string>
+    <string name="catalog_region_brazil">🇧🇷 பிரேசில்</string>
+    <string name="catalog_region_korea">🇰🇷 கொரியா</string>
+    <string name="catalog_region_china">🇨🇳 சீனா</string>
+    <string name="catalog_region_australia">🇦🇺 ஆஸ்திரேலியா</string>
+    <string name="catalog_sort_downloads">அதிகம் பதிவிறக்கம் செய்யப்பட்டது</string>
+    <string name="catalog_sort_name">பெயர் அ-ஆ</string>
+    <string name="catalog_sort_size">மிகப்பெரிய அளவு</string>
+    <string name="catalog_error_503">Archive.org செயலிழந்துள்ளது அல்லது பராமரிப்பில் உள்ளது. பின்னர் மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="catalog_error_502">Archive.org சிக்கல்களை எதிர்கொள்கிறது. பின்னர் மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="catalog_error_500">Archive.org இல் உள் பிழை உள்ளது. பின்னர் மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="catalog_error_ssl">SSL சான்றிதழ் பிழை. உங்கள் சாதனத்தின் தேதி மற்றும் நேரம் சரியாக உள்ளதா என சரிபார்க்கவும்.</string>
+    <string name="catalog_error_timeout">Archive.org உடனான இணைப்பு நேரம் முடிந்தது. உங்கள் இணைய இணைப்பைச் சரிபார்க்கவும்.</string>
+    <string name="catalog_error_no_internet">இணைய இணைப்பு இல்லை. உங்கள் இணைப்பைச் சரிபார்க்கவும்.</string>
+    <string name="catalog_error_unknown">தெரியாத பிழை</string>
+    <string name="catalog_storage_warning_title">போதுமான இடம் இல்லை</string>
+    <string name="catalog_storage_too_large">நீங்கள் பதிவிறக்க விரும்பும் தொகுப்பு மிகவும் பெரியது.</string>
+    <string name="catalog_storage_download_size">பதிவிறக்க அளவு:</string>
+    <string name="catalog_storage_available">கிடைக்கும் இடம்:</string>
+    <string name="catalog_storage_needed">கூடுதல் இடம் தேவை:</string>
+    <string name="catalog_storage_free_space">உங்கள் சாதனத்தில் உள்ள இடத்தை விடுவிக்கவும் அல்லது பதிவிறக்க குறைவான கோப்புகளைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="catalog_storage_understood">புரிந்தது</string>
+    <string name="catalog_path_warning_title">பாதை உள்ளமைக்கப்படவில்லை!</string>
+    <string name="catalog_path_select_folder">விளையாட்டுகளைப் பதிவிறக்க, அவற்றைச் சேமிக்க ஒரு கோப்புறையை நீங்கள் தேர்ந்தெடுக்க வேண்டும்.</string>
+    <string name="catalog_path_select_button">கோப்புறையைத் தேர்ந்தெடு</string>
+    <string name="delete_games_title">%1$d விளையாட்டுகளை நீக்கவா?</string>
+    <string name="delete_games_warning">இது தேர்ந்தெடுக்கப்பட்ட விளையாட்டுகளை உங்கள் நூலகத்திலிருந்து அகற்றி, அவற்றின் ROM கோப்புகளை வட்டில் இருந்து நீக்கும்.</string>
+    <string name="delete_games_list_header">நீக்க வேண்டிய விளையாட்டுகள்:</string>
+    <string name="delete_games_and_more">...மற்றும் மேலும் %1$d</string>
+    <string name="delete_games_confirm">நீக்கு</string>
+    <string name="delete_mode_title">நீக்க விளையாட்டுகளைத் தேர்ந்தெடு</string>
+    <string name="delete_selected">தேர்ந்தெடுக்கப்பட்டவற்றை நீக்கு (%1$d)</string>
+    <string name="settings_category_metadata">மெட்டாடேட்டா / ஸ்கிராப்பர்</string>
+    <string name="settings_title_thegamesdb_apikey">TheGamesDB API கீ</string>
+    <string name="settings_description_thegamesdb_apikey">இலவச கீயை thegamesdb.net இல் பெறவும்</string>
+    <string name="settings_thegamesdb_help">கேம் கவர்கள், விளக்கங்கள் மற்றும் வகைகளைப் பெற உங்கள் TheGamesDB API கீயை உள்ளிடவும்.</string>
+    <string name="settings_thegamesdb_configured">உள்ளமைக்கப்பட்டது</string>
+    <string name="settings_thegamesdb_not_configured">உள்ளமைக்கப்படவில்லை</string>
+    <string name="metadata_dialog_apikey_title">API கீயை உள்ளிடவும்</string>
+    <string name="rom_migration_title">ROMகளை நகர்த்து</string>
+    <string name="rom_migration_message">%1$d ROMகள் இங்கு நகர்த்தப்படும்:
+
+%2$s
+
+தொடர விரும்புகிறீர்களா?</string>
+    <string name="rom_migration_progress_title">ROMகளை நகர்த்துகிறது…</string>
+    <string name="rom_migration_progress">%1$s நகர்த்தப்படுகிறது (%2$d இல் %3$d)</string>
+    <string name="rom_migration_success">%1$d ROMகள் வெற்றிகரமாக நகர்த்தப்பட்டன</string>
+    <string name="rom_migration_partial">%2$d இல் %1$d ROMகள் நகர்த்தப்பட்டன. சில கோப்புகளை நகர்த்த முடியவில்லை.</string>
+    <string name="rom_migration_failed">ROMகளை நகர்த்த முடியவில்லை: %1$s</string>
+    <string name="rom_migration_cancel">ரத்துசெய்</string>
+    <string name="rom_migration_confirm">நகர்த்து</string>
+    <string name="rom_migration_smb_not_supported">நெட்வொர்க் லைப்ரரிகளுக்கு (SMB) தானியங்கி ROM இடம்பெயர்வு கிடைக்கவில்லை</string>
+    <string name="manual_header">பயனர் கையேடு</string>
+    <string name="manual_section_first_steps">🚀 முதல் படிகள்</string>
+    <string name="manual_content_first_steps">1. அமைப்புகள் → டைரக்டரி மூலம் உங்கள் ROMகளைச் சேமிக்க ஒரு கோப்புறையைத் தேர்ந்தெடுக்கவும்.
+
+2. உங்கள் ROM கோப்புகளை அந்தக் கோப்புறையில் நகலெடுக்கவும்.
+
+3. பயன்பாடு தானாகவே ஸ்கேன் செய்து உங்கள் கேம்களை முகப்புத் திரையில் காண்பிக்கும்.</string>
+    <string name="manual_section_archive">🌐 பட்டியல்களை ஆராயுங்கள்</string>
+    <string name="manual_content_archive">பட்டியல் பிரிவு பல பொது மூலங்களிலிருந்து ROM தொகுப்புகளை ஆராய உங்களை அனுமதிக்கிறது:
+
+• Archive.org: கிளாசிக் ROMகளின் பெரிய தொகுப்புகள்.
+• itch.io: இலவச ஹோம்ப்ரூ கேம்கள் (இலவச API கீ தேவை).
+
+• சிஸ்டம் வாரியாக உலாவவும் அல்லது குறிப்பிட்ட கேம்களைத் தேடவும்.
+• உங்கள் ROM கோப்புறையில் பதிவிறக்க ஒரு கேமைத் தட்டவும்.
+• பதிவிறக்கம் செய்யப்பட்ட கேம்கள் தானாகவே உங்கள் லைப்ரரியில் தோன்றும்.</string>
+    <string name="manual_section_controls">🎮 கன்ட்ரோலர்களை உள்ளமைக்கவும்</string>
+    <string name="manual_content_controls">புளூடூத் அல்லது USB கன்ட்ரோலரை இணைத்து அமைப்புகள் → கன்ட்ரோலர் அமைப்புகளுக்குச் செல்லவும்.
+
+• பட்டியலில் இருந்து உங்கள் கன்ட்ரோலரைத் தேர்ந்தெடுக்கவும்.
+• உங்கள் விருப்பங்களுக்கு ஏற்ப பொத்தான்களை மேப் செய்யவும்.
+• உங்கள் கன்ட்ரோலர் ஆதரித்தால் அதிர்வை இயக்கவும்.</string>
+    <string name="manual_section_bios">💾 தேவையான BIOS</string>
+    <string name="manual_content_bios">சில சிஸ்டம்களுக்கு (PlayStation, Game Boy Advance, போன்றவை) வேலை செய்ய BIOS கோப்புகள் தேவை.
+
+• உங்களுக்கு என்ன கோப்புகள் தேவை என்பதைப் பார்க்க அமைப்புகள் → BIOS தகவல் என்பதற்குச் செல்லவும்.
+• BIOS கோப்புகளை உங்கள் ROMகளுடன் அதே கோப்புறையில் வைக்கவும்.
+• கோப்பு பெயர் தேவைப்படும் அளவுக்கு சரியாகப் பொருந்த வேண்டும்.</string>
+    <string name="manual_section_saves">💾 சேமித்த கேம்கள்</string>
+    <string name="manual_content_saves">தானியங்கு சேமிப்பு இயல்பாகவே இயக்கப்பட்டுள்ளது.
+
+• ஒரு கேமை விட்டு வெளியேறும்போது, உங்கள் முன்னேற்றம் தானாகவே சேமிக்கப்படும்.
+• கேமை மீண்டும் திறக்கும்போது, நீங்கள் விட்ட இடத்திலிருந்து தொடர்வீர்கள்.
+• நீங்கள் கேமின் சொந்த சேமிப்பு அமைப்பையும் (கேம் மெனு) பயன்படுத்தலாம்.</string>
+    <string name="manual_section_sync">☁️ கிளவுட் ஒத்திசைவு</string>
+    <string name="manual_content_sync">உங்கள் சேமித்த கேம்களை Google Drive உடன் ஒத்திசைக்கலாம்.
+
+• அமைப்புகள் → சேமிப்பு ஒத்திசைவுக்குச் செல்லவும்.
+• உங்கள் Google கணக்குடன் உள்நுழையவும்.
+• உங்கள் சேமிப்புகள் சாதனங்களில் தானாகவே ஒத்திசைக்கப்படும்.</string>
+    <string name="manual_section_gameplay">🕹️ கேம்ப்ளேவின் போது</string>
+    <string name="manual_content_gameplay">கேம்ப்ளேவின் போது மெனுவை அணுக:
+
+• மெனு பொத்தானை (☰) அழுத்தவும் அல்லது திரை விளிம்பிலிருந்து ஸ்வைப் செய்யவும்.
+• அங்கிருந்து நீங்கள்: நிலைகளைச் சேமிக்க/ஏற்ற, சேமிப்பு ஸ்லாட்டை மாற்ற, விரைவு விருப்பங்களை அணுக அல்லது கேமை விட்டு வெளியேறலாம்.</string>
+    <string name="about_version">பதிப்பு %1$s</string>
+    <string name="about_section_origin">மென்பொருள் மூலம்</string>
+    <string name="about_content_origin_1">இந்த பயன்பாடு திறந்த மூல Lemuroid திட்டத்தின் ஒரு ஃபோர்க் ஆகும், இது GPL-3.0 உரிமத்தின் கீழ் விநியோகிக்கப்படுகிறது.</string>
+    <string name="about_content_origin_2">Archive.org இல் பொதுவில் கிடைக்கும் உள்ளடக்கம் மற்றும் itch.io இலிருந்து இலவச ஹோம்ப்ரூ கேம்களுக்கான ஆய்வு அம்சங்கள் சேர்க்கப்பட்டுள்ளன.</string>
+    <string name="about_section_source">மூலக் குறியீடு</string>
+    <string name="about_content_source">இந்த மாற்றியமைக்கப்பட்ட பதிப்பின் மூலக் குறியீடு GPL-3.0 உரிமத்தின் கீழ் கிடைக்கிறது.</string>
+    <string name="about_button_github">மூலக் குறியீட்டைக் காண்க (GitHub)</string>
+    <string name="about_section_licenses">மூன்றாம் தரப்பு உரிமங்கள்</string>
+    <string name="about_section_legal">சட்ட அறிவிப்பு</string>
+    <string name="about_content_legal">இந்த பயன்பாட்டில் ROMகள் இல்லை மற்றும் தானாக உள்ளடக்கத்தைப் பதிவிறக்காது. ஆய்வு அம்சம் Archive.org இல் பொதுவில் கிடைக்கும் தொகுப்புகளையும் itch.io இலிருந்து இலவச ஹோம்ப்ரூ கேம்களையும் மட்டுமே காட்டுகிறது. எந்தவொரு வெளிப்புற கோப்புகளையும் அணுகுவதற்கும் அல்லது பயன்படுத்துவதற்கும் உள்ள உரிமைகளைச் சரிபார்க்கும் பொறுப்பு பயனருடையது.</string>
+    <string name="about_section_report">பிழையைப் புகாரளிக்கவும்</string>
+    <string name="about_content_report">ஒரு பிழையைக் கண்டறிந்தீர்களா அல்லது ஒரு பரிந்துரை உள்ளதா? அநாமதேய அறிக்கையை அனுப்புவதன் மூலம் மேம்படுத்த எங்களுக்கு உதவுங்கள்.</string>
+    <string name="about_button_report">🐛 பிழையைப் புகாரளிக்கவும்</string>
+    <string name="about_no_browser">இணைப்பைத் திறக்க இணைய உலாவி நிறுவப்படவில்லை</string>
+    <string name="about_no_browser_report">பிழை அறிக்கை பக்கத்தைத் திறக்க இணைய உலாவி நிறுவப்படவில்லை</string>
+    <string name="bug_report_error">பிழை அறிக்கை படிவத்தை ஏற்ற முடியவில்லை. உங்கள் இணைய இணைப்பைச் சரிபார்க்கவும்.</string>
+    <string name="bug_report_select_images">படங்களைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="about_open_with">இதனுடன் திறக்கவும்</string>
+    <string name="catalog_disclaimer">⚠️ இந்த பட்டியல் பொது களஞ்சியங்களுடன் (Archive.org மற்றும் itch.io) இணைகிறது, அவை EmulAItor உடன் இணைக்கப்படவில்லை. itch.io இலிருந்து இலவச ஹோம்ப்ரூ உள்ளடக்கம் மட்டுமே பட்டியலிடப்பட்டுள்ளது. இந்த பொருளைப் பயன்படுத்துதல், பதிவிறக்குதல் மற்றும் வைத்திருத்தல் ஆகியவை பயனரின் தனிப்பட்ட பொறுப்பாகும். 🧠 EmulAItor கோப்புகளை புத்திசாலித்தனமாக வடிகட்டினாலும், உடைந்த இணைப்புகள், பொருந்தாத கோப்புகள் அல்லது ROMகள் அல்லாத உள்ளடக்கம் இருக்கலாம்.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io ஹோம்ப்ரூ</string>
+    <string name="itch_api_key_title">itch.io API விசை</string>
+    <string name="itch_api_key_subtitle">itch.io இலிருந்து கேம்களைப் பதிவிறக்கத் தேவை</string>
+    <string name="itch_api_key_instructions">itch.io இலிருந்து இலவச ஹோம்ப்ரூ கேம்களைப் பதிவிறக்க, உங்களுக்கு API விசை தேவை:\n\n1. &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; க்குச் சென்று இலவச கணக்கை உருவாக்கவும்\n2. &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;அமைப்புகள் → API விசைகள்&lt;/a&gt; க்குச் செல்லவும்\n3. புதிய விசையை உருவாக்கி அதை நகலெடுக்கவும்\n4. கீழே ஒட்டவும்</string>
+    <string name="itch_api_key_hint">உங்கள் itch.io API விசையை இங்கே ஒட்டவும்</string>
+    <string name="itch_api_key_validating">API விசையைச் சரிபார்க்கிறது...</string>
+    <string name="itch_api_key_valid">API விசை செல்லுபடியாகும் ✓</string>
+    <string name="itch_api_key_invalid">தவறான API விசை. சரிபார்த்து மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="itch_api_key_saved">API விசை வெற்றிகரமாக சேமிக்கப்பட்டது</string>
+    <string name="itch_api_key_required_title">API விசை தேவை</string>
+    <string name="itch_api_key_required_message">கேம்களைப் பதிவிறக்க உங்களுக்கு itch.io API விசை தேவை. இப்போது அதை உள்ளமைக்க விரும்புகிறீர்களா?</string>
+    <string name="itch_no_results">இந்த கணினிக்கு itch.io இல் ஹோம்ப்ரூ கேம்கள் எதுவும் காணப்படவில்லை</string>
+    <string name="itch_unsupported_system">இந்த கணினிக்கு itch.io இல் ஹோம்ப்ரூ உள்ளடக்கம் இல்லை. NES, SNES, GBA, GBC அல்லது Genesis ஐ முயற்சிக்கவும்.</string>
+    <string name="itch_game_free">இலவசம்</string>
+    <string name="itch_game_by">%1$s ஆல்</string>
+    <string name="pack_fully_downloaded">முழுமையாக பதிவிறக்கப்பட்டது</string>
+    <string name="itch_uploads_title">கிடைக்கும் கோப்புகள்</string>
+    <string name="itch_no_rom_uploads">இந்த விளையாட்டுக்கு பதிவிறக்கக்கூடிய ROM கோப்புகள் எதுவும் காணப்படவில்லை</string>
+    <string name="itch_download_error">itch.io இலிருந்து பதிவிறக்குவதில் தோல்வி: %1$s</string>
+    <string name="itch_settings_edit_key">விசையைத் திருத்து</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">முழு அணுகலையும் திறக்கவும்</string>
+    <string name="paywall_description">இலவச சோதனை காலம் முடிந்துவிட்டது. தொடர, பின்வரும் விருப்பங்களில் ஒன்றைத் தேர்ந்தெடுக்கவும்.</string>
+<string name="paywall_buy_button">Pro பதிப்பை வாங்கவும்</string>
+    <string name="paywall_restore_title">ஏற்கனவே வாங்கியுள்ளீர்களா?</string>
+    <string name="paywall_restore_description">EmulAItor இலவசமாக மாறுவதற்கு முன்பு நீங்கள் வாங்கியிருந்தால், உங்கள் அணுகலை மீட்டெடுக்க உங்கள் Google Play ஆர்டர் ஐடியை (GPA...) உள்ளிடவும்.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">வாங்கியதை மீட்டமை</string>
+    <string name="paywall_where_is_receipt">எனது ரசீதை எங்கே கண்டுபிடிப்பது?</string>
+    <string name="paywall_receipt_instructions_title">உங்கள் ஆர்டர் ஐடியை எப்படிக் கண்டுபிடிப்பது</string>
+    <string name="paywall_receipt_instructions_1">விருப்பம் A: உங்கள் Gmail-இல் \"Google Play Receipt EmulAItor\" என்று தேடவும்.</string>
+    <string name="paywall_receipt_instructions_2">விருப்பம் B: pay.google.com தளத்திற்குச் சென்று, உங்கள் செயல்பாட்டைச் சரிபார்த்து, EmulAItor-ஐத் தேடவும்.</string>
+    <string name="paywall_receipt_open_web">pay.google.com-ஐத் திறக்கவும்</string>
+    <string name="paywall_support_fallback">உங்களால் அதைக் கண்டுபிடிக்க முடியவில்லை என்றால், ஆதரவைத் தொடர்புகொள்ளவும்.</string>
+    <string name="paywall_success">வாங்கியது வெற்றிகரமாக மீட்டமைக்கப்பட்டது. நன்றி!</string>
+    <string name="paywall_error_invalid_gpa">தவறான GPA குறியீடு அல்லது ஏற்கனவே பயன்படுத்தப்பட்டது.</string>
+    <string name="paywall_error_limit_exceeded">இந்தக் குறியீடு ஏற்கனவே அனுமதிக்கப்பட்ட அதிகபட்ச சாதனங்களில் பயன்படுத்தப்படுகிறது. மேலே உள்ள விருப்பங்களிலிருந்து புதிய உரிமத்தை வாங்கவும்.</string>
+<string name="paywall_error_network">பிணையப் பிழை. உங்கள் இணைப்பைச் சரிபார்க்கவும்.</string>
+    <string name="paywall_error_unknown">தெரியாத பிழை ஏற்பட்டுள்ளது.</string>
+    <string name="paywall_restoring">மீட்டமைக்கப்படுகிறது...</string>
+    <string name="paywall_buy_subscription">மாதாந்திர சந்தா</string>
+    <string name="paywall_buy_lifetime">நிரந்தரத் திறப்பு</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>

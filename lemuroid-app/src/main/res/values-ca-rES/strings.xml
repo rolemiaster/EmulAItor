@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">Inici</string>
+    <string name="title_search">Cerca</string>
+    <string name="title_systems">Sistemes</string>
+    <string name="title_games">Jocs</string>
+    <string name="title_settings">Configuració</string>
+    <string name="recent">Recents</string>
+    <string name="favorites">Preferits</string>
+    <string name="discover">Descobreix</string>
+    <string name="rescan">Tornar a escanejar</string>
+    <string name="stop">Aturar</string>
+    <string name="none">Cap</string>
+    <string name="directory">Directori</string>
+    <string name="display_filter">Filtre d\'imatge</string>
+    <string name="roms">ROMS</string>
+    <string name="ok">D\'acord</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="settings">Configuració</string>
+    <string name="save_sync">Desa sincronització</string>
+    <string name="show_all">Mostra\'ls tots</string>
+    <string name="back">Torna</string>
+    <string name="close">Tanca</string>
+    <string name="settings_category_general">General</string>
+    <string name="settings_category_input">Entrada</string>
+    <string name="settings_category_misc">Altres</string>
+    <string name="settings_title_enable_autosave">Estat de desat automàtic</string>
+    <string name="settings_title_enable_touch_feedback">Vibrar en tocar</string>
+    <string name="settings_title_hd_mode">Mode alta definició</string>
+    <string name="settings_title_gamepad_settings">Dispositius externs</string>
+    <string name="settings_description_gamepad_settings">Configura gamepads i teclats externs</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Dispositius habilitats</string>
+    <string name="settings_gamepad_category_general">General</string>
+    <string name="settings_gamepad_title_game_menu">Menú</string>
+    <string name="settings_title_open_cores_selection">Canviar nuclis</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_bios_category_detected">Detectat</string>
+    <string name="settings_bios_category_not_detected">Suportat</string>
+    <string name="settings_title_reset_settings">Restabliment de fàbrica</string>
+    <string name="settings_title_advanced_settings">Configuració avançada</string>
+    <string name="settings_description_advanced_settings">Mostra la configuració avançada</string>
+    <string name="settings_title_enable_rumble">Vibració</string>
+    <string name="settings_title_enable_device_rumble">Vibració del dispositiu</string>
+    <string name="reset_settings_warning_message_title">Estàs segur?</string>
+    <string name="settings_title_save_sync">Desats al núvol</string>
+    <string name="settings_save_sync_refresh">Sincronització manual</string>
+    <string name="settings_save_sync_enable_auto">Sincronització Automàtica</string>
+    <string name="settings_save_sync_configure">Configurar %1$s</string>
+    <string name="settings_save_sync_include_saves_description">%1$s al dispositiu</string>
+    <string name="settings_save_sync_include_states">Sincronitzar estats</string>
+    <string name="game_context_menu_add_to_favorites">Afegeix als preferits</string>
+    <string name="game_context_menu_remove_from_favorites">Elimina dels preferits</string>
+    <string name="game_context_menu_resume">Reprèn</string>
+    <string name="game_context_menu_restart">Reinicia</string>
+    <string name="home_empty_title">Seleccionar directori de ROMs</string>
+    <string name="home_empty_action">Seleccioneu la carpeta</string>
+    <string name="game_menu_save">Desar</string>
+    <string name="game_menu_load">Carrega</string>
+    <string name="game_menu_restart">Reinicia</string>
+    <string name="game_menu_quit">Surt</string>
+    <string name="game_menu_settings">Configuració</string>
+    <string name="game_menu_state">Estat: %1$s</string>
+    <string name="game_menu_change_disk_button">Canviar disc</string>
+    <string name="game_menu_edit_touch_controls">Editar controls</string>
+    <string name="game_menu_mute_audio">Silencia</string>
+    <string name="game_menu_fast_forward">Avança ràpid</string>
+    <string name="game_menu_change_disk_disk">Disc %1$s</string>
+    <string name="game_loading_preparing_game">Preparant joc…</string>
+    <string name="game_toast_settings_button_using_gamepad">S\'ha detectat el gamepad. Accediu al menú de configuració amb %1$s.</string>
+    <string name="game_toast_load_state_failed">No es pot carregar aquest estat</string>
+    <string name="empty_view_default">Sense elements</string>
+    <string name="core_settings_category_preferences">Preferències</string>
+    <string name="core_settings_category_controllers">Comandaments</string>
+    <string name="core_settings_controller">Comandament %1$s</string>
+    <string name="game_menu_title">Menú de jocs</string>
+    <string name="notification_channel_name">Totes les notificacions</string>
+    <string name="library_index_notification_title">Escaneig de ROMs en curs</string>
+    <string name="library_index_notification_message">Això pot trigar uns minuts</string>
+    <string name="save_sync_notification_message">Això pot trigar uns minuts</string>
+    <string name="game_running_notification_title">%1$s s\'està executant</string>
+    <string name="tv_home_section_favorites">Preferits</string>
+    <string name="tv_home_section_recents">Recents</string>
+    <string name="tv_home_section_systems">Sistemes</string>
+    <string name="tv_home_section_settings">Configuració</string>
+    <string name="tv_search_results">Jocs</string>
+    <string name="mobile_settings_help">Ajuda</string>
+    <string name="mobile_settings_support">Assistència</string>
+<!-- Added by local i18n tool. -->
+    <string name="title_catalog">Catàleg</string>
+    <string name="settings_title_about">Quant a</string>
+    <string name="settings_title_manual">Manual d\'usuari</string>
+    <string name="settings_description_manual">Com utilitzar EmulAItor</string>
+    <string name="license_not_verified_title">Llicència no verificada</string>
+    <string name="game_page_search_suggestion">Cerca jocs</string>
+    <string name="settings_description_enable_autosave">Desa l\'estat en sortir pel menú del joc</string>
+    <string name="settings_title_tilt_sensitivity">Sensibilitat del sensor d\'inclinació</string>
+    <string name="settings_title_hd_quality">Qualitat del mode HD</string>
+    <string name="settings_title_maximum_cache_usage">Límit de mida de la memòria cau</string>
+    <string name="settings_description_hd_mode">Aplica el filtre d\'escalat de postprocessament</string>
+    <string name="settings_description_hd_quality">Ajusta la qualitat del mode HD</string>
+    <string name="home_hd_mode_enabled">Mode HD activat</string>
+    <string name="home_hd_mode_disabled">Mode HD desactivat</string>
+    <string name="settings_title_immersive_mode">Mode immersiu</string>
+    <string name="settings_description_immersive_mode">Coloreja dinàmicament el fons basant-se en els visuals del joc</string>
+    <string name="settings_gamepad_title_reset_bindings">Restableix els enllaços</string>
+    <string name="settings_description_open_cores_selection">Selecciona quin nucli s\'associa a un sistema</string>
+    <string name="settings_core_selection_ds_info">DeSmuME està obsolet i s\'eliminarà en una de les properes actualitzacions. Desa el teu progrés dins del joc i després canvia a melonDS. Les partides desades dins del joc es carregaran automàticament a melonDS, però els estats desats només es podran utilitzar amb el nucli que els va crear.</string>
+    <string name="settings_description_display_bios_info">Mostra els fitxers BIOS detectats i compatibles</string>
+    <string name="settings_bios_help">Per afegir fitxers BIOS, col·loca els fitxers compatibles a la teva carpeta ROMs i torna a escanejar. El nom del fitxer ha de coincidir exactament.</string>
+    <string name="settings_description_reset_settings">Restableix EmulAItor a la configuració de fàbrica</string>
+    <string name="settings_title_low_latency_audio">Prefereix àudio de baixa latència</string>
+    <string name="settings_description_low_latency_audio">Redueix la latència de l\'àudio en dispositius compatibles. Pot augmentar els glitchs d\'àudio.</string>
+    <string name="settings_title_direct_game_load">Càrrega directa del joc</string>
+    <string name="settings_description_direct_game_load">(Experimental) Redueix el temps de càrrega i l\'ús de la memòria cau en consoles compatibles.</string>
+    <string name="settings_description_enable_rumble">Activa el feedback de vibració en jocs i controladors compatibles</string>
+    <string name="settings_description_enable_device_rumble">Quan no hi ha cap controlador connectat, vibra el dispositiu en el seu lloc</string>
+    <string name="reset_settings_warning_message_description">Això restablirà EmulAItor a la configuració de fàbrica. Les partides desades i els estats es conservaran.</string>
+    <string name="settings_description_save_sync">Fes una còpia de seguretat i sincronitza les teves partides desades al núvol</string>
+    <string name="settings_save_sync_refresh_description">Realitza una sincronització manual ara.
+%1$s</string>
+    <string name="settings_save_sync_enable_auto_description">Realitza automàticament una sincronització abans i després d\'una sessió de joc quan estiguis connectat a Wifi</string>
+    <string name="settings_save_sync_include_saves">Sincronitza les partides desades dins del joc</string>
+    <string name="settings_save_sync_include_states_description">Més convenient, però més pesat i menys fiable. Tria quins nuclis/sistemes vols sincronitzar</string>
+    <string name="game_context_menu_create_shortcut">Fixa al llançador</string>
+    <string name="game_context_menu_delete">Elimina</string>
+    <string name="game_delete_confirmation">Estàs segur que vols eliminar \"%1$s\"? Això eliminarà el joc de la teva biblioteca i el fitxer.</string>
+    <string name="game_deleted">Joc eliminat</string>
+    <string name="home_notification_title">Activa les notificacions</string>
+    <string name="home_notification_message">EmulAItor utilitza notificacions per informar-te quan un joc o una operació s\'està executant en segon pla.</string>
+    <string name="home_notification_action">Habilita</string>
+    <string name="home_microphone_title">Habilita el micròfon</string>
+    <string name="home_microphone_message">Els jocs de Nintendo DS poden utilitzar el micròfon per a algunes funcionalitats.</string>
+    <string name="home_microphone_action">Habilita</string>
+    <string name="home_empty_message">EmulAItor necessita escanejar un directori que contingui fitxers ROM.
+Això pot trigar uns minuts.</string>
+    <string name="home_storage_inaccessible_title">Directori de ROMs inaccessible</string>
+    <string name="home_storage_inaccessible_message">Android no permet a EmulAItor accedir al directori de ROMs seleccionat. La carpeta s\'ha pogut moure, eliminar o bloquejar per permisos del sistema. Selecciona la carpeta de nou o en tria una altra.</string>
+    <string name="home_storage_inaccessible_action">Tria un altre directori</string>
+    <string name="update_available_banner">Hi ha disponible una versió més recent d\'EmulAItor. Toca per actualitzar.</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME es retira</string>
+    <string name="home_notification_desmume_deprecated_message">Desa dins del joc i canvia a melonDS per mantenir el teu progrés. Els estats de desar no es transferiran i només seran utilitzables a DeSmuME.</string>
+    <string name="home_notification_desmume_deprecated_action">Canvia a melonDS</string>
+    <string name="game_menu_tilt_sensor">Sensor d\'inclinació</string>
+    <string name="game_toast_quick_save_loaded">Desat ràpidament</string>
+    <string name="game_toast_quick_save_saved">Desat ràpidament</string>
+    <string name="core_settings_title">Configuració del nucli</string>
+    <string name="library_metadata_enrichment_in_progress">Actualitzant detalls de ROMs en segon pla. Pots continuar jugant.</string>
+    <string name="save_sync_notification_title">Sincronització de desar al núvol en curs</string>
+    <string name="game_running_notification_title_alternative">El joc s\'està executant</string>
+    <string name="game_running_notification_message">Assegura\'t de desar el teu progrés</string>
+    <string name="game_loader_error_gl_incompatible">Aquest nucli requereix una versió d\'OpenGL ES que el teu dispositiu no admet.</string>
+    <string name="game_loader_error_load_game">Ha passat alguna cosa dolenta mentre es carregava el teu joc. Assegura\'t que la ROM és compatible amb Lemuroid i torna a escanejar els teus jocs.</string>
+    <string name="game_loader_error_save">Ha passat alguna cosa dolenta amb el teu fitxer de desar. Si el problema persisteix, prova de desactivar el desar automàtic.</string>
+    <string name="game_loader_error_unsupported_architecture">Aquest nucli no és compatible amb el teu dispositiu.</string>
+    <string name="game_loader_error_generic">Ha passat alguna cosa dolenta. Prova el següent:
+
+
+• Desactiva el desar automàtic i torna a executar el joc
+
+• Ves a la configuració d\'Android i esborra la memòria cau de l\'aplicació
+
+• Ves a la configuració de Lemuroid i realitza un Restabliment de fàbrica
+
+
+Si res del que s\'ha esmentat anteriorment funciona, és possible que aquest joc/nucli no sigui compatible amb aquest dispositiu.</string>
+    <string name="game_loader_error_missing_bios">Sembla que et falta la BIOS requerida, posa-la al teu directori de ROMs i torna a escanejar. Fitxers requerits: %1$s</string>
+    <string name="game_shortcut_error">Ha passat alguna cosa dolenta mentre es carregava el teu joc. Assegura\'t que aquest joc encara existeix a la teva biblioteca.</string>
+    <string name="dialog_saf_not_found">Aquest dispositiu no admet el selector de fitxers StorageAccessFramework. Copia manualment els fitxers ROM sense comprimir a %1$s i prem Escanejar.</string>
+    <string name="system_grid_details">%1$s jocs</string>
+    <string name="tv_folder_picker_title">Selecciona el Directori de ROMs</string>
+    <string name="tv_folder_picker_action_choose">Selecciona</string>
+    <string name="tv_folder_picker_action_cancel">Cancel·la</string>
+    <string name="tv_folder_storage_primary">Emmagatzematge primari</string>
+    <string name="tv_folder_storage_secondary">Emmagatzematge secundari %1$s</string>
+    <string name="tv_folder_storage_title">Tria l\'emmagatzematge</string>
+    <string name="tv_folder_error_access">Aquesta carpeta no és accessible. Selecciona un subdirectori o una altra ubicació.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">Directori de ROMs</string>
+    <string name="settings_description_choose_directory">Selecciona la carpeta que conté els teus jocs</string>
+    <string name="gamepad_binding_update_title">Associa \"RetroPad %1$s\"</string>
+    <string name="gamepad_binding_update_description">Premeu un botó del vostre \"%1$s\"</string>
+    <string name="shortcut_binding_update_title">Associa \"Dreceres %1$s\"</string>
+    <string name="shortcut_binding_update_description">Premeu el primer, després el segon botó per associar una combinació al vostre \"%1$s\"</string>
+    <string name="tv_game_message_missing_gamepad">Es requereixen gamepads per jugar. Si us plau, connecteu-ne un.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Desconnecteu el vostre pad per editar els controls tàctils</string>
+    <string name="game_interactory_busy">Espereu que les operacions pendents es completin</string>
+    <string name="pending_operations_blocked_title">Les operacions poden estar bloquejades</string>
+    <string name="pending_operations_blocked_message_external">Un procés pendent d\'una versió anterior pot estar bloquejant l\'indexació de ROMs. Podeu continuar esperant o esborrar les dades de l\'aplicació per recuperar-les. Els vostres fitxers ROM no s\'esborraran, però haureu de tornar a triar la carpeta ROM. Si això dura més de 5 minuts, es recomana esborrar les dades de l\'aplicació.</string>
+    <string name="pending_operations_blocked_message_internal">Un procés pendent d\'una versió anterior pot estar bloquejant l\'indexació de ROMs. Podeu continuar esperant o obrir la configuració per revisar la vostra configuració d\'emmagatzematge.</string>
+    <string name="pending_operations_clear_data">Esborra les dades de l\'aplicació</string>
+    <string name="pending_operations_keep_waiting">Continua esperant</string>
+    <string name="pending_operations_clear_data_confirm_title">Esborrar les dades de l\'aplicació?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor ara restablirà les seves dades de l\'aplicació. Els vostres fitxers ROM no s\'esborraran, però haureu de tornar a seleccionar la carpeta ROM.</string>
+    <string name="pending_operations_clear_data_confirm_button">Esborra les dades</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Sobre EmulAItor&lt;/b&gt;&lt;br/&gt;
+        Aquesta aplicació és una bifurcació del projecte de codi obert &lt;b&gt;Lemuroid&lt;/b&gt;, distribuït sota la llicència &lt;b&gt;GPL-3.0&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Avís important&lt;/b&gt;&lt;br/&gt;
+        Aquesta aplicació no inclou jocs i no descarrega automàticament cap contingut. La funció de cerca mostra contingut disponible públicament a Archive.org i jocs homebrew gratuïts d\'itch.io. L\'usuari és responsable de verificar els seus drets per accedir o utilitzar qualsevol ROM de fonts externes.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Com utilitzo aquesta aplicació?&lt;/b&gt;&lt;br/&gt;
+        Copieu els vostres fitxers ROM en un directori del vostre dispositiu i seleccioneu-lo dins de l\'aplicació. Aquest directori pot tenir subdirectoris. Després que l\'escaneig es completi, hauríeu de veure els vostres jocs.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Per què no es detecten els meus jocs?&lt;/b&gt;&lt;br/&gt;
+        Si els vostres jocs estan comprimits, proveu de descomprimir-los. Si això no funciona, col·loqueu les ROMs en directoris separats, un per sistema amb els següents noms: $SYSTEMS.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Llicències&lt;/b&gt;&lt;br/&gt;
+        Lemuroid: GPL-3.0 (Swordfish90)&lt;br/&gt;
+        LibretroDroid: GPL-3.0&lt;br/&gt;
+        Nuclis Libretro: Diverses llicències</string>
+    <string name="lemuroid_crash_disclamer">Sembla que el nucli Libretro ha experimentat un problema inesperat. Si és persistent, proveu el següent:
+
+
+• Desactiveu el guardat automàtic i torneu a executar el joc
+
+• Aneu a la configuració d\'Android i esborreu la memòria cau de l\'aplicació
+
+• Aneu a la configuració de Lemuroid i feu un Restabliment de fàbrica
+
+
+ Si res del que precedeix funciona, és possible que aquest Joc/Nucli no sigui compatible amb aquest dispositiu.</string>
+    <string name="error_message_incompatible_state">Aquest estat guardat no és compatible amb la versió actual del nucli. Si us plau, carregueu el darrer guardat dins del joc o utilitzeu una versió anterior de Lemuroid.</string>
+    <string name="shader_filter_names_auto">Automàtic</string>
+    <string name="shader_filter_names_sharp">Nítid</string>
+    <string name="shader_filter_names_smooth">Suau</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Cap</string>
+    <string name="haptic_feedback_mode_names_press">Premsada</string>
+    <string name="haptic_feedback_mode_names_press_release">Premsada i alliberament</string>
+    <string name="tilt_configuration_disabled">Desactivat</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Analògic esquerre</string>
+    <string name="tilt_configuration_analog_right">Analògic dret</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+    <string name="disclaimer_title">Avís important</string>
+    <string name="disclaimer_software_origin_title">Origen del programari</string>
+    <string name="disclaimer_software_origin_text">Aquesta aplicació és una bifurcació del projecte de codi obert Lemuroid, distribuït sota la llicència GPL-3.0.</string>
+    <string name="disclaimer_no_content_title">Cap contingut inclòs</string>
+    <string name="disclaimer_no_content_text">Aquesta aplicació no inclou jocs i no descarrega automàticament cap fitxer.</string>
+    <string name="disclaimer_archive_title">Fonts del catàleg públic</string>
+    <string name="disclaimer_archive_text">La funció de cerca mostra contingut disponible públicament a Archive.org i jocs homebrew gratuïts d\'itch.io. EmulAItor no està afiliat a cap dels serveis. L\'usuari és responsable de verificar els seus drets per accedir o utilitzar qualsevol ROM.</string>
+    <string name="disclaimer_user_responsibility_title">Responsabilitat de l\'usuari</string>
+    <string name="disclaimer_user_responsibility_text">Vostè és responsable d\'assegurar-se que té el dret legal d\'utilitzar qualsevol fitxer ROM amb aquesta aplicació.</string>
+    <string name="disclaimer_accept">Entenc i Accepto</string>
+    <string name="disclaimer_terms">En continuar, accepteu els termes d\'ús d\'aquesta aplicació.</string>
+    <string name="game_context_menu_edit">Edita</string>
+    <string name="game_edit_title">Edita Joc</string>
+    <string name="game_edit_field_title">Títol</string>
+    <string name="game_edit_field_system">Sistema</string>
+    <string name="game_edit_field_developer">Desenvolupador</string>
+    <string name="game_edit_file_label">Fitxer:</string>
+    <string name="game_edit_save">Desa</string>
+    <string name="game_edit_search_online">Cerca metadades en línia</string>
+    <string name="game_edit_searching">Cercant...</string>
+    <string name="game_edit_no_results">No s\'han trobat resultats</string>
+    <string name="game_edit_apply_metadata">Aplica metadades</string>
+    <string name="game_edit_unlock_metadata">Desbloqueja metadades (permet actualització automàtica)</string>
+    <string name="catalog_search_placeholder">Cerca ROMs...</string>
+    <string name="catalog_filter_all_sources">Totes les Fonts</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Local</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">No s\'han trobat resultats</string>
+    <string name="catalog_downloads">Descarregues</string>
+    <string name="catalog_clear_completed">Esborra Tot</string>
+    <string name="catalog_downloading">Descarregant...</string>
+    <string name="catalog_downloaded">Descarregat</string>
+    <string name="sources_manage_title">Gestiona Fonts</string>
+    <string name="sources_add_title">Afegeix Font</string>
+    <string name="sources_add_local">Afegeix Carpeta Local</string>
+    <string name="sources_add_smb">Afegeix SMB/NAS</string>
+    <string name="sources_smb_name">Nom</string>
+    <string name="sources_smb_server">Servidor</string>
+    <string name="sources_smb_path">Camí</string>
+    <string name="sources_smb_username">Nom d\'usuari (opcional)</string>
+    <string name="sources_smb_password">Contrasenya (opcional)</string>
+    <string name="sources_smb_domain">Domini (opcional)</string>
+    <string name="sources_edit">Edita</string>
+    <string name="sources_delete">Esborra</string>
+    <string name="sources_save">Desa</string>
+    <string name="sources_cancel">Cancel·la</string>
+    <string name="sources_add">Afegeix</string>
+    <string name="sources_smb_display_name">Nom de visualització</string>
+    <string name="sources_smb_display_name_placeholder">El meu NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Ruta completa incloent el nom de la compartició</string>
+    <string name="sources_smb_use_auth">Utilitza autenticació</string>
+    <string name="sources_smb_username_label">Nom d\'usuari</string>
+    <string name="sources_smb_password_label">Contrasenya</string>
+    <string name="sources_smb_edit_title">Edita Font SMB</string>
+    <string name="sources_smb_connection_title">Connexió SMB</string>
+    <string name="sources_smb_test_connection">Prova Connexió</string>
+    <string name="sources_smb_testing">Provant connexió...</string>
+    <string name="sources_smb_connection_success">Connexió correcta!</string>
+    <string name="sources_smb_connection_failed">Connexió fallida: %1$s</string>
+    <string name="sources_no_custom">No hi ha fonts personalitzades configurades</string>
+    <string name="sources_local_permission_error">Aquesta carpeta no es pot afegir perquè Android no ha concedit accés. Tria una altra carpeta.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Fitxers Locals</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Cerca ROMs...</string>
+    <string name="catalog_packs_count">%1$d de %2$d paquets</string>
+    <string name="catalog_games_count">%1$d jocs</string>
+    <string name="catalog_load_more">Carrega més...</string>
+    <string name="catalog_load_more_packs">Carrega més paquets</string>
+    <string name="catalog_no_packs_found">No s\'han trobat paquets de ROMs</string>
+    <string name="catalog_no_files_found">No s\'han trobat fitxers descarregables</string>
+    <string name="catalog_files_count">Fitxers (%1$d):</string>
+    <string name="catalog_download_all">Tots</string>
+    <string name="catalog_downloads_title">Descàrregues (%1$d)</string>
+    <string name="catalog_downloads_clear">Esborra</string>
+    <string name="catalog_no_downloads">No hi ha descàrregues</string>
+    <string name="catalog_error_retry">Torna a provar</string>
+    <string name="catalog_error_occurred">Ha ocorregut un error</string>
+    <string name="catalog_invalid_download_title">Fitxer de catàleg invàlid</string>
+    <string name="catalog_invalid_download_message">El fitxer descarregat no sembla ser una ROM vàlida per a aquest sistema. El proveïdor pot haver publicat un fitxer incorrecte o no compatible. Si no pots trobar aquesta ROM al catàleg, pots descarregar-la manualment i afegir-la a la teva carpeta de ROMs.</string>
+    <string name="catalog_region_all">🌍 Totes</string>
+    <string name="catalog_region_usa">🇺🇸 EUA</string>
+    <string name="catalog_region_europe">🇪🇺 Europa</string>
+    <string name="catalog_region_japan">🇯🇵 Japó</string>
+    <string name="catalog_region_spain">🇪🇸 Espanya</string>
+    <string name="catalog_region_france">🇫🇷 França</string>
+    <string name="catalog_region_germany">🇩🇪 Alemanya</string>
+    <string name="catalog_region_italy">🇮🇹 Itàlia</string>
+    <string name="catalog_region_brazil">🇧🇷 Brasil</string>
+    <string name="catalog_region_korea">🇰🇷 Corea</string>
+    <string name="catalog_region_china">🇨🇳 Xina</string>
+    <string name="catalog_region_australia">🇦🇺 Austràlia</string>
+    <string name="catalog_sort_downloads">Més descarregats</string>
+    <string name="catalog_sort_name">Nom A-Z</string>
+    <string name="catalog_sort_size">Mida més gran</string>
+    <string name="catalog_error_503">Archive.org està caigut o en manteniment. Torna-ho a provar més tard.</string>
+    <string name="catalog_error_502">Archive.org té problemes. Torna-ho a provar més tard.</string>
+    <string name="catalog_error_500">Archive.org té un error intern. Torna-ho a provar més tard.</string>
+    <string name="catalog_error_ssl">Error del certificat SSL. Verifica que la data i hora del teu dispositiu siguin correctes.</string>
+    <string name="catalog_error_timeout">La connexió amb Archive.org ha caducat. Comprova la teva connexió a Internet.</string>
+    <string name="catalog_error_no_internet">No hi ha connexió a Internet. Comprova la teva connexió.</string>
+    <string name="catalog_error_unknown">Error desconegut</string>
+    <string name="catalog_storage_warning_title">Espai Insuficient</string>
+    <string name="catalog_storage_too_large">El paquet que vols descarregar és massa gran.</string>
+    <string name="catalog_storage_download_size">Mida de la descàrrega:</string>
+    <string name="catalog_storage_available">Espai disponible:</string>
+    <string name="catalog_storage_needed">Espai addicional necessari:</string>
+    <string name="catalog_storage_free_space">Allibera espai al teu dispositiu o selecciona menys fitxers per descarregar.</string>
+    <string name="catalog_storage_understood">Entès</string>
+    <string name="catalog_path_warning_title">Ruta No Configurata!</string>
+    <string name="catalog_path_select_folder">Per descarregar jocs, has de seleccionar una carpeta per emmagatzemar-los.</string>
+    <string name="catalog_path_select_button">Seleccionar Carpeta</string>
+    <string name="delete_games_title">Eliminar %1$d jocs?</string>
+    <string name="delete_games_warning">Això eliminarà els jocs seleccionats de la teva biblioteca i esborrarà els seus fitxers ROM del disc.</string>
+    <string name="delete_games_list_header">Jocs a eliminar:</string>
+    <string name="delete_games_and_more">...i %1$d més</string>
+    <string name="delete_games_confirm">Eliminar</string>
+    <string name="delete_mode_title">Selecciona els jocs a eliminar</string>
+    <string name="delete_selected">Eliminar seleccionats (%1$d)</string>
+    <string name="settings_category_metadata">Metadades / Scraper</string>
+    <string name="settings_title_thegamesdb_apikey">Clau API de TheGamesDB</string>
+    <string name="settings_description_thegamesdb_apikey">Obtén una clau gratuïta a thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Introdueix la teva clau API de TheGamesDB per obtenir portades, descripcions i gèneres dels jocs.</string>
+    <string name="settings_thegamesdb_configured">Configurat</string>
+    <string name="settings_thegamesdb_not_configured">No configurat</string>
+    <string name="metadata_dialog_apikey_title">Introdueix la clau API</string>
+    <string name="rom_migration_title">Mou les ROMs</string>
+    <string name="rom_migration_message">%1$d ROMs es mouran a:
+
+%2$s
+
+Vols continuar?</string>
+    <string name="rom_migration_progress_title">Movent ROMs...</string>
+    <string name="rom_migration_progress">Movent %1$s (%2$d de %3$d)</string>
+    <string name="rom_migration_success">%1$d ROMs mogudes correctament</string>
+    <string name="rom_migration_partial">S\'han mogut %1$d de %2$d ROMs. Alguns fitxers no s\'han pogut moure.</string>
+    <string name="rom_migration_failed">No s\'han pogut moure les ROMs: %1$s</string>
+    <string name="rom_migration_cancel">Cancel·la</string>
+    <string name="rom_migration_confirm">Mou</string>
+    <string name="rom_migration_smb_not_supported">La migració automàtica de ROMs no està disponible per a llibreries de xarxa (SMB)</string>
+    <string name="manual_header">Manual d\'usuari</string>
+    <string name="manual_section_first_steps">🚀 Primers passos</string>
+    <string name="manual_content_first_steps">1. Selecciona una carpeta per emmagatzemar les teves ROMs des de Configuració → Directori.
+
+2. Copia els teus fitxers ROM a aquesta carpeta.
+
+3. L\'aplicació escanejarà automàticament i mostrarà els teus jocs a la pantalla d\'inici.</string>
+    <string name="manual_section_archive">🌐 Explora catàlegs</string>
+    <string name="manual_content_archive">La secció Catàleg et permet explorar col·leccions de ROMs de diverses fonts públiques:
+
+• Archive.org: Grans col·leccions de ROMs clàssiques.
+• itch.io: Jocs homebrew gratuïts (requereix una clau API gratuïta).
+
+• Navega per sistema o cerca jocs específics.
+• Toca un joc per descarregar-lo a la teva carpeta de ROMs.
+• Els jocs descarregats apareixeran automàticament a la teva biblioteca.</string>
+    <string name="manual_section_controls">🎮 Configura els controls</string>
+    <string name="manual_content_controls">Connecta un controlador Bluetooth o USB i ves a Configuració → Configuració del controlador.
+
+• Selecciona el teu controlador de la llista.
+• Mapeja els botons segons les teves preferències.
+• Habilita la vibració si el teu controlador ho admet.</string>
+    <string name="manual_section_bios">💾 BIOS requerida</string>
+    <string name="manual_content_bios">Alguns sistemes (PlayStation, Game Boy Advance, etc.) requereixen fitxers BIOS per funcionar.
+
+• Ves a Configuració → Informació de la BIOS per veure quins fitxers necessites.
+• Col·loca els fitxers BIOS a la mateixa carpeta que les teves ROMs.
+• El nom del fitxer ha de coincidir exactament amb el que es requereix.</string>
+    <string name="manual_section_saves">💾 Jocs desats</string>
+    <string name="manual_content_saves">L\'autoguardat està habilitat per defecte.
+
+• Quan surts d\'un joc, el teu progrés es desa automàticament.
+• Quan tornes a obrir el joc, continuaràs des d\'on ho vas deixar.
+• També pots utilitzar el sistema de guardat propi del joc (menú dins del joc).</string>
+    <string name="manual_section_sync">☁️ Sincronització al núvol</string>
+    <string name="manual_content_sync">Pots sincronitzar els teus jocs desats amb Google Drive.
+
+• Ves a Configuració → Sincronització de guardats.
+• Inicia sessió amb el teu compte de Google.
+• Els teus guardats es sincronitzaran automàticament entre dispositius.</string>
+    <string name="manual_section_gameplay">🕹️ Durant el joc</string>
+    <string name="manual_content_gameplay">Per accedir al menú durant el joc:
+
+• Prem el botó de menú (☰) o llisca des de la vora de la pantalla.
+• Des d\'allà pots: desar/carregar estats, canviar la ranura de guardat, accedir a opcions ràpides o sortir del joc.</string>
+    <string name="about_version">Versió %1$s</string>
+    <string name="about_section_origin">Origen del programari</string>
+    <string name="about_content_origin_1">Aquesta aplicació és una bifurcació del projecte de codi obert Lemuroid, distribuït sota la llicència GPL-3.0.</string>
+    <string name="about_content_origin_2">S\'han afegit funcions d\'exploració de contingut públicament disponible a Archive.org i jocs homebrew gratuïts d\'itch.io.</string>
+    <string name="about_section_source">Codi font</string>
+    <string name="about_content_source">El codi font d\'aquesta versió modificada està disponible sota la llicència GPL-3.0.</string>
+    <string name="about_button_github">Veure codi font (GitHub)</string>
+    <string name="about_section_licenses">Llicències de tercers</string>
+    <string name="about_section_legal">Avís legal</string>
+    <string name="about_content_legal">Aquesta aplicació no inclou ROMs i no descarrega contingut automàticament. La funció d\'exploració només mostra col·leccions disponibles públicament a Archive.org i jocs homebrew gratuïts d\'itch.io. L\'usuari és responsable de verificar els seus drets per accedir o utilitzar qualsevol fitxer extern.</string>
+    <string name="about_section_report">Informa d\'un error</string>
+    <string name="about_content_report">Has trobat un error o tens un suggeriment? Ajuda\'ns a millorar enviant un informe anònim.</string>
+    <string name="about_button_report">🐛 Informa d\'un error</string>
+    <string name="about_no_browser">No hi ha cap navegador web instal·lat per obrir l\'enllaç</string>
+    <string name="about_no_browser_report">No hi ha cap navegador web instal·lat per obrir la pàgina d\'informe d\'errors</string>
+    <string name="bug_report_error">No s\'ha pogut carregar el formulari d\'informe d\'errors. Comprova la teva connexió a Internet.</string>
+    <string name="bug_report_select_images">Selecciona imatges</string>
+    <string name="about_open_with">Obre amb</string>
+    <string name="catalog_disclaimer">⚠️ Aquest catàleg es connecta a repositoris públics (Archive.org i itch.io) no afiliats a EmulAItor. Només es mostra contingut free homebrew de itch.io. L\'ús, la descàrrega i la possessió d\'aquest material és responsabilitat exclusiva de l\'usuari. 🧠 Tot i que EmulAItor filtra intel·ligentment els fitxers, pot haver-hi enllaços trencats, fitxers incompatibles o contingut que no siguin ROMs.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">Homebrew d\'itch.io</string>
+    <string name="itch_api_key_title">Clau API d\'itch.io</string>
+    <string name="itch_api_key_subtitle">Necessària per descarregar jocs d\'itch.io</string>
+    <string name="itch_api_key_instructions">Per descarregar jocs free homebrew d\'itch.io, necessites una clau API:
+
+1. Ves a &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; i crea un compte gratuït
+2. Ves a &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Configuració → Clau API&lt;/a&gt;
+3. Genera una nova clau i copia-la
+4. Enganxa-la a continuació</string>
+    <string name="itch_api_key_hint">Enganxa la teva clau API d\'itch.io aquí</string>
+    <string name="itch_api_key_validating">Validant clau API...</string>
+    <string name="itch_api_key_valid">Clau API vàlida ✓</string>
+    <string name="itch_api_key_invalid">Clau API invàlida. Comprova-la i torna a provar.</string>
+    <string name="itch_api_key_saved">Clau API guardada correctament</string>
+    <string name="itch_api_key_required_title">Cal clau API</string>
+    <string name="itch_api_key_required_message">Necessites una clau API d\'itch.io per descarregar jocs. Vols configurar-la ara?</string>
+    <string name="itch_no_results">No s\'han trobat jocs homebrew per a aquest sistema a itch.io</string>
+    <string name="itch_unsupported_system">itch.io no té contingut homebrew per a aquest sistema. Prova NES, SNES, GBA, GBC o Genesis.</string>
+    <string name="itch_game_free">Gratuït</string>
+    <string name="itch_game_by">per %1$s</string>
+    <string name="pack_fully_downloaded">Completament descarregat</string>
+    <string name="itch_uploads_title">Fitxers disponibles</string>
+    <string name="itch_no_rom_uploads">No s\'han trobat fitxers ROM descarregables per a aquest joc</string>
+    <string name="itch_download_error">Error en la descàrrega des d\'itch.io: %1$s</string>
+    <string name="itch_settings_edit_key">Edita la clau</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Desbloqueja l\'accés complet</string>
+    <string name="paywall_description">El període de prova gratuït ha finalitzat. Per continuar, seleccioneu una de les opcions següents.</string>
+<string name="paywall_buy_button">Compra la versió Pro</string>
+    <string name="paywall_restore_title">Ja l\'has comprat anteriorment?</string>
+    <string name="paywall_restore_description">Si vas comprar EmulAItor abans que fos gratuït, introdueix el teu ID de comanda de Google Play (GPA...) per restaurar el teu accés.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Restaura la compra</string>
+    <string name="paywall_where_is_receipt">On puc trobar el meu rebut?</string>
+    <string name="paywall_receipt_instructions_title">Com trobar el teu ID de comanda</string>
+    <string name="paywall_receipt_instructions_1">Opció A: Cerca \"Google Play Receipt EmulAItor\" al teu Gmail.</string>
+    <string name="paywall_receipt_instructions_2">Opció B: Ves a pay.google.com, comprova la teva activitat i busca EmulAItor.</string>
+    <string name="paywall_receipt_open_web">Obre pay.google.com</string>
+    <string name="paywall_support_fallback">Si no el trobes, contacta amb el servei d\'assistència.</string>
+    <string name="paywall_success">Compra restaurada correctament. Gràcies!</string>
+    <string name="paywall_error_invalid_gpa">Codi GPA no vàlid o ja utilitzat.</string>
+    <string name="paywall_error_limit_exceeded">Aquest codi ja s\'està utilitzant en el nombre màxim de dispositius permesos. Si us plau, compreu una llicència nova a les opcions de dalt.</string>
+<string name="paywall_error_network">Error de xarxa. Comprova la teva connexió.</string>
+    <string name="paywall_error_unknown">S\'ha produït un error desconegut.</string>
+    <string name="paywall_restoring">Restaurant...</string>
+    <string name="paywall_buy_subscription">Subscripció mensual</string>
+    <string name="paywall_buy_lifetime">Desbloqueig permanent</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free inclou una prova de temps de joc acumulatiu de 3 hores. Un cop expiri aquest període de prova, hauràs de desbloquejar l\'aplicació amb un dels plans disponibles per continuar gaudint-ne plenament sense límits.</string>
+</resources>

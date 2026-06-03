@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generated/maintained by .agent/scripts/i18n_tool. -->
+    <string name="title_home">Heim</string>
+    <string name="title_search">Leita</string>
+    <string name="title_systems">Kerfi</string>
+    <string name="title_games">Leikir</string>
+    <string name="title_settings">Stillingar</string>
+    <string name="title_catalog">Vörulisti</string>
+    <string name="settings_title_about">Um forritið</string>
+    <string name="settings_title_manual">Notendahandbók</string>
+    <string name="settings_description_manual">Hvernig á að nota EmulAItor</string>
+    <string name="recent">Nýlegir</string>
+    <string name="favorites">Eftirlæti</string>
+    <string name="discover">Uppgötva</string>
+    <string name="rescan">Skanna aftur</string>
+    <string name="stop">Stöðva</string>
+    <string name="none">Ekkert</string>
+    <string name="directory">Mappa</string>
+    <string name="display_filter">Skjásía</string>
+    <string name="roms">ROMs</string>
+    <string name="ok">Í lagi</string>
+    <string name="cancel">Hætta við</string>
+    <string name="settings">Stillingar</string>
+    <string name="save_sync">Samstilling vista</string>
+    <string name="show_all">Sýna allt</string>
+    <string name="back">Til baka</string>
+    <string name="close">Loka</string>
+    <string name="license_not_verified_title">Leyfi ekki staðfest</string>
+    <string name="game_page_search_suggestion">Leita að leikjum</string>
+    <string name="settings_category_general">Almennt</string>
+    <string name="settings_category_input">Inntak</string>
+    <string name="settings_category_misc">Ýmislegt</string>
+    <string name="settings_title_enable_autosave">Sjálfvirk vistun</string>
+    <string name="settings_description_enable_autosave">Vista stöðu þegar hætt er í gegnum leikjavalmynd</string>
+    <string name="settings_title_enable_touch_feedback">Titringur við snertingu</string>
+    <string name="settings_title_tilt_sensitivity">Næmi hallaskynjara</string>
+    <string name="settings_title_hd_quality">Gæði HD-stillingar</string>
+    <string name="settings_title_maximum_cache_usage">Takmörk á skyndiminni</string>
+    <string name="settings_title_hd_mode">HD-stilling</string>
+    <string name="settings_description_hd_mode">Nota eftirvinnslusíu fyrir uppskölun</string>
+    <string name="settings_description_hd_quality">Stilla gæði HD-stillingar</string>
+    <string name="home_hd_mode_enabled">HD-stilling virk</string>
+    <string name="home_hd_mode_disabled">HD-stilling af</string>
+    <string name="settings_title_immersive_mode">Yfirgripsmikil stilling</string>
+    <string name="settings_description_immersive_mode">Litar bakgrunninn á kraftmikinn hátt miðað við myndefni leiksins</string>
+    <string name="settings_title_gamepad_settings">Ytri tæki</string>
+    <string name="settings_description_gamepad_settings">Stilla ytri leikjafjarstýringar og lyklaborð</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Virk tæki</string>
+    <string name="settings_gamepad_category_general">Almennt</string>
+    <string name="settings_gamepad_title_reset_bindings">Endurstilla hnappaskipan</string>
+    <string name="settings_gamepad_title_game_menu">Valmynd</string>
+    <string name="settings_title_open_cores_selection">Breyta kjörnum</string>
+    <string name="settings_description_open_cores_selection">Veldu hvaða kjarni er tengdur við kerfi</string>
+    <string name="settings_core_selection_ds_info">DeSmuME er úrelt og verður fjarlægt í einni af næstu uppfærslum. Vistaðu framvindu þína inni í leiknum og skiptu síðan yfir í melonDS. Vistaðar skrár inni í leik munu hlaðast sjálfkrafa í melonDS, en vistunarstöður (save states) er aðeins hægt að nota með þeim kjarna sem bjó þær til.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Birta greindar og studdar BIOS-skrár</string>
+    <string name="settings_bios_help">Til að bæta við BIOS-skrám skaltu setja studdu skrárnar í ROMs-möppuna þína og skanna aftur. Skráarheitið verður að passa nákvæmlega.</string>
+    <string name="settings_bios_category_detected">Greint</string>
+    <string name="settings_bios_category_not_detected">Stutt</string>
+    <string name="settings_title_reset_settings">Endurstilla á verksmiðjustillingar</string>
+    <string name="settings_description_reset_settings">Endurstilla EmulAItor á verksmiðjustillingar</string>
+    <string name="settings_title_advanced_settings">Ítarlegar stillingar</string>
+    <string name="settings_description_advanced_settings">Birta ítarlegar stillingar</string>
+    <string name="settings_title_low_latency_audio">Velja hljóð með lítilli töf</string>
+    <string name="settings_description_low_latency_audio">Draga úr hljóðtöf á studdum tækjum. Gæti aukið hljóðtruflanir.</string>
+    <string name="settings_title_direct_game_load">Bein hleðsla leikja</string>
+    <string name="settings_description_direct_game_load">(Tilraunakennt) Draga úr hleðslutíma og skyndiminni á studdum leikjatölvum.</string>
+    <string name="settings_title_enable_rumble">Titringur</string>
+    <string name="settings_description_enable_rumble">Virkja titring í studdum leikjum og fjarstýringum</string>
+    <string name="settings_title_enable_device_rumble">Titringur tækis</string>
+    <string name="settings_description_enable_device_rumble">Þegar engin fjarstýring er tengd, láttu tækið titra í staðinn</string>
+    <string name="reset_settings_warning_message_title">Ertu viss?</string>
+    <string name="reset_settings_warning_message_description">Þetta mun endurstilla EmulAItor á verksmiðjustillingar. Vistaðar skrár og vistunarstöður munu varðveitast.</string>
+    <string name="settings_title_save_sync">Skýjavistun</string>
+    <string name="settings_description_save_sync">Taktu afrit og samstilltu vistuðu skrárnar þínar í skýinu</string>
+    <string name="settings_save_sync_refresh">Handvirk samstilling</string>
+    <string name="settings_save_sync_refresh_description">Framkvæma handvirka samstillingu núna.
+%1$s</string>
+    <string name="settings_save_sync_enable_auto">Sjálfvirk samstilling</string>
+    <string name="settings_save_sync_enable_auto_description">Samstilla sjálfkrafa fyrir og eftir leikjalotu þegar tengt er við Wi-Fi</string>
+    <string name="settings_save_sync_configure">Stilla %1$s</string>
+    <string name="settings_save_sync_include_saves">Samstilla vistuðu skrár inni í leik</string>
+    <string name="settings_save_sync_include_saves_description">%1$s á tæki</string>
+    <string name="settings_save_sync_include_states">Samstilla vistunarstöður</string>
+    <string name="settings_save_sync_include_states_description">Þægilegra, en þyngra og óáreiðanlegra. Veldu hvaða kjarna/kerfi þú vilt samstilla</string>
+    <string name="game_context_menu_add_to_favorites">Bæta við eftirlæti</string>
+    <string name="game_context_menu_remove_from_favorites">Fjarlægja úr eftirlæti</string>
+    <string name="game_context_menu_resume">Halda áfram</string>
+    <string name="game_context_menu_restart">Endurræsa</string>
+    <string name="game_context_menu_create_shortcut">Festa við ræsiforrit</string>
+    <string name="game_context_menu_delete">Eyða</string>
+    <string name="game_delete_confirmation">Ertu viss um að þú viljir eyða \"%1$s\"? Þetta mun fjarlægja leikinn úr safninu þínu og eyða skránni.</string>
+    <string name="game_deleted">Leik eytt</string>
+    <string name="home_notification_title">Virkja tilkynningar</string>
+    <string name="home_notification_message">EmulAItor notar tilkynningar til að láta þig vita þegar leikur eða aðgerð er í gangi í bakgrunni.</string>
+    <string name="home_notification_action">Virkja</string>
+    <string name="home_microphone_title">Virkja hljóðnema</string>
+    <string name="home_microphone_message">Nintendo DS leikir geta notað hljóðnemann til að bjóða upp á ákveðna virkni.</string>
+    <string name="home_microphone_action">Virkja</string>
+    <string name="home_empty_title">Veldu möppu fyrir ROMs</string>
+    <string name="home_empty_message">EmulAItor þarf að skanna möppu sem inniheldur ROM skrár.\nÞetta gæti tekið nokkrar mínútur.</string>
+    <string name="home_empty_action">Veldu möppu</string>
+    <string name="home_storage_inaccessible_title">Ekki hægt að nálgast ROMs möppu</string>
+    <string name="home_storage_inaccessible_message">Android leyfir EmulAItor ekki að fá aðgang að völdu ROMs möppunni. Möppunni gæti hafa verið breytt, hún eytt eða henni lokað af kerfisheimildum. Veldu möppuna aftur eða veldu aðra möppu.</string>
+    <string name="home_storage_inaccessible_action">Veldu aðra möppu</string>
+    <string name="update_available_banner">Nýrri útgáfa af EmulAItor er í boði. Pikkaðu til að uppfæra.</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME er að verða úrelt</string>
+    <string name="home_notification_desmume_deprecated_message">Vistaðu í leiknum og skiptu síðan yfir í melonDS til að halda framförum þínum. Vistunarstöður flytjast ekki yfir og verða aðeins nothæfar í DeSmuME.</string>
+    <string name="home_notification_desmume_deprecated_action">Skipta yfir í melonDS</string>
+    <string name="game_menu_save">Vista</string>
+    <string name="game_menu_load">Hlaða</string>
+    <string name="game_menu_restart">Endurræsa</string>
+    <string name="game_menu_quit">Hætta</string>
+    <string name="game_menu_settings">Stillingar</string>
+    <string name="game_menu_state">Staða %1$s</string>
+    <string name="game_menu_change_disk_button">Skipta um disk</string>
+    <string name="game_menu_edit_touch_controls">Breyta stýringum</string>
+    <string name="game_menu_mute_audio">Þagga</string>
+    <string name="game_menu_fast_forward">Hraðspóla</string>
+    <string name="game_menu_change_disk_disk">Diskur %1$s</string>
+    <string name="game_menu_tilt_sensor">Hallaskynjari</string>
+    <string name="game_loading_preparing_game">Undirbý leik…</string>
+    <string name="game_toast_settings_button_using_gamepad">Leikjastýring fannst. Opnaðu stillingavalmyndina með %1$s.</string>
+    <string name="game_toast_load_state_failed">Ekki tókst að hlaða þessari vistun</string>
+    <string name="game_toast_quick_save_loaded">Flýtivistun hlaðin</string>
+    <string name="game_toast_quick_save_saved">Flýtivistun vistuð</string>
+    <string name="empty_view_default">Engir hlutir</string>
+    <string name="core_settings_title">Kjarnastillingar</string>
+    <string name="core_settings_category_preferences">Stillingar</string>
+    <string name="core_settings_category_controllers">Stýringar</string>
+    <string name="core_settings_controller">Stýring %1$s</string>
+    <string name="game_menu_title">Leikjavalmynd</string>
+    <string name="notification_channel_name">Allar tilkynningar</string>
+    <string name="library_index_notification_title">Skanna ROM-skrár</string>
+    <string name="library_index_notification_message">Þetta getur tekið nokkrar mínútur</string>
+    <string name="library_metadata_enrichment_in_progress">Uppfæri ROM-upplýsingar í bakgrunni. Þú getur haldið áfram að spila.</string>
+    <string name="save_sync_notification_title">Samstilling á vistunum í skýi í gangi</string>
+    <string name="save_sync_notification_message">Þetta getur tekið nokkrar mínútur</string>
+    <string name="game_running_notification_title">%1$s er í gangi</string>
+    <string name="game_running_notification_title_alternative">Leikur er í gangi</string>
+    <string name="game_running_notification_message">Gakktu úr skugga um að vista framvinduna</string>
+    <string name="game_loader_error_gl_incompatible">Þessi kjarni krefst OpenGL ES útgáfu sem tækið þitt styður ekki.</string>
+    <string name="game_loader_error_load_game">Eitthvað fór úrskeiðis við hleðslu leiksins. Gakktu úr skugga um að ROM-skráin sé studd af Lemuroid og skannaðu leikina þína aftur.</string>
+    <string name="game_loader_error_save">Eitthvað fór úrskeiðis með vistunarskrána þína. Ef vandamálið er viðvarandi, reyndu að slökkva á sjálfvirkri vistun.</string>
+    <string name="game_loader_error_unsupported_architecture">Þessi kjarni er ekki studdur af tækinu þínu.</string>
+    <string name="game_loader_error_generic">Eitthvað fór úrskeiðis. Prófaðu eftirfarandi:
+
+
+• Slökktu á sjálfvirkri vistun og keyrðu leikinn aftur
+
+• Farðu í Android-stillingar og hreinsaðu skyndiminni appsins
+
+• Farðu í Lemuroid-stillingar og framkvæmdu verksmiðjustillingu
+
+
+Ef ekkert af ofangreindu virkar, gæti verið að þessi leikur/kjarni sé ekki studdur af þessu tæki.</string>
+    <string name="game_loader_error_missing_bios">Það lítur út fyrir að þig vanti nauðsynlega BIOS-skrá. Settu þær í ROMs-möppuna þína og skannaðu aftur. Nauðsynlegar skrár: %1$s</string>
+    <string name="game_shortcut_error">Eitthvað fór úrskeiðis við hleðslu leiksins. Vinsamlegast gakktu úr skugga um að leikurinn sé enn til í safninu þínu.</string>
+    <string name="dialog_saf_not_found">Þetta tæki styður ekki StorageAccessFramework skráaval. Vinsamlegast afritaðu óþjappaðar ROM-skrár handvirkt í %1$s og ýttu á Skanna aftur.</string>
+    <string name="system_grid_details">%1$s leikir</string>
+    <string name="tv_folder_picker_title">Veldu ROMs-möppu</string>
+    <string name="tv_folder_picker_action_choose">Velja</string>
+    <string name="tv_folder_picker_action_cancel">Hætta við</string>
+    <string name="tv_folder_storage_primary">Aðalgeymsla</string>
+    <string name="tv_folder_storage_secondary">Aukageymsla %1$s</string>
+    <string name="tv_folder_storage_title">Veldu geymslu</string>
+    <string name="tv_folder_error_access">Ekki er hægt að opna þessa möppu. Vinsamlegast veldu undirmöppu eða annan stað.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">ROMs-mappa</string>
+    <string name="settings_description_choose_directory">Veldu möppuna sem inniheldur leikina þína</string>
+    <string name="tv_home_section_favorites">Eftirlæti</string>
+    <string name="tv_home_section_recents">Nýlegir</string>
+    <string name="tv_home_section_systems">Kerfi</string>
+    <string name="tv_home_section_settings">Stillingar</string>
+    <string name="gamepad_binding_update_title">Tengja „RetroPad %1$s“</string>
+    <string name="gamepad_binding_update_description">Ýttu á hnapp á „%1$s“</string>
+    <string name="shortcut_binding_update_title">Tengja „Flýtileið %1$s“</string>
+    <string name="shortcut_binding_update_description">Ýttu á fyrsta hnappinn, síðan þann seinni til að búa til samsetningu á „%1$s“</string>
+    <string name="tv_search_results">Leikir</string>
+    <string name="tv_game_message_missing_gamepad">Leikfjarstýringar eru nauðsynlegar til að spila. Vinsamlegast tengdu eina.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Aftengdu fjarstýringuna til að breyta snertistýringum</string>
+    <string name="game_interactory_busy">Bíddu eftir að biðverkefnum ljúki</string>
+    <string name="pending_operations_blocked_title">Aðgerðir gætu verið fastar</string>
+    <string name="pending_operations_blocked_message_external">Biðferli frá fyrri útgáfu gæti verið að hindra skráningu ROM-skráa. Þú getur beðið áfram eða hreinsað appgögn til að laga þetta. ROM-skrárnar þínar verða ekki eytt, en þú þarft að velja ROM-möppuna aftur. Ef þetta tekur lengri tíma en 5 mínútur er mælt með því að hreinsa appgögn.</string>
+    <string name="pending_operations_blocked_message_internal">Biðferli frá fyrri útgáfu gæti verið að hindra skráningu ROM-skráa. Þú getur beðið áfram eða opnað stillingar til að yfirfara geymslustillingar.</string>
+    <string name="pending_operations_clear_data">Hreinsa appgögn</string>
+    <string name="pending_operations_keep_waiting">Bíða áfram</string>
+    <string name="pending_operations_clear_data_confirm_title">Hreinsa appgögn?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor mun nú endurstilla appgögn sín. ROM-skrárnar þínar verða ekki eytt, en þú þarft að velja ROM-möppuna aftur.</string>
+    <string name="pending_operations_clear_data_confirm_button">Hreinsa gögn</string>
+    <string name="mobile_settings_help">Hjálp</string>
+    <string name="mobile_settings_support">Stuðningur</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Um EmulAItor&lt;/b&gt;&lt;br/&gt;
+        Þetta forrit er afleiða (fork) af opna hugbúnaðarverkefninu &lt;b&gt;Lemuroid&lt;/b&gt;, dreift undir &lt;b&gt;GPL-3.0&lt;/b&gt; leyfinu.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Mikilvæg tilkynning&lt;/b&gt;&lt;br/&gt;
+        Þetta forrit inniheldur enga leiki og hleður ekki sjálfkrafa niður neinu efni. Skoðunareiginleikinn sýnir efni sem er opinberlega aðgengilegt á Archive.org og ókeypis heimagerða leiki frá itch.io. Notandinn ber ábyrgð á því að staðfesta rétt sinn til að nálgast eða nota ROM-skrár frá utanaðkomandi aðilum.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Hvernig nota ég þetta forrit?&lt;/b&gt;&lt;br/&gt;
+        Afritaðu ROM-skrárnar þínar í möppu á tækinu þínu og veldu hana innan forritsins. Þessi mappa getur haft undirmöppur. Eftir að skönnun lýkur ættirðu að sjá leikina þína.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Af hverju finnast leikirnir mínir ekki?&lt;/b&gt;&lt;br/&gt;
+        Ef leikirnir þínir eru þjappaðir, reyndu að afþjappa þá. Ef það virkar ekki, settu ROM-skrár í aðskildar möppur, eina fyrir hvert kerfi með eftirfarandi nöfnum: $SYSTEMS.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Leyfi&lt;/b&gt;&lt;br/&gt;
+        Lemuroid: GPL-3.0 (Swordfish90)&lt;br/&gt;
+        LibretroDroid: GPL-3.0&lt;br/&gt;
+        Libretro Cores: Ýmis leyfi</string>
+    <string name="lemuroid_crash_disclamer">Það lítur út fyrir að Libretro-kjarninn hafi lent í óvæntu vandamáli. Ef þetta er viðvarandi, vinsamlegast reyndu eftirfarandi:\n
+        \n• Slökktu á sjálfvirkri vistun og keyrðu leikinn aftur
+        \n• Farðu í Android-stillingar og hreinsaðu skyndiminni appsins
+        \n• Farðu í Lemuroid-stillingar og framkvæmdu verksmiðjuendurstillingu
+        \n\n Ef ekkert af þessu virkar, gæti verið að þessi leikur/kjarni sé ekki studdur af þessu tæki.</string>
+    <string name="error_message_incompatible_state">Þessi vistunarstaða er ekki samhæf við núverandi útgáfu kjarnans. Vinsamlegast hlaðið nýjustu vistun innan leiksins eða notið fyrri útgáfu af Lemuroid.</string>
+    <string name="shader_filter_names_auto">Sjálfvirkt</string>
+    <string name="shader_filter_names_sharp">Skörp</string>
+    <string name="shader_filter_names_smooth">Mýkt</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Ekkert</string>
+    <string name="haptic_feedback_mode_names_press">Ýta</string>
+    <string name="haptic_feedback_mode_names_press_release">Ýta og sleppa</string>
+    <string name="tilt_configuration_disabled">Óvirkt</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Vinstri hliðrænn</string>
+    <string name="tilt_configuration_analog_right">Hægri hliðrænn</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+    <string name="disclaimer_title">Mikilvæg tilkynning</string>
+    <string name="disclaimer_software_origin_title">Uppruni hugbúnaðar</string>
+    <string name="disclaimer_software_origin_text">Þetta forrit er fork af opna hugbúnaðarverkefninu Lemuroid, dreift undir GPL-3.0 leyfi.</string>
+    <string name="disclaimer_no_content_title">Ekkert efni innifalið</string>
+    <string name="disclaimer_no_content_text">Þetta forrit inniheldur enga leiki og hleður ekki sjálfkrafa niður neinum skrám.</string>
+    <string name="disclaimer_archive_title">Opinberar vörulistaveitur</string>
+    <string name="disclaimer_archive_text">Vafraaðgerðin sýnir efni sem er opinberlega aðgengilegt á Archive.org og ókeypis heimagerða leiki frá itch.io. EmulAItor er ekki tengt hvorugri þjónustunni. Notandinn ber ábyrgð á því að staðfesta rétt sinn til að nálgast eða nota hvaða ROM sem er.</string>
+    <string name="disclaimer_user_responsibility_title">Ábyrgð notanda</string>
+    <string name="disclaimer_user_responsibility_text">Þú berð ábyrgð á því að tryggja að þú hafir lagalegan rétt til að nota ROM-skrár með þessu forriti.</string>
+    <string name="disclaimer_accept">Ég skil og samþykki</string>
+    <string name="disclaimer_terms">Með því að halda áfram samþykkir þú notkunarskilmála þessa forrits.</string>
+    <string name="game_context_menu_edit">Breyta</string>
+    <string name="game_edit_title">Breyta leik</string>
+    <string name="game_edit_field_title">Titill</string>
+    <string name="game_edit_field_system">Kerfi</string>
+    <string name="game_edit_field_developer">Hönnuður</string>
+    <string name="game_edit_file_label">Skrá:</string>
+    <string name="game_edit_save">Vista</string>
+    <string name="game_edit_search_online">Leita að lýsigögnum á netinu</string>
+    <string name="game_edit_searching">Leitar...</string>
+    <string name="game_edit_no_results">Engar niðurstöður fundust</string>
+    <string name="game_edit_apply_metadata">Nota lýsigögn</string>
+    <string name="game_edit_unlock_metadata">Opna fyrir lýsigögn (leyfa sjálfvirka uppfærslu)</string>
+    <string name="catalog_search_placeholder">Leita að ROM-skrám...</string>
+    <string name="catalog_filter_all_sources">Allar veitur</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Staðbundið</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Engar niðurstöður fundust</string>
+    <string name="catalog_downloads">Niðurhal</string>
+    <string name="catalog_clear_completed">Hreinsa allt</string>
+    <string name="catalog_downloading">Sækir...</string>
+    <string name="catalog_downloaded">Sækt</string>
+    <string name="sources_manage_title">Stjórna veitum</string>
+    <string name="sources_add_title">Bæta við veitu</string>
+    <string name="sources_add_local">Bæta við staðbundinni möppu</string>
+    <string name="sources_add_smb">Bæta við SMB/NAS</string>
+    <string name="sources_smb_name">Nafn</string>
+    <string name="sources_smb_server">Netþjónn</string>
+    <string name="sources_smb_path">Slóð</string>
+    <string name="sources_smb_username">Notandanafn (valfrjálst)</string>
+    <string name="sources_smb_password">Lykilorð (valfrjálst)</string>
+    <string name="sources_smb_domain">Lén (valfrjálst)</string>
+    <string name="sources_edit">Breyta</string>
+    <string name="sources_delete">Eyða</string>
+    <string name="sources_save">Vista</string>
+    <string name="sources_cancel">Hætta við</string>
+    <string name="sources_add">Bæta við</string>
+    <string name="sources_smb_display_name">Birtingarnafn</string>
+    <string name="sources_smb_display_name_placeholder">Mitt NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Full slóð að meðtöldu nafni sameignar</string>
+    <string name="sources_smb_use_auth">Nota auðkenningu</string>
+    <string name="sources_smb_username_label">Notandanafn</string>
+    <string name="sources_smb_password_label">Lykilorð</string>
+    <string name="sources_smb_edit_title">Breyta SMB-uppsprettu</string>
+    <string name="sources_smb_connection_title">SMB-tenging</string>
+    <string name="sources_smb_test_connection">Prófa tengingu</string>
+    <string name="sources_smb_testing">Prófa tengingu...</string>
+    <string name="sources_smb_connection_success">Tenging tókst!</string>
+    <string name="sources_smb_connection_failed">Tenging mistókst: %1$s</string>
+    <string name="sources_no_custom">Engar sérsniðnar uppsprettur stilltar</string>
+    <string name="sources_local_permission_error">Ekki er hægt að bæta við þessari möppu vegna þess að Android veitti ekki aðgang. Veldu aðra möppu.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Skrár á tæki</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Leita að ROMs...</string>
+    <string name="catalog_packs_count">%1$d af %2$d pökkum</string>
+    <string name="catalog_games_count">%1$d leikir</string>
+    <string name="catalog_load_more">Hlaða fleiri...</string>
+    <string name="catalog_load_more_packs">Hlaða fleiri pökkum</string>
+    <string name="catalog_no_packs_found">Engir ROM-pakkar fundust</string>
+    <string name="catalog_no_files_found">Engar niðurhalanlegar skrár fundust</string>
+    <string name="catalog_files_count">Skrár (%1$d):</string>
+    <string name="catalog_download_all">Allt</string>
+    <string name="catalog_downloads_title">Niðurhal (%1$d)</string>
+    <string name="catalog_downloads_clear">Hreinsa</string>
+    <string name="catalog_no_downloads">Ekkert niðurhal</string>
+    <string name="catalog_error_retry">Reyna aftur</string>
+    <string name="catalog_error_occurred">Villa kom upp</string>
+    <string name="catalog_invalid_download_title">Ógilt catalog skrá</string>
+    <string name="catalog_invalid_download_message">Niðurhalað skrá virðist ekki vera gilt ROM fyrir þetta kerfi. Birgir gæti hafa gefið út ranga eða óstudda skrá. Ef þú finnur ekki þetta ROM í cataloginu geturðu hlaðið því niður handvirkt og bætt því við ROM möppuna þína.</string>
+    <string name="catalog_region_all">🌍 Allt</string>
+    <string name="catalog_region_usa">🇺🇸 Bandaríkin</string>
+    <string name="catalog_region_europe">🇪🇺 Evrópa</string>
+    <string name="catalog_region_japan">🇯🇵 Japan</string>
+    <string name="catalog_region_spain">🇪🇸 Spánn</string>
+    <string name="catalog_region_france">🇫🇷 Frakkland</string>
+    <string name="catalog_region_germany">🇩🇪 Þýskaland</string>
+    <string name="catalog_region_italy">🇮🇹 Ítalía</string>
+    <string name="catalog_region_brazil">🇧🇷 Brasilía</string>
+    <string name="catalog_region_korea">🇰🇷 Kórea</string>
+    <string name="catalog_region_china">🇨🇳 Kína</string>
+    <string name="catalog_region_australia">🇦🇺 Ástralía</string>
+    <string name="catalog_sort_downloads">Mest niðurhalað</string>
+    <string name="catalog_sort_name">Nafn A-Ö</string>
+    <string name="catalog_sort_size">Stærsta stærð</string>
+    <string name="catalog_error_503">Archive.org er niðri eða í viðhaldi. Reyndu aftur síðar.</string>
+    <string name="catalog_error_502">Archive.org á í vandræðum. Reyndu aftur síðar.</string>
+    <string name="catalog_error_500">Archive.org hefur innri villu. Reyndu aftur síðar.</string>
+    <string name="catalog_error_ssl">SSL vottorðsvilla. Gakktu úr skugga um að dagsetning og tími tækisins séu réttir.</string>
+    <string name="catalog_error_timeout">Tenging við Archive.org rann út. Athugaðu nettenginguna þína.</string>
+    <string name="catalog_error_no_internet">Engin nettenging. Athugaðu tenginguna þína.</string>
+    <string name="catalog_error_unknown">Óþekkt villa</string>
+    <string name="catalog_storage_warning_title">Ekki nóg pláss</string>
+    <string name="catalog_storage_too_large">Pakkinn sem þú vilt hlaða niður er of stór.</string>
+    <string name="catalog_storage_download_size">Niðurhalsstærð:</string>
+    <string name="catalog_storage_available">Laust pláss:</string>
+    <string name="catalog_storage_needed">Auka pláss þarf:</string>
+    <string name="catalog_storage_free_space">Laust pláss á tækinu þínu eða veldu færri skrár til að hlaða niður.</string>
+    <string name="catalog_storage_understood">Skilinn</string>
+    <string name="catalog_path_warning_title">Slóð ekki stillt!</string>
+    <string name="catalog_path_select_folder">Til að hlaða niður leikjum þarftu að velja möppu til að geyma þá.</string>
+    <string name="catalog_path_select_button">Velja möppu</string>
+    <string name="delete_games_title">Eyða %1$d leikjum?</string>
+    <string name="delete_games_warning">Þetta mun fjarlægja valda leiki úr bókasafninu þínu og eyða ROM skrám þeirra af diski.</string>
+    <string name="delete_games_list_header">Leikir til að eyða:</string>
+    <string name="delete_games_and_more">...og %1$d til viðbótar</string>
+    <string name="delete_games_confirm">Eyða</string>
+    <string name="delete_mode_title">Velja leiki til að eyða</string>
+    <string name="delete_selected">Eyða völdum (%1$d)</string>
+    <string name="settings_category_metadata">Metadata / Skrapar</string>
+    <string name="settings_title_thegamesdb_apikey">TheGamesDB API lykill</string>
+    <string name="settings_description_thegamesdb_apikey">Fáðu ókeypis lykil á thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Sláðu inn TheGamesDB API lykilinn þinn til að sækja leikjaumslag, lýsingar og tegundir.</string>
+    <string name="settings_thegamesdb_configured">Stillt</string>
+    <string name="settings_thegamesdb_not_configured">Ekki stillt</string>
+    <string name="metadata_dialog_apikey_title">Sláðu inn API lykil</string>
+    <string name="rom_migration_title">Færa ROM</string>
+    <string name="rom_migration_message">%1$d ROM verða færð til:
+
+%2$s
+
+Viltu halda áfram?</string>
+    <string name="rom_migration_progress_title">Færa ROM…</string>
+    <string name="rom_migration_progress">Færa %1$s (%2$d af %3$d)</string>
+    <string name="rom_migration_success">%1$d ROM færð með góðum árangri</string>
+    <string name="rom_migration_partial">Færð %1$d af %2$d ROM. Ekki tókst að færa sumar skrár.</string>
+    <string name="rom_migration_failed">Ekki tókst að færa ROM: %1$s</string>
+    <string name="rom_migration_cancel">Hætta við</string>
+    <string name="rom_migration_confirm">Færa</string>
+    <string name="rom_migration_smb_not_supported">Sjálfvirk ROM flutningur er ekki í boði fyrir net bókasöfn (SMB)</string>
+    <string name="manual_header">Notendahandbók</string>
+    <string name="manual_section_first_steps">🚀 Fyrstu skref</string>
+    <string name="manual_content_first_steps">1. Veldu möppu til að geyma ROM-skrárnar þínar í Stillingar → Skrá.
+
+2. Afritaðu ROM-skrárnar þínar í þá möppu.
+
+3. Forritið mun sjálfkrafa skanna og birta leikina þína á heimaskjánum.</string>
+    <string name="manual_section_archive">🌐 Skoðaðu verslanir</string>
+    <string name="manual_content_archive">Verslunarhlutinn gerir þér kleift að skoða ROM söfn frá mörgum opinberum heimildum:
+
+• Archive.org: Stór söfn af klassískum ROM-skrám.
+• itch.io: Ókeypis heimasmíðaðir leikir (krefst ókeypis API lykils).
+
+• Skoðaðu eftir kerfi eða leitaðu að tilteknum leikjum.
+• Bankaðu á leik til að hlaða honum niður í ROM möppuna þína.
+• Niðurhalaðir leikir birtast sjálfkrafa í bókasafninu þínu.</string>
+    <string name="manual_section_controls">🎮 Stillingar stýringa</string>
+    <string name="manual_content_controls">Tengdu Bluetooth eða USB stýringu og farðu í Stillingar → Stýringarstillingar.
+
+• Veldu stýringuna þína af listanum.
+• Kortleggðu hnappa samkvæmt óskum þínum.
+• Virkjaðu titring ef stýringin þín styður það.</string>
+    <string name="manual_section_bios">💾 Nauðsynleg BIOS</string>
+    <string name="manual_content_bios">Sum kerfi (PlayStation, Game Boy Advance, osfrv.) þurfa BIOS skrár til að virka.
+
+• Farðu í Stillingar → BIOS upplýsingar til að sjá hvaða skrár þú þarft.
+• Settu BIOS skrár í sömu möppu og ROM-skrárnar þínar.
+• Skráarnafnið verður að passa nákvæmlega við það sem krafist er.</string>
+    <string name="manual_section_saves">💾 Vistaðir leikir</string>
+    <string name="manual_content_saves">Sjálfvirk vistun er virkjuð sjálfgefið.
+
+• Þegar þú hættir í leik er framvindu þinni vistað sjálfkrafa.
+• Þegar þú opnar leikinn aftur heldurðu áfram þar sem frá var horfið.
+• Þú getur líka notað eigin vistunarkerfi leiksins (valmynd í leik).</string>
+    <string name="manual_section_sync">☁️ Samstilling í skýinu</string>
+    <string name="manual_content_sync">Þú getur samstillt vistaða leiki þína við Google Drive.
+
+• Farðu í Stillingar → Vista samstilling.
+• Skráðu þig inn með Google reikningnum þínum.
+• Vistun þín verður sjálfkrafa samstillt á milli tækja.</string>
+    <string name="manual_section_gameplay">🕹️ Meðan á leik stendur</string>
+    <string name="manual_content_gameplay">Til að fá aðgang að valmyndinni meðan á leik stendur:
+
+• Ýttu á valmyndarhnappinn (☰) eða strjúktu frá brún skjásins.
+• Þaðan geturðu: vistað/hlaðið ástand, breytt vistunarstað, fengið aðgang að skyndivalkostum eða hætt í leik.</string>
+    <string name="about_version">Útgáfa %1$s</string>
+    <string name="about_section_origin">Uppruni hugbúnaðar</string>
+    <string name="about_content_origin_1">Þetta forrit er afsprengi af opna Lemuroid verkefninu, dreift undir GPL-3.0 leyfi.</string>
+    <string name="about_content_origin_2">Skoðunaraðgerðir fyrir opinberlega tiltækt efni á Archive.org og ókeypis heimasmíðaða leiki frá itch.io hafa verið bætt við.</string>
+    <string name="about_section_source">Læningarkóði</string>
+    <string name="about_content_source">Læningarkóði þessarar breyttu útgáfu er fáanlegur undir GPL-3.0 leyfi.</string>
+    <string name="about_button_github">Skoða læningarkóða (GitHub)</string>
+    <string name="about_section_licenses">Leyfir þriðja aðila</string>
+    <string name="about_section_legal">Lagaleg tilkynning</string>
+    <string name="about_content_legal">Þetta forrit inniheldur ekki ROM og hleður ekki niður efni sjálfkrafa. Kynningaraðgerðin sýnir aðeins söfn sem eru opinberlega fáanleg á Archive.org og ókeypis heimagerða leiki frá itch.io. Notandinn ber ábyrgð á að sannreyna rétt sinn til að fá aðgang að eða nota ytri skrár.</string>
+    <string name="about_section_report">Tilkynna villu</string>
+    <string name="about_content_report">Fannst mistök eða hefurðu tillögu? Hjálpaðu okkur að bæta með því að senda nafnlausa skýrslu.</string>
+    <string name="about_button_report">🐛 Tilkynna villu</string>
+    <string name="about_no_browser">Enginn vefskoðari uppsettur til að opna tengilinn</string>
+    <string name="about_no_browser_report">Enginn vefskoðari uppsettur til að opna síðu fyrir villuskýrslur</string>
+    <string name="bug_report_error">Gat ekki hlaðið inn eyðublað fyrir villuskýrslur. Vinsamlegast athugaðu nettenginguna þína.</string>
+    <string name="bug_report_select_images">Veldu myndir</string>
+    <string name="about_open_with">Opna með</string>
+    <string name="catalog_disclaimer">⚠️ Þessi verslun tengist opinberum geymslum (Archive.org og itch.io) sem eru ekki tengdar EmulAItor. Aðeins ókeypis heimagerð efni er skráð frá itch.io. Notkun, niðurhal og vörslu þessa efnis er alfarið á ábyrgð notandans. 🧠 Þótt EmulAItor sili greinilega skrám, geta verið brotnar tenglar, ósamrýmanlegar skrár eða efni sem eru ekki ROM.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io heimagerð</string>
+    <string name="itch_api_key_title">itch.io API lykill</string>
+    <string name="itch_api_key_subtitle">Nauðsynlegt til að hlaða niður leikjum frá itch.io</string>
+    <string name="itch_api_key_instructions">Til að hlaða niður ókeypis heimagerðum leikjum frá itch.io þarftu API lykil:
+
+1. Farðu á &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; og búðu til ókeypis reikning
+2. Farðu á &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Stillingar → API lyklar&lt;/a&gt;
+3. Búðu til nýjan lykil og afritaðu hann
+4. Límdu hann hér að neðan</string>
+    <string name="itch_api_key_hint">Límdu itch.io API lykilinn þinn hér</string>
+    <string name="itch_api_key_validating">Staðfestir API lykil…</string>
+    <string name="itch_api_key_valid">API lykill gilt ✓</string>
+    <string name="itch_api_key_invalid">Ógildur API lykill. Vinsamlegast athugaðu og reyndu aftur.</string>
+    <string name="itch_api_key_saved">API lykill vistaður með góðum árangri</string>
+    <string name="itch_api_key_required_title">API lykill krafist</string>
+    <string name="itch_api_key_required_message">Þú þarft itch.io API lykil til að hlaða niður leikjum. Viltu stilla hann núna?</string>
+    <string name="itch_no_results">Engir heimagerðir leikir fundust fyrir þetta kerfi á itch.io</string>
+    <string name="itch_unsupported_system">itch.io hefur ekkert heimagerð efni fyrir þetta kerfi. Prófaðu NES, SNES, GBA, GBC eða Genesis.</string>
+    <string name="itch_game_free">Ókeypis</string>
+    <string name="itch_game_by">eftir %1$s</string>
+    <string name="pack_fully_downloaded">Að fullu niðurhalað</string>
+    <string name="itch_uploads_title">Lausar skrár</string>
+    <string name="itch_no_rom_uploads">Engar niðurhalanlegar ROM skrár fundust fyrir þennan leik</string>
+    <string name="itch_download_error">Mistókst að hlaða niður frá itch.io: %1$s</string>
+    <string name="itch_settings_edit_key">Breyta lykli</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Opna fyrir fullan aðgang</string>
+    <string name="paywall_description">Ókeypis prufutímabilinu er lokið. Til að halda áfram skaltu velja einn af eftirfarandi valkostum.</string>
+<string name="paywall_buy_button">Kaupa Pro-útgáfu</string>
+    <string name="paywall_restore_title">Keyptirðu þetta áður?</string>
+    <string name="paywall_restore_description">Ef þú keyptir EmulAItor áður en hann varð ókeypis, sláðu inn Google Play pöntunarnúmerið þitt (GPA...) til að endurheimta aðganginn.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Endurheimta kaup</string>
+    <string name="paywall_where_is_receipt">Hvar finn ég kvittunina mína?</string>
+    <string name="paywall_receipt_instructions_title">Hvernig á að finna pöntunarnúmerið þitt</string>
+    <string name="paywall_receipt_instructions_1">Valkostur A: Leitaðu að \"Google Play Receipt EmulAItor\" í Gmail-inu þínu.</string>
+    <string name="paywall_receipt_instructions_2">Valkostur B: Farðu á pay.google.com, athugaðu virknina þína og leitaðu að EmulAItor.</string>
+    <string name="paywall_receipt_open_web">Opna pay.google.com</string>
+    <string name="paywall_support_fallback">Ef þú finnur það ekki, hafðu samband við þjónustuverið.</string>
+    <string name="paywall_success">Kaup endurheimt. Þakka þér fyrir!</string>
+    <string name="paywall_error_invalid_gpa">Ógildur GPA-kóði eða þegar notaður.</string>
+    <string name="paywall_error_limit_exceeded">Þessi kóði er nú þegar í notkun á hámarksfjölda leyfilegra tækja. Vinsamlegast keyptu nýtt leyfi af valkostunum hér að ofan.</string>
+<string name="paywall_error_network">Nettengingarvilla. Vinsamlegast athugaðu tenginguna þína.</string>
+    <string name="paywall_error_unknown">Óþekkt villa kom upp.</string>
+    <string name="paywall_restoring">Endurheimti...</string>
+    <string name="paywall_buy_subscription">Mánaðaráskrift</string>
+    <string name="paywall_buy_lifetime">Varanleg opnun</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>

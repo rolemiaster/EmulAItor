@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">Start</string>
+    <string name="title_search">Zoeken</string>
+    <string name="title_systems">Systemen</string>
+    <string name="title_games">Spellen</string>
+    <string name="title_settings">Instellingen</string>
+    <string name="recent">Recent</string>
+    <string name="favorites">Favorieten</string>
+    <string name="discover">Ontdekken</string>
+    <string name="rescan">Herscannen</string>
+    <string name="stop">Stop</string>
+    <string name="none">Geen</string>
+    <string name="directory">Map</string>
+    <string name="display_filter">Schermfilter</string>
+    <string name="roms">ROMs</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuleren</string>
+    <string name="settings">Instellingen</string>
+    <string name="save_sync">Save-synchronisatie</string>
+    <string name="show_all">Alles tonen</string>
+    <string name="back">Terug</string>
+    <string name="close">Sluiten</string>
+    <string name="game_page_search_suggestion">Spellen zoeken</string>
+    <string name="settings_category_general">Algemeen</string>
+    <string name="settings_category_input">Besturing</string>
+    <string name="settings_category_misc">Overig</string>
+    <string name="settings_title_enable_autosave">State automatisch opslaan</string>
+    <string name="settings_description_enable_autosave">Sla status op bij het afsluiten via het spelmenu</string>
+    <string name="settings_title_enable_touch_feedback">Trillen bij aanraking</string>
+    <string name="settings_title_tilt_sensitivity">Sensitiviteit van kantelsensor</string>
+    <string name="settings_title_hd_quality">HD-modus kwaliteit</string>
+    <string name="settings_title_maximum_cache_usage">Limiet van cachegrootte</string>
+    <string name="settings_title_hd_mode">HD-modus</string>
+    <string name="settings_description_hd_mode">Pas achteraf een opschaalfilter toe</string>
+    <string name="settings_description_hd_quality">De kwaliteit van HD-modus aanpassen</string>
+    <string name="settings_title_immersive_mode">Meeslepende modus</string>
+    <string name="settings_description_immersive_mode">Dynamisch kleuren van de achtergrond gebaseerd op de spelvisuals</string>
+    <string name="settings_title_gamepad_settings">Externe apparaten</string>
+    <string name="settings_description_gamepad_settings">Configureer externe gamepads en toetsenborden</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Ingeschakelde apparaten</string>
+    <string name="settings_gamepad_category_general">Algemeen</string>
+    <string name="settings_gamepad_title_reset_bindings">Bindingen resetten</string>
+    <string name="settings_gamepad_title_game_menu">Menu</string>
+    <string name="settings_title_open_cores_selection">Cores wisselen</string>
+    <string name="settings_description_open_cores_selection">Selecteer welke core gekoppeld is aan een systeem</string>
+    <string name="settings_core_selection_ds_info">DeSmuME is verouderd en zal binnenkort worden verwijderd. Sla binnen het spel op en schakel vervolgens over naar melonDS: in-game bespaart de lading daar automatisch, maar bespaart staten op de kern die ze gemaakt heeft.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Gedetecteerde en ondersteunde BIOS-bestanden</string>
+    <string name="settings_bios_category_detected">Gedetecteerd</string>
+    <string name="settings_bios_category_not_detected">Ondersteund</string>
+    <string name="settings_title_reset_settings">Fabrieksinstellingen herstellen</string>
+    <string name="settings_description_reset_settings">Lemuroid terugzetten naar fabrieksinstellingen</string>
+    <string name="settings_title_advanced_settings">Geavanceerde instellingen</string>
+    <string name="settings_description_advanced_settings">Geavanceerde en experimentele instellingen</string>
+    <string name="settings_title_low_latency_audio">Audio met lage latentie</string>
+    <string name="settings_description_low_latency_audio">Vermindert audiovertraging op ondersteunde apparaten, maar kan zorgen voor audio-glitches</string>
+    <string name="settings_title_direct_game_load">Spel direct laden</string>
+    <string name="settings_description_direct_game_load">Verminder laadtijd en cache-gebruik op ondersteunde consoles (experimenteel)</string>
+    <string name="settings_title_enable_rumble">Trilling</string>
+    <string name="settings_description_enable_rumble">Schakel trilling in voor ondersteunde games en controllers</string>
+    <string name="settings_title_enable_device_rumble">Trilling van apparaat</string>
+    <string name="settings_description_enable_device_rumble">Gebruik apparaattrilling indien er geen controller is aangesloten</string>
+    <string name="reset_settings_warning_message_title">Weet u het zeker?</string>
+    <string name="reset_settings_warning_message_description">Dit zal Lemuroid terugzetten naar de fabrieksinstellingen. Saves en states zullen behouden blijven.</string>
+    <string name="settings_title_save_sync">Cloud-saves</string>
+    <string name="settings_description_save_sync">Maak een back-up en synchroniseer uw saves in de cloud</string>
+    <string name="settings_save_sync_refresh">Handmatig synchroniseren</string>
+    <string name="settings_save_sync_refresh_description">Voer nu een handmatige synchronisatie uit.\n%1$s</string>
+    <string name="settings_save_sync_enable_auto">Auto-sync</string>
+    <string name="settings_save_sync_enable_auto_description">Automatisch een synchronisatie uitvoeren voor en na een spelsessie wanneer verbonden met Wifi</string>
+    <string name="settings_save_sync_configure">Configureer %1$s</string>
+    <string name="settings_save_sync_include_saves">Synchroniseer in-game saves</string>
+    <string name="settings_save_sync_include_saves_description">%1$s op apparaat</string>
+    <string name="settings_save_sync_include_states">States synchroniseren</string>
+    <string name="settings_save_sync_include_states_description">Handiger, maar zwaarder en minder stabiel. Kies welke cores/systemen je wil synchroniseren</string>
+    <string name="game_context_menu_add_to_favorites">Toevoegen aan favorieten</string>
+    <string name="game_context_menu_remove_from_favorites">Verwijderen uit favorieten</string>
+    <string name="game_context_menu_resume">Hervatten</string>
+    <string name="game_context_menu_restart">Herstarten</string>
+    <string name="game_context_menu_create_shortcut">Vastzetten aan launcher</string>
+    <string name="home_notification_title">Meldingen inschakelen</string>
+    <string name="home_notification_message">Lemuroid gebruikt meldingen om je te laten weten wanneer een spel of bewerking op de achtergrond draait.</string>
+    <string name="home_notification_action">Inschakelen</string>
+    <string name="home_microphone_title">microfoon inschakelen</string>
+    <string name="home_microphone_message">Nintendo DS spellen kunnen de microfoon gebruiken om enkele functies te bieden.</string>
+    <string name="home_microphone_action">Inschakelen</string>
+    <string name="home_empty_title">Selecteer ROM-map</string>
+    <string name="home_empty_message">Lemuroid moet een map met ROM-bestanden scannen.\nDit kan enkele minuten duren.</string>
+    <string name="home_empty_action">Selecteer map</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME gaat binnenkort met pensioen</string>
+    <string name="home_notification_desmume_deprecated_message">Sla in-game op, schakel over naar melonDS, en jouw voortgang zal overgedragen worden. Bespaar staten blijven gekoppeld aan DeSmuME.</string>
+    <string name="home_notification_desmume_deprecated_action">Overschakelen naar melonDS</string>
+    <string name="game_menu_save">Opslaan</string>
+    <string name="game_menu_load">Laden</string>
+    <string name="game_menu_restart">Herstarten</string>
+    <string name="game_menu_quit">Afsluiten</string>
+    <string name="game_menu_settings">Instellingen</string>
+    <string name="game_menu_state">State %1$s</string>
+    <string name="game_menu_change_disk_button">Schijf wisselen</string>
+    <string name="game_menu_edit_touch_controls">Bediening bewerken</string>
+    <string name="game_menu_mute_audio">Dempen</string>
+    <string name="game_menu_fast_forward">Vooruitspoelen</string>
+    <string name="game_menu_change_disk_disk">Schijf %1$s</string>
+    <string name="game_menu_tilt_sensor">Kantelen Sensor</string>
+    <string name="game_loading_preparing_game">Spel voorbereiden…</string>
+    <string name="game_toast_settings_button_using_gamepad">Gamepad gedetecteerd. Open instellingenmenu met %1$s.</string>
+    <string name="game_toast_load_state_failed">Kan deze state niet laden</string>
+    <string name="game_toast_quick_save_loaded">Snel geladen</string>
+    <string name="game_toast_quick_save_saved">Snel opgeslagen</string>
+    <string name="empty_view_default">Geen Items</string>
+    <string name="core_settings_title">Core-instellingen</string>
+    <string name="core_settings_category_preferences">Voorkeuren</string>
+    <string name="core_settings_category_controllers">Controllers</string>
+    <string name="core_settings_controller">Controller %1$s</string>
+    <string name="game_menu_title">Spelmenu</string>
+    <string name="notification_channel_name">Alle notificaties</string>
+    <string name="library_index_notification_title">Bezig met scannen van ROMs</string>
+    <string name="library_index_notification_message">Dit kan een paar minuten duren</string>
+    <string name="save_sync_notification_title">Cloud opslag wordt gesynchroniseerd</string>
+    <string name="save_sync_notification_message">Dit kan een paar minuten duren</string>
+    <string name="game_running_notification_title">%1$s is actief</string>
+    <string name="game_running_notification_title_alternative">Game is actief</string>
+    <string name="game_running_notification_message">Zorg ervoor dat je je voortgang opslaat</string>
+    <string name="game_loader_error_gl_incompatible">Deze Core heeft een OpenGL ES versie nodig die je apparaat niet ondersteund.</string>
+    <string name="game_loader_error_load_game">Er is iets misgegaan tijdens het laden van je spel. Zorg ervoor dat de ROM wordt ondersteund door Lemuroid en rescan je games.</string>
+    <string name="game_loader_error_save">Er is iets misgegaan met je opslagbestand. Als het probleem zich blijft voordoen, probeer dan auto-save uit te schakelen.</string>
+    <string name="game_loader_error_unsupported_architecture">Deze core wordt niet ondersteund door uw apparaat.</string>
+    <string name="game_loader_error_generic">Er is iets misgegaan. Probeer het volgende:\n
+        \n• Schakel automatisch opslaan uit en herstart het spel
+        \n• Ga naar Android instellingen en wis de app cache
+        \n• Ga naar Lemuroid instellingen en voer een reset uit
+        \n\nals geen van de bovenstaande werkt kan het zijn dat dit Spel/Core niet wordt ondersteund door dit apparaat.</string>
+    <string name="game_loader_error_missing_bios">Het lijkt erop dat u de vereiste BIOS mist, plaats deze in uw ROM-map en herscan. Vereiste bestanden: %1$s</string>
+    <string name="game_shortcut_error">Er is iets misgegaan tijdens het laden van het spel. Zorg ervoor dat dit spel zich nog steeds in uw bibliotheek bevindt.</string>
+    <string name="dialog_saf_not_found">Dit apparaat ondersteunt de StorageAccessFramework bestandskiezer niet. Kopieer handmatig ongecomprimeerde ROM bestanden in %1$s en druk op Rescan.</string>
+    <string name="system_grid_details">%1$s games</string>
+    <string name="tv_folder_picker_title">Selecteer ROM-map</string>
+    <string name="tv_folder_picker_action_choose">Selecteer</string>
+    <string name="tv_folder_picker_action_cancel">Annuleren</string>
+    <string name="tv_folder_storage_primary">Primaire opslag</string>
+    <string name="tv_folder_storage_secondary">Secundaire opslag %1$s</string>
+    <string name="tv_folder_storage_title">Kies opslag</string>
+    <string name="tv_home_section_favorites">Favorieten</string>
+    <string name="tv_home_section_recents">Recent</string>
+    <string name="tv_home_section_systems">Systemen</string>
+    <string name="tv_home_section_settings">Instellingen</string>
+    <string name="gamepad_binding_update_title">‘RetroPad %1$s’ associëren</string>
+    <string name="gamepad_binding_update_description">Druk op een knop op uw \"%1$s\"</string>
+    <string name="shortcut_binding_update_title">‘RetroPad %1$s’ associëren</string>
+    <string name="shortcut_binding_update_description">Druk op de eerste, dan de tweede knop om een combinatie te koppelen aan je \"%1$s\"</string>
+    <string name="tv_search_results">Spellen</string>
+    <string name="tv_game_message_missing_gamepad">Gamepads zijn vereist om te spelen. Gelieve er een te verbinden.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Koppel je pad los om je aanraakbesturingselementen te bewerken</string>
+    <string name="game_interactory_busy">Wacht tot de lopende opdrachten zijn voltooid</string>
+    <string name="mobile_settings_help">Help</string>
+    <string name="mobile_settings_support">Ondersteuning</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Hoe gebruik ik Lemuroid?&lt;/b&gt;&lt;br/&gt;
+        Kopieer al je ROMs bestanden in een map op je apparaat en selecteer ze in Lemuroid. Deze map kan submappen hebben. Nadat de scan voltooid is zou je je spellen zien.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Waarom zijn mijn spellen niet gedetecteerd?&lt;/b&gt;&lt;br/&gt;
+        Als je spellen zijn gecomprimeerd, probeer ze te decomprimeren. Als dit niet werkt, probeer dan ROMs in aparte mappen te plaatsen, één voor elk systeem met de volgende namen: $SYSTEMS.</string>
+    <string name="lemuroid_crash_disclamer">Er is iets misgegaan. Probeer het volgende:\n
+        \n• Schakel automatisch opslaan uit en herstart het spel
+        \n• Ga naar Android instellingen en wis de app cache
+        \n• Ga naar Lemuroid instellingen en voer een reset uit
+        \n\nals geen van de bovenstaande werkt kan het zijn dat dit Spel/Core niet wordt ondersteund door dit apparaat.</string>
+    <string name="error_message_incompatible_state">Deze save state is niet compatibel met de huidige core-versie. Laad de laatste versie van het spel of gebruik een eerdere versie van Lemuroid.</string>
+    <string name="shader_filter_names_auto">Automatisch</string>
+    <string name="shader_filter_names_sharp">Scherp</string>
+    <string name="shader_filter_names_smooth">Vloeiend</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Geen</string>
+    <string name="haptic_feedback_mode_names_press">Drukken</string>
+    <string name="haptic_feedback_mode_names_press_release">Drukken en loslaten</string>
+    <string name="tilt_configuration_disabled">Uitgeschakeld</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Linker Analoog</string>
+    <string name="tilt_configuration_analog_right">Rechter Analoog</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+<!-- Added by local i18n tool. -->
+    <string name="title_catalog">Catalogus</string>
+    <string name="settings_title_about">Over</string>
+    <string name="settings_title_manual">Gebruikershandleiding</string>
+    <string name="settings_description_manual">Hoe EmulAItor te gebruiken</string>
+    <string name="license_not_verified_title">Licentie niet geverifieerd</string>
+    <string name="home_hd_mode_enabled">HD-modus aan</string>
+    <string name="home_hd_mode_disabled">HD-modus uit</string>
+    <string name="settings_bios_help">Om BIOS-bestanden toe te voegen, plaats je de ondersteunde bestanden in je ROMs-map en scan je opnieuw. De bestandsnaam moet exact overeenkomen.</string>
+    <string name="game_context_menu_delete">Verwijderen</string>
+    <string name="game_delete_confirmation">Weet je zeker dat je \"%1$s\" wilt verwijderen? Dit verwijdert het spel uit je bibliotheek en verwijdert het bestand.</string>
+    <string name="game_deleted">Spel verwijderd</string>
+    <string name="home_storage_inaccessible_title">ROMs-map niet toegankelijk</string>
+    <string name="home_storage_inaccessible_message">Android staat EmulAItor niet toe om toegang te krijgen tot de geselecteerde ROMs-map. De map is mogelijk verplaatst, verwijderd of geblokkeerd door systeemrechten. Selecteer de map opnieuw of kies een andere.</string>
+    <string name="home_storage_inaccessible_action">Kies een andere map</string>
+    <string name="update_available_banner">Er is een nieuwere versie van EmulAItor beschikbaar. Tik om bij te werken.</string>
+    <string name="library_metadata_enrichment_in_progress">ROM-details worden op de achtergrond bijgewerkt. Je kunt blijven spelen.</string>
+    <string name="tv_folder_error_access">Deze map is niet toegankelijk. Selecteer een submap of een andere locatie.</string>
+    <string name="pref_key_choose_directory">kies_map</string>
+    <string name="settings_title_choose_directory">ROMs-map</string>
+    <string name="settings_description_choose_directory">Selecteer de map met je spellen</string>
+    <string name="pending_operations_blocked_title">Bewerkingen lijken vastgelopen</string>
+    <string name="pending_operations_blocked_message_external">Een lopend proces van een eerdere versie blokkeert mogelijk de ROM-indexering. Je kunt blijven wachten of app-gegevens wissen om te herstellen. Je ROM-bestanden worden niet verwijderd, maar je moet de ROM-map opnieuw kiezen. Als dit langer dan 5 minuten duurt, wordt het wissen van app-gegevens aanbevolen.</string>
+    <string name="pending_operations_blocked_message_internal">Een lopend proces van een eerdere versie blokkeert mogelijk de ROM-indexering. Je kunt blijven wachten of de instellingen openen om je opslagconfiguratie te controleren.</string>
+    <string name="pending_operations_clear_data">App-gegevens wissen</string>
+    <string name="pending_operations_keep_waiting">Blijven wachten</string>
+    <string name="pending_operations_clear_data_confirm_title">App-gegevens wissen?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor zal nu zijn app-gegevens resetten. Je ROM-bestanden worden niet verwijderd, maar je moet de ROM-map opnieuw selecteren.</string>
+    <string name="pending_operations_clear_data_confirm_button">Gegevens wissen</string>
+    <string name="disclaimer_title">Belangrijke mededeling</string>
+    <string name="disclaimer_software_origin_title">Software-oorsprong</string>
+    <string name="disclaimer_software_origin_text">Deze applicatie is een fork van het open-sourceproject Lemuroid, gedistribueerd onder de GPL-3.0-licentie.</string>
+    <string name="disclaimer_no_content_title">Geen inhoud inbegrepen</string>
+    <string name="disclaimer_no_content_text">Deze app bevat geen spellen en downloadt niet automatisch bestanden.</string>
+    <string name="disclaimer_archive_title">Openbare catalogusbronnen</string>
+    <string name="disclaimer_archive_text">De bladerfunctie toont inhoud die openbaar beschikbaar is op Archive.org en gratis homebrew-spellen van itch.io. EmulAItor is niet gelieerd aan een van beide diensten. De gebruiker is verantwoordelijk voor het verifiëren van hun rechten om een ROM te openen of te gebruiken.</string>
+    <string name="disclaimer_user_responsibility_title">Verantwoordelijkheid van de gebruiker</string>
+    <string name="disclaimer_user_responsibility_text">Je bent er zelf verantwoordelijk voor dat je het wettelijke recht hebt om ROM-bestanden met deze applicatie te gebruiken.</string>
+    <string name="disclaimer_accept">Ik begrijp en accepteer</string>
+    <string name="disclaimer_terms">Door door te gaan, accepteer je de gebruiksvoorwaarden van deze applicatie.</string>
+    <string name="game_context_menu_edit">Bewerken</string>
+    <string name="game_edit_title">Game bewerken</string>
+    <string name="game_edit_field_title">Titel</string>
+    <string name="game_edit_field_system">Systeem</string>
+    <string name="game_edit_field_developer">Ontwikkelaar</string>
+    <string name="game_edit_file_label">Bestand:</string>
+    <string name="game_edit_save">Opslaan</string>
+    <string name="game_edit_search_online">Zoek metadata online</string>
+    <string name="game_edit_searching">Zoeken…</string>
+    <string name="game_edit_no_results">Geen resultaten gevonden</string>
+    <string name="game_edit_apply_metadata">Metadata toepassen</string>
+    <string name="game_edit_unlock_metadata">Metadata ontgrendelen (automatische update toestaan)</string>
+    <string name="catalog_search_placeholder">Zoek ROMs...</string>
+    <string name="catalog_filter_all_sources">Alle bronnen</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Lokaal</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Geen resultaten gevonden</string>
+    <string name="catalog_downloads">Downloads</string>
+    <string name="catalog_clear_completed">Alles wissen</string>
+    <string name="catalog_downloading">Downloaden...</string>
+    <string name="catalog_downloaded">Gedownload</string>
+    <string name="sources_manage_title">Bronnen beheren</string>
+    <string name="sources_add_title">Bron toevoegen</string>
+    <string name="sources_add_local">Lokale map toevoegen</string>
+    <string name="sources_add_smb">SMB/NAS toevoegen</string>
+    <string name="sources_smb_name">Naam</string>
+    <string name="sources_smb_server">Server</string>
+    <string name="sources_smb_path">Pad</string>
+    <string name="sources_smb_username">Gebruikersnaam (optioneel)</string>
+    <string name="sources_smb_password">Wachtwoord (optioneel)</string>
+    <string name="sources_smb_domain">Domein (optioneel)</string>
+    <string name="sources_edit">Bewerken</string>
+    <string name="sources_delete">Verwijderen</string>
+    <string name="sources_save">Opslaan</string>
+    <string name="sources_cancel">Annuleren</string>
+    <string name="sources_add">Toevoegen</string>
+    <string name="sources_smb_display_name">Weergavenaam</string>
+    <string name="sources_smb_display_name_placeholder">Mijn NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Volledig pad inclusief share-naam</string>
+    <string name="sources_smb_use_auth">Gebruik authenticatie</string>
+    <string name="sources_smb_username_label">Gebruikersnaam</string>
+    <string name="sources_smb_password_label">Wachtwoord</string>
+    <string name="sources_smb_edit_title">SMB-bron bewerken</string>
+    <string name="sources_smb_connection_title">SMB-verbinding</string>
+    <string name="sources_smb_test_connection">Verbinding testen</string>
+    <string name="sources_smb_testing">Verbinding testen...</string>
+    <string name="sources_smb_connection_success">Verbinding geslaagd!</string>
+    <string name="sources_smb_connection_failed">Verbinding mislukt: %1$s</string>
+    <string name="sources_no_custom">Geen aangepaste bronnen geconfigureerd</string>
+    <string name="sources_local_permission_error">Deze map kan niet worden toegevoegd omdat Android geen toegang heeft verleend. Kies een andere map.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Lokale bestanden</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Zoek ROMs...</string>
+    <string name="catalog_packs_count">%1$d van %2$d pakketten</string>
+    <string name="catalog_games_count">%1$d games</string>
+    <string name="catalog_load_more">Meer laden...</string>
+    <string name="catalog_load_more_packs">Meer pakketten laden</string>
+    <string name="catalog_no_packs_found">Geen ROM-pakketten gevonden</string>
+    <string name="catalog_no_files_found">Geen downloadbare bestanden gevonden</string>
+    <string name="catalog_files_count">Bestanden (%1$d):</string>
+    <string name="catalog_download_all">Alles</string>
+    <string name="catalog_downloads_title">Downloads (%1$d)</string>
+    <string name="catalog_downloads_clear">Wissen</string>
+    <string name="catalog_no_downloads">Geen downloads</string>
+    <string name="catalog_error_retry">Opnieuw proberen</string>
+    <string name="catalog_error_occurred">Er is een fout opgetreden</string>
+    <string name="catalog_invalid_download_title">Ongeldig catalogusbestand</string>
+    <string name="catalog_invalid_download_message">Het gedownloade bestand lijkt geen geldige ROM voor dit systeem te zijn. De aanbieder heeft mogelijk een onjuist of niet-ondersteund bestand gepubliceerd. Als je deze ROM niet in de catalogus kunt vinden, kun je deze handmatig downloaden en toevoegen aan je ROM-map.</string>
+    <string name="catalog_region_all">🌍 Alles</string>
+    <string name="catalog_region_usa">🇺🇸 VS</string>
+    <string name="catalog_region_europe">🇪🇺 Europa</string>
+    <string name="catalog_region_japan">🇯🇵 Japan</string>
+    <string name="catalog_region_spain">🇪🇸 Spanje</string>
+    <string name="catalog_region_france">🇫🇷 Frankrijk</string>
+    <string name="catalog_region_germany">🇩🇪 Duitsland</string>
+    <string name="catalog_region_italy">🇮🇹 Italië</string>
+    <string name="catalog_region_brazil">🇧🇷 Brazilië</string>
+    <string name="catalog_region_korea">🇰🇷 Korea</string>
+    <string name="catalog_region_china">🇨🇳 China</string>
+    <string name="catalog_region_australia">🇦🇺 Australië</string>
+    <string name="catalog_sort_downloads">Meest gedownload</string>
+    <string name="catalog_sort_name">Naam A-Z</string>
+    <string name="catalog_sort_size">Grootste bestandsgrootte</string>
+    <string name="catalog_error_503">Archive.org is offline of in onderhoud. Probeer het later opnieuw.</string>
+    <string name="catalog_error_502">Archive.org ondervindt problemen. Probeer het later opnieuw.</string>
+    <string name="catalog_error_500">Archive.org heeft een interne fout. Probeer het later opnieuw.</string>
+    <string name="catalog_error_ssl">SSL-certificaatfout. Controleer of de datum en tijd van uw apparaat correct zijn.</string>
+    <string name="catalog_error_timeout">Verbinding met Archive.org is verstreken. Controleer uw internetverbinding.</string>
+    <string name="catalog_error_no_internet">Geen internetverbinding. Controleer uw verbinding.</string>
+    <string name="catalog_error_unknown">Onbekende fout</string>
+    <string name="catalog_storage_warning_title">Onvoldoende ruimte</string>
+    <string name="catalog_storage_too_large">Het pakket dat u wilt downloaden is te groot.</string>
+    <string name="catalog_storage_download_size">Downloadgrootte:</string>
+    <string name="catalog_storage_available">Beschikbare ruimte:</string>
+    <string name="catalog_storage_needed">Extra ruimte nodig:</string>
+    <string name="catalog_storage_free_space">Maak ruimte vrij op uw apparaat of selecteer minder bestanden om te downloaden.</string>
+    <string name="catalog_storage_understood">Begrepen</string>
+    <string name="catalog_path_warning_title">Pad niet geconfigureerd!</string>
+    <string name="catalog_path_select_folder">Om games te downloaden, moet u een map selecteren om ze in op te slaan.</string>
+    <string name="catalog_path_select_button">Selecteer map</string>
+    <string name="delete_games_title">%1$d games verwijderen?</string>
+    <string name="delete_games_warning">Dit verwijdert de geselecteerde games uit uw bibliotheek en verwijdert hun ROM-bestanden van de schijf.</string>
+    <string name="delete_games_list_header">Games om te verwijderen:</string>
+    <string name="delete_games_and_more">...en nog %1$d</string>
+    <string name="delete_games_confirm">Verwijderen</string>
+    <string name="delete_mode_title">Selecteer games om te verwijderen</string>
+    <string name="delete_selected">Geselecteerde verwijderen (%1$d)</string>
+    <string name="settings_category_metadata">Metadata / Scraper</string>
+    <string name="settings_title_thegamesdb_apikey">TheGamesDB API-sleutel</string>
+    <string name="settings_description_thegamesdb_apikey">Haal een gratis sleutel op bij thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Voer uw TheGamesDB API-sleutel in om game-covers, beschrijvingen en genres op te halen.</string>
+    <string name="settings_thegamesdb_configured">Geconfigureerd</string>
+    <string name="settings_thegamesdb_not_configured">Niet geconfigureerd</string>
+    <string name="metadata_dialog_apikey_title">Voer API-sleutel in</string>
+    <string name="rom_migration_title">ROMs verplaatsen</string>
+    <string name="rom_migration_message">%1$d ROMs worden verplaatst naar:
+
+%2$s
+
+Wilt u doorgaan?</string>
+    <string name="rom_migration_progress_title">ROMs verplaatsen…</string>
+    <string name="rom_migration_progress">Bezig met verplaatsen van %1$s (%2$d van %3$d)</string>
+    <string name="rom_migration_success">%1$d ROMs succesvol verplaatst</string>
+    <string name="rom_migration_partial">%1$d van de %2$d ROMs verplaatst. Sommige bestanden konden niet worden verplaatst.</string>
+    <string name="rom_migration_failed">Kon ROMs niet verplaatsen: %1$s</string>
+    <string name="rom_migration_cancel">Annuleren</string>
+    <string name="rom_migration_confirm">Verplaatsen</string>
+    <string name="rom_migration_smb_not_supported">Automatische ROM-migratie is niet beschikbaar voor netwerkbibliotheken (SMB)</string>
+    <string name="manual_header">Gebruikershandleiding</string>
+    <string name="manual_section_first_steps">🚀 Eerste stappen</string>
+    <string name="manual_content_first_steps">1. Selecteer een map om je ROMs in op te slaan via Instellingen → Map.
+
+2. Kopieer je ROM-bestanden naar die map.
+
+3. De app zal automatisch je games scannen en weergeven op het startscherm.</string>
+    <string name="manual_section_archive">🌐 Catalogi verkennen</string>
+    <string name="manual_content_archive">De sectie Catalogus laat je ROM-collecties verkennen van meerdere openbare bronnen:
+
+• Archive.org: Grote collecties klassieke ROMs.
+• itch.io: Gratis homebrew-games (vereist gratis API-sleutel).
+
+• Blader per systeem of zoek naar specifieke games.
+• Tik op een game om deze naar je ROMs-map te downloaden.
+• Gedownloade games verschijnen automatisch in je bibliotheek.</string>
+    <string name="manual_section_controls">🎮 Controllers configureren</string>
+    <string name="manual_content_controls">Verbind een Bluetooth- of USB-controller en ga naar Instellingen → Controllerinstellingen.
+
+• Selecteer je controller uit de lijst.
+• Wijs knoppen toe volgens je voorkeuren.
+• Schakel trilling in als je controller dit ondersteunt.</string>
+    <string name="manual_section_bios">💾 Vereiste BIOS</string>
+    <string name="manual_content_bios">Sommige systemen (PlayStation, Game Boy Advance, enz.) vereisen BIOS-bestanden om te werken.
+
+• Ga naar Instellingen → BIOS-informatie om te zien welke bestanden je nodig hebt.
+• Plaats BIOS-bestanden in dezelfde map als je ROMs.
+• De bestandsnaam moet exact overeenkomen met wat vereist is.</string>
+    <string name="manual_section_saves">💾 Opgeslagen games</string>
+    <string name="manual_content_saves">Automatisch opslaan is standaard ingeschakeld.
+
+• Wanneer je een game afsluit, wordt je voortgang automatisch opgeslagen.
+• Wanneer je de game opnieuw opent, ga je verder waar je gebleven was.
+• Je kunt ook het eigen opslagsysteem van de game gebruiken (in-game menu).</string>
+    <string name="manual_section_sync">☁️ Cloud-synchronisatie</string>
+    <string name="manual_content_sync">Je kunt je opgeslagen games synchroniseren met Google Drive.
+
+• Ga naar Instellingen → Opslag synchroniseren.
+• Meld je aan met je Google-account.
+• Je opgeslagen games worden automatisch gesynchroniseerd tussen apparaten.</string>
+    <string name="manual_section_gameplay">🕹️ Tijdens het spelen</string>
+    <string name="manual_content_gameplay">Om het menu te openen tijdens het spelen:
+
+• Druk op de menuknop (☰) of veeg vanaf de rand van het scherm.
+• Vanaf daar kun je: statussen opslaan/laden, opslagslot wijzigen, snelle opties openen of de game afsluiten.</string>
+    <string name="about_version">Versie %1$s</string>
+    <string name="about_section_origin">Software-oorsprong</string>
+    <string name="about_content_origin_1">Deze applicatie is een fork van het open-source Lemuroid-project, gedistribueerd onder de GPL-3.0 licentie.</string>
+    <string name="about_content_origin_2">Verkenningsfuncties voor openbaar beschikbare inhoud op Archive.org en gratis homebrew-games van itch.io zijn toegevoegd.</string>
+    <string name="about_section_source">Broncode</string>
+    <string name="about_content_source">De broncode van deze aangepaste versie is beschikbaar onder de GPL-3.0 licentie.</string>
+    <string name="about_button_github">Bekijk broncode (GitHub)</string>
+    <string name="about_section_licenses">Licenties van derden</string>
+    <string name="about_section_legal">Juridische kennisgeving</string>
+    <string name="about_content_legal">Deze applicatie bevat geen ROMs en downloadt geen inhoud automatisch. De verkenningsfunctie toont alleen collecties die openbaar beschikbaar zijn op Archive.org en gratis homebrew-games van itch.io. De gebruiker is verantwoordelijk voor het verifiëren van hun rechten om externe bestanden te openen of te gebruiken.</string>
+    <string name="about_section_report">Een bug melden</string>
+    <string name="about_content_report">Een fout gevonden of een suggestie? Help ons verbeteren door een anoniem rapport te sturen.</string>
+    <string name="about_button_report">🐛 Een bug melden</string>
+    <string name="about_no_browser">Geen webbrowser geïnstalleerd om de link te openen</string>
+    <string name="about_no_browser_report">Geen webbrowser geïnstalleerd om de bugrapportpagina te openen</string>
+    <string name="bug_report_error">Kon het bugrapportformulier niet laden. Controleer je internetverbinding.</string>
+    <string name="bug_report_select_images">Selecteer afbeeldingen</string>
+    <string name="about_open_with">Openen met</string>
+    <string name="catalog_disclaimer">⚠️ Deze catalogus maakt verbinding met openbare repositories (Archive.org en itch.io) die niet gelieerd zijn aan EmulAItor. Alleen gratis homebrew-inhoud wordt vermeld vanaf itch.io. Het gebruik, downloaden en bezit van dit materiaal is de volledige verantwoordelijkheid van de gebruiker. 🧠 Hoewel EmulAItor bestanden intelligent filtert, kunnen er kapotte links, incompatibele bestanden of inhoud die geen ROMs zijn, voorkomen.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io Homebrew</string>
+    <string name="itch_api_key_title">itch.io API-sleutel</string>
+    <string name="itch_api_key_subtitle">Vereist om games te downloaden van itch.io</string>
+    <string name="itch_api_key_instructions">Om gratis homebrew-games van itch.io te downloaden, heb je een API-sleutel nodig:\n\n1. Ga naar &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; en maak een gratis account aan\n2. Ga naar &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Instellingen → API-sleutels&lt;/a&gt;\n3. Genereer een nieuwe sleutel en kopieer deze\n4. Plak deze hieronder</string>
+    <string name="itch_api_key_hint">Plak hier je itch.io API-sleutel</string>
+    <string name="itch_api_key_validating">API-sleutel valideren…</string>
+    <string name="itch_api_key_valid">API-sleutel geldig ✓</string>
+    <string name="itch_api_key_invalid">Ongeldige API-sleutel. Controleer deze en probeer het opnieuw.</string>
+    <string name="itch_api_key_saved">API-sleutel succesvol opgeslagen</string>
+    <string name="itch_api_key_required_title">API-sleutel vereist</string>
+    <string name="itch_api_key_required_message">Je hebt een itch.io API-sleutel nodig om games te downloaden. Wil je deze nu configureren?</string>
+    <string name="itch_no_results">Geen homebrew-games gevonden voor dit systeem op itch.io</string>
+    <string name="itch_unsupported_system">itch.io heeft geen homebrew-inhoud voor dit systeem. Probeer NES, SNES, GBA, GBC of Genesis.</string>
+    <string name="itch_game_free">Gratis</string>
+    <string name="itch_game_by">door %1$s</string>
+    <string name="pack_fully_downloaded">Volledig gedownload</string>
+    <string name="itch_uploads_title">Beschikbare bestanden</string>
+    <string name="itch_no_rom_uploads">Geen downloadbare ROM-bestanden gevonden voor deze game</string>
+    <string name="itch_download_error">Downloaden van itch.io mislukt: %1$s</string>
+    <string name="itch_settings_edit_key">Sleutel bewerken</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Ontgrendel volledige toegang</string>
+    <string name="paywall_description">De gratis proefperiode is afgelopen. Selecteer een van de volgende opties om door te gaan.</string>
+<string name="paywall_buy_button">Koop Pro-versie</string>
+    <string name="paywall_restore_title">Al eerder gekocht?</string>
+    <string name="paywall_restore_description">Als je EmulAItor hebt gekocht voordat het gratis werd, voer dan je Google Play Order ID (GPA...) in om je toegang te herstellen.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Aankoop herstellen</string>
+    <string name="paywall_where_is_receipt">Waar vind ik mijn aankoopbewijs?</string>
+    <string name="paywall_receipt_instructions_title">Hoe vind je je Order ID</string>
+    <string name="paywall_receipt_instructions_1">Optie A: Zoek naar \"Google Play Receipt EmulAItor\" in je Gmail.</string>
+    <string name="paywall_receipt_instructions_2">Optie B: Ga naar pay.google.com, controleer je Activiteit en zoek naar EmulAItor.</string>
+    <string name="paywall_receipt_open_web">Open pay.google.com</string>
+    <string name="paywall_support_fallback">Als je het niet kunt vinden, neem dan contact op met de ondersteuning.</string>
+    <string name="paywall_success">Aankoop succesvol hersteld. Bedankt!</string>
+    <string name="paywall_error_invalid_gpa">Ongeldige GPA-code of reeds gebruikt.</string>
+    <string name="paywall_error_limit_exceeded">Deze code wordt al op het maximaal toegestane aantal apparaten gebruikt. Koop een nieuwe licentie via de bovenstaande opties.</string>
+<string name="paywall_error_network">Netwerkfout. Controleer je verbinding.</string>
+    <string name="paywall_error_unknown">Er is een onbekende fout opgetreden.</string>
+    <string name="paywall_restoring">Bezig met herstellen...</string>
+    <string name="paywall_buy_subscription">Maandelijks abonnement</string>
+    <string name="paywall_buy_lifetime">Permanente ontgrendeling</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="disclaimer_freetrial_title">EmulAItor Gratis</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Gratis bevat een proefperiode van in totaal 3 uur speeltijd. Zodra deze proefperiode is verstreken, moet je de app ontgrendelen met een van de beschikbare abonnementen om er zonder beperkingen van te blijven genieten.</string>
+</resources>

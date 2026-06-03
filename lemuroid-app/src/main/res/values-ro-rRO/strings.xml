@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">Acasă</string>
+    <string name="title_search">Caută</string>
+    <string name="title_systems">Sisteme</string>
+    <string name="title_games">Jocuri</string>
+    <string name="title_settings">Setări</string>
+    <string name="recent">Recente</string>
+    <string name="favorites">Favorite</string>
+    <string name="discover">Descoperă</string>
+    <string name="rescan">Rescanează</string>
+    <string name="stop">Oprire</string>
+    <string name="none">Niciunul</string>
+    <string name="directory">Dosar</string>
+    <string name="display_filter">Filtru ecran</string>
+    <string name="roms">ROM-uri</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Anulare</string>
+    <string name="settings">Setări</string>
+    <string name="save_sync">Salvează sincronizarea</string>
+    <string name="show_all">Afișare toate</string>
+    <string name="back">Înapoi</string>
+    <string name="close">Închide</string>
+    <string name="game_page_search_suggestion">Caută jocuri</string>
+    <string name="settings_category_general">Setări generale</string>
+    <string name="settings_category_input">Intrări</string>
+    <string name="settings_category_misc">Diverse</string>
+    <string name="settings_title_enable_autosave">Autosalvare in curs</string>
+    <string name="settings_description_enable_autosave">Salvează starea la ieșirea din meniul jocului</string>
+    <string name="settings_title_enable_touch_feedback">Vibrează la atingere</string>
+    <string name="settings_title_tilt_sensitivity">Sensibilitate senzor înclinare</string>
+    <string name="settings_title_hd_quality">Calitate mod HD</string>
+    <string name="settings_title_maximum_cache_usage">Dimensiune limita cache</string>
+    <string name="settings_title_hd_mode">Modul HD</string>
+    <string name="settings_description_hd_mode">Aplică filtrul de upscaling post-processing</string>
+    <string name="settings_description_hd_quality">Reglaţi calitatea modului HD</string>
+    <string name="settings_title_immersive_mode">Mod imersiv</string>
+    <string name="settings_description_immersive_mode">Culoare dinamic fundalul bazat pe vizualizarea jocului</string>
+    <string name="settings_title_gamepad_settings">Dispozitive externe</string>
+    <string name="settings_description_gamepad_settings">Configurați gamepad-urile externe și tastaturile</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Dispozitive activate</string>
+    <string name="settings_gamepad_category_general">Setări generale</string>
+    <string name="settings_gamepad_title_reset_bindings">Resetare legături</string>
+    <string name="settings_gamepad_title_game_menu">Meniu</string>
+    <string name="settings_title_open_cores_selection">Schimbă Nucleele</string>
+    <string name="settings_description_open_cores_selection">Selectați care nucleu este asociat unui sistem</string>
+    <string name="settings_core_selection_ds_info">DeSmuME este învechit şi va fi eliminat în curând. Salvați în interiorul jocului, apoi comutați la melonDS: în joc încărcați în mod automat, dar salvați statele rămân pe nucleul care le-a creat.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Afișează fișierele BIOS detectate și suportate</string>
+    <string name="settings_bios_category_detected">Detectat</string>
+    <string name="settings_bios_category_not_detected">Suportat</string>
+    <string name="settings_title_reset_settings">Resetare la valorile din fabrică</string>
+    <string name="settings_description_reset_settings">Resetați Lemuroid la setările sale din fabrică</string>
+    <string name="settings_title_advanced_settings">Setări avansate</string>
+    <string name="settings_description_advanced_settings">Afișează setările avansate</string>
+    <string name="settings_title_low_latency_audio">Preferă audio cu latență mică</string>
+    <string name="settings_description_low_latency_audio">Reduceți latența audio pe dispozitivele acceptate. Poate crește numărul de glitch-uri.</string>
+    <string name="settings_title_direct_game_load">Încărcare directă a jocului</string>
+    <string name="settings_description_direct_game_load">(Experimental) Reduce timpul de încărcare şi utilizarea cache-ului pe consolele suportate.</string>
+    <string name="settings_title_enable_rumble">Vibrație de Controler</string>
+    <string name="settings_description_enable_rumble">Activează vibrarea in jocurile și controlerele care suporta</string>
+    <string name="settings_title_enable_device_rumble">Vibrare dispozitiv</string>
+    <string name="settings_description_enable_device_rumble">Când nu este conectat nici un controler, folosește vibrarea dispozitivului</string>
+    <string name="reset_settings_warning_message_title">Ești sigur?</string>
+    <string name="reset_settings_warning_message_description">Acest lucru va reseta Lemuroid la setările din fabrică. Salvările și Statele vor fi păstrate.</string>
+    <string name="settings_title_save_sync">Salvare în cloud</string>
+    <string name="settings_description_save_sync">Fă o copie de rezervă și sincronizează salvările tale în cloud</string>
+    <string name="settings_save_sync_refresh">Sincronizare manuală</string>
+    <string name="settings_save_sync_refresh_description">Efectuează acum o sincronizare manuală.\n%1$s</string>
+    <string name="settings_save_sync_enable_auto">Auto-Sincronizare</string>
+    <string name="settings_save_sync_enable_auto_description">Efectuează automat o sincronizare înainte și după o sesiune de joc când este conectat la Wifi</string>
+    <string name="settings_save_sync_configure">Configurare %1$s</string>
+    <string name="settings_save_sync_include_saves">Sincronizare salvări în joc</string>
+    <string name="settings_save_sync_include_saves_description">%1$s pe dispozitiv</string>
+    <string name="settings_save_sync_include_states">Sincronizează setările</string>
+    <string name="settings_save_sync_include_states_description">Mai convenabil, dar mai greu și mai puțin fiabil. Alegeți corele/sistemele pe care doriți să le sincronizați</string>
+    <string name="game_context_menu_add_to_favorites">Adaugă la favorite</string>
+    <string name="game_context_menu_remove_from_favorites">Șterge din Favoriți</string>
+    <string name="game_context_menu_resume">Reluaţi</string>
+    <string name="game_context_menu_restart">Reporniţi</string>
+    <string name="game_context_menu_create_shortcut">Fixează în lansator</string>
+    <string name="home_notification_title">Activați notificările</string>
+    <string name="home_notification_message">Lemuroid folosește notificări pentru a te anunța când un joc sau o activitate rulează în fundal.</string>
+    <string name="home_notification_action">Activați</string>
+    <string name="home_microphone_title">Activează microfonul</string>
+    <string name="home_microphone_message">Jocurile Nintendo DS pot folosi microfonul pentru a oferi unele funcționalități.</string>
+    <string name="home_microphone_action">Activare</string>
+    <string name="home_empty_title">Alege directorul de ROM-uri</string>
+    <string name="home_empty_message">Lemuroid trebuie să scaneze un director care conține fișiere ROM.\nAcest lucru ar putea dura până la câteva minute.</string>
+    <string name="home_empty_action">Selectare director</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME se pensionează în curând</string>
+    <string name="home_notification_desmume_deprecated_message">Salvați în joc, comutați la melonDS, iar progresul dvs. va continua. Salvați statele rămân legate pe DeSmuME.</string>
+    <string name="home_notification_desmume_deprecated_action">Comutați la melonDS</string>
+    <string name="game_menu_save">Salvare</string>
+    <string name="game_menu_load">Încărcare</string>
+    <string name="game_menu_restart">Reporniţi</string>
+    <string name="game_menu_quit">Ieși</string>
+    <string name="game_menu_settings">Setări</string>
+    <string name="game_menu_state">Status: %1$s</string>
+    <string name="game_menu_change_disk_button">Schimbă discul</string>
+    <string name="game_menu_edit_touch_controls">Editați comenzile</string>
+    <string name="game_menu_mute_audio">Mut</string>
+    <string name="game_menu_fast_forward">Derulați rapid înainte</string>
+    <string name="game_menu_change_disk_disk">Discul %1$s</string>
+    <string name="game_menu_tilt_sensor">Senzor de înclinare</string>
+    <string name="game_loading_preparing_game">Se pregătește jocul…</string>
+    <string name="game_toast_settings_button_using_gamepad">Gamepad detectat. Acces la meniul Setări cu %1$s.</string>
+    <string name="game_toast_load_state_failed">Nu se poate încărca această stare</string>
+    <string name="game_toast_quick_save_loaded">Încărcare rapidă</string>
+    <string name="game_toast_quick_save_saved">Salvat rapid</string>
+    <string name="empty_view_default">Nu există articole</string>
+    <string name="core_settings_title">Setări nucleu</string>
+    <string name="core_settings_category_preferences">Preferințe</string>
+    <string name="core_settings_category_controllers">Controlori</string>
+    <string name="core_settings_controller">Controller %1$s</string>
+    <string name="game_menu_title">Meniul jocului</string>
+    <string name="notification_channel_name">Toate notificările</string>
+    <string name="library_index_notification_title">Scanarea ROM-urilor în curs</string>
+    <string name="library_index_notification_message">Aceasta poate dura până la câteva minute</string>
+    <string name="save_sync_notification_title">Salvare Cloud în curs de sincronizare</string>
+    <string name="save_sync_notification_message">Aceasta poate dura până la câteva minute</string>
+    <string name="game_running_notification_title">%1$s rulează</string>
+    <string name="game_running_notification_title_alternative">Jocul rulează</string>
+    <string name="game_running_notification_message">Asigură-te că îți salvezi progresul</string>
+    <string name="game_loader_error_gl_incompatible">Acest Nucleu necesită o versiune OpenGL ES care nu este suportată de dispozitivul dvs.</string>
+    <string name="game_loader_error_load_game">Ceva rău s-a întâmplat în timpul încărcării jocului. Asigură-te că ROM-ul este sprijinit de Lemuroid și rescanează-ți jocurile.</string>
+    <string name="game_loader_error_save">Ceva rău s-a întâmplat cu fișierul de salvare. Dacă problema persistă, dezactivați salvarea automată.</string>
+    <string name="game_loader_error_unsupported_architecture">Acest nucleu nu este acceptat de dispozitivul dvs.</string>
+    <string name="game_loader_error_missing_bios">Se pare că nu ai BIOS necesar, pune-le în directorul ROM-uri și rescanează. Fișiere necesare: %1$s</string>
+    <string name="game_shortcut_error">Ceva rău s-a întâmplat în timpul încărcării jocului. Te rugăm să te asiguri că acest joc mai există în biblioteca ta.</string>
+    <string name="dialog_saf_not_found">Acest dispozitiv nu acceptă selectorul de fișiere StorageAccessFramework copiați manual fișierele ROM necomprimate în %1$s și apăsați Rescan.</string>
+    <string name="system_grid_details">Partide %1$s</string>
+    <string name="tv_folder_picker_title">Selectează directorul ROM-urilor</string>
+    <string name="tv_folder_picker_action_choose">Selectați</string>
+    <string name="tv_folder_picker_action_cancel">Anulați</string>
+    <string name="tv_folder_storage_primary">Stocare principală</string>
+    <string name="tv_folder_storage_secondary">Stocare secundară %1$s</string>
+    <string name="tv_folder_storage_title">Alege stocarea</string>
+    <string name="tv_home_section_favorites">Favorite</string>
+    <string name="tv_home_section_recents">Recente</string>
+    <string name="tv_home_section_systems">Sisteme</string>
+    <string name="tv_home_section_settings">Setări</string>
+    <string name="gamepad_binding_update_title">Asociați „RetroPad %1$s”</string>
+    <string name="gamepad_binding_update_description">Apăsați un buton pe „%1$s”</string>
+    <string name="shortcut_binding_update_title">Asociază \"Scurtătură %1$s\"</string>
+    <string name="shortcut_binding_update_description">Apăsați primul, apoi al doilea buton pentru a lega o combinație pe \"%1$s</string>
+    <string name="tv_search_results">Jocuri</string>
+    <string name="tv_game_message_missing_gamepad">Jocurile sunt necesare pentru a juca. Vă rugăm să conectați unul.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Deconectează tastatura pentru a edita controalele de atingere</string>
+    <string name="game_interactory_busy">Așteptați ca operațiunile în așteptare să se finalizeze</string>
+    <string name="mobile_settings_help">Ajutor</string>
+    <string name="mobile_settings_support">Asistență</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Cum folosesc Lemuroid?&lt;/b&gt;&lt;br/&gt;
+        Copiază toate fișierele ROM-uri într-un director de pe dispozitivul tău și selectează-le în Lemuroid. Acest director are permisiunea de a avea subdirectoare. După ce scanarea se finalizează ar trebui să vezi jocurile tale.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;De ce nu sunt detectate jocurile mele?&lt;/b&gt;&lt;br/&gt;
+        Dacă jocurile sunt comprimate, încercaţi să le comprimaţi. Dacă nu funcționează, încercați să puneți ROM-urile în directoare separate, câte una pentru fiecare sistem cu următoarele nume: $SYSTEMS.</string>
+    <string name="error_message_incompatible_state">Această stare de salvare nu este compatibilă cu versiunea de bază curentă. Vă rugăm să încărcați ultima salvare din joc sau să folosiți o versiune Lemuroid anterioară.</string>
+    <string name="shader_filter_names_auto">Auto</string>
+    <string name="shader_filter_names_sharp">Ascuţit</string>
+    <string name="shader_filter_names_smooth">Netezit</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Niciunul</string>
+    <string name="haptic_feedback_mode_names_press">Apăsați</string>
+    <string name="haptic_feedback_mode_names_press_release">Apăsați &amp; lansare</string>
+    <string name="tilt_configuration_disabled">Dezactivat</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Analogul Stânga</string>
+    <string name="tilt_configuration_analog_right">Analogul Dreapta</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 – R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+<!-- Added by local i18n tool. -->
+    <string name="title_catalog">Catalog</string>
+    <string name="settings_title_about">Despre</string>
+    <string name="settings_title_manual">Manual de utilizare</string>
+    <string name="settings_description_manual">Cum se utilizează EmulAItor</string>
+    <string name="license_not_verified_title">Licența nu a fost verificată</string>
+    <string name="home_hd_mode_enabled">Mod HD activat</string>
+    <string name="home_hd_mode_disabled">Mod HD dezactivat</string>
+    <string name="settings_bios_help">Pentru a adăuga fișiere BIOS, plasați fișierele suportate în folderul ROMs și scanați din nou. Numele fișierului trebuie să corespundă exact.</string>
+    <string name="game_context_menu_delete">Șterge</string>
+    <string name="game_delete_confirmation">Sigur doriți să ștergeți \"%1$s\"? Acest lucru va elimina jocul din biblioteca dvs. și va șterge fișierul.</string>
+    <string name="game_deleted">Joc șters</string>
+    <string name="home_storage_inaccessible_title">Directorul ROMs nu este accesibil</string>
+    <string name="home_storage_inaccessible_message">Android nu permite EmulAItor să acceseze directorul ROMs selectat. Folderul ar putea fi mutat, șters sau blocat de permisiunile sistemului. Selectați din nou folderul sau alegeți altul.</string>
+    <string name="home_storage_inaccessible_action">Alegeți alt director</string>
+    <string name="update_available_banner">O versiune mai nouă a EmulAItor este disponibilă. Atingeți pentru a actualiza.</string>
+    <string name="library_metadata_enrichment_in_progress">Se actualizează detaliile ROM în fundal. Puteți continua să jucați.</string>
+    <string name="game_loader_error_generic">A apărut o problemă. Încercați următoarele:
+
+
+• Dezactivați salvarea automată și rulați din nou jocul
+
+• Accesați setările Android și ștergeți cache-ul aplicației
+
+• Accesați setările Lemuroid și efectuați o resetare din fabrică
+
+
+Dacă niciuna dintre cele de mai sus nu funcționează, este posibil ca acest Joc/Nucleu să nu fie suportat de acest dispozitiv.</string>
+    <string name="tv_folder_error_access">Acest folder nu este accesibil. Vă rugăm să selectați un subdirector sau o altă locație.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">Director ROMs</string>
+    <string name="settings_description_choose_directory">Selectați folderul care conține jocurile dvs.</string>
+    <string name="pending_operations_blocked_title">Operațiunile pot fi blocate</string>
+    <string name="pending_operations_blocked_message_external">Un proces în așteptare dintr-o versiune anterioară ar putea bloca indexarea ROM. Puteți continua să așteptați sau să ștergeți datele aplicației pentru a recupera. Fișierele dvs. ROM nu vor fi șterse, dar va trebui să selectați din nou folderul ROM. Dacă durează mai mult de 5 minute, se recomandă ștergerea datelor aplicației.</string>
+    <string name="pending_operations_blocked_message_internal">Un proces în așteptare dintr-o versiune anterioară ar putea bloca indexarea ROM. Puteți continua să așteptați sau să deschideți setările pentru a revizui configurația de stocare.</string>
+    <string name="pending_operations_clear_data">Ștergeți datele aplicației</string>
+    <string name="pending_operations_keep_waiting">Continuați să așteptați</string>
+    <string name="pending_operations_clear_data_confirm_title">Ștergeți datele aplicației?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor va reseta datele aplicației acum. Fișierele dvs. ROM nu vor fi șterse, dar va trebui să selectați din nou folderul ROM.</string>
+    <string name="pending_operations_clear_data_confirm_button">Ștergeți datele</string>
+    <string name="lemuroid_crash_disclamer">Se pare că nucleul Libretro a întâmpinat o problemă neașteptată. Dacă este persistentă, vă rugăm să încercați următoarele:
+
+
+• Dezactivați salvarea automată și rulați din nou jocul
+
+• Accesați setările Android și ștergeți cache-ul aplicației
+
+• Accesați setările Lemuroid și efectuați o resetare din fabrică
+
+
+Dacă niciuna dintre cele de mai sus nu funcționează, este posibil ca acest Joc/Nucleu să nu fie suportat de acest dispozitiv.</string>
+    <string name="disclaimer_title">Notificare importantă</string>
+    <string name="disclaimer_software_origin_title">Originea software-ului</string>
+    <string name="disclaimer_software_origin_text">Această aplicație este o ramificație a proiectului open source Lemuroid, distribuit sub licența GPL-3.0.</string>
+    <string name="disclaimer_no_content_title">Nu este inclus conținut</string>
+    <string name="disclaimer_no_content_text">Această aplicație nu include jocuri și nu descarcă automat niciun fișier.</string>
+    <string name="disclaimer_archive_title">Surse de catalog public</string>
+    <string name="disclaimer_archive_text">Funcția de navigare afișează conținut disponibil public pe Archive.org și jocuri homebrew gratuite de pe itch.io. EmulAItor nu este afiliat cu niciunul dintre aceste servicii. Utilizatorul este responsabil pentru verificarea drepturilor sale de a accesa sau utiliza orice ROM.</string>
+    <string name="disclaimer_user_responsibility_title">Responsabilitatea utilizatorului</string>
+    <string name="disclaimer_user_responsibility_text">Sunteți responsabil pentru a vă asigura că aveți dreptul legal de a utiliza orice fișiere ROM cu această aplicație.</string>
+    <string name="disclaimer_accept">Înțeleg și accept</string>
+    <string name="disclaimer_terms">Continuând, acceptați termenii de utilizare ai acestei aplicații.</string>
+    <string name="game_context_menu_edit">Editare</string>
+    <string name="game_edit_title">Editare Joc</string>
+    <string name="game_edit_field_title">Titlu</string>
+    <string name="game_edit_field_system">Sistem</string>
+    <string name="game_edit_field_developer">Dezvoltator</string>
+    <string name="game_edit_file_label">Fișier:</string>
+    <string name="game_edit_save">Salvare</string>
+    <string name="game_edit_search_online">Căutare metadate online</string>
+    <string name="game_edit_searching">Se caută…</string>
+    <string name="game_edit_no_results">Nu s-au găsit rezultate</string>
+    <string name="game_edit_apply_metadata">Aplicare metadate</string>
+    <string name="game_edit_unlock_metadata">Deblocare metadate (permite actualizare automată)</string>
+    <string name="catalog_search_placeholder">Căutare ROM-uri...</string>
+    <string name="catalog_filter_all_sources">Toate sursele</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Local</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Nu s-au găsit rezultate</string>
+    <string name="catalog_downloads">Descărcări</string>
+    <string name="catalog_clear_completed">Șterge tot</string>
+    <string name="catalog_downloading">Se descarcă...</string>
+    <string name="catalog_downloaded">Descărcat</string>
+    <string name="sources_manage_title">Gestionare Surse</string>
+    <string name="sources_add_title">Adăugare Sursă</string>
+    <string name="sources_add_local">Adăugare Folder Local</string>
+    <string name="sources_add_smb">Adăugare SMB/NAS</string>
+    <string name="sources_smb_name">Nume</string>
+    <string name="sources_smb_server">Server</string>
+    <string name="sources_smb_path">Cale</string>
+    <string name="sources_smb_username">Nume utilizator (opțional)</string>
+    <string name="sources_smb_password">Parolă (opțional)</string>
+    <string name="sources_smb_domain">Domeniu (opțional)</string>
+    <string name="sources_edit">Editare</string>
+    <string name="sources_delete">Ștergere</string>
+    <string name="sources_save">Salvare</string>
+    <string name="sources_cancel">Anulare</string>
+    <string name="sources_add">Adăugare</string>
+    <string name="sources_smb_display_name">Nume afișat</string>
+    <string name="sources_smb_display_name_placeholder">NAS-ul meu</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Cale completă, inclusiv numele partajării</string>
+    <string name="sources_smb_use_auth">Utilizați autentificarea</string>
+    <string name="sources_smb_username_label">Nume de utilizator</string>
+    <string name="sources_smb_password_label">Parolă</string>
+    <string name="sources_smb_edit_title">Editare sursă SMB</string>
+    <string name="sources_smb_connection_title">Conexiune SMB</string>
+    <string name="sources_smb_test_connection">Testare conexiune</string>
+    <string name="sources_smb_testing">Se testează conexiunea...</string>
+    <string name="sources_smb_connection_success">Conexiune reușită!</string>
+    <string name="sources_smb_connection_failed">Conexiune eșuată: %1$s</string>
+    <string name="sources_no_custom">Nicio sursă personalizată configurată</string>
+    <string name="sources_local_permission_error">Acest folder nu poate fi adăugat deoarece Android nu a acordat acces. Alegeți alt folder.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Fișiere locale</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Căutare ROM-uri...</string>
+    <string name="catalog_packs_count">%1$d din %2$d pachete</string>
+    <string name="catalog_games_count">%1$d jocuri</string>
+    <string name="catalog_load_more">Încărcare mai multe...</string>
+    <string name="catalog_load_more_packs">Încărcare mai multe pachete</string>
+    <string name="catalog_no_packs_found">Niciun pachet de ROM-uri găsit</string>
+    <string name="catalog_no_files_found">Niciun fișier descărcabil găsit</string>
+    <string name="catalog_files_count">Fișiere (%1$d):</string>
+    <string name="catalog_download_all">Toate</string>
+    <string name="catalog_downloads_title">Descărcări (%1$d)</string>
+    <string name="catalog_downloads_clear">Ștergere</string>
+    <string name="catalog_no_downloads">Nicio descărcare</string>
+    <string name="catalog_error_retry">Reîncercare</string>
+    <string name="catalog_error_occurred">A apărut o eroare</string>
+    <string name="catalog_invalid_download_title">Fișier catalog invalid</string>
+    <string name="catalog_invalid_download_message">Fișierul descărcat nu pare a fi un ROM valid pentru acest sistem. Furnizorul ar fi putut publica un fișier incorect sau nesuportat. Dacă nu puteți găsi acest ROM în catalog, îl puteți descărca manual și adăuga în folderul dvs. de ROM-uri.</string>
+    <string name="catalog_region_all">🌍 Toate</string>
+    <string name="catalog_region_usa">🇺🇸 SUA</string>
+    <string name="catalog_region_europe">🇪🇺 Europa</string>
+    <string name="catalog_region_japan">🇯🇵 Japonia</string>
+    <string name="catalog_region_spain">🇪🇸 Spania</string>
+    <string name="catalog_region_france">🇫🇷 Franța</string>
+    <string name="catalog_region_germany">🇩🇪 Germania</string>
+    <string name="catalog_region_italy">🇮🇹 Italia</string>
+    <string name="catalog_region_brazil">🇧🇷 Brazilia</string>
+    <string name="catalog_region_korea">🇰🇷 Coreea</string>
+    <string name="catalog_region_china">🇨🇳 China</string>
+    <string name="catalog_region_australia">🇦🇺 Australia</string>
+    <string name="catalog_sort_downloads">Cele mai descărcate</string>
+    <string name="catalog_sort_name">Nume A-Z</string>
+    <string name="catalog_sort_size">Dimensiune maximă</string>
+    <string name="catalog_error_503">Archive.org este nefuncțional sau în mentenanță. Încercați din nou mai târziu.</string>
+    <string name="catalog_error_502">Archive.org întâmpină probleme. Încercați din nou mai târziu.</string>
+    <string name="catalog_error_500">Archive.org are o eroare internă. Încercați din nou mai târziu.</string>
+    <string name="catalog_error_ssl">Eroare certificat SSL. Verificați dacă data și ora dispozitivului sunt corecte.</string>
+    <string name="catalog_error_timeout">Conexiunea la Archive.org a expirat. Verificați conexiunea la internet.</string>
+    <string name="catalog_error_no_internet">Fără conexiune la internet. Verificați conexiunea.</string>
+    <string name="catalog_error_unknown">Eroare necunoscută</string>
+    <string name="catalog_storage_warning_title">Spațiu insuficient</string>
+    <string name="catalog_storage_too_large">Pachetul pe care doriți să îl descărcați este prea mare.</string>
+    <string name="catalog_storage_download_size">Dimensiune descărcare:</string>
+    <string name="catalog_storage_available">Spațiu disponibil:</string>
+    <string name="catalog_storage_needed">Spațiu suplimentar necesar:</string>
+    <string name="catalog_storage_free_space">Eliberați spațiu pe dispozitiv sau selectați mai puține fișiere pentru descărcare.</string>
+    <string name="catalog_storage_understood">Am înțeles</string>
+    <string name="catalog_path_warning_title">Cale neconfigurată!</string>
+    <string name="catalog_path_select_folder">Pentru a descărca jocuri, trebuie să selectați un folder pentru a le stoca.</string>
+    <string name="catalog_path_select_button">Selectați Folder</string>
+    <string name="delete_games_title">Ștergeți %1$d jocuri?</string>
+    <string name="delete_games_warning">Aceasta va elimina jocurile selectate din biblioteca dvs. și va șterge fișierele ROM de pe disc.</string>
+    <string name="delete_games_list_header">Jocuri de șters:</string>
+    <string name="delete_games_and_more">...și încă %1$d</string>
+    <string name="delete_games_confirm">Ștergeți</string>
+    <string name="delete_mode_title">Selectați jocurile de șters</string>
+    <string name="delete_selected">Ștergeți selectate (%1$d)</string>
+    <string name="settings_category_metadata">Metadate / Scraper</string>
+    <string name="settings_title_thegamesdb_apikey">Cheie API TheGamesDB</string>
+    <string name="settings_description_thegamesdb_apikey">Obțineți o cheie gratuită la thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Introduceți cheia API TheGamesDB pentru a prelua coperți, descrieri și genuri ale jocurilor.</string>
+    <string name="settings_thegamesdb_configured">Configurat</string>
+    <string name="settings_thegamesdb_not_configured">Neconfigurat</string>
+    <string name="metadata_dialog_apikey_title">Introduceți cheia API</string>
+    <string name="rom_migration_title">Mută ROM-urile</string>
+    <string name="rom_migration_message">%1$d ROM-uri vor fi mutate la:
+
+%2$s
+
+Dorești să continui?</string>
+    <string name="rom_migration_progress_title">Se mută ROM-urile…</string>
+    <string name="rom_migration_progress">Se mută %1$s (%2$d din %3$d)</string>
+    <string name="rom_migration_success">%1$d ROM-uri mutate cu succes</string>
+    <string name="rom_migration_partial">Au fost mutate %1$d din %2$d ROM-uri. Unele fișiere nu au putut fi mutate.</string>
+    <string name="rom_migration_failed">Nu s-au putut muta ROM-urile: %1$s</string>
+    <string name="rom_migration_cancel">Anulează</string>
+    <string name="rom_migration_confirm">Mută</string>
+    <string name="rom_migration_smb_not_supported">Migrarea automată a ROM-urilor nu este disponibilă pentru bibliotecile de rețea (SMB)</string>
+    <string name="manual_header">Manual de utilizare</string>
+    <string name="manual_section_first_steps">🚀 Primii pași</string>
+    <string name="manual_content_first_steps">1. Selectează un folder pentru a stoca ROM-urile tale din Setări → Director.
+
+2. Copiază fișierele ROM în acel folder.
+
+3. Aplicația va scana automat și va afișa jocurile tale pe ecranul principal.</string>
+    <string name="manual_section_archive">🌐 Explorează cataloage</string>
+    <string name="manual_content_archive">Secțiunea Catalog îți permite să explorezi colecții de ROM-uri din multiple surse publice:
+
+• Archive.org: Colecții mari de ROM-uri clasice.
+• itch.io: Jocuri homebrew gratuite (necesită o cheie API gratuită).
+
+• Navighează după sistem sau caută jocuri specifice.
+• Atinge un joc pentru a-l descărca în folderul tău de ROM-uri.
+• Jocurile descărcate vor apărea automat în biblioteca ta.</string>
+    <string name="manual_section_controls">🎮 Configurează controlerele</string>
+    <string name="manual_content_controls">Conectează un controler Bluetooth sau USB și accesează Setări → Setări controler.
+
+• Selectează controlerul tău din listă.
+• Mapează butoanele conform preferințelor tale.
+• Activează vibrația dacă controlerul tău o suportă.</string>
+    <string name="manual_section_bios">💾 BIOS necesar</string>
+    <string name="manual_content_bios">Unele sisteme (PlayStation, Game Boy Advance etc.) necesită fișiere BIOS pentru a funcționa.
+
+• Accesează Setări → Informații BIOS pentru a vedea ce fișiere ai nevoie.
+• Plasează fișierele BIOS în același folder cu ROM-urile tale.
+• Numele fișierului trebuie să corespundă exact cu cel necesar.</string>
+    <string name="manual_section_saves">💾 Jocuri salvate</string>
+    <string name="manual_content_saves">Salvarea automată este activată implicit.
+
+• La ieșirea dintr-un joc, progresul tău este salvat automat.
+• La redeschiderea jocului, vei continua de unde ai rămas.
+• Poți folosi, de asemenea, sistemul de salvare propriu al jocului (meniul din joc).</string>
+    <string name="manual_section_sync">☁️ Sincronizare în cloud</string>
+    <string name="manual_content_sync">Poți sincroniza jocurile salvate cu Google Drive.
+
+• Accesează Setări → Sincronizare salvări.
+• Autentifică-te cu contul tău Google.
+• Salveările tale vor fi sincronizate automat pe dispozitive.</string>
+    <string name="manual_section_gameplay">🕹️ În timpul jocului</string>
+    <string name="manual_content_gameplay">Pentru a accesa meniul în timpul jocului:
+
+• Apasă butonul de meniu (☰) sau glisează de pe marginea ecranului.
+• De acolo poți: salva/încărca stări, schimba slotul de salvare, accesa opțiuni rapide sau ieși din joc.</string>
+    <string name="about_version">Versiunea %1$s</string>
+    <string name="about_section_origin">Originea software-ului</string>
+    <string name="about_content_origin_1">Această aplicație este o derivare a proiectului open source Lemuroid, distribuit sub licența GPL-3.0.</string>
+    <string name="about_content_origin_2">Au fost adăugate funcționalități de explorare pentru conținutul disponibil public pe Archive.org și jocuri homebrew gratuite de pe itch.io.</string>
+    <string name="about_section_source">Cod sursă</string>
+    <string name="about_content_source">Codul sursă al acestei versiuni modificate este disponibil sub licența GPL-3.0.</string>
+    <string name="about_button_github">Vezi codul sursă (GitHub)</string>
+    <string name="about_section_licenses">Licențe terțe</string>
+    <string name="about_section_legal">Notificare legală</string>
+    <string name="about_content_legal">Această aplicație nu include ROM-uri și nu descarcă conținut automat. Funcționalitatea de explorare afișează doar colecții disponibile public pe Archive.org și jocuri homebrew gratuite de pe itch.io. Utilizatorul este responsabil pentru verificarea drepturilor sale de a accesa sau utiliza orice fișiere externe.</string>
+    <string name="about_section_report">Raportează o eroare</string>
+    <string name="about_content_report">Ai găsit o eroare sau ai o sugestie? Ajută-ne să ne îmbunătățim trimițând un raport anonim.</string>
+    <string name="about_button_report">🐛 Raportează o eroare</string>
+    <string name="about_no_browser">Nu este instalat niciun browser web pentru a deschide linkul</string>
+    <string name="about_no_browser_report">Nu este instalat niciun browser web pentru a deschide pagina de raportare a erorilor</string>
+    <string name="bug_report_error">Nu s-a putut încărca formularul de raportare a erorilor. Vă rugăm să verificați conexiunea la internet.</string>
+    <string name="bug_report_select_images">Selectați imagini</string>
+    <string name="about_open_with">Deschideți cu</string>
+    <string name="catalog_disclaimer">⚠️ Acest catalog se conectează la depozite publice (Archive.org și itch.io) neafiliate cu EmulAItor. De pe itch.io sunt listate doar conținuturi homebrew gratuite. Utilizarea, descărcarea și posesia acestui material sunt responsabilitatea exclusivă a utilizatorului. 🧠 Deși EmulAItor filtrează inteligent fișierele, pot exista linkuri defecte, fișiere incompatibile sau conținut care nu sunt ROM-uri.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">Homebrew itch.io</string>
+    <string name="itch_api_key_title">Cheie API itch.io</string>
+    <string name="itch_api_key_subtitle">Necesară pentru a descărca jocuri de pe itch.io</string>
+    <string name="itch_api_key_instructions">Pentru a descărca jocuri homebrew gratuite de pe itch.io, aveți nevoie de o cheie API:
+
+1. Accesați &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; și creați un cont gratuit
+2. Accesați &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Setări → Chei API&lt;/a&gt;
+3. Generați o cheie nouă și copiați-o
+4. Lipiți-o mai jos</string>
+    <string name="itch_api_key_hint">Lipiți cheia API itch.io aici</string>
+    <string name="itch_api_key_validating">Se validează cheia API…</string>
+    <string name="itch_api_key_valid">Cheie API validă ✓</string>
+    <string name="itch_api_key_invalid">Cheie API invalidă. Vă rugăm să verificați și să încercați din nou.</string>
+    <string name="itch_api_key_saved">Cheia API a fost salvată cu succes</string>
+    <string name="itch_api_key_required_title">Cheie API necesară</string>
+    <string name="itch_api_key_required_message">Aveți nevoie de o cheie API itch.io pentru a descărca jocuri. Doriți să o configurați acum?</string>
+    <string name="itch_no_results">Nu au fost găsite jocuri homebrew pentru acest sistem pe itch.io</string>
+    <string name="itch_unsupported_system">itch.io nu are conținut homebrew pentru acest sistem. Încercați NES, SNES, GBA, GBC sau Genesis.</string>
+    <string name="itch_game_free">Gratuit</string>
+    <string name="itch_game_by">de %1$s</string>
+    <string name="pack_fully_downloaded">Complet descărcat</string>
+    <string name="itch_uploads_title">Fișiere disponibile</string>
+    <string name="itch_no_rom_uploads">Nu au fost găsite fișiere ROM descărcabile pentru acest joc</string>
+    <string name="itch_download_error">Descărcarea de pe itch.io a eșuat: %1$s</string>
+    <string name="itch_settings_edit_key">Editează cheia</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Deblochează accesul complet</string>
+    <string name="paywall_description">Perioada de probă gratuită s-a încheiat. Pentru a continua, selectați una dintre următoarele opțiuni.</string>
+<string name="paywall_buy_button">Cumpără versiunea Pro</string>
+    <string name="paywall_restore_title">Ai cumpărat deja în trecut?</string>
+    <string name="paywall_restore_description">Dacă ai cumpărat EmulAItor înainte ca acesta să devină gratuit, introdu ID-ul comenzii Google Play (GPA...) pentru a-ți restaura accesul.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Restaurează achiziția</string>
+    <string name="paywall_where_is_receipt">Unde îmi găsesc chitanța?</string>
+    <string name="paywall_receipt_instructions_title">Cum să găsești ID-ul comenzii</string>
+    <string name="paywall_receipt_instructions_1">Opțiunea A: Caută „Google Play Receipt EmulAItor” în Gmail.</string>
+    <string name="paywall_receipt_instructions_2">Opțiunea B: Mergi la pay.google.com, verifică Activitatea și caută EmulAItor.</string>
+    <string name="paywall_receipt_open_web">Deschide pay.google.com</string>
+    <string name="paywall_support_fallback">Dacă nu îl găsești, contactează asistența.</string>
+    <string name="paywall_success">Achiziția a fost restaurată cu succes. Mulțumim!</string>
+    <string name="paywall_error_invalid_gpa">Cod GPA invalid sau deja utilizat.</string>
+    <string name="paywall_error_limit_exceeded">Acest cod este deja utilizat pe numărul maxim de dispozitive permise. Vă rugăm să achiziționați o licență nouă din opțiunile de mai sus.</string>
+<string name="paywall_error_network">Eroare de rețea. Te rugăm să verifici conexiunea.</string>
+    <string name="paywall_error_unknown">A apărut o eroare necunoscută.</string>
+    <string name="paywall_restoring">Se restaurează...</string>
+    <string name="paywall_buy_subscription">Abonament lunar</string>
+    <string name="paywall_buy_lifetime">Deblocare permanentă</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>

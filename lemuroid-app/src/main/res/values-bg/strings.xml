@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generated/maintained by .agent/scripts/i18n_tool. -->
+    <string name="title_home">Начало</string>
+    <string name="title_search">Търсене</string>
+    <string name="title_systems">Системи</string>
+    <string name="title_games">Игри</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_catalog">Каталог</string>
+    <string name="settings_title_about">Относно</string>
+    <string name="settings_title_manual">Ръководство за потребителя</string>
+    <string name="settings_description_manual">Как да използвате EmulAItor</string>
+    <string name="recent">Последни</string>
+    <string name="favorites">Любими</string>
+    <string name="discover">Открийте</string>
+    <string name="rescan">Сканирай отново</string>
+    <string name="stop">Спри</string>
+    <string name="none">Няма</string>
+    <string name="directory">Директория</string>
+    <string name="display_filter">Филтър на дисплея</string>
+    <string name="roms">ROMs</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отказ</string>
+    <string name="settings">Настройки</string>
+    <string name="save_sync">Синхронизиране на записите</string>
+    <string name="show_all">Покажи всички</string>
+    <string name="back">Назад</string>
+    <string name="close">Затвори</string>
+    <string name="license_not_verified_title">Лицензът не е потвърден</string>
+    <string name="game_page_search_suggestion">Търсене на игри</string>
+    <string name="settings_category_general">Общи</string>
+    <string name="settings_category_input">Вход</string>
+    <string name="settings_category_misc">Разни</string>
+    <string name="settings_title_enable_autosave">Автоматично запазване на състоянието</string>
+    <string name="settings_description_enable_autosave">Запазване на състоянието при излизане чрез менюто на играта</string>
+    <string name="settings_title_enable_touch_feedback">Вибрация при докосване</string>
+    <string name="settings_title_tilt_sensitivity">Чувствителност на сензора за наклон</string>
+    <string name="settings_title_hd_quality">Качество на HD режима</string>
+    <string name="settings_title_maximum_cache_usage">Лимит на размера на кеша</string>
+    <string name="settings_title_hd_mode">HD режим</string>
+    <string name="settings_description_hd_mode">Прилагане на филтър за мащабиране чрез последваща обработка</string>
+    <string name="settings_description_hd_quality">Регулиране на качеството на HD режима</string>
+    <string name="home_hd_mode_enabled">HD режимът е включен</string>
+    <string name="home_hd_mode_disabled">HD режимът е изключен</string>
+    <string name="settings_title_immersive_mode">Потапящ режим</string>
+    <string name="settings_description_immersive_mode">Динамично оцветява фона въз основа на визуализациите на играта</string>
+    <string name="settings_title_gamepad_settings">Външни устройства</string>
+    <string name="settings_description_gamepad_settings">Конфигуриране на външни геймпадове и клавиатури</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Активирани устройства</string>
+    <string name="settings_gamepad_category_general">Общи</string>
+    <string name="settings_gamepad_title_reset_bindings">Нулиране на клавишните комбинации</string>
+    <string name="settings_gamepad_title_game_menu">Меню</string>
+    <string name="settings_title_open_cores_selection">Промяна на ядрата</string>
+    <string name="settings_description_open_cores_selection">Изберете кое ядро да бъде свързано към дадена система</string>
+    <string name="settings_core_selection_ds_info">DeSmuME е остарял и ще бъде премахнат в една от следващите актуализации. Запазете напредъка си в играта, след което превключете към melonDS. Запазените файлове в играта ще се заредят автоматично в melonDS, но състоянията на запис (save states) могат да се използват само с ядрото, което ги е създало.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Показване на открити и поддържани BIOS файлове</string>
+    <string name="settings_bios_help">За да добавите BIOS файлове, поставете поддържаните файлове във вашата ROMs папка и сканирайте отново. Името на файла трябва да съвпада точно.</string>
+    <string name="settings_bios_category_detected">Открити</string>
+    <string name="settings_bios_category_not_detected">Поддържани</string>
+    <string name="settings_title_reset_settings">Фабрично нулиране</string>
+    <string name="settings_description_reset_settings">Нулиране на EmulAItor до фабричните му настройки</string>
+    <string name="settings_title_advanced_settings">Разширени настройки</string>
+    <string name="settings_description_advanced_settings">Показване на разширени настройки</string>
+    <string name="settings_title_low_latency_audio">Предпочитане на аудио с ниска латентност</string>
+    <string name="settings_description_low_latency_audio">Намаляване на аудио латентността на поддържани устройства. Може да увеличи аудио смущенията.</string>
+    <string name="settings_title_direct_game_load">Директно зареждане на игра</string>
+    <string name="settings_description_direct_game_load">(Експериментално) Намаляване на времето за зареждане и използването на кеша на поддържани конзоли.</string>
+    <string name="settings_title_enable_rumble">Вибрация (Rumble)</string>
+    <string name="settings_description_enable_rumble">Активиране на вибрация в поддържани игри и контролери</string>
+    <string name="settings_title_enable_device_rumble">Вибрация на устройството</string>
+    <string name="settings_description_enable_device_rumble">Когато не е свързан контролер, вибрирайте самото устройство</string>
+    <string name="reset_settings_warning_message_title">Сигурни ли сте?</string>
+    <string name="reset_settings_warning_message_description">Това ще нулира EmulAItor до фабричните му настройки. Запазените игри и състояния ще бъдат запазени.</string>
+    <string name="settings_title_save_sync">Облачни записи</string>
+    <string name="settings_description_save_sync">Архивирайте и синхронизирайте вашите записи в облака</string>
+    <string name="settings_save_sync_refresh">Ръчна синхронизация</string>
+    <string name="settings_save_sync_refresh_description">Извършете ръчна синхронизация сега.
+%1$s</string>
+    <string name="settings_save_sync_enable_auto">Автоматична синхронизация</string>
+    <string name="settings_save_sync_enable_auto_description">Автоматично извършване на синхронизация преди и след игрална сесия, когато сте свързани към Wi-Fi</string>
+    <string name="settings_save_sync_configure">Конфигуриране на %1$s</string>
+    <string name="settings_save_sync_include_saves">Синхронизиране на записите в играта</string>
+    <string name="settings_save_sync_include_saves_description">%1$s на устройството</string>
+    <string name="settings_save_sync_include_states">Синхронизиране на състоянията</string>
+    <string name="settings_save_sync_include_states_description">По-удобно, но по-тежко и по-малко надеждно. Изберете кои ядра/системи искате да синхронизирате</string>
+    <string name="game_context_menu_add_to_favorites">Добавяне към любими</string>
+    <string name="game_context_menu_remove_from_favorites">Премахване от любими</string>
+    <string name="game_context_menu_resume">Продължаване</string>
+    <string name="game_context_menu_restart">Рестартиране</string>
+    <string name="game_context_menu_create_shortcut">Закачане към началния екран</string>
+    <string name="game_context_menu_delete">Изтриване</string>
+    <string name="game_delete_confirmation">Сигурни ли сте, че искате да изтриете \"%1$s\"? Това ще премахне играта от библиотеката ви и ще изтрие файла.</string>
+    <string name="game_deleted">Играта е изтрита</string>
+    <string name="home_notification_title">Активиране на известията</string>
+    <string name="home_notification_message">EmulAItor използва известия, за да ви информира, когато игра или операция работи във фонов режим.</string>
+    <string name="home_notification_action">Активиране</string>
+    <string name="home_microphone_title">Активиране на микрофона</string>
+    <string name="home_microphone_message">Игрите за Nintendo DS могат да използват микрофона за предоставяне на определени функционалности.</string>
+    <string name="home_microphone_action">Активиране</string>
+    <string name="home_empty_title">Изберете директория с ROM файлове</string>
+    <string name="home_empty_message">EmulAItor трябва да сканира директория, съдържаща ROM файлове.
+Това може да отнеме няколко минути.</string>
+    <string name="home_empty_action">Избор на директория</string>
+    <string name="home_storage_inaccessible_title">Директорията с ROM файлове е недостъпна</string>
+    <string name="home_storage_inaccessible_message">Android не позволява на EmulAItor достъп до избраната директория с ROM файлове. Папката може да е била преместена, изтрита или блокирана от системните разрешения. Изберете папката отново или изберете друга.</string>
+    <string name="home_storage_inaccessible_action">Избор на друга директория</string>
+    <string name="update_available_banner">Налична е по-нова версия на EmulAItor. Докоснете, за да актуализирате.</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME се пенсионира</string>
+    <string name="home_notification_desmume_deprecated_message">Запазете играта си, след което превключете към melonDS, за да запазите прогреса си. Запазените състояния (save states) няма да се прехвърлят и ще останат използваеми само в DeSmuME.</string>
+    <string name="home_notification_desmume_deprecated_action">Превключване към melonDS</string>
+    <string name="game_menu_save">Запазване</string>
+    <string name="game_menu_load">Зареждане</string>
+    <string name="game_menu_restart">Рестартиране</string>
+    <string name="game_menu_quit">Изход</string>
+    <string name="game_menu_settings">Настройки</string>
+    <string name="game_menu_state">Състояние %1$s</string>
+    <string name="game_menu_change_disk_button">Смяна на диска</string>
+    <string name="game_menu_edit_touch_controls">Редактиране на контролите</string>
+    <string name="game_menu_mute_audio">Изключване на звука</string>
+    <string name="game_menu_fast_forward">Ускоряване</string>
+    <string name="game_menu_change_disk_disk">Диск %1$s</string>
+    <string name="game_menu_tilt_sensor">Сензор за наклон</string>
+    <string name="game_loading_preparing_game">Подготовка на играта…</string>
+    <string name="game_toast_settings_button_using_gamepad">Открит е геймпад. Отворете менюто с настройки чрез %1$s.</string>
+    <string name="game_toast_load_state_failed">Неуспешно зареждане на състоянието</string>
+    <string name="game_toast_quick_save_loaded">Бързо зареждане</string>
+    <string name="game_toast_quick_save_saved">Бързо запазване</string>
+    <string name="empty_view_default">Няма елементи</string>
+    <string name="core_settings_title">Настройки на ядрото</string>
+    <string name="core_settings_category_preferences">Предпочитания</string>
+    <string name="core_settings_category_controllers">Контролери</string>
+    <string name="core_settings_controller">Контролер %1$s</string>
+    <string name="game_menu_title">Меню на играта</string>
+    <string name="notification_channel_name">Всички известия</string>
+    <string name="library_index_notification_title">Сканиране на ROM файлове</string>
+    <string name="library_index_notification_message">Това може да отнеме няколко минути</string>
+    <string name="library_metadata_enrichment_in_progress">Актуализиране на подробностите за ROM файловете във фонов режим. Можете да продължите да играете.</string>
+    <string name="save_sync_notification_title">Синхронизиране на записите в облака</string>
+    <string name="save_sync_notification_message">Това може да отнеме няколко минути</string>
+    <string name="game_running_notification_title">%1$s работи</string>
+    <string name="game_running_notification_title_alternative">Играта работи</string>
+    <string name="game_running_notification_message">Не забравяйте да запазите напредъка си</string>
+    <string name="game_loader_error_gl_incompatible">Това ядро изисква версия на OpenGL ES, която не се поддържа от вашето устройство.</string>
+    <string name="game_loader_error_load_game">Възникна грешка при зареждането на играта. Уверете се, че ROM файлът се поддържа от Lemuroid и сканирайте игрите си отново.</string>
+    <string name="game_loader_error_save">Възникна грешка с вашия файл за запис. Ако проблемът продължава, опитайте да изключите автоматичното запазване.</string>
+    <string name="game_loader_error_unsupported_architecture">Това ядро не се поддържа от вашето устройство.</string>
+    <string name="game_loader_error_generic">Възникна грешка. Опитайте следното:
+
+• Изключете автоматичното запазване и стартирайте играта отново
+• Отидете в настройките на Android и изчистете кеша на приложението
+• Отидете в настройките на Lemuroid и извършете фабрично нулиране
+
+Ако нищо от изброеното не помогне, възможно е тази игра/ядро да не се поддържа от това устройство.</string>
+    <string name="game_loader_error_missing_bios">Изглежда, че липсва необходимият BIOS. Поставете го в директорията с ROM файлове и сканирайте отново. Необходими файлове: %1$s</string>
+    <string name="game_shortcut_error">Възникна грешка при зареждането на играта. Моля, уверете се, че играта все още съществува във вашата библиотека.</string>
+    <string name="dialog_saf_not_found">Това устройство не поддържа инструмента за избор на файлове StorageAccessFramework. Моля, копирайте ръчно некомпресираните ROM файлове в %1$s и натиснете „Сканирай отново“.</string>
+    <string name="system_grid_details">%1$s игри</string>
+    <string name="tv_folder_picker_title">Изберете директория с ROM файлове</string>
+    <string name="tv_folder_picker_action_choose">Избор</string>
+    <string name="tv_folder_picker_action_cancel">Отказ</string>
+    <string name="tv_folder_storage_primary">Основна памет</string>
+    <string name="tv_folder_storage_secondary">Вторична памет %1$s</string>
+    <string name="tv_folder_storage_title">Избор на памет</string>
+    <string name="tv_folder_error_access">Тази папка е недостъпна. Моля, изберете поддиректория или друго местоположение.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">Директория с ROM файлове</string>
+    <string name="settings_description_choose_directory">Изберете папката, съдържаща вашите игри</string>
+    <string name="tv_home_section_favorites">Любими</string>
+    <string name="tv_home_section_recents">Последни</string>
+    <string name="tv_home_section_systems">Системи</string>
+    <string name="tv_home_section_settings">Настройки</string>
+    <string name="gamepad_binding_update_title">Свързване на „RetroPad %1$s“</string>
+    <string name="gamepad_binding_update_description">Натиснете бутон на вашия „%1$s“</string>
+    <string name="shortcut_binding_update_title">Свързване на „Пряк път %1$s“</string>
+    <string name="shortcut_binding_update_description">Натиснете първия, след това втория бутон, за да зададете комбинация на вашия „%1$s“</string>
+    <string name="tv_search_results">Игри</string>
+    <string name="tv_game_message_missing_gamepad">За игра са необходими геймпадове. Моля, свържете такъв.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Изключете вашия геймпад, за да редактирате сензорните контроли</string>
+    <string name="game_interactory_busy">Изчакайте завършването на текущите операции</string>
+    <string name="pending_operations_blocked_title">Операциите може да са блокирани</string>
+    <string name="pending_operations_blocked_message_external">Висящ процес от по-стара версия може да блокира индексирането на ROM файлове. Можете да изчакате или да изчистите данните на приложението, за да се възстановите. Вашите ROM файлове няма да бъдат изтрити, но ще трябва да изберете папката с ROM файлове отново. Ако това продължи повече от 5 минути, се препоръчва изчистване на данните на приложението.</string>
+    <string name="pending_operations_blocked_message_internal">Висящ процес от по-стара версия може да блокира индексирането на ROM файлове. Можете да изчакате или да отворите настройките, за да прегледате конфигурацията на хранилището си.</string>
+    <string name="pending_operations_clear_data">Изчистване на данните на приложението</string>
+    <string name="pending_operations_keep_waiting">Изчакване</string>
+    <string name="pending_operations_clear_data_confirm_title">Изчистване на данните на приложението?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor ще нулира данните си сега. Вашите ROM файлове няма да бъдат изтрити, но ще трябва да изберете папката с ROM файлове отново.</string>
+    <string name="pending_operations_clear_data_confirm_button">Изчистване на данните</string>
+    <string name="mobile_settings_help">Помощ</string>
+    <string name="mobile_settings_support">Поддръжка</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Относно EmulAItor&lt;/b&gt;&lt;br/&gt;
+        Това приложение е разклонение (fork) на проекта с отворен код &lt;b&gt;Lemuroid&lt;/b&gt;, разпространяван под лиценза &lt;b&gt;GPL-3.0&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Важна забележка&lt;/b&gt;&lt;br/&gt;
+        Това приложение не включва игри и не изтегля автоматично никакво съдържание. Функцията за разглеждане показва съдържание, публично достъпно в Archive.org, и безплатни homebrew игри от itch.io. Потребителят носи отговорност за проверка на правата си за достъп или използване на всеки ROM от външни източници.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Как да използвам това приложение?&lt;/b&gt;&lt;br/&gt;
+        Копирайте вашите ROM файлове в директория на вашето устройство и я изберете в приложението. Тази директория може да има поддиректории. След като сканирането приключи, трябва да видите вашите игри.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Защо игрите ми не се откриват?&lt;/b&gt;&lt;br/&gt;
+        Ако игрите ви са компресирани, опитайте да ги разархивирате. Ако това не помогне, поставете ROM файловете в отделни директории, по една за всяка система със следните имена: $SYSTEMS.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Лицензи&lt;/b&gt;&lt;br/&gt;
+        Lemuroid: GPL-3.0 (Swordfish90)&lt;br/&gt;
+        LibretroDroid: GPL-3.0&lt;br/&gt;
+        Libretro Cores: Различни лицензи</string>
+    <string name="lemuroid_crash_disclamer">Изглежда, че ядрото Libretro е срещнало неочакван проблем. Ако проблемът е постоянен, моля, опитайте следното:
+
+        \n• Деактивирайте автоматичното запазване и стартирайте играта отново
+        \n• Отидете в настройките на Android и изчистете кеша на приложението
+        \n• Отидете в настройките на Lemuroid и извършете фабрично нулиране
+        \n\n Ако нищо от горното не помогне, възможно е тази игра/ядро да не се поддържа от това устройство.</string>
+    <string name="error_message_incompatible_state">Това състояние на запазване не е съвместимо с текущата версия на ядрото. Моля, заредете последното запазване в играта или използвайте предишна версия на Lemuroid.</string>
+    <string name="shader_filter_names_auto">Автоматично</string>
+    <string name="shader_filter_names_sharp">Остро</string>
+    <string name="shader_filter_names_smooth">Гладко</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Няма</string>
+    <string name="haptic_feedback_mode_names_press">Натискане</string>
+    <string name="haptic_feedback_mode_names_press_release">Натискане и отпускане</string>
+    <string name="tilt_configuration_disabled">Деактивирано</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Ляв аналогов стик</string>
+    <string name="tilt_configuration_analog_right">Десен аналогов стик</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+    <string name="disclaimer_title">Важна забележка</string>
+    <string name="disclaimer_software_origin_title">Произход на софтуера</string>
+    <string name="disclaimer_software_origin_text">Това приложение е разклонение (fork) на проекта с отворен код Lemuroid, разпространяван под лиценза GPL-3.0.</string>
+    <string name="disclaimer_no_content_title">Не е включено съдържание</string>
+    <string name="disclaimer_no_content_text">Това приложение не включва игри и не изтегля автоматично никакви файлове.</string>
+    <string name="disclaimer_archive_title">Източници на публичен каталог</string>
+    <string name="disclaimer_archive_text">Функцията за разглеждане показва съдържание, публично достъпно в Archive.org, и безплатни homebrew игри от itch.io. EmulAItor не е свързан с нито една от тези услуги. Потребителят носи отговорност за проверка на правата си за достъп или използване на който и да е ROM.</string>
+    <string name="disclaimer_user_responsibility_title">Отговорност на потребителя</string>
+    <string name="disclaimer_user_responsibility_text">Вие носите отговорност да се уверите, че имате законното право да използвате каквито и да е ROM файлове с това приложение.</string>
+    <string name="disclaimer_accept">Разбирам и приемам</string>
+    <string name="disclaimer_terms">Продължавайки, вие приемате условията за ползване на това приложение.</string>
+    <string name="game_context_menu_edit">Редактиране</string>
+    <string name="game_edit_title">Редактиране на игра</string>
+    <string name="game_edit_field_title">Заглавие</string>
+    <string name="game_edit_field_system">Система</string>
+    <string name="game_edit_field_developer">Разработчик</string>
+    <string name="game_edit_file_label">Файл:</string>
+    <string name="game_edit_save">Запазване</string>
+    <string name="game_edit_search_online">Търсене на метаданни онлайн</string>
+    <string name="game_edit_searching">Търсене...</string>
+    <string name="game_edit_no_results">Няма намерени резултати</string>
+    <string name="game_edit_apply_metadata">Прилагане на метаданни</string>
+    <string name="game_edit_unlock_metadata">Отключване на метаданни (разрешаване на автоматично актуализиране)</string>
+    <string name="catalog_search_placeholder">Търсене на ROMs...</string>
+    <string name="catalog_filter_all_sources">Всички източници</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Локални</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Няма намерени резултати</string>
+    <string name="catalog_downloads">Изтегляния</string>
+    <string name="catalog_clear_completed">Изчистване на всички</string>
+    <string name="catalog_downloading">Изтегляне...</string>
+    <string name="catalog_downloaded">Изтеглено</string>
+    <string name="sources_manage_title">Управление на източници</string>
+    <string name="sources_add_title">Добавяне на източник</string>
+    <string name="sources_add_local">Добавяне на локална папка</string>
+    <string name="sources_add_smb">Добавяне на SMB/NAS</string>
+    <string name="sources_smb_name">Име</string>
+    <string name="sources_smb_server">Сървър</string>
+    <string name="sources_smb_path">Път</string>
+    <string name="sources_smb_username">Потребителско име (по избор)</string>
+    <string name="sources_smb_password">Парола (по избор)</string>
+    <string name="sources_smb_domain">Домейн (по избор)</string>
+    <string name="sources_edit">Редактиране</string>
+    <string name="sources_delete">Изтриване</string>
+    <string name="sources_save">Запазване</string>
+    <string name="sources_cancel">Отказ</string>
+    <string name="sources_add">Добавяне</string>
+    <string name="sources_smb_display_name">Показвано име</string>
+    <string name="sources_smb_display_name_placeholder">Моят NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Пълен път, включително името на споделения ресурс</string>
+    <string name="sources_smb_use_auth">Използване на удостоверяване</string>
+    <string name="sources_smb_username_label">Потребителско име</string>
+    <string name="sources_smb_password_label">Парола</string>
+    <string name="sources_smb_edit_title">Редактиране на SMB източник</string>
+    <string name="sources_smb_connection_title">SMB връзка</string>
+    <string name="sources_smb_test_connection">Тестване на връзката</string>
+    <string name="sources_smb_testing">Тестване на връзката...</string>
+    <string name="sources_smb_connection_success">Успешна връзка!</string>
+    <string name="sources_smb_connection_failed">Връзката е неуспешна: %1$s</string>
+    <string name="sources_no_custom">Няма конфигурирани персонализирани източници</string>
+    <string name="sources_local_permission_error">Тази папка не може да бъде добавена, тъй като Android не предостави достъп. Изберете друга папка.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Локални файлове</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Търсене на ROMs...</string>
+    <string name="catalog_packs_count">%1$d от %2$d пакета</string>
+    <string name="catalog_games_count">%1$d игри</string>
+    <string name="catalog_load_more">Зареждане на още...</string>
+    <string name="catalog_load_more_packs">Зареждане на още пакети</string>
+    <string name="catalog_no_packs_found">Не са намерени ROM пакети</string>
+    <string name="catalog_no_files_found">Не са намерени файлове за изтегляне</string>
+    <string name="catalog_files_count">Файлове (%1$d):</string>
+    <string name="catalog_download_all">Всички</string>
+    <string name="catalog_downloads_title">Изтегляния (%1$d)</string>
+    <string name="catalog_downloads_clear">Изчистване</string>
+    <string name="catalog_no_downloads">Няма изтегляния</string>
+    <string name="catalog_error_retry">Опит повторно</string>
+    <string name="catalog_error_occurred">Възникна грешка</string>
+    <string name="catalog_invalid_download_title">Невалиден файл на каталога</string>
+    <string name="catalog_invalid_download_message">Изтегленият файл не изглежда да е валиден ROM за тази система. Доставчикът може да е публикувал неправилен или неподдържан файл. Ако не можете да намерите този ROM в каталога, можете да го изтеглите ръчно и да го добавите към вашата ROM папка.</string>
+    <string name="catalog_region_all">🌍 Всички</string>
+    <string name="catalog_region_usa">🇺🇸 САЩ</string>
+    <string name="catalog_region_europe">🇪🇺 Европа</string>
+    <string name="catalog_region_japan">🇯🇵 Япония</string>
+    <string name="catalog_region_spain">🇪🇸 Испания</string>
+    <string name="catalog_region_france">🇫🇷 Франция</string>
+    <string name="catalog_region_germany">🇩🇪 Германия</string>
+    <string name="catalog_region_italy">🇮🇹 Италия</string>
+    <string name="catalog_region_brazil">🇧🇷 Бразилия</string>
+    <string name="catalog_region_korea">🇰🇷 Корея</string>
+    <string name="catalog_region_china">🇨🇳 Китай</string>
+    <string name="catalog_region_australia">🇦🇺 Австралия</string>
+    <string name="catalog_sort_downloads">Най-изтегляни</string>
+    <string name="catalog_sort_name">Име А-Я</string>
+    <string name="catalog_sort_size">Най-голям размер</string>
+    <string name="catalog_error_503">Archive.org не работи или е в процес на поддръжка. Опитайте отново по-късно.</string>
+    <string name="catalog_error_502">Archive.org изпитва затруднения. Опитайте отново по-късно.</string>
+    <string name="catalog_error_500">Archive.org има вътрешна грешка. Опитайте отново по-късно.</string>
+    <string name="catalog_error_ssl">Грешка в SSL сертификата. Проверете дали датата и часът на вашето устройство са правилни.</string>
+    <string name="catalog_error_timeout">Връзката с Archive.org прекъсна поради изтичане на времето. Проверете интернет връзката си.</string>
+    <string name="catalog_error_no_internet">Няма интернет връзка. Проверете връзката си.</string>
+    <string name="catalog_error_unknown">Неизвестна грешка</string>
+    <string name="catalog_storage_warning_title">Недостатъчно място</string>
+    <string name="catalog_storage_too_large">Пакетът, който искате да изтеглите, е твърде голям.</string>
+    <string name="catalog_storage_download_size">Размер на изтеглянето:</string>
+    <string name="catalog_storage_available">Налично място:</string>
+    <string name="catalog_storage_needed">Необходимо допълнително място:</string>
+    <string name="catalog_storage_free_space">Освободете място на вашето устройство или изберете по-малко файлове за изтегляне.</string>
+    <string name="catalog_storage_understood">Разбрах</string>
+    <string name="catalog_path_warning_title">Пътят не е конфигуриран!</string>
+    <string name="catalog_path_select_folder">За да изтегляте игри, трябва да изберете папка, в която да ги съхранявате.</string>
+    <string name="catalog_path_select_button">Избор на папка</string>
+    <string name="delete_games_title">Изтриване на %1$d игри?</string>
+    <string name="delete_games_warning">Това ще премахне избраните игри от вашата библиотека и ще изтрие техните ROM файлове от диска.</string>
+    <string name="delete_games_list_header">Игри за изтриване:</string>
+    <string name="delete_games_and_more">...и още %1$d</string>
+    <string name="delete_games_confirm">Изтриване</string>
+    <string name="delete_mode_title">Изберете игри за изтриване</string>
+    <string name="delete_selected">Изтриване на избраните (%1$d)</string>
+    <string name="settings_category_metadata">Метаданни / Скрапер</string>
+    <string name="settings_title_thegamesdb_apikey">API ключ за TheGamesDB</string>
+    <string name="settings_description_thegamesdb_apikey">Вземете безплатен ключ от thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Въведете вашия API ключ за TheGamesDB, за да изтеглите обложки на игри, описания и жанрове.</string>
+    <string name="settings_thegamesdb_configured">Конфигуриран</string>
+    <string name="settings_thegamesdb_not_configured">Не е конфигуриран</string>
+    <string name="metadata_dialog_apikey_title">Въведете API ключ</string>
+    <string name="rom_migration_title">Преместване на ROM файлове</string>
+    <string name="rom_migration_message">%1$d ROM файла ще бъдат преместени в:
+
+%2$s
+
+Искате ли да продължите?</string>
+    <string name="rom_migration_progress_title">Преместване на ROM файлове…</string>
+    <string name="rom_migration_progress">Преместване на %1$s (%2$d от %3$d)</string>
+    <string name="rom_migration_success">%1$d ROM файла бяха преместени успешно</string>
+    <string name="rom_migration_partial">Преместени са %1$d от %2$d ROM файла. Някои файлове не можаха да бъдат преместени.</string>
+    <string name="rom_migration_failed">Неуспешно преместване на ROM файловете: %1$s</string>
+    <string name="rom_migration_cancel">Отказ</string>
+    <string name="rom_migration_confirm">Преместване</string>
+    <string name="rom_migration_smb_not_supported">Автоматичното преместване на ROM файлове не е достъпно за мрежови библиотеки (SMB)</string>
+    <string name="manual_header">Ръководство на потребителя</string>
+    <string name="manual_section_first_steps">🚀 Първи стъпки</string>
+    <string name="manual_content_first_steps">1. Изберете папка за съхранение на вашите ROM файлове от Настройки → Директория.
+
+2. Копирайте вашите ROM файлове в тази папка.
+
+3. Приложението автоматично ще сканира и покаже вашите игри на началния екран.</string>
+    <string name="manual_section_archive">🌐 Разглеждане на каталози</string>
+    <string name="manual_content_archive">Секцията „Каталог“ ви позволява да разглеждате колекции от ROM файлове от множество публични източници:
+
+• Archive.org: Големи колекции от класически ROM файлове.
+• itch.io: Безплатни homebrew игри (изисква безплатен API ключ).
+
+• Разглеждайте по система или търсете конкретни игри.
+• Докоснете игра, за да я изтеглите във вашата папка с ROM файлове.
+• Изтеглените игри автоматично ще се появят във вашата библиотека.</string>
+    <string name="manual_section_controls">🎮 Конфигуриране на контролери</string>
+    <string name="manual_content_controls">Свържете Bluetooth или USB контролер и отидете в Настройки → Настройки на контролера.
+
+• Изберете вашия контролер от списъка.
+• Настройте бутоните според вашите предпочитания.
+• Активирайте вибрацията, ако вашият контролер я поддържа.</string>
+    <string name="manual_section_bios">💾 Необходим BIOS</string>
+    <string name="manual_content_bios">Някои системи (PlayStation, Game Boy Advance и др.) изискват BIOS файлове, за да работят.
+
+• Отидете в Настройки → BIOS информация, за да видите от какви файлове се нуждаете.
+• Поставете BIOS файловете в същата папка като вашите ROM файлове.
+• Името на файла трябва точно да съвпада с изискваното.</string>
+    <string name="manual_section_saves">💾 Запазени игри</string>
+    <string name="manual_content_saves">Автоматичното запазване е активирано по подразбиране.
+
+• Когато излизате от игра, вашият прогрес се запазва автоматично.
+• Когато отворите играта отново, ще продължите оттам, докъдето сте стигнали.
+• Можете също да използвате собствената система за запазване на играта (вграденото меню на играта).</string>
+    <string name="manual_section_sync">☁️ Облачна синхронизация</string>
+    <string name="manual_content_sync">Можете да синхронизирате вашите запазени игри с Google Drive.
+
+• Отидете в Настройки → Синхронизиране на запазени игри.
+• Влезте с вашия Google акаунт.
+• Вашите запазени игри автоматично ще се синхронизират между устройствата.</string>
+    <string name="manual_section_gameplay">🕹️ По време на игра</string>
+    <string name="manual_content_gameplay">За достъп до менюто по време на игра:
+
+• Натиснете бутона за меню (☰) или плъзнете от края на екрана.
+• Оттам можете: да запазвате/зареждате състояния, да променяте слота за запазване, да достъпвате бързи опции или да излезете от играта.</string>
+    <string name="about_version">Версия %1$s</string>
+    <string name="about_section_origin">Произход на софтуера</string>
+    <string name="about_content_origin_1">Това приложение е разклонение (fork) на проекта с отворен код Lemuroid, разпространяван под лиценза GPL-3.0.</string>
+    <string name="about_content_origin_2">Добавени са функции за изследване на публично достъпно съдържание в Archive.org и безплатни homebrew игри от itch.io.</string>
+    <string name="about_section_source">Изходен код</string>
+    <string name="about_content_source">Изходният код на тази модифицирана версия е достъпен под лиценза GPL-3.0.</string>
+    <string name="about_button_github">Преглед на изходния код (GitHub)</string>
+    <string name="about_section_licenses">Лицензи на трети страни</string>
+    <string name="about_section_legal">Правна информация</string>
+    <string name="about_content_legal">Това приложение не включва ROM файлове и не изтегля съдържание автоматично. Функцията за изследване показва само колекции, публично достъпни в Archive.org, и безплатни homebrew игри от itch.io. Потребителят носи отговорност за проверка на правата си за достъп или използване на външни файлове.</string>
+    <string name="about_section_report">Докладване на грешка</string>
+    <string name="about_content_report">Открихте грешка или имате предложение? Помогнете ни да се подобрим, като изпратите анонимен доклад.</string>
+    <string name="about_button_report">🐛 Докладване на грешка</string>
+    <string name="about_no_browser">Няма инсталиран уеб браузър за отваряне на връзката</string>
+    <string name="about_no_browser_report">Няма инсталиран уеб браузър за отваряне на страницата за докладване на грешки</string>
+    <string name="bug_report_error">Неуспешно зареждане на формуляра за докладване на грешки. Моля, проверете интернет връзката си.</string>
+    <string name="bug_report_select_images">Изберете изображения</string>
+    <string name="about_open_with">Отвори с</string>
+    <string name="catalog_disclaimer">⚠️ Този каталог се свързва с публични хранилища (Archive.org и itch.io), които не са свързани с EmulAItor. От itch.io се изброява само безплатно homebrew съдържание. Използването, изтеглянето и притежанието на този материал е изцяло отговорност на потребителя. 🧠 Въпреки че EmulAItor интелигентно филтрира файловете, може да има неработещи връзки, несъвместими файлове или съдържание, което не са ROM файлове.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io Homebrew</string>
+    <string name="itch_api_key_title">API ключ за itch.io</string>
+    <string name="itch_api_key_subtitle">Изисква се за изтегляне на игри от itch.io</string>
+    <string name="itch_api_key_instructions">За да изтегляте безплатни homebrew игри от itch.io, ви е необходим API ключ:
+
+1. Отидете на &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; и създайте безплатен акаунт
+2. Отидете на &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Settings → API Keys&lt;/a&gt;
+3. Генерирайте нов ключ и го копирайте
+4. Поставете го по-долу</string>
+    <string name="itch_api_key_hint">Поставете вашия API ключ за itch.io тук</string>
+    <string name="itch_api_key_validating">Валидиране на API ключа…</string>
+    <string name="itch_api_key_valid">API ключът е валиден ✓</string>
+    <string name="itch_api_key_invalid">Невалиден API ключ. Моля, проверете го и опитайте отново.</string>
+    <string name="itch_api_key_saved">API ключът е запазен успешно</string>
+    <string name="itch_api_key_required_title">Изисква се API ключ</string>
+    <string name="itch_api_key_required_message">Нуждаете се от API ключ за itch.io, за да изтегляте игри. Искате ли да го конфигурирате сега?</string>
+    <string name="itch_no_results">Не са намерени homebrew игри за тази система в itch.io</string>
+    <string name="itch_unsupported_system">itch.io няма homebrew съдържание за тази система. Опитайте NES, SNES, GBA, GBC или Genesis.</string>
+    <string name="itch_game_free">Безплатно</string>
+    <string name="itch_game_by">от %1$s</string>
+    <string name="pack_fully_downloaded">Напълно изтеглено</string>
+    <string name="itch_uploads_title">Налични файлове</string>
+    <string name="itch_no_rom_uploads">Не са намерени ROM файлове за изтегляне за тази игра</string>
+    <string name="itch_download_error">Неуспешно изтегляне от itch.io: %1$s</string>
+    <string name="itch_settings_edit_key">Редактиране на ключ</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Отключете пълен достъп</string>
+    <string name="paywall_description">Безплатният пробен период изтече. За да продължите, изберете една от следните опции.</string>
+<string name="paywall_buy_button">Купете Pro версия</string>
+    <string name="paywall_restore_title">Вече сте го закупили в миналото?</string>
+    <string name="paywall_restore_description">Ако сте закупили EmulAItor, преди да стане безплатен, въведете своя Google Play Order ID (GPA...), за да възстановите достъпа си.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Възстановяване на покупка</string>
+    <string name="paywall_where_is_receipt">Къде да намеря разписката си?</string>
+    <string name="paywall_receipt_instructions_title">Как да намерите своя Order ID</string>
+    <string name="paywall_receipt_instructions_1">Вариант А: Потърсете \"Google Play Receipt EmulAItor\" във вашия Gmail.</string>
+    <string name="paywall_receipt_instructions_2">Вариант Б: Отидете на pay.google.com, проверете активността си и потърсете EmulAItor.</string>
+    <string name="paywall_receipt_open_web">Отворете pay.google.com</string>
+    <string name="paywall_support_fallback">Ако не можете да го намерите, свържете се с поддръжката.</string>
+    <string name="paywall_success">Покупката е възстановена успешно. Благодарим ви!</string>
+    <string name="paywall_error_invalid_gpa">Невалиден GPA код или вече използван.</string>
+    <string name="paywall_error_limit_exceeded">Този код вече се използва на максималния брой разрешени устройства. Моля, закупете нов лиценз от опциите по-горе.</string>
+<string name="paywall_error_network">Мрежова грешка. Моля, проверете връзката си.</string>
+    <string name="paywall_error_unknown">Възникна неизвестна грешка.</string>
+    <string name="paywall_restoring">Възстановяване...</string>
+    <string name="paywall_buy_subscription">Месечен абонамент</string>
+    <string name="paywall_buy_lifetime">Постоянно отключване</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free включва пробен период с общо 3 часа време за игра. След изтичането на този пробен период трябва да отключите приложението с един от наличните планове, за да продължите да му се наслаждавате напълно без ограничения.</string>
+</resources>

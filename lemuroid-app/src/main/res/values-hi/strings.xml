@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generated/maintained by .agent/scripts/i18n_tool. -->
+    <string name="title_home">होम</string>
+    <string name="title_search">खोजें</string>
+    <string name="title_systems">सिस्टम</string>
+    <string name="title_games">गेम</string>
+    <string name="title_settings">सेटिंग्स</string>
+    <string name="title_catalog">कैटलॉग</string>
+    <string name="settings_title_about">हमारे बारे में</string>
+    <string name="settings_title_manual">उपयोगकर्ता मैनुअल</string>
+    <string name="settings_description_manual">EmulAItor का उपयोग कैसे करें</string>
+    <string name="recent">हाल ही के</string>
+    <string name="favorites">पसंदीदा</string>
+    <string name="discover">खोजें</string>
+    <string name="rescan">पुनः स्कैन करें</string>
+    <string name="stop">रोकें</string>
+    <string name="none">कोई नहीं</string>
+    <string name="directory">निर्देशिका</string>
+    <string name="display_filter">डिस्प्ले फ़िल्टर</string>
+    <string name="roms">ROMs</string>
+    <string name="ok">ठीक है</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="save_sync">सेव सिंक</string>
+    <string name="show_all">सभी दिखाएं</string>
+    <string name="back">वापस</string>
+    <string name="close">बंद करें</string>
+    <string name="license_not_verified_title">लाइसेंस सत्यापित नहीं है</string>
+    <string name="game_page_search_suggestion">गेम खोजें</string>
+    <string name="settings_category_general">सामान्य</string>
+    <string name="settings_category_input">इनपुट</string>
+    <string name="settings_category_misc">विविध</string>
+    <string name="settings_title_enable_autosave">ऑटोसेव स्टेट</string>
+    <string name="settings_description_enable_autosave">गेम मेनू के माध्यम से बाहर निकलते समय स्टेट सेव करें</string>
+    <string name="settings_title_enable_touch_feedback">टच पर वाइब्रेट करें</string>
+    <string name="settings_title_tilt_sensitivity">टिल्ट सेंसर संवेदनशीलता</string>
+    <string name="settings_title_hd_quality">HD मोड क्वालिटी</string>
+    <string name="settings_title_maximum_cache_usage">कैश आकार सीमा</string>
+    <string name="settings_title_hd_mode">HD मोड</string>
+    <string name="settings_description_hd_mode">पोस्ट-प्रोसेसिंग अपस्केलिंग फ़िल्टर लागू करें</string>
+    <string name="settings_description_hd_quality">HD मोड की क्वालिटी समायोजित करें</string>
+    <string name="home_hd_mode_enabled">HD मोड चालू है</string>
+    <string name="home_hd_mode_disabled">HD मोड बंद</string>
+    <string name="settings_title_immersive_mode">इमर्सिव मोड</string>
+    <string name="settings_description_immersive_mode">गेम के दृश्यों के आधार पर बैकग्राउंड को गतिशील रूप से रंग देता है</string>
+    <string name="settings_title_gamepad_settings">बाहरी डिवाइस</string>
+    <string name="settings_description_gamepad_settings">बाहरी गेमपैड और कीबोर्ड कॉन्फ़िगर करें</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">सक्षम डिवाइस</string>
+    <string name="settings_gamepad_category_general">सामान्य</string>
+    <string name="settings_gamepad_title_reset_bindings">बाइंडिंग रीसेट करें</string>
+    <string name="settings_gamepad_title_game_menu">मेनू</string>
+    <string name="settings_title_open_cores_selection">कोर्स (Cores) बदलें</string>
+    <string name="settings_description_open_cores_selection">चुनें कि कौन सा कोर किसी सिस्टम से जुड़ा है</string>
+    <string name="settings_core_selection_ds_info">DeSmuME पुराना हो चुका है और इसे अगले अपडेट में हटा दिया जाएगा। गेम के अंदर अपनी प्रगति सहेजें, फिर melonDS पर स्विच करें। इन-गेम सेव melonDS में अपने आप लोड हो जाएंगे, लेकिन सेव स्टेट्स का उपयोग केवल उसी कोर के साथ किया जा सकता है जिसने उन्हें बनाया है।</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">पता लगाई गई और समर्थित BIOS फ़ाइलें प्रदर्शित करें</string>
+    <string name="settings_bios_help">BIOS फ़ाइलें जोड़ने के लिए, समर्थित फ़ाइलों को अपने ROMs फ़ोल्डर में रखें और फिर से स्कैन करें। फ़ाइल का नाम बिल्कुल मेल खाना चाहिए।</string>
+    <string name="settings_bios_category_detected">पता लगाया गया</string>
+    <string name="settings_bios_category_not_detected">समर्थित</string>
+    <string name="settings_title_reset_settings">फ़ैक्टरी रीसेट</string>
+    <string name="settings_description_reset_settings">EmulAItor को उसकी फ़ैक्टरी सेटिंग्स पर रीसेट करें</string>
+    <string name="settings_title_advanced_settings">उन्नत सेटिंग्स</string>
+    <string name="settings_description_advanced_settings">उन्नत सेटिंग्स प्रदर्शित करें</string>
+    <string name="settings_title_low_latency_audio">कम-विलंबता (low-latency) ऑडियो को प्राथमिकता दें</string>
+    <string name="settings_description_low_latency_audio">समर्थित डिवाइस पर ऑडियो विलंबता कम करें। इससे ऑडियो में गड़बड़ी बढ़ सकती है।</string>
+    <string name="settings_title_direct_game_load">डायरेक्ट गेम लोड</string>
+    <string name="settings_description_direct_game_load">(प्रायोगिक) समर्थित कंसोल पर लोडिंग समय और कैश उपयोग को कम करें।</string>
+    <string name="settings_title_enable_rumble">रंबल (Rumble)</string>
+    <string name="settings_description_enable_rumble">समर्थित गेम और कंट्रोलर में रंबल सक्षम करें</string>
+    <string name="settings_title_enable_device_rumble">डिवाइस रंबल</string>
+    <string name="settings_description_enable_device_rumble">जब कोई कंट्रोलर कनेक्ट न हो, तो इसके बजाय डिवाइस को वाइब्रेट करें</string>
+    <string name="reset_settings_warning_message_title">क्या आप सुनिश्चित हैं?</string>
+    <string name="reset_settings_warning_message_description">यह EmulAItor को उसकी फ़ैक्टरी सेटिंग्स पर रीसेट कर देगा। सेव और स्टेट्स सुरक्षित रहेंगे।</string>
+    <string name="settings_title_save_sync">क्लाउड सेव</string>
+    <string name="settings_description_save_sync">अपने सेव का बैकअप लें और क्लाउड पर सिंक करें</string>
+    <string name="settings_save_sync_refresh">मैन्युअल सिंक</string>
+    <string name="settings_save_sync_refresh_description">अभी मैन्युअल सिंक करें।
+%1$s</string>
+    <string name="settings_save_sync_enable_auto">ऑटो-सिंक</string>
+    <string name="settings_save_sync_enable_auto_description">वाईफ़ाई से कनेक्ट होने पर गेम सत्र से पहले और बाद में स्वचालित रूप से सिंक करें</string>
+    <string name="settings_save_sync_configure">%1$s कॉन्फ़िगर करें</string>
+    <string name="settings_save_sync_include_saves">इन-गेम सेव सिंक करें</string>
+    <string name="settings_save_sync_include_saves_description">डिवाइस पर %1$s</string>
+    <string name="settings_save_sync_include_states">स्टेट्स सिंक करें</string>
+    <string name="settings_save_sync_include_states_description">अधिक सुविधाजनक, लेकिन भारी और कम विश्वसनीय। चुनें कि आप किन कोर/सिस्टम को सिंक करना चाहते हैं</string>
+    <string name="game_context_menu_add_to_favorites">पसंदीदा में जोड़ें</string>
+    <string name="game_context_menu_remove_from_favorites">पसंदीदा से हटाएं</string>
+    <string name="game_context_menu_resume">फिर से शुरू करें</string>
+    <string name="game_context_menu_restart">रीस्टार्ट करें</string>
+    <string name="game_context_menu_create_shortcut">लॉन्चर पर पिन करें</string>
+    <string name="game_context_menu_delete">मिटाएं</string>
+    <string name="game_delete_confirmation">क्या आप वाकई \"%1$s\" को मिटाना चाहते हैं? यह गेम को आपकी लाइब्रेरी से हटा देगा और फ़ाइल को भी मिटा देगा।</string>
+    <string name="game_deleted">गेम मिटा दिया गया</string>
+    <string name="home_notification_title">सूचनाएं सक्षम करें</string>
+    <string name="home_notification_message">EmulAItor सूचनाओं का उपयोग यह बताने के लिए करता है कि कोई गेम या ऑपरेशन बैकग्राउंड में चल रहा है।</string>
+    <string name="home_notification_action">सक्षम करें</string>
+    <string name="home_microphone_title">माइक्रोफ़ोन सक्षम करें</string>
+    <string name="home_microphone_message">Nintendo DS गेम कुछ कार्यक्षमताएं प्रदान करने के लिए माइक्रोफ़ोन का उपयोग कर सकते हैं।</string>
+    <string name="home_microphone_action">सक्षम करें</string>
+    <string name="home_empty_title">ROMs डायरेक्टरी चुनें</string>
+    <string name="home_empty_message">EmulAItor को ROM फ़ाइलों वाली एक डायरेक्टरी को स्कैन करने की आवश्यकता है।\nइसमें कुछ मिनट लग सकते हैं।</string>
+    <string name="home_empty_action">डायरेक्टरी चुनें</string>
+    <string name="home_storage_inaccessible_title">ROMs डायरेक्टरी तक नहीं पहुंचा जा सकता</string>
+    <string name="home_storage_inaccessible_message">Android, EmulAItor को चुनी गई ROMs डायरेक्टरी तक पहुंचने की अनुमति नहीं दे रहा है। हो सकता है कि फ़ोल्डर को हटा दिया गया हो, मिटा दिया गया हो, या सिस्टम अनुमतियों द्वारा ब्लॉक कर दिया गया हो। फ़ोल्डर को फिर से चुनें या कोई दूसरा चुनें।</string>
+    <string name="home_storage_inaccessible_action">दूसरी डायरेक्टरी चुनें</string>
+    <string name="update_available_banner">EmulAItor का एक नया वर्शन उपलब्ध है। अपडेट करने के लिए टैप करें।</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME को रिटायर किया जा रहा है</string>
+    <string name="home_notification_desmume_deprecated_message">इन-गेम सेव करें, फिर अपनी प्रगति बनाए रखने के लिए melonDS पर स्विच करें। सेव स्टेट्स ट्रांसफर नहीं होंगे और केवल DeSmuME में ही उपयोग योग्य रहेंगे।</string>
+    <string name="home_notification_desmume_deprecated_action">melonDS पर स्विच करें</string>
+    <string name="game_menu_save">सेव करें</string>
+    <string name="game_menu_load">लोड करें</string>
+    <string name="game_menu_restart">रीस्टार्ट करें</string>
+    <string name="game_menu_quit">छोड़ें</string>
+    <string name="game_menu_settings">सेटिंग्स</string>
+    <string name="game_menu_state">स्टेट %1$s</string>
+    <string name="game_menu_change_disk_button">डिस्क बदलें</string>
+    <string name="game_menu_edit_touch_controls">कंट्रोल संपादित करें</string>
+    <string name="game_menu_mute_audio">म्यूट करें</string>
+    <string name="game_menu_fast_forward">फास्ट-फॉरवर्ड</string>
+    <string name="game_menu_change_disk_disk">डिस्क %1$s</string>
+    <string name="game_menu_tilt_sensor">टिल्ट सेंसर</string>
+    <string name="game_loading_preparing_game">गेम तैयार किया जा रहा है…</string>
+    <string name="game_toast_settings_button_using_gamepad">गेमपैड का पता चला। %1$s के साथ सेटिंग्स मेनू एक्सेस करें।</string>
+    <string name="game_toast_load_state_failed">इस स्टेट को लोड नहीं किया जा सका</string>
+    <string name="game_toast_quick_save_loaded">क्विक लोड किया गया</string>
+    <string name="game_toast_quick_save_saved">क्विक सेव किया गया</string>
+    <string name="empty_view_default">कोई आइटम नहीं</string>
+    <string name="core_settings_title">कोर सेटिंग्स</string>
+    <string name="core_settings_category_preferences">प्राथमिकताएं</string>
+    <string name="core_settings_category_controllers">कंट्रोलर</string>
+    <string name="core_settings_controller">कंट्रोलर %1$s</string>
+    <string name="game_menu_title">गेम मेनू</string>
+    <string name="notification_channel_name">सभी सूचनाएं</string>
+    <string name="library_index_notification_title">ROMs स्कैनिंग जारी है</string>
+    <string name="library_index_notification_message">इसमें कुछ मिनट लग सकते हैं</string>
+    <string name="library_metadata_enrichment_in_progress">बैकग्राउंड में ROM विवरण अपडेट किए जा रहे हैं। आप खेलना जारी रख सकते हैं।</string>
+    <string name="save_sync_notification_title">क्लाउड सेव सिंक जारी है</string>
+    <string name="save_sync_notification_message">इसमें कुछ मिनट लग सकते हैं</string>
+    <string name="game_running_notification_title">%1$s चल रहा है</string>
+    <string name="game_running_notification_title_alternative">गेम चल रहा है</string>
+    <string name="game_running_notification_message">अपनी प्रगति को सेव करना सुनिश्चित करें</string>
+    <string name="game_loader_error_gl_incompatible">इस कोर को OpenGL ES संस्करण की आवश्यकता है जो आपके डिवाइस द्वारा समर्थित नहीं है।</string>
+    <string name="game_loader_error_load_game">आपका गेम लोड करते समय कुछ गड़बड़ हो गई। सुनिश्चित करें कि ROM Lemuroid द्वारा समर्थित है और अपने गेम्स को फिर से स्कैन करें।</string>
+    <string name="game_loader_error_save">आपकी सेव फ़ाइल के साथ कुछ गड़बड़ हो गई। यदि समस्या बनी रहती है, तो ऑटो-सेव को अक्षम करने का प्रयास करें।</string>
+    <string name="game_loader_error_unsupported_architecture">यह कोर आपके डिवाइस द्वारा समर्थित नहीं है।</string>
+    <string name="game_loader_error_generic">कुछ गड़बड़ हो गई। निम्नलिखित प्रयास करें:\n
+        \n• ऑटो-सेव को अक्षम करें और गेम को फिर से चलाएं
+        \n• Android सेटिंग्स में जाएं और ऐप कैश साफ़ करें
+        \n• Lemuroid सेटिंग्स में जाएं और फ़ैक्टरी रीसेट करें
+        \n\nयदि इनमें से कोई भी काम नहीं करता है, तो हो सकता है कि यह गेम/कोर इस डिवाइस द्वारा समर्थित न हो।</string>
+    <string name="game_loader_error_missing_bios">ऐसा लगता है कि आपके पास आवश्यक BIOS नहीं है, उन्हें अपनी ROMs निर्देशिका में रखें और फिर से स्कैन करें। आवश्यक फ़ाइलें: %1$s</string>
+    <string name="game_shortcut_error">आपका गेम लोड करते समय कुछ गड़बड़ हो गई। कृपया सुनिश्चित करें कि यह गेम अभी भी आपकी लाइब्रेरी में मौजूद है।</string>
+    <string name="dialog_saf_not_found">यह डिवाइस StorageAccessFramework फ़ाइल पिकर का समर्थन नहीं करता है। कृपया अनकंप्रेस्ड ROM फ़ाइलों को मैन्युअल रूप से %1$s में कॉपी करें और Rescan दबाएं।</string>
+    <string name="system_grid_details">%1$s गेम्स</string>
+    <string name="tv_folder_picker_title">ROMs निर्देशिका चुनें</string>
+    <string name="tv_folder_picker_action_choose">चुनें</string>
+    <string name="tv_folder_picker_action_cancel">रद्द करें</string>
+    <string name="tv_folder_storage_primary">प्राथमिक स्टोरेज</string>
+    <string name="tv_folder_storage_secondary">द्वितीयक स्टोरेज %1$s</string>
+    <string name="tv_folder_storage_title">स्टोरेज चुनें</string>
+    <string name="tv_folder_error_access">यह फ़ोल्डर सुलभ नहीं है। कृपया एक सबडायरेक्टरी या कोई अन्य स्थान चुनें।</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">ROMs निर्देशिका</string>
+    <string name="settings_description_choose_directory">अपने गेम्स वाला फ़ोल्डर चुनें</string>
+    <string name="tv_home_section_favorites">पसंदीदा</string>
+    <string name="tv_home_section_recents">हालिया</string>
+    <string name="tv_home_section_systems">सिस्टम</string>
+    <string name="tv_home_section_settings">सेटिंग्स</string>
+    <string name="gamepad_binding_update_title">\"RetroPad %1$s\" को जोड़ें</string>
+    <string name="gamepad_binding_update_description">अपने \"%1$s\" पर एक बटन दबाएं</string>
+    <string name="shortcut_binding_update_title">\"Shortcut %1$s\" को जोड़ें</string>
+    <string name="shortcut_binding_update_description">अपने \"%1$s\" पर कॉम्बो बाइंड करने के लिए पहले पहला, फिर दूसरा बटन दबाएं</string>
+    <string name="tv_search_results">गेम्स</string>
+    <string name="tv_game_message_missing_gamepad">खेलने के लिए गेमपैड आवश्यक हैं। कृपया एक कनेक्ट करें।</string>
+    <string name="game_edit_touch_controls_error_not_visible">अपने टच कंट्रोल को संपादित करने के लिए अपने पैड को डिस्कनेक्ट करें</string>
+    <string name="game_interactory_busy">लंबित कार्यों के पूरा होने की प्रतीक्षा करें</string>
+    <string name="pending_operations_blocked_title">ऑपरेशन अटक सकते हैं</string>
+    <string name="pending_operations_blocked_message_external">पुराने संस्करण की एक लंबित प्रक्रिया ROM इंडेक्सिंग को रोक सकती है। आप प्रतीक्षा करना जारी रख सकते हैं या ठीक करने के लिए ऐप डेटा साफ़ कर सकते हैं। आपकी ROM फ़ाइलें डिलीट नहीं होंगी, लेकिन आपको ROM फ़ोल्डर फिर से चुनना होगा। यदि यह 5 मिनट से अधिक समय तक रहता है, तो ऐप डेटा साफ़ करने की अनुशंसा की जाती है।</string>
+    <string name="pending_operations_blocked_message_internal">पुराने संस्करण की एक लंबित प्रक्रिया ROM इंडेक्सिंग को रोक सकती है। आप प्रतीक्षा करना जारी रख सकते हैं या अपनी स्टोरेज कॉन्फ़िगरेशन की समीक्षा करने के लिए सेटिंग्स खोल सकते हैं।</string>
+    <string name="pending_operations_clear_data">ऐप डेटा साफ़ करें</string>
+    <string name="pending_operations_keep_waiting">प्रतीक्षा करना जारी रखें</string>
+    <string name="pending_operations_clear_data_confirm_title">ऐप डेटा साफ़ करें?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor अब अपना ऐप डेटा रीसेट कर देगा। आपकी ROM फ़ाइलें डिलीट नहीं होंगी, लेकिन आपको ROM फ़ोल्डर फिर से चुनना होगा।</string>
+    <string name="pending_operations_clear_data_confirm_button">डेटा साफ़ करें</string>
+    <string name="mobile_settings_help">सहायता</string>
+    <string name="mobile_settings_support">समर्थन</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;EmulAItor के बारे में&lt;/b&gt;&lt;br/&gt;
+        यह एप्लिकेशन &lt;b&gt;GPL-3.0&lt;/b&gt; लाइसेंस के तहत वितरित ओपन सोर्स प्रोजेक्ट &lt;b&gt;Lemuroid&lt;/b&gt; का एक फोर्क है।&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;महत्वपूर्ण सूचना&lt;/b&gt;&lt;br/&gt;
+        इस एप्लिकेशन में गेम्स शामिल नहीं हैं और यह स्वचालित रूप से कोई सामग्री डाउनलोड नहीं करता है। ब्राउज़ सुविधा Archive.org पर सार्वजनिक रूप से उपलब्ध सामग्री और itch.io से मुफ्त होमब्रू गेम्स दिखाती है। बाहरी स्रोतों से किसी भी ROM तक पहुँचने या उपयोग करने के अपने अधिकारों को सत्यापित करने के लिए उपयोगकर्ता जिम्मेदार है।&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;मैं इस ऐप का उपयोग कैसे करूँ?&lt;/b&gt;&lt;br/&gt;
+        अपनी ROM फ़ाइलों को अपने डिवाइस की एक निर्देशिका में कॉपी करें और ऐप के भीतर उसे चुनें। इस निर्देशिका में सब-डायरेक्टरी हो सकती हैं। स्कैन पूरा होने के बाद आपको अपने गेम्स दिखाई देने चाहिए।&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;मेरे गेम्स डिटेक्ट क्यों नहीं हो रहे हैं?&lt;/b&gt;&lt;br/&gt;
+        यदि आपके गेम्स कंप्रेस्ड हैं, तो उन्हें अनकंप्रेस करने का प्रयास करें। यदि यह काम नहीं करता है, तो ROMs को अलग-अलग निर्देशिकाओं में रखें, प्रति सिस्टम एक, निम्नलिखित नामों के साथ: $SYSTEMS।&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;लाइसेंस&lt;/b&gt;&lt;br/&gt;
+        Lemuroid: GPL-3.0 (Swordfish90)&lt;br/&gt;
+        LibretroDroid: GPL-3.0&lt;br/&gt;
+        Libretro Cores: विभिन्न लाइसेंस</string>
+    <string name="lemuroid_crash_disclamer">ऐसा लगता है कि Libretro कोर को एक अप्रत्याशित समस्या का सामना करना पड़ा है। यदि यह लगातार हो रहा है तो कृपया निम्नलिखित प्रयास करें:\n
+        \n• ऑटो-सेव अक्षम करें और गेम को फिर से चलाएं
+        \n• Android सेटिंग्स में जाएं और ऐप कैश साफ़ करें
+        \n• Lemuroid सेटिंग्स में जाएं और फ़ैक्टरी रीसेट करें
+        \n\n यदि उपरोक्त में से कोई भी काम नहीं करता है, तो हो सकता है कि यह गेम/कोर इस डिवाइस द्वारा समर्थित न हो।</string>
+    <string name="error_message_incompatible_state">यह सेव स्टेट वर्तमान कोर संस्करण के साथ संगत नहीं है। कृपया नवीनतम इन-गेम सेव लोड करें या पिछले Lemuroid संस्करण का उपयोग करें।</string>
+    <string name="shader_filter_names_auto">ऑटो</string>
+    <string name="shader_filter_names_sharp">शार्प</string>
+    <string name="shader_filter_names_smooth">स्मूथ</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">कोई नहीं</string>
+    <string name="haptic_feedback_mode_names_press">प्रेस</string>
+    <string name="haptic_feedback_mode_names_press_release">प्रेस और रिलीज़</string>
+    <string name="tilt_configuration_disabled">अक्षम</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">बायां एनालॉग</string>
+    <string name="tilt_configuration_analog_right">दायां एनालॉग</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+    <string name="disclaimer_title">महत्वपूर्ण सूचना</string>
+    <string name="disclaimer_software_origin_title">सॉफ्टवेयर का मूल</string>
+    <string name="disclaimer_software_origin_text">यह एप्लिकेशन ओपन सोर्स प्रोजेक्ट Lemuroid का एक फोर्क है, जिसे GPL-3.0 लाइसेंस के तहत वितरित किया गया है।</string>
+    <string name="disclaimer_no_content_title">कोई सामग्री शामिल नहीं है</string>
+    <string name="disclaimer_no_content_text">इस ऐप में कोई गेम शामिल नहीं है और यह स्वचालित रूप से कोई फ़ाइल डाउनलोड नहीं करता है।</string>
+    <string name="disclaimer_archive_title">सार्वजनिक कैटलॉग स्रोत</string>
+    <string name="disclaimer_archive_text">ब्राउज़ सुविधा Archive.org पर सार्वजनिक रूप से उपलब्ध सामग्री और itch.io से मुफ्त होमब्रू गेम दिखाती है। EmulAItor किसी भी सेवा से संबद्ध नहीं है। उपयोगकर्ता किसी भी ROM तक पहुँचने या उसका उपयोग करने के अपने अधिकारों को सत्यापित करने के लिए जिम्मेदार है।</string>
+    <string name="disclaimer_user_responsibility_title">उपयोगकर्ता की जिम्मेदारी</string>
+    <string name="disclaimer_user_responsibility_text">आप यह सुनिश्चित करने के लिए जिम्मेदार हैं कि आपके पास इस एप्लिकेशन के साथ किसी भी ROM फ़ाइल का उपयोग करने का कानूनी अधिकार है।</string>
+    <string name="disclaimer_accept">मैं समझता हूँ और स्वीकार करता हूँ</string>
+    <string name="disclaimer_terms">जारी रखकर, आप इस एप्लिकेशन के उपयोग की शर्तों को स्वीकार करते हैं।</string>
+    <string name="game_context_menu_edit">संपादित करें</string>
+    <string name="game_edit_title">गेम संपादित करें</string>
+    <string name="game_edit_field_title">शीर्षक</string>
+    <string name="game_edit_field_system">सिस्टम</string>
+    <string name="game_edit_field_developer">डेवलपर</string>
+    <string name="game_edit_file_label">फ़ाइल:</string>
+    <string name="game_edit_save">सहेजें</string>
+    <string name="game_edit_search_online">ऑनलाइन मेटाडेटा खोजें</string>
+    <string name="game_edit_searching">खोज रहा है...</string>
+    <string name="game_edit_no_results">कोई परिणाम नहीं मिला</string>
+    <string name="game_edit_apply_metadata">मेटाडेटा लागू करें</string>
+    <string name="game_edit_unlock_metadata">मेटाडेटा अनलॉक करें (ऑटो-अपडेट की अनुमति दें)</string>
+    <string name="catalog_search_placeholder">ROMs खोजें...</string>
+    <string name="catalog_filter_all_sources">सभी स्रोत</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">स्थानीय</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">कोई परिणाम नहीं मिला</string>
+    <string name="catalog_downloads">डाउनलोड</string>
+    <string name="catalog_clear_completed">सभी साफ़ करें</string>
+    <string name="catalog_downloading">डाउनलोड हो रहा है...</string>
+    <string name="catalog_downloaded">डाउनलोड किया गया</string>
+    <string name="sources_manage_title">स्रोत प्रबंधित करें</string>
+    <string name="sources_add_title">स्रोत जोड़ें</string>
+    <string name="sources_add_local">स्थानीय फ़ोल्डर जोड़ें</string>
+    <string name="sources_add_smb">SMB/NAS जोड़ें</string>
+    <string name="sources_smb_name">नाम</string>
+    <string name="sources_smb_server">सर्वर</string>
+    <string name="sources_smb_path">पथ</string>
+    <string name="sources_smb_username">उपयोगकर्ता नाम (वैकल्पिक)</string>
+    <string name="sources_smb_password">पासवर्ड (वैकल्पिक)</string>
+    <string name="sources_smb_domain">डोमेन (वैकल्पिक)</string>
+    <string name="sources_edit">संपादित करें</string>
+    <string name="sources_delete">हटाएँ</string>
+    <string name="sources_save">सहेजें</string>
+    <string name="sources_cancel">रद्द करें</string>
+    <string name="sources_add">जोड़ें</string>
+    <string name="sources_smb_display_name">प्रदर्शन नाम</string>
+    <string name="sources_smb_display_name_placeholder">मेरा NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">शेयर नाम सहित पूरा पथ</string>
+    <string name="sources_smb_use_auth">प्रमाणीकरण का उपयोग करें</string>
+    <string name="sources_smb_username_label">उपयोगकर्ता नाम</string>
+    <string name="sources_smb_password_label">पासवर्ड</string>
+    <string name="sources_smb_edit_title">SMB स्रोत संपादित करें</string>
+    <string name="sources_smb_connection_title">SMB कनेक्शन</string>
+    <string name="sources_smb_test_connection">कनेक्शन का परीक्षण करें</string>
+    <string name="sources_smb_testing">कनेक्शन का परीक्षण किया जा रहा है...</string>
+    <string name="sources_smb_connection_success">कनेक्शन सफल!</string>
+    <string name="sources_smb_connection_failed">कनेक्शन विफल: %1$s</string>
+    <string name="sources_no_custom">कोई कस्टम स्रोत कॉन्फ़िगर नहीं किया गया है</string>
+    <string name="sources_local_permission_error">यह फ़ोल्डर जोड़ा नहीं जा सकता क्योंकि Android ने पहुँच प्रदान नहीं की है। कोई अन्य फ़ोल्डर चुनें।</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 स्थानीय फ़ाइलें</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">ROM खोजें...</string>
+    <string name="catalog_packs_count">%1$d में से %2$d पैक</string>
+    <string name="catalog_games_count">%1$d गेम</string>
+    <string name="catalog_load_more">और लोड करें...</string>
+    <string name="catalog_load_more_packs">और पैक लोड करें</string>
+    <string name="catalog_no_packs_found">कोई ROM पैक नहीं मिला</string>
+    <string name="catalog_no_files_found">कोई डाउनलोड करने योग्य फ़ाइल नहीं मिली</string>
+    <string name="catalog_files_count">फ़ाइलें (%1$d):</string>
+    <string name="catalog_download_all">सभी</string>
+    <string name="catalog_downloads_title">डाउनलोड (%1$d)</string>
+    <string name="catalog_downloads_clear">साफ़ करें</string>
+    <string name="catalog_no_downloads">कोई डाउनलोड नहीं</string>
+    <string name="catalog_error_retry">पुनः प्रयास करें</string>
+    <string name="catalog_error_occurred">एक त्रुटि हुई</string>
+    <string name="catalog_invalid_download_title">अमान्य कैटलॉग फ़ाइल</string>
+    <string name="catalog_invalid_download_message">डाउनलोड की गई फ़ाइल इस सिस्टम के लिए एक मान्य ROM प्रतीत नहीं होती है। प्रदाता ने एक गलत या असमर्थित फ़ाइल प्रकाशित की हो सकती है। यदि आपको कैटलॉग में यह ROM नहीं मिल रही है, तो आप इसे मैन्युअल रूप से डाउनलोड कर सकते हैं और इसे अपने ROM फ़ोल्डर में जोड़ सकते हैं।</string>
+    <string name="catalog_region_all">🌍 सभी</string>
+    <string name="catalog_region_usa">🇺🇸 यूएसए</string>
+    <string name="catalog_region_europe">🇪🇺 यूरोप</string>
+    <string name="catalog_region_japan">🇯🇵 जापान</string>
+    <string name="catalog_region_spain">🇪🇸 स्पेन</string>
+    <string name="catalog_region_france">🇫🇷 फ्रांस</string>
+    <string name="catalog_region_germany">🇩🇪 जर्मनी</string>
+    <string name="catalog_region_italy">🇮🇹 इटली</string>
+    <string name="catalog_region_brazil">🇧🇷 ब्राज़ील</string>
+    <string name="catalog_region_korea">🇰🇷 कोरिया</string>
+    <string name="catalog_region_china">🇨🇳 चीन</string>
+    <string name="catalog_region_australia">🇦🇺 ऑस्ट्रेलिया</string>
+    <string name="catalog_sort_downloads">सबसे ज़्यादा डाउनलोड किए गए</string>
+    <string name="catalog_sort_name">नाम A-Z</string>
+    <string name="catalog_sort_size">सबसे बड़ा आकार</string>
+    <string name="catalog_error_503">Archive.org डाउन है या रखरखाव में है। बाद में पुनः प्रयास करें।</string>
+    <string name="catalog_error_502">Archive.org में समस्याएँ आ रही हैं। बाद में पुनः प्रयास करें।</string>
+    <string name="catalog_error_500">Archive.org में एक आंतरिक त्रुटि है। बाद में पुनः प्रयास करें।</string>
+    <string name="catalog_error_ssl">SSL प्रमाणपत्र त्रुटि। अपने डिवाइस की तारीख और समय सही होने की पुष्टि करें।</string>
+    <string name="catalog_error_timeout">Archive.org से कनेक्शन का समय समाप्त हो गया। अपना इंटरनेट कनेक्शन जांचें।</string>
+    <string name="catalog_error_no_internet">कोई इंटरनेट कनेक्शन नहीं। अपना कनेक्शन जांचें।</string>
+    <string name="catalog_error_unknown">अज्ञात त्रुटि</string>
+    <string name="catalog_storage_warning_title">पर्याप्त जगह नहीं है</string>
+    <string name="catalog_storage_too_large">आप जो पैक डाउनलोड करना चाहते हैं वह बहुत बड़ा है।</string>
+    <string name="catalog_storage_download_size">डाउनलोड आकार:</string>
+    <string name="catalog_storage_available">उपलब्ध स्थान:</string>
+    <string name="catalog_storage_needed">अतिरिक्त स्थान आवश्यक:</string>
+    <string name="catalog_storage_free_space">अपने डिवाइस पर स्थान खाली करें या डाउनलोड करने के लिए कम फ़ाइलें चुनें।</string>
+    <string name="catalog_storage_understood">समझ गया</string>
+    <string name="catalog_path_warning_title">पथ कॉन्फ़िगर नहीं है!</string>
+    <string name="catalog_path_select_folder">गेम डाउनलोड करने के लिए, आपको उन्हें स्टोर करने के लिए एक फ़ोल्डर चुनना होगा।</string>
+    <string name="catalog_path_select_button">फ़ोल्डर चुनें</string>
+    <string name="delete_games_title">%1$d गेम हटाएं?</string>
+    <string name="delete_games_warning">यह चयनित गेम को आपकी लाइब्रेरी से हटा देगा और डिस्क से उनकी ROM फ़ाइलों को हटा देगा।</string>
+    <string name="delete_games_list_header">हटाए जाने वाले गेम:</string>
+    <string name="delete_games_and_more">...और %1$d अधिक</string>
+    <string name="delete_games_confirm">हटाएं</string>
+    <string name="delete_mode_title">हटाने के लिए गेम चुनें</string>
+    <string name="delete_selected">चयनित हटाएं (%1$d)</string>
+    <string name="settings_category_metadata">मेटाडेटा / स्क्रैपर</string>
+    <string name="settings_title_thegamesdb_apikey">TheGamesDB API कुंजी</string>
+    <string name="settings_description_thegamesdb_apikey">thegamesdb.net पर एक मुफ्त कुंजी प्राप्त करें</string>
+    <string name="settings_thegamesdb_help">गेम कवर, विवरण और शैलियों को प्राप्त करने के लिए अपनी TheGamesDB API कुंजी दर्ज करें।</string>
+    <string name="settings_thegamesdb_configured">कॉन्फ़िगर किया गया</string>
+    <string name="settings_thegamesdb_not_configured">कॉन्फ़िगर नहीं किया गया</string>
+    <string name="metadata_dialog_apikey_title">API कुंजी दर्ज करें</string>
+    <string name="rom_migration_title">ROMs ले जाएं</string>
+    <string name="rom_migration_message">%1$d ROMs को यहां ले जाया जाएगा:
+
+%2$s
+
+क्या आप जारी रखना चाहते हैं?</string>
+    <string name="rom_migration_progress_title">ROMs ले जाया जा रहा है…</string>
+    <string name="rom_migration_progress">%1$s ले जाया जा रहा है (%2$d में से %3$d)</string>
+    <string name="rom_migration_success">%1$d ROMs सफलतापूर्वक ले जाए गए</string>
+    <string name="rom_migration_partial">%2$d में से %1$d ROMs ले जाए गए। कुछ फ़ाइलें ले जाई नहीं जा सकीं।</string>
+    <string name="rom_migration_failed">ROMs ले जाए नहीं जा सके: %1$s</string>
+    <string name="rom_migration_cancel">रद्द करें</string>
+    <string name="rom_migration_confirm">ले जाएं</string>
+    <string name="rom_migration_smb_not_supported">नेटवर्क लाइब्रेरी (SMB) के लिए स्वचालित ROM माइग्रेशन उपलब्ध नहीं है</string>
+    <string name="manual_header">उपयोगकर्ता पुस्तिका</string>
+    <string name="manual_section_first_steps">🚀 पहले कदम</string>
+    <string name="manual_content_first_steps">1. सेटिंग्स → डायरेक्टरी में अपने ROMs को स्टोर करने के लिए एक फ़ोल्डर चुनें।
+
+2. अपनी ROM फ़ाइलों को उस फ़ोल्डर में कॉपी करें।
+
+3. ऐप स्वचालित रूप से स्कैन करेगा और आपके गेम को होम स्क्रीन पर प्रदर्शित करेगा।</string>
+    <string name="manual_section_archive">🌐 कैटलॉग एक्सप्लोर करें</string>
+    <string name="manual_content_archive">कैटलॉग अनुभाग आपको कई सार्वजनिक स्रोतों से ROM संग्रह का पता लगाने देता है:
+
+• Archive.org: क्लासिक ROMs के बड़े संग्रह।
+• itch.io: मुफ्त होमब्रू गेम (मुफ्त API कुंजी की आवश्यकता है)।
+
+• सिस्टम द्वारा ब्राउज़ करें या विशिष्ट गेम खोजें।
+• इसे अपने ROMs फ़ोल्डर में डाउनलोड करने के लिए किसी गेम पर टैप करें।
+• डाउनलोड किए गए गेम स्वचालित रूप से आपकी लाइब्रेरी में दिखाई देंगे।</string>
+    <string name="manual_section_controls">🎮 कंट्रोलर कॉन्फ़िगर करें</string>
+    <string name="manual_content_controls">ब्लूटूथ या यूएसबी कंट्रोलर कनेक्ट करें और सेटिंग्स → कंट्रोलर सेटिंग्स पर जाएं।
+
+• सूची से अपना कंट्रोलर चुनें।
+• अपनी पसंद के अनुसार बटन मैप करें।
+• यदि आपका कंट्रोलर इसका समर्थन करता है तो कंपन सक्षम करें।</string>
+    <string name="manual_section_bios">💾 आवश्यक BIOS</string>
+    <string name="manual_content_bios">कुछ सिस्टम (PlayStation, Game Boy Advance, आदि) को काम करने के लिए BIOS फ़ाइलों की आवश्यकता होती है।
+
+• आपको किन फ़ाइलों की आवश्यकता है यह देखने के लिए सेटिंग्स → BIOS जानकारी पर जाएं।
+• BIOS फ़ाइलों को अपने ROMs के समान फ़ोल्डर में रखें।
+• फ़ाइल नाम बिल्कुल आवश्यक से मेल खाना चाहिए।</string>
+    <string name="manual_section_saves">💾 सहेजे गए गेम</string>
+    <string name="manual_content_saves">ऑटो-सेव डिफ़ॉल्ट रूप से सक्षम है।
+
+• गेम से बाहर निकलते समय, आपकी प्रगति स्वचालित रूप से सहेजी जाती है।
+• गेम को फिर से खोलते समय, आप वहीं से जारी रखेंगे जहां आपने छोड़ा था।
+• आप गेम की अपनी सहेजने की प्रणाली (इन-गेम मेनू) का भी उपयोग कर सकते हैं।</string>
+    <string name="manual_section_sync">☁️ क्लाउड सिंक</string>
+    <string name="manual_content_sync">आप अपने सहेजे गए गेम को Google Drive के साथ सिंक कर सकते हैं।
+
+• सेटिंग्स → सेव सिंक पर जाएं।
+• अपने Google खाते से साइन इन करें।
+• आपकी सेविंग स्वचालित रूप से विभिन्न डिवाइसों में सिंक हो जाएगी।</string>
+    <string name="manual_section_gameplay">🕹️ गेमप्ले के दौरान</string>
+    <string name="manual_content_gameplay">गेमप्ले के दौरान मेनू तक पहुंचने के लिए:
+
+• मेनू बटन (☰) दबाएं या स्क्रीन के किनारे से स्वाइप करें।
+• वहां से आप कर सकते हैं: स्टेट्स को सेव/लोड करें, सेव स्लॉट बदलें, त्वरित विकल्पों तक पहुंचें, या गेम से बाहर निकलें।</string>
+    <string name="about_version">संस्करण %1$s</string>
+    <string name="about_section_origin">सॉफ़्टवेयर मूल</string>
+    <string name="about_content_origin_1">यह एप्लिकेशन GPL-3.0 लाइसेंस के तहत वितरित, ओपन सोर्स Lemuroid प्रोजेक्ट का एक फोर्क है।</string>
+    <string name="about_content_origin_2">Archive.org पर सार्वजनिक रूप से उपलब्ध सामग्री और itch.io से मुफ्त होमब्रू गेम के लिए अन्वेषण सुविधाएँ जोड़ी गई हैं।</string>
+    <string name="about_section_source">स्रोत कोड</string>
+    <string name="about_content_source">इस संशोधित संस्करण का स्रोत कोड GPL-3.0 लाइसेंस के तहत उपलब्ध है।</string>
+    <string name="about_button_github">स्रोत कोड देखें (GitHub)</string>
+    <string name="about_section_licenses">तृतीय-पक्ष लाइसेंस</string>
+    <string name="about_section_legal">कानूनी सूचना</string>
+    <string name="about_content_legal">इस एप्लिकेशन में ROM शामिल नहीं हैं और यह सामग्री को स्वचालित रूप से डाउनलोड नहीं करता है। अन्वेषण सुविधा केवल Archive.org पर सार्वजनिक रूप से उपलब्ध संग्रह और itch.io से मुफ्त होमब्रू गेम दिखाती है। बाहरी फ़ाइलों तक पहुँचने या उपयोग करने के अपने अधिकारों को सत्यापित करने के लिए उपयोगकर्ता जिम्मेदार है।</string>
+    <string name="about_section_report">एक बग की रिपोर्ट करें</string>
+    <string name="about_content_report">कोई त्रुटि मिली या कोई सुझाव है? एक अनाम रिपोर्ट भेजकर हमें बेहतर बनाने में मदद करें।</string>
+    <string name="about_button_report">🐛 एक बग की रिपोर्ट करें</string>
+    <string name="about_no_browser">लिंक खोलने के लिए कोई वेब ब्राउज़र स्थापित नहीं है</string>
+    <string name="about_no_browser_report">बग रिपोर्ट पृष्ठ खोलने के लिए कोई वेब ब्राउज़र स्थापित नहीं है</string>
+    <string name="bug_report_error">बग रिपोर्ट फ़ॉर्म लोड नहीं हो सका। कृपया अपना इंटरनेट कनेक्शन जांचें।</string>
+    <string name="bug_report_select_images">छवियां चुनें</string>
+    <string name="about_open_with">इसके साथ खोलें</string>
+    <string name="catalog_disclaimer">⚠️ यह कैटलॉग सार्वजनिक रिपॉजिटरी (Archive.org और itch.io) से जुड़ता है जो EmulAItor से संबद्ध नहीं हैं। itch.io से केवल मुफ्त होमब्रू सामग्री सूचीबद्ध है। इस सामग्री का उपयोग, डाउनलोड और कब्ज़ा उपयोगकर्ता की एकमात्र जिम्मेदारी है। 🧠 यद्यपि EmulAItor बुद्धिमानी से फ़ाइलों को फ़िल्टर करता है, टूटे हुए लिंक, असंगत फ़ाइलें या ऐसी सामग्री हो सकती है जो ROM नहीं हैं।</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io होमब्रू</string>
+    <string name="itch_api_key_title">itch.io API कुंजी</string>
+    <string name="itch_api_key_subtitle">itch.io से गेम डाउनलोड करने के लिए आवश्यक</string>
+    <string name="itch_api_key_instructions">itch.io से मुफ्त होमब्रू गेम डाउनलोड करने के लिए, आपको एक API कुंजी की आवश्यकता है:
+
+1. &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; पर जाएं और एक मुफ्त खाता बनाएं
+2. &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;सेटिंग्स → API कुंजियाँ&lt;/a&gt; पर जाएं
+3. एक नई कुंजी उत्पन्न करें और इसे कॉपी करें
+4. इसे नीचे पेस्ट करें</string>
+    <string name="itch_api_key_hint">अपनी itch.io API कुंजी यहां पेस्ट करें</string>
+    <string name="itch_api_key_validating">API कुंजी मान्य की जा रही है…</string>
+    <string name="itch_api_key_valid">API कुंजी मान्य ✓</string>
+    <string name="itch_api_key_invalid">अमान्य API कुंजी। कृपया जांचें और पुनः प्रयास करें।</string>
+    <string name="itch_api_key_saved">API कुंजी सफलतापूर्वक सहेजी गई</string>
+    <string name="itch_api_key_required_title">API कुंजी आवश्यक है</string>
+    <string name="itch_api_key_required_message">गेम डाउनलोड करने के लिए आपको itch.io API कुंजी की आवश्यकता है। क्या आप इसे अभी कॉन्फ़िगर करना चाहेंगे?</string>
+    <string name="itch_no_results">इस सिस्टम के लिए itch.io पर कोई होमब्रू गेम नहीं मिला</string>
+    <string name="itch_unsupported_system">इस सिस्टम के लिए itch.io पर कोई होमब्रू सामग्री नहीं है। NES, SNES, GBA, GBC या Genesis आज़माएं।</string>
+    <string name="itch_game_free">मुफ़्त</string>
+    <string name="itch_game_by">%1$s द्वारा</string>
+    <string name="pack_fully_downloaded">पूरी तरह से डाउनलोड हो गया</string>
+    <string name="itch_uploads_title">उपलब्ध फ़ाइलें</string>
+    <string name="itch_no_rom_uploads">इस गेम के लिए कोई डाउनलोड करने योग्य ROM फ़ाइलें नहीं मिलीं</string>
+    <string name="itch_download_error">itch.io से डाउनलोड करने में विफल: %1$s</string>
+    <string name="itch_settings_edit_key">कुंजी संपादित करें</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">पूर्ण एक्सेस अनलॉक करें</string>
+    <string name="paywall_description">निःशुल्क परीक्षण अवधि समाप्त हो गई है। जारी रखने के लिए, निम्नलिखित विकल्पों में से एक चुनें।</string>
+<string name="paywall_buy_button">प्रो संस्करण खरीदें</string>
+    <string name="paywall_restore_title">क्या आपने इसे पहले खरीदा है?</string>
+    <string name="paywall_restore_description">यदि आपने EmulAItor के मुफ्त होने से पहले इसे खरीदा था, तो अपना एक्सेस रिस्टोर करने के लिए अपना Google Play ऑर्डर आईडी (GPA...) दर्ज करें।</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">खरीद रिस्टोर करें</string>
+    <string name="paywall_where_is_receipt">मुझे अपनी रसीद कहाँ मिलेगी?</string>
+    <string name="paywall_receipt_instructions_title">अपनी ऑर्डर आईडी कैसे खोजें</string>
+    <string name="paywall_receipt_instructions_1">विकल्प A: अपने Gmail में \"Google Play Receipt EmulAItor\" खोजें।</string>
+    <string name="paywall_receipt_instructions_2">विकल्प B: pay.google.com पर जाएं, अपनी गतिविधि (Activity) देखें और EmulAItor खोजें।</string>
+    <string name="paywall_receipt_open_web">pay.google.com खोलें</string>
+    <string name="paywall_support_fallback">यदि आप इसे नहीं ढूंढ पा रहे हैं, तो सहायता टीम से संपर्क करें।</string>
+    <string name="paywall_success">खरीद सफलतापूर्वक रिस्टोर कर ली गई है। धन्यवाद!</string>
+    <string name="paywall_error_invalid_gpa">अमान्य GPA कोड या पहले ही उपयोग किया जा चुका है।</string>
+    <string name="paywall_error_limit_exceeded">यह कोड पहले से ही अनुमत उपकरणों की अधिकतम संख्या पर उपयोग किया जा रहा है। कृपया ऊपर दिए गए विकल्पों में से एक नया लाइसेंस खरीदें।</string>
+<string name="paywall_error_network">नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें।</string>
+    <string name="paywall_error_unknown">एक अज्ञात त्रुटि हुई।</string>
+    <string name="paywall_restoring">रिस्टोर किया जा रहा है...</string>
+    <string name="paywall_buy_subscription">मासिक सदस्यता</string>
+    <string name="paywall_buy_lifetime">स्थायी अनलॉक</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>

@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">מסך הבית</string>
+    <string name="title_search">חיפוש</string>
+    <string name="title_systems">קונסולות</string>
+    <string name="title_games">משחקים</string>
+    <string name="title_settings">הגדרות</string>
+    <string name="recent">אחרונים</string>
+    <string name="favorites">מועדפים</string>
+    <string name="discover">גלה עוד</string>
+    <string name="rescan">סריקה מחדש</string>
+    <string name="stop">עצור</string>
+    <string name="none">כלום</string>
+    <string name="directory">ספריה</string>
+    <string name="display_filter">פילטר תצוגה</string>
+    <string name="roms">קבצי משחק (ROMs)</string>
+    <string name="ok">בסדר</string>
+    <string name="cancel">ביטול</string>
+    <string name="settings">הגדרות</string>
+    <string name="save_sync">שמור סנכרון</string>
+    <string name="show_all">הראה הכל</string>
+    <string name="settings_category_general">כללי</string>
+    <string name="settings_category_input">קלט</string>
+    <string name="settings_category_misc">שונות</string>
+    <string name="settings_title_enable_autosave">מצב שמירה אוטומטית</string>
+    <string name="settings_title_enable_touch_feedback">רטט במגע</string>
+    <string name="settings_title_tilt_sensitivity">רגישות חיישן ההטייה</string>
+    <string name="settings_title_maximum_cache_usage">גודל מקסימלי של המטמון</string>
+    <string name="settings_title_hd_mode">איכות תצוגה גבוהה</string>
+    <string name="settings_title_gamepad_settings">התקן חיצוני</string>
+    <string name="settings_description_gamepad_settings">הגדר מקלדות ובקרים חיצוניים</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">מכשירים מופעלים</string>
+    <string name="settings_gamepad_category_general">כללי</string>
+    <string name="settings_gamepad_title_reset_bindings">אפס את התאמת המקשים בבקר המשחק</string>
+    <string name="settings_gamepad_title_game_menu">תפריט</string>
+    <string name="settings_title_open_cores_selection">שנה ליבה</string>
+    <string name="settings_description_open_cores_selection">הגדר אילו ליבות יקושרו לקונסולות</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">הצג קבצי BIOS שזוהו ונמצאו מתאימים</string>
+    <string name="settings_bios_category_detected">זוהה</string>
+    <string name="settings_bios_category_not_detected">נתמך</string>
+    <string name="settings_title_reset_settings">איפוס להגדרות היצרן</string>
+    <string name="settings_description_reset_settings">אפס את Lemuroid להגדרות היצרן</string>
+    <string name="settings_title_advanced_settings">הגדרות מתקדמות</string>
+    <string name="settings_description_advanced_settings">הצג הגדרות מתקדמות</string>
+    <string name="settings_title_low_latency_audio">תעדף שמע מופחת השהייה (Low-latency)</string>
+    <string name="settings_description_low_latency_audio">הפחת השהיית שמע במכשירים נתמכים. עשוי להגביר את השיבושים בשמע.</string>
+    <string name="settings_title_direct_game_load">טעינת משחק ישירה</string>
+    <string name="settings_description_direct_game_load">(נסיוני) הפחת זמן טעינה וניצול מטמון בקונסולות נתמכות.</string>
+    <string name="settings_title_enable_rumble">רטט</string>
+    <string name="settings_description_enable_rumble">הפעל רטט במשחקים ובקרים המאפשרים זאת</string>
+    <string name="settings_title_enable_device_rumble">רטט מכשיר</string>
+    <string name="settings_description_enable_device_rumble">הפעל רטט ישירות דרך הטלפון כאשר בקר חיצוני אינו מחובר</string>
+    <string name="reset_settings_warning_message_title">האם אתה בטוח?</string>
+    <string name="reset_settings_warning_message_description">פעולה זו תאפס את Lemuroid אל הגדרות היצרן. שמירות ומצבי משחק יישמרו.</string>
+    <string name="settings_title_save_sync">שמירות בענן</string>
+    <string name="settings_description_save_sync">גבה וסנכרן את השמירות שלך אל הענן</string>
+    <string name="settings_save_sync_refresh">סנכרון ידני</string>
+    <string name="settings_save_sync_refresh_description">בצע סנכרון ידני כעת.\n%1$s</string>
+    <string name="settings_save_sync_enable_auto">סינכרון אוטומטי</string>
+    <string name="settings_save_sync_enable_auto_description">בצע סנכרון באופן אוטומטי לפני ואחרי משחק כאשר יש חיבור ל-Wifi</string>
+    <string name="settings_save_sync_configure">הגדר את %1$s</string>
+    <string name="settings_save_sync_include_saves">סנכרון שמירות</string>
+    <string name="settings_save_sync_include_saves_description">%1$s במכשיר</string>
+    <string name="settings_save_sync_include_states">סנכרן מצבי משחק</string>
+    <string name="settings_save_sync_include_states_description">נח יותר, אך כבד יותר ופחות אמין. בחר אילו ליבות/קונסולות תרצה לסנכרן</string>
+    <string name="game_context_menu_add_to_favorites">הוסף למועדפים</string>
+    <string name="game_context_menu_remove_from_favorites">הסר מהמועדפים</string>
+    <string name="game_context_menu_resume">המשך</string>
+    <string name="game_context_menu_restart">הפעל מחדש</string>
+    <string name="game_context_menu_create_shortcut">הצמד למסך הבית</string>
+    <string name="home_empty_title">בחר את תיקיית היעד בה נמצאים קבצי ה-ROM</string>
+    <string name="home_empty_message">Lemuroid צריך לסרוק תיקייה המכילה קבצי ROM. \nפעולה זו עשויה לארוך מספר דקות.</string>
+    <string name="home_empty_action">בחירת תיקייה</string>
+    <string name="game_menu_save">שמור</string>
+    <string name="game_menu_load">טען</string>
+    <string name="game_menu_restart">הפעל מחדש</string>
+    <string name="game_menu_quit">צא מהמשחק</string>
+    <string name="game_menu_settings">הגדרות</string>
+    <string name="game_menu_state">מצב משחק%1$s</string>
+    <string name="game_menu_change_disk_button">החלף דיסק</string>
+    <string name="game_menu_edit_touch_controls">שנה מקשים</string>
+    <string name="game_menu_mute_audio">השתק</string>
+    <string name="game_menu_fast_forward">העבר קדימה</string>
+    <string name="game_menu_change_disk_disk">דיסק %1$s</string>
+    <string name="game_loading_preparing_game">מכין את המשחק…</string>
+    <string name="game_toast_settings_button_using_gamepad">זוהה שלט חיצוני. גש למסך ההגדרות עם %1$s.</string>
+    <string name="game_toast_load_state_failed">טעינת מצב משחק זו נכשלה</string>
+    <string name="empty_view_default">אין שום דבר</string>
+    <string name="core_settings_title">הגדרות ליבה</string>
+    <string name="core_settings_category_preferences">העדפות</string>
+    <string name="core_settings_category_controllers">בקרי משחק</string>
+    <string name="core_settings_controller">בקר %1$s</string>
+    <string name="game_menu_title">תפריט משחק</string>
+    <string name="notification_channel_name">כל ההתראות</string>
+    <string name="library_index_notification_message">פעולה זו עשויה להימשך מספר דקות</string>
+    <string name="save_sync_notification_title">סינכרון המשחק עם הענן בתהליך</string>
+    <string name="game_running_notification_title">%1$s פועל כעת</string>
+    <string name="game_running_notification_title_alternative">המשחק פועל כעת</string>
+    <string name="game_running_notification_message">אנא וודא ששמרת את ההתקדמות שלך</string>
+    <string name="game_loader_error_gl_incompatible">ליבה זו דורשת גירסה של OpenGL ES שמכשירך אינו תומך בה.</string>
+    <string name="game_loader_error_load_game">משהו רע התרחש בעת טעינת המשחק. אנא וודא שהקובץ נתמך על ידי למורואיד וסרוק מחדש את המשחקים שלך.</string>
+    <string name="game_loader_error_save">משהו רע התרחש עם קובץ השמירה. אם הבעיה אינה מפסיקה, נסה לבטל את השמירה האוטומטית.</string>
+    <string name="game_shortcut_error">משהו רע התרחש בעת טעינת המשחק. אנא וודא שהמשחק עדיין קיים בספרייה שלך.</string>
+    <string name="system_grid_details">%1$s משחקים</string>
+    <string name="tv_folder_picker_action_choose">בחר</string>
+    <string name="tv_folder_picker_action_cancel">בטל</string>
+    <string name="tv_folder_storage_primary">מקום אחסון ראשי</string>
+    <string name="tv_folder_storage_secondary">מקום אחסון משני %1$s</string>
+    <string name="tv_folder_storage_title">בחר מקום אחסון</string>
+    <string name="tv_home_section_favorites">אהובים</string>
+    <string name="mobile_settings_help">עזרה</string>
+    <string name="mobile_settings_support">תמיכה</string>
+    <string name="lemuroid_help_content">&amp;#8226;כיצד להשתמש ב-Lemuroid?&lt;/b&gt;&lt;br/&gt;
+        העתק את כל קבצי ה-ROM שלך אל תיקייה לבחירתך במכשיר ובחר אותה מתוך הגדרות האפליקציה. ניתן ליצור תיקיות משנה (לקונסולות ספציפיות למשל) באותה תיקייה ראשית. לאחר השלמת הסריקה המשחקים אמורים להופיע.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;למה המשחקים שלי לא מזוהים?&lt;/b&gt;&lt;br/&gt;
+אם המשחקים כווצו (Compressed), נסה להחזיר אותם למצבם המקורי. אם המשחקים עדיין לא מזוהים נסה לשים את קבצי ה-ROM בתיקיות נפרדות, אחת לכל קונסולה, ושנה את שמן בהתאם: $SYSTEMS.</string>
+    <string name="lemuroid_crash_disclamer">נראה שהליבה של Liberto נתקלה בבעיה לא צפויה. אם מצב זה חוזר על עצמו נסה את הפתרונות הבאים:\n
+        \n• בטל שמירות אוטומטיות והפעל מחדש את המשחק
+        \n• מחק את מטמון האפליקציה דרך הגדרות ה-Android
+        \n• כנס אל הגדרות האפליקציה ובצע איפוס להגדרות היצרן
+        \n\n אם אף אחד מהפתרונות לא עזר, ייתכן שהמשחק/הליבה אינם נתמכים במכשיר זה.</string>
+    <string name="error_message_incompatible_state">מצב שמירה זה אינו נתמך על ידי גרסת הליבה הנוכחית. טען את השמירה האחרונה שבוצעה על ידי המשחק (in-game) או לחלופין, התקן גרסה ישנה יותר של Lemuroid.</string>
+<!-- Added by local i18n tool. -->
+    <string name="title_catalog">קטלוג</string>
+    <string name="settings_title_about">אודות</string>
+    <string name="settings_title_manual">מדריך למשתמש</string>
+    <string name="settings_description_manual">כיצד להשתמש ב-EmulAItor</string>
+    <string name="back">חזור</string>
+    <string name="close">סגור</string>
+    <string name="license_not_verified_title">הרישיון לא אומת</string>
+    <string name="game_page_search_suggestion">חפש משחקים</string>
+    <string name="settings_description_enable_autosave">שמור מצב בעת יציאה דרך תפריט המשחק</string>
+    <string name="settings_title_hd_quality">איכות מצב HD</string>
+    <string name="settings_description_hd_mode">החל מסנן שדרוג איכות (upscaling) לאחר עיבוד</string>
+    <string name="settings_description_hd_quality">כוונן את איכות מצב ה-HD</string>
+    <string name="home_hd_mode_enabled">מצב HD מופעל</string>
+    <string name="home_hd_mode_disabled">מצב HD כבוי</string>
+    <string name="settings_title_immersive_mode">מצב סוחף</string>
+    <string name="settings_description_immersive_mode">צובע את הרקע באופן דינמי בהתבסס על ויזואליות המשחק</string>
+    <string name="settings_core_selection_ds_info">DeSmuME אינו מומלץ עוד ויוסר באחד העדכונים הבאים. שמור את התקדמותך בתוך המשחק, ולאחר מכן עבר ל-melonDS. שמירות בתוך המשחק ייטענו אוטומטית ב-melonDS, אך מצבי שמירה (save states) ניתנים לשימוש רק עם הליבה שיצרה אותם.</string>
+    <string name="settings_bios_help">כדי להוסיף קבצי BIOS, מקם את הקבצים הנתמכים בתיקיית ה-ROMs שלך ובצע סריקה מחדש. שם הקובץ חייב להיות תואם במדויק.</string>
+    <string name="game_context_menu_delete">מחק</string>
+    <string name="game_delete_confirmation">האם אתה בטוח שברצונך למחוק את \"%1$s\"? פעולה זו תסיר את המשחק מהספרייה שלך ותמחק את הקובץ.</string>
+    <string name="game_deleted">המשחק נמחק</string>
+    <string name="home_notification_title">אפשר התראות</string>
+    <string name="home_notification_message">EmulAItor משתמש בהתראות כדי לעדכן אותך כאשר משחק או פעולה פועלים ברקע.</string>
+    <string name="home_notification_action">אפשר</string>
+    <string name="home_microphone_title">אפשר מיקרופון</string>
+    <string name="home_microphone_message">משחקי Nintendo DS יכולים להשתמש במיקרופון כדי לספק פונקציונליות מסוימת.</string>
+    <string name="home_microphone_action">אפשר</string>
+    <string name="home_storage_inaccessible_title">ספריית ה-ROMs אינה נגישה</string>
+    <string name="home_storage_inaccessible_message">Android אינה מאפשרת ל-EmulAItor לגשת לספריית ה-ROMs שנבחרה. ייתכן שהתיקייה הועברה, נמחקה או נחסמה על ידי הרשאות המערכת. בחר את התיקייה שוב או בחר תיקייה אחרת.</string>
+    <string name="home_storage_inaccessible_action">בחר ספרייה אחרת</string>
+    <string name="update_available_banner">גרסה חדשה יותר של EmulAItor זמינה. הקש כדי לעדכן.</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME יוצא משימוש</string>
+    <string name="home_notification_desmume_deprecated_message">שמור בתוך המשחק, ולאחר מכן עבר ל-melonDS כדי לשמור על התקדמותך. מצבי שמירה לא יועברו ויישארו שמישים רק ב-DeSmuME.</string>
+    <string name="home_notification_desmume_deprecated_action">עבור ל-melonDS</string>
+    <string name="game_menu_tilt_sensor">חיישן הטיה</string>
+    <string name="game_toast_quick_save_loaded">טעינה מהירה הושלמה</string>
+    <string name="game_toast_quick_save_saved">שמירה מהירה הושלמה</string>
+    <string name="library_index_notification_title">סריקת ROMs בתהליך</string>
+    <string name="library_metadata_enrichment_in_progress">מעדכן פרטי ROM ברקע. אתה יכול להמשיך לשחק.</string>
+    <string name="save_sync_notification_message">פעולה זו עשויה להימשך עד מספר דקות</string>
+    <string name="game_loader_error_unsupported_architecture">ליבה זו אינה נתמכת על ידי המכשיר שלך.</string>
+    <string name="game_loader_error_generic">משהו השתבש. נסה את הפעולות הבאות:
+
+• בטל את השמירה האוטומטית והפעל מחדש את המשחק
+• היכנס להגדרות Android ונקה את מטמון האפליקציה
+• היכנס להגדרות Lemuroid ובצע איפוס להגדרות היצרן
+
+אם אף אחת מהפעולות לעיל לא עובדת, ייתכן שהמשחק/הליבה הזו אינם נתמכים על ידי מכשיר זה.</string>
+    <string name="game_loader_error_missing_bios">נראה שחסר לך ה-BIOS הנדרש, הנח אותם בתיקיית ה-ROMs שלך ובצע סריקה מחדש. קבצים נדרשים: %1$s</string>
+    <string name="dialog_saf_not_found">מכשיר זה אינו תומך בבורר הקבצים StorageAccessFramework. אנא העתק ידנית קבצי ROM לא דחוסים ל-%1$s ולחץ על סריקה מחדש.</string>
+    <string name="tv_folder_picker_title">בחר תיקיית ROMs</string>
+    <string name="tv_folder_error_access">תיקייה זו אינה נגישה. אנא בחר תיקיית משנה או מיקום אחר.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">תיקיית ROMs</string>
+    <string name="settings_description_choose_directory">בחר את התיקייה המכילה את המשחקים שלך</string>
+    <string name="tv_home_section_recents">אחרונים</string>
+    <string name="tv_home_section_systems">מערכות</string>
+    <string name="tv_home_section_settings">הגדרות</string>
+    <string name="gamepad_binding_update_title">שייך את \"RetroPad %1$s\"</string>
+    <string name="gamepad_binding_update_description">לחץ על כפתור ב-\"%1$s\" שלך</string>
+    <string name="shortcut_binding_update_title">שייך את \"קיצור דרך %1$s\"</string>
+    <string name="shortcut_binding_update_description">לחץ על הכפתור הראשון, ולאחר מכן על השני כדי לקשור שילוב ב-\"%1$s\" שלך</string>
+    <string name="tv_search_results">משחקים</string>
+    <string name="tv_game_message_missing_gamepad">נדרש בקר משחק כדי לשחק. אנא חבר אחד.</string>
+    <string name="game_edit_touch_controls_error_not_visible">נתק את הבקר שלך כדי לערוך את פקדי המגע</string>
+    <string name="game_interactory_busy">המתן לסיום הפעולות הממתינות</string>
+    <string name="pending_operations_blocked_title">פעולות עלולות להיות תקועות</string>
+    <string name="pending_operations_blocked_message_external">תהליך ממתין מגרסה מוקדמת יותר עלול לחסום את אינדוקס ה-ROM. באפשרותך להמשיך להמתין או לנקות את נתוני האפליקציה כדי לשחזר. קבצי ה-ROM שלך לא יימחקו, אך תצטרך לבחור את תיקיית ה-ROM שוב. אם זה נמשך יותר מ-5 דקות, מומלץ לנקות את נתוני האפליקציה.</string>
+    <string name="pending_operations_blocked_message_internal">תהליך ממתין מגרסה מוקדמת יותר עלול לחסום את אינדוקס ה-ROM. באפשרותך להמשיך להמתין או לפתוח את ההגדרות כדי לבדוק את תצורת האחסון שלך.</string>
+    <string name="pending_operations_clear_data">נקה נתוני אפליקציה</string>
+    <string name="pending_operations_keep_waiting">המשך להמתין</string>
+    <string name="pending_operations_clear_data_confirm_title">לנקות נתוני אפליקציה?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor יאפס את נתוני האפליקציה שלו כעת. קבצי ה-ROM שלך לא יימחקו, אך תצטרך לבחור את תיקיית ה-ROM שוב.</string>
+    <string name="pending_operations_clear_data_confirm_button">נקה נתונים</string>
+    <string name="shader_filter_names_auto">אוטומטי</string>
+    <string name="shader_filter_names_sharp">חד</string>
+    <string name="shader_filter_names_smooth">חלק</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">ללא</string>
+    <string name="haptic_feedback_mode_names_press">לחיצה</string>
+    <string name="haptic_feedback_mode_names_press_release">לחיצה ושחרור</string>
+    <string name="tilt_configuration_disabled">מושבת</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">אנלוגי שמאלי</string>
+    <string name="tilt_configuration_analog_right">אנלוגי ימני</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+    <string name="disclaimer_title">הודעה חשובה</string>
+    <string name="disclaimer_software_origin_title">מקור התוכנה</string>
+    <string name="disclaimer_software_origin_text">יישום זה הוא פיצול (fork) של פרויקט הקוד הפתוח Lemuroid, המופץ תחת רישיון GPL-3.0.</string>
+    <string name="disclaimer_no_content_title">לא כלול תוכן</string>
+    <string name="disclaimer_no_content_text">אפליקציה זו אינה כוללת משחקים ואינה מורידה קבצים באופן אוטומטי.</string>
+    <string name="disclaimer_archive_title">מקורות קטלוג ציבוריים</string>
+    <string name="disclaimer_archive_text">תכונת העיון מציגה תוכן הזמין לציבור ב-Archive.org ומשחקי homebrew בחינם מ-itch.io. EmulAItor אינו קשור לאף אחד מהשירותים הללו. המשתמש אחראי לוודא את זכויותיו לגשת או להשתמש בכל ROM.</string>
+    <string name="disclaimer_user_responsibility_title">אחריות המשתמש</string>
+    <string name="disclaimer_user_responsibility_text">אתה אחראי לוודא שיש לך את הזכות החוקית להשתמש בכל קבצי ה-ROM עם יישום זה.</string>
+    <string name="disclaimer_accept">אני מבין ומקבל</string>
+    <string name="disclaimer_terms">בהמשך השימוש, אתה מקבל את תנאי השימוש של יישום זה.</string>
+    <string name="game_context_menu_edit">ערוך</string>
+    <string name="game_edit_title">ערוך משחק</string>
+    <string name="game_edit_field_title">כותרת</string>
+    <string name="game_edit_field_system">מערכת</string>
+    <string name="game_edit_field_developer">מפתח</string>
+    <string name="game_edit_file_label">קובץ:</string>
+    <string name="game_edit_save">שמור</string>
+    <string name="game_edit_search_online">חפש מטא-נתונים ברשת</string>
+    <string name="game_edit_searching">מחפש...</string>
+    <string name="game_edit_no_results">לא נמצאו תוצאות</string>
+    <string name="game_edit_apply_metadata">החל מטא-נתונים</string>
+    <string name="game_edit_unlock_metadata">בטל נעילת מטא-נתונים (אפשר עדכון אוטומטי)</string>
+    <string name="catalog_search_placeholder">חפש ROMs...</string>
+    <string name="catalog_filter_all_sources">כל המקורות</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">מקומי</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">לא נמצאו תוצאות</string>
+    <string name="catalog_downloads">הורדות</string>
+    <string name="catalog_clear_completed">נקה הכל</string>
+    <string name="catalog_downloading">מוריד...</string>
+    <string name="catalog_downloaded">הורד</string>
+    <string name="sources_manage_title">נהל מקורות</string>
+    <string name="sources_add_title">הוסף מקור</string>
+    <string name="sources_add_local">הוסף תיקייה מקומית</string>
+    <string name="sources_add_smb">הוסף SMB/NAS</string>
+    <string name="sources_smb_name">שם</string>
+    <string name="sources_smb_server">שרת</string>
+    <string name="sources_smb_path">נתיב</string>
+    <string name="sources_smb_username">שם משתמש (אופציונלי)</string>
+    <string name="sources_smb_password">סיסמה (אופציונלית)</string>
+    <string name="sources_smb_domain">דומיין (אופציונלי)</string>
+    <string name="sources_edit">עריכה</string>
+    <string name="sources_delete">מחיקה</string>
+    <string name="sources_save">שמירה</string>
+    <string name="sources_cancel">ביטול</string>
+    <string name="sources_add">הוספה</string>
+    <string name="sources_smb_display_name">שם תצוגה</string>
+    <string name="sources_smb_display_name_placeholder">ה-NAS שלי</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">נתיב מלא כולל שם השיתוף</string>
+    <string name="sources_smb_use_auth">השתמש באימות</string>
+    <string name="sources_smb_username_label">שם משתמש</string>
+    <string name="sources_smb_password_label">סיסמה</string>
+    <string name="sources_smb_edit_title">עריכת מקור SMB</string>
+    <string name="sources_smb_connection_title">חיבור SMB</string>
+    <string name="sources_smb_test_connection">בדיקת חיבור</string>
+    <string name="sources_smb_testing">בודק חיבור...</string>
+    <string name="sources_smb_connection_success">החיבור הצליח!</string>
+    <string name="sources_smb_connection_failed">החיבור נכשל: %1$s</string>
+    <string name="sources_no_custom">לא הוגדרו מקורות מותאמים אישית</string>
+    <string name="sources_local_permission_error">לא ניתן להוסיף תיקייה זו מכיוון ש-Android לא העניקה גישה. בחר תיקייה אחרת.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 קבצים מקומיים</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">חיפוש ROMs...</string>
+    <string name="catalog_packs_count">%1$d מתוך %2$d חבילות</string>
+    <string name="catalog_games_count">%1$d משחקים</string>
+    <string name="catalog_load_more">טען עוד...</string>
+    <string name="catalog_load_more_packs">טען חבילות נוספות</string>
+    <string name="catalog_no_packs_found">לא נמצאו חבילות ROM</string>
+    <string name="catalog_no_files_found">לא נמצאו קבצים להורדה</string>
+    <string name="catalog_files_count">קבצים (%1$d):</string>
+    <string name="catalog_download_all">הכל</string>
+    <string name="catalog_downloads_title">הורדות (%1$d)</string>
+    <string name="catalog_downloads_clear">נקה</string>
+    <string name="catalog_no_downloads">אין הורדות</string>
+    <string name="catalog_error_retry">נסה שוב</string>
+    <string name="catalog_error_occurred">אירעה שגיאה</string>
+    <string name="catalog_invalid_download_title">קובץ קטלוג לא תקין</string>
+    <string name="catalog_invalid_download_message">נראה שהקובץ שהורד אינו ROM תקין עבור מערכת זו. ייתכן שהספק פרסם קובץ שגוי או שאינו נתמך. אם אינך מוצא את ה-ROM הזה בקטלוג, באפשרותך להוריד אותו ידנית ולהוסיף אותו לתיקיית ה-ROM שלך.</string>
+    <string name="catalog_region_all">🌍 הכל</string>
+    <string name="catalog_region_usa">🇺🇸 ארה\"ב</string>
+    <string name="catalog_region_europe">🇪🇺 אירופה</string>
+    <string name="catalog_region_japan">🇯🇵 יפן</string>
+    <string name="catalog_region_spain">🇪🇸 ספרד</string>
+    <string name="catalog_region_france">🇫🇷 צרפת</string>
+    <string name="catalog_region_germany">🇩🇪 גרמניה</string>
+    <string name="catalog_region_italy">🇮🇹 איטליה</string>
+    <string name="catalog_region_brazil">🇧🇷 ברזיל</string>
+    <string name="catalog_region_korea">🇰🇷 קוריאה</string>
+    <string name="catalog_region_china">🇨🇳 סין</string>
+    <string name="catalog_region_australia">🇦🇺 אוסטרליה</string>
+    <string name="catalog_sort_downloads">הכי הרבה הורדות</string>
+    <string name="catalog_sort_name">שם א-ת</string>
+    <string name="catalog_sort_size">גודל מקסימלי</string>
+    <string name="catalog_error_503">Archive.org מושבת או נמצא בתחזוקה. נסה שוב מאוחר יותר.</string>
+    <string name="catalog_error_502">Archive.org חווה בעיות. נסה שוב מאוחר יותר.</string>
+    <string name="catalog_error_500">ל-Archive.org יש שגיאה פנימית. נסה שוב מאוחר יותר.</string>
+    <string name="catalog_error_ssl">שגיאת אישור SSL. ודא שהתאריך והשעה במכשיר שלך נכונים.</string>
+    <string name="catalog_error_timeout">החיבור ל-Archive.org פג תוקף. בדוק את חיבור האינטרנט שלך.</string>
+    <string name="catalog_error_no_internet">אין חיבור לאינטרנט. בדוק את החיבור שלך.</string>
+    <string name="catalog_error_unknown">שגיאה לא ידועה</string>
+    <string name="catalog_storage_warning_title">אין מספיק מקום</string>
+    <string name="catalog_storage_too_large">החבילה שברצונך להוריד גדולה מדי.</string>
+    <string name="catalog_storage_download_size">גודל הורדה:</string>
+    <string name="catalog_storage_available">שטח פנוי:</string>
+    <string name="catalog_storage_needed">שטח נוסף נדרש:</string>
+    <string name="catalog_storage_free_space">פנה מקום במכשיר שלך או בחר פחות קבצים להורדה.</string>
+    <string name="catalog_storage_understood">הבנתי</string>
+    <string name="catalog_path_warning_title">הנתיב לא הוגדר!</string>
+    <string name="catalog_path_select_folder">כדי להוריד משחקים, עליך לבחור תיקייה לאחסון שלהם.</string>
+    <string name="catalog_path_select_button">בחר תיקייה</string>
+    <string name="delete_games_title">למחוק %1$d משחקים?</string>
+    <string name="delete_games_warning">פעולה זו תסיר את המשחקים שנבחרו מהספרייה שלך ותמחק את קבצי ה-ROM שלהם מהדיסק.</string>
+    <string name="delete_games_list_header">משחקים למחיקה:</string>
+    <string name="delete_games_and_more">...ועוד %1$d</string>
+    <string name="delete_games_confirm">מחק</string>
+    <string name="delete_mode_title">בחר משחקים למחיקה</string>
+    <string name="delete_selected">מחק נבחרים (%1$d)</string>
+    <string name="settings_category_metadata">מטא-דאטה / Scraper</string>
+    <string name="settings_title_thegamesdb_apikey">מפתח API עבור TheGamesDB</string>
+    <string name="settings_description_thegamesdb_apikey">קבל מפתח בחינם באתר thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">הזן את מפתח ה-API שלך עבור TheGamesDB כדי למשוך עטיפות משחקים, תיאורים וז\'אנרים.</string>
+    <string name="settings_thegamesdb_configured">מוגדר</string>
+    <string name="settings_thegamesdb_not_configured">לא מוגדר</string>
+    <string name="metadata_dialog_apikey_title">הזן מפתח API</string>
+    <string name="rom_migration_title">העבר ROMs</string>
+    <string name="rom_migration_message">%1$d קבצי ROM יועברו ל:
+
+%2$s
+
+האם ברצונך להמשיך?</string>
+    <string name="rom_migration_progress_title">מעביר ROMs…</string>
+    <string name="rom_migration_progress">מעביר את %1$s (%2$d מתוך %3$d)</string>
+    <string name="rom_migration_success">%1$d קבצי ROM הועברו בהצלחה</string>
+    <string name="rom_migration_partial">הועברו %1$d מתוך %2$d קבצי ROM. לא ניתן היה להעביר חלק מהקבצים.</string>
+    <string name="rom_migration_failed">לא ניתן היה להעביר את קבצי ה-ROM: %1$s</string>
+    <string name="rom_migration_cancel">ביטול</string>
+    <string name="rom_migration_confirm">העבר</string>
+    <string name="rom_migration_smb_not_supported">העברת ROM אוטומטית אינה זמינה עבור ספריות רשת (SMB)</string>
+    <string name="manual_header">מדריך למשתמש</string>
+    <string name="manual_section_first_steps">🚀 צעדים ראשונים</string>
+    <string name="manual_content_first_steps">1. בחר תיקייה לאחסון קבצי ה-ROM שלך דרך הגדרות → ספרייה.
+
+2. העתק את קבצי ה-ROM שלך לתיקייה זו.
+
+3. האפליקציה תסרוק ותציג את המשחקים שלך באופן אוטומטי במסך הבית.</string>
+    <string name="manual_section_archive">🌐 חקור קטלוגים</string>
+    <string name="manual_content_archive">סעיף הקטלוג מאפשר לך לחקור אוספי ROM ממספר מקורות ציבוריים:
+
+• Archive.org: אוספים גדולים של ROMs קלאסיים.
+• itch.io: משחקי homebrew בחינם (דורש מפתח API בחינם).
+
+• דפדף לפי מערכת או חפש משחקים ספציפיים.
+• הקש על משחק כדי להוריד אותו לתיקיית ה-ROMs שלך.
+• משחקים שהורדו יופיעו אוטומטית בספרייה שלך.</string>
+    <string name="manual_section_controls">🎮 הגדרת בקרים</string>
+    <string name="manual_content_controls">חבר בקר Bluetooth או USB ועבור אל הגדרות → הגדרות בקר.
+
+• בחר את הבקר שלך מהרשימה.
+• מפה את הכפתורים לפי העדפותיך.
+• הפעל רטט אם הבקר שלך תומך בכך.</string>
+    <string name="manual_section_bios">💾 BIOS נדרש</string>
+    <string name="manual_content_bios">מערכות מסוימות (PlayStation, Game Boy Advance וכו\') דורשות קבצי BIOS כדי לעבוד.
+
+• עבור אל הגדרות → מידע BIOS כדי לראות אילו קבצים נדרשים.
+• מקם את קבצי ה-BIOS באותה תיקייה שבה נמצאים ה-ROMs שלך.
+• שם הקובץ חייב להתאים בדיוק לנדרש.</string>
+    <string name="manual_section_saves">💾 משחקים שמורים</string>
+    <string name="manual_content_saves">שמירה אוטומטית מופעלת כברירת מחדל.
+
+• בעת יציאה ממשחק, ההתקדמות שלך נשמרת אוטומטית.
+• בעת פתיחה מחדש של המשחק, תמשיך מהנקודה שבה עצרת.
+• ניתן גם להשתמש במערכת השמירה של המשחק עצמו (תפריט בתוך המשחק).</string>
+    <string name="manual_section_sync">☁️ סנכרון ענן</string>
+    <string name="manual_content_sync">ניתן לסנכרן את המשחקים השמורים שלך עם Google Drive.
+
+• עבור אל הגדרות → סנכרון שמירות.
+• היכנס עם חשבון ה-Google שלך.
+• השמירות שלך יסתנכרנו אוטומטית בין מכשירים.</string>
+    <string name="manual_section_gameplay">🕹️ במהלך המשחק</string>
+    <string name="manual_content_gameplay">כדי לגשת לתפריט במהלך המשחק:
+
+• לחץ על כפתור התפריט (☰) או החלק מקצה המסך.
+• משם תוכל: לשמור/לטעון מצבים, לשנות חריץ שמירה, לגשת לאפשרויות מהירות או לצאת מהמשחק.</string>
+    <string name="about_version">גרסה %1$s</string>
+    <string name="about_section_origin">מקור התוכנה</string>
+    <string name="about_content_origin_1">יישום זה הוא פיצול של פרויקט הקוד הפתוח Lemuroid, המופץ תחת רישיון GPL-3.0.</string>
+    <string name="about_content_origin_2">נוספו תכונות חיפוש עבור תוכן זמין לציבור ב-Archive.org ומשחקי homebrew בחינם מ-itch.io.</string>
+    <string name="about_section_source">קוד מקור</string>
+    <string name="about_content_source">קוד המקור של גרסה ערוכה זו זמין תחת רישיון GPL-3.0.</string>
+    <string name="about_button_github">צפה בקוד המקור (GitHub)</string>
+    <string name="about_section_licenses">רישיונות צד שלישי</string>
+    <string name="about_section_legal">הודעה משפטית</string>
+    <string name="about_content_legal">יישום זה אינו כולל ROMs ואינו מוריד תוכן באופן אוטומטי. תכונת החיפוש מציגה רק אוספים הזמינים לציבור ב-Archive.org ומשחקי homebrew בחינם מ-itch.io. המשתמש אחראי לוודא את זכויותיו לגשת או להשתמש בכל קובץ חיצוני.</string>
+    <string name="about_section_report">דווח על באג</string>
+    <string name="about_content_report">מצאת שגיאה או שיש לך הצעה? עזור לנו להשתפר על ידי שליחת דוח אנונימי.</string>
+    <string name="about_button_report">🐛 דווח על באג</string>
+    <string name="about_no_browser">לא מותקן דפדפן אינטרנט לפתיחת הקישור</string>
+    <string name="about_no_browser_report">לא מותקן דפדפן אינטרנט לפתיחת דף הדיווח על באגים</string>
+    <string name="bug_report_error">לא ניתן היה לטעון את טופס הדיווח על באגים. אנא בדוק את חיבור האינטרנט שלך.</string>
+    <string name="bug_report_select_images">בחר תמונות</string>
+    <string name="about_open_with">פתח באמצעות</string>
+    <string name="catalog_disclaimer">⚠️ קטלוג זה מתחבר למאגרים ציבוריים (Archive.org ו-itch.io) שאינם קשורים ל-EmulAItor. רק תוכן homebrew בחינם מוצג מ-itch.io. השימוש, ההורדה וההחזקה של חומר זה הם באחריותו הבלעדית של המשתמש. 🧠 למרות ש-EmulAItor מסנן קבצים בצורה חכמה, ייתכנו קישורים שבורים, קבצים לא תואמים או תוכן שאינו ROMs.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io Homebrew</string>
+    <string name="itch_api_key_title">מפתח API של itch.io</string>
+    <string name="itch_api_key_subtitle">נדרש כדי להוריד משחקים מ-itch.io</string>
+    <string name="itch_api_key_instructions">כדי להוריד משחקי homebrew בחינם מ-itch.io, עליך להצטייד במפתח API:
+
+1. עבור אל &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; וצור חשבון בחינם
+2. עבור אל &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Settings → API Keys&lt;/a&gt;
+3. צור מפתח חדש והעתק אותו
+4. הדבק אותו למטה</string>
+    <string name="itch_api_key_hint">הדבק את מפתח ה-API של itch.io כאן</string>
+    <string name="itch_api_key_validating">מאמת מפתח API...</string>
+    <string name="itch_api_key_valid">מפתח API תקין ✓</string>
+    <string name="itch_api_key_invalid">מפתח API לא תקין. אנא בדוק ונסה שוב.</string>
+    <string name="itch_api_key_saved">מפתח ה-API נשמר בהצלחה</string>
+    <string name="itch_api_key_required_title">נדרש מפתח API</string>
+    <string name="itch_api_key_required_message">עליך להזין מפתח API של itch.io כדי להוריד משחקים. האם ברצונך להגדיר אותו כעת?</string>
+    <string name="itch_no_results">לא נמצאו משחקי homebrew עבור מערכת זו ב-itch.io</string>
+    <string name="itch_unsupported_system">ל-itch.io אין תוכן homebrew עבור מערכת זו. נסה את NES, SNES, GBA, GBC או Genesis.</string>
+    <string name="itch_game_free">חינם</string>
+    <string name="itch_game_by">על ידי %1$s</string>
+    <string name="pack_fully_downloaded">הורד במלואו</string>
+    <string name="itch_uploads_title">קבצים זמינים</string>
+    <string name="itch_no_rom_uploads">לא נמצאו קבצי ROM להורדה עבור משחק זה</string>
+    <string name="itch_download_error">נכשל בהורדה מ-itch.io: %1$s</string>
+    <string name="itch_settings_edit_key">ערוך מפתח</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">פתח גישה מלאה</string>
+    <string name="paywall_description">תקופת הניסיון בחינם הסתיימה. כדי להמשיך, בחר באחת מהאפשרויות הבאות.</string>
+<string name="paywall_buy_button">רכוש את גרסת ה-Pro</string>
+    <string name="paywall_restore_title">רכשת בעבר?</string>
+    <string name="paywall_restore_description">אם רכשת את EmulAItor לפני שהפך לחינמי, הזן את מזהה ההזמנה שלך מ-Google Play (GPA...) כדי לשחזר את הגישה.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">שחזר רכישה</string>
+    <string name="paywall_where_is_receipt">איפה אוכל למצוא את הקבלה שלי?</string>
+    <string name="paywall_receipt_instructions_title">כיצד למצוא את מזהה ההזמנה שלך</string>
+    <string name="paywall_receipt_instructions_1">אפשרות א\': חפש \"Google Play Receipt EmulAItor\" ב-Gmail שלך.</string>
+    <string name="paywall_receipt_instructions_2">אפשרות ב\': היכנס ל-pay.google.com, בדוק את הפעילות שלך וחפש את EmulAItor.</string>
+    <string name="paywall_receipt_open_web">פתח את pay.google.com</string>
+    <string name="paywall_support_fallback">אם אינך מוצא אותו, צור קשר עם התמיכה.</string>
+    <string name="paywall_success">הרכישה שוחזרה בהצלחה. תודה!</string>
+    <string name="paywall_error_invalid_gpa">קוד GPA לא תקין או שכבר נעשה בו שימוש.</string>
+    <string name="paywall_error_limit_exceeded">קוד זה כבר נמצא בשימוש במספר המקסימלי של מכשירים מותרים. אנא רכוש רישיון חדש מהאפשרויות שלעיל.</string>
+<string name="paywall_error_network">שגיאת רשת. אנא בדוק את החיבור שלך.</string>
+    <string name="paywall_error_unknown">אירעה שגיאה לא ידועה.</string>
+    <string name="paywall_restoring">משחזר...</string>
+    <string name="paywall_buy_subscription">מנוי חודשי</string>
+    <string name="paywall_buy_lifetime">פתיחה לצמיתות</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>

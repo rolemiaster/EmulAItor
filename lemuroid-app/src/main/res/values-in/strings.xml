@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generated/maintained by .agent/scripts/i18n_tool. -->
+    <string name="title_home">Beranda</string>
+    <string name="title_search">Cari</string>
+    <string name="title_systems">Sistem</string>
+    <string name="title_games">Game</string>
+    <string name="title_settings">Pengaturan</string>
+    <string name="title_catalog">Katalog</string>
+    <string name="settings_title_about">Tentang</string>
+    <string name="settings_title_manual">Panduan Pengguna</string>
+    <string name="settings_description_manual">Cara menggunakan EmulAItor</string>
+    <string name="recent">Terbaru</string>
+    <string name="favorites">Favorit</string>
+    <string name="discover">Temukan</string>
+    <string name="rescan">Pindai Ulang</string>
+    <string name="stop">Berhenti</string>
+    <string name="none">Tidak Ada</string>
+    <string name="directory">Direktori</string>
+    <string name="display_filter">Filter Tampilan</string>
+    <string name="roms">ROM</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="settings">Pengaturan</string>
+    <string name="save_sync">Simpan Sinkronisasi</string>
+    <string name="show_all">Tampilkan Semua</string>
+    <string name="back">Kembali</string>
+    <string name="close">Tutup</string>
+    <string name="license_not_verified_title">Lisensi tidak terverifikasi</string>
+    <string name="game_page_search_suggestion">Cari game</string>
+    <string name="settings_category_general">Umum</string>
+    <string name="settings_category_input">Input</string>
+    <string name="settings_category_misc">Lain-lain</string>
+    <string name="settings_title_enable_autosave">Simpan status otomatis</string>
+    <string name="settings_description_enable_autosave">Simpan status saat keluar melalui menu game</string>
+    <string name="settings_title_enable_touch_feedback">Getar saat disentuh</string>
+    <string name="settings_title_tilt_sensitivity">Sensitivitas sensor kemiringan</string>
+    <string name="settings_title_hd_quality">Kualitas mode HD</string>
+    <string name="settings_title_maximum_cache_usage">Batas ukuran cache</string>
+    <string name="settings_title_hd_mode">Mode HD</string>
+    <string name="settings_description_hd_mode">Terapkan filter penskalaan pasca-pemrosesan</string>
+    <string name="settings_description_hd_quality">Sesuaikan kualitas mode HD</string>
+    <string name="home_hd_mode_enabled">Mode HD aktif</string>
+    <string name="home_hd_mode_disabled">Mode HD nonaktif</string>
+    <string name="settings_title_immersive_mode">Mode imersif</string>
+    <string name="settings_description_immersive_mode">Mewarnai latar belakang secara dinamis berdasarkan visual game</string>
+    <string name="settings_title_gamepad_settings">Perangkat eksternal</string>
+    <string name="settings_description_gamepad_settings">Konfigurasi gamepad dan keyboard eksternal</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Perangkat yang diaktifkan</string>
+    <string name="settings_gamepad_category_general">Umum</string>
+    <string name="settings_gamepad_title_reset_bindings">Atur ulang pengikatan</string>
+    <string name="settings_gamepad_title_game_menu">Menu</string>
+    <string name="settings_title_open_cores_selection">Ubah Core</string>
+    <string name="settings_description_open_cores_selection">Pilih core mana yang dikaitkan dengan sistem</string>
+    <string name="settings_core_selection_ds_info">DeSmuME sudah usang dan akan dihapus di salah satu pembaruan berikutnya. Simpan progres Anda di dalam game, lalu beralih ke melonDS. Simpanan dalam game akan dimuat secara otomatis di melonDS, tetapi status simpanan hanya dapat digunakan dengan core yang membuatnya.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Tampilkan file BIOS yang terdeteksi dan didukung</string>
+    <string name="settings_bios_help">Untuk menambahkan file BIOS, letakkan file yang didukung di folder ROM Anda dan pindai ulang. Nama file harus cocok persis.</string>
+    <string name="settings_bios_category_detected">Terdeteksi</string>
+    <string name="settings_bios_category_not_detected">Didukung</string>
+    <string name="settings_title_reset_settings">Atur ulang pabrik</string>
+    <string name="settings_description_reset_settings">Atur ulang EmulAItor ke pengaturan pabriknya</string>
+    <string name="settings_title_advanced_settings">Pengaturan lanjutan</string>
+    <string name="settings_description_advanced_settings">Tampilkan pengaturan lanjutan</string>
+    <string name="settings_title_low_latency_audio">Prioritaskan audio latensi rendah</string>
+    <string name="settings_description_low_latency_audio">Kurangi latensi audio pada perangkat yang didukung. Mungkin meningkatkan gangguan audio.</string>
+    <string name="settings_title_direct_game_load">Muat game langsung</string>
+    <string name="settings_description_direct_game_load">(Eksperimental) Kurangi waktu pemuatan dan penggunaan cache pada konsol yang didukung.</string>
+    <string name="settings_title_enable_rumble">Getaran</string>
+    <string name="settings_description_enable_rumble">Aktifkan getaran dalam game dan pengontrol yang didukung</string>
+    <string name="settings_title_enable_device_rumble">Getaran perangkat</string>
+    <string name="settings_description_enable_device_rumble">Saat tidak ada pengontrol yang terhubung, getarkan perangkat sebagai gantinya</string>
+    <string name="reset_settings_warning_message_title">Apakah Anda yakin?</string>
+    <string name="reset_settings_warning_message_description">Ini akan mengatur ulang EmulAItor ke pengaturan pabriknya. Simpanan dan Status akan tetap ada.</string>
+    <string name="settings_title_save_sync">Simpanan cloud</string>
+    <string name="settings_description_save_sync">Cadangkan dan Sinkronkan simpanan Anda di cloud</string>
+    <string name="settings_save_sync_refresh">Sinkronisasi Manual</string>
+    <string name="settings_save_sync_refresh_description">Lakukan Sinkronisasi manual sekarang.
+%1$s</string>
+    <string name="settings_save_sync_enable_auto">Sinkronisasi Otomatis</string>
+    <string name="settings_save_sync_enable_auto_description">Lakukan Sinkronisasi secara otomatis sebelum dan sesudah sesi permainan saat terhubung ke Wifi</string>
+    <string name="settings_save_sync_configure">Konfigurasi %1$s</string>
+    <string name="settings_save_sync_include_saves">Sinkronkan simpanan dalam game</string>
+    <string name="settings_save_sync_include_saves_description">%1$s di perangkat</string>
+    <string name="settings_save_sync_include_states">Sinkronkan status</string>
+    <string name="settings_save_sync_include_states_description">Lebih nyaman, tetapi lebih berat dan kurang andal. Pilih inti/sistem yang ingin Anda sinkronkan</string>
+    <string name="game_context_menu_add_to_favorites">Tambahkan ke favorit</string>
+    <string name="game_context_menu_remove_from_favorites">Hapus dari favorit</string>
+    <string name="game_context_menu_resume">Lanjutkan</string>
+    <string name="game_context_menu_restart">Mulai Ulang</string>
+    <string name="game_context_menu_create_shortcut">Sematkan ke peluncur</string>
+    <string name="game_context_menu_delete">Hapus</string>
+    <string name="game_delete_confirmation">Apakah Anda yakin ingin menghapus \"%1$s\"? Ini akan menghapus game dari pustaka Anda dan menghapus file.</string>
+    <string name="game_deleted">Game dihapus</string>
+    <string name="home_notification_title">Aktifkan notifikasi</string>
+    <string name="home_notification_message">EmulAItor menggunakan notifikasi untuk memberi tahu Anda saat game atau operasi berjalan di latar belakang.</string>
+    <string name="home_notification_action">Aktifkan</string>
+    <string name="home_microphone_title">Aktifkan mikrofon</string>
+    <string name="home_microphone_message">Game Nintendo DS dapat menggunakan mikrofon untuk menyediakan beberapa fungsionalitas.</string>
+    <string name="home_microphone_action">Aktifkan</string>
+    <string name="home_empty_title">Pilih direktori ROM</string>
+    <string name="home_empty_message">EmulAItor perlu memindai direktori yang berisi file ROM.\nIni mungkin memakan waktu hingga beberapa menit.</string>
+    <string name="home_empty_action">Pilih Direktori</string>
+    <string name="home_storage_inaccessible_title">Direktori ROM tidak dapat diakses</string>
+    <string name="home_storage_inaccessible_message">Android tidak mengizinkan EmulAItor mengakses direktori ROM yang dipilih. Folder mungkin telah dipindahkan, dihapus, atau diblokir oleh izin sistem. Pilih folder lagi atau pilih yang lain.</string>
+    <string name="home_storage_inaccessible_action">Pilih direktori lain</string>
+    <string name="update_available_banner">Versi EmulAItor yang lebih baru tersedia. Ketuk untuk memperbarui.</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME akan pensiun</string>
+    <string name="home_notification_desmume_deprecated_message">Simpan dalam game, lalu beralih ke melonDS untuk mempertahankan progres Anda. Status simpan tidak akan ditransfer dan hanya akan tetap dapat digunakan di DeSmuME.</string>
+    <string name="home_notification_desmume_deprecated_action">Beralih ke melonDS</string>
+    <string name="game_menu_save">Simpan</string>
+    <string name="game_menu_load">Muat</string>
+    <string name="game_menu_restart">Mulai Ulang</string>
+    <string name="game_menu_quit">Keluar</string>
+    <string name="game_menu_settings">Pengaturan</string>
+    <string name="game_menu_state">Status %1$s</string>
+    <string name="game_menu_change_disk_button">Ubah Disk</string>
+    <string name="game_menu_edit_touch_controls">Edit Kontrol</string>
+    <string name="game_menu_mute_audio">Bisukan</string>
+    <string name="game_menu_fast_forward">Maju Cepat</string>
+    <string name="game_menu_change_disk_disk">Disk %1$s</string>
+    <string name="game_menu_tilt_sensor">Sensor Kemiringan</string>
+    <string name="game_loading_preparing_game">Mempersiapkan game…</string>
+    <string name="game_toast_settings_button_using_gamepad">Gamepad terdeteksi. Akses menu pengaturan dengan %1$s.</string>
+    <string name="game_toast_load_state_failed">Tidak dapat memuat status ini</string>
+    <string name="game_toast_quick_save_loaded">Muat cepat</string>
+    <string name="game_toast_quick_save_saved">Simpan cepat</string>
+    <string name="empty_view_default">Tidak Ada Item</string>
+    <string name="core_settings_title">Pengaturan Inti</string>
+    <string name="core_settings_category_preferences">Preferensi</string>
+    <string name="core_settings_category_controllers">Kontroler</string>
+    <string name="core_settings_controller">Kontroler %1$s</string>
+    <string name="game_menu_title">Menu game</string>
+    <string name="notification_channel_name">Semua notifikasi</string>
+    <string name="library_index_notification_title">Pemindaian ROM sedang berlangsung</string>
+    <string name="library_index_notification_message">Ini bisa memakan waktu beberapa menit</string>
+    <string name="library_metadata_enrichment_in_progress">Memperbarui detail ROM di latar belakang. Anda dapat terus bermain.</string>
+    <string name="save_sync_notification_title">Sinkronisasi penyimpanan cloud sedang berlangsung</string>
+    <string name="save_sync_notification_message">Ini bisa memakan waktu beberapa menit</string>
+    <string name="game_running_notification_title">%1$s sedang berjalan</string>
+    <string name="game_running_notification_title_alternative">Game sedang berjalan</string>
+    <string name="game_running_notification_message">Pastikan untuk menyimpan progres Anda</string>
+    <string name="game_loader_error_gl_incompatible">Inti ini memerlukan versi OpenGL ES yang tidak didukung oleh perangkat Anda.</string>
+    <string name="game_loader_error_load_game">Terjadi kesalahan saat memuat game Anda. Pastikan ROM didukung oleh Lemuroid dan pindai ulang game Anda.</string>
+    <string name="game_loader_error_save">Terjadi kesalahan dengan file simpanan Anda. Jika masalah berlanjut, coba nonaktifkan simpan otomatis.</string>
+    <string name="game_loader_error_unsupported_architecture">Inti ini tidak didukung oleh perangkat Anda.</string>
+    <string name="game_loader_error_generic">Terjadi kesalahan. Coba hal berikut:
+
+
+• Nonaktifkan simpan otomatis dan jalankan kembali game
+
+• Buka pengaturan Android dan bersihkan cache aplikasi
+
+• Buka pengaturan Lemuroid dan lakukan Reset Pabrik
+
+
+Jika tidak ada cara di atas yang berhasil, mungkin Game/Inti ini tidak didukung oleh perangkat ini.</string>
+    <string name="game_loader_error_missing_bios">Sepertinya Anda kehilangan BIOS yang diperlukan, letakkan di direktori ROM Anda dan pindai ulang. File yang diperlukan: %1$s</string>
+    <string name="game_shortcut_error">Terjadi kesalahan saat memuat game Anda. Pastikan game ini masih ada di pustaka Anda.</string>
+    <string name="dialog_saf_not_found">Perangkat ini tidak mendukung pemilih file StorageAccessFramework. Harap salin file ROM yang tidak terkompresi secara manual ke %1$s dan tekan Pindai Ulang.</string>
+    <string name="system_grid_details">%1$s game</string>
+    <string name="tv_folder_picker_title">Pilih Direktori ROM</string>
+    <string name="tv_folder_picker_action_choose">Pilih</string>
+    <string name="tv_folder_picker_action_cancel">Batal</string>
+    <string name="tv_folder_storage_primary">Penyimpanan utama</string>
+    <string name="tv_folder_storage_secondary">Penyimpanan sekunder %1$s</string>
+    <string name="tv_folder_storage_title">Pilih penyimpanan</string>
+    <string name="tv_folder_error_access">Folder ini tidak dapat diakses. Harap pilih subdirektori atau lokasi lain.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">Direktori ROM</string>
+    <string name="settings_description_choose_directory">Pilih folder yang berisi game Anda</string>
+    <string name="tv_home_section_favorites">Favorit</string>
+    <string name="tv_home_section_recents">Terbaru</string>
+    <string name="tv_home_section_systems">Sistem</string>
+    <string name="tv_home_section_settings">Pengaturan</string>
+    <string name="gamepad_binding_update_title">Asosiasikan \"RetroPad %1$s\"</string>
+    <string name="gamepad_binding_update_description">Tekan tombol pada \"%1$s\" Anda</string>
+    <string name="shortcut_binding_update_title">Asosiasikan \"Pintasan %1$s\"</string>
+    <string name="shortcut_binding_update_description">Tekan tombol pertama, lalu tombol kedua untuk mengikat kombo pada \"%1$s\" Anda</string>
+    <string name="tv_search_results">Game</string>
+    <string name="tv_game_message_missing_gamepad">Gamepad diperlukan untuk bermain. Silakan sambungkan salah satu.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Putuskan sambungan pad Anda untuk mengedit kontrol sentuh Anda</string>
+    <string name="game_interactory_busy">Tunggu operasi yang tertunda selesai</string>
+    <string name="pending_operations_blocked_title">Operasi mungkin macet</string>
+    <string name="pending_operations_blocked_message_external">Proses yang tertunda dari versi sebelumnya mungkin memblokir pengindeksan ROM. Anda dapat terus menunggu atau menghapus data aplikasi untuk memulihkan. File ROM Anda tidak akan dihapus, tetapi Anda perlu memilih folder ROM lagi. Jika ini berlangsung lebih dari 5 menit, penghapusan data aplikasi direkomendasikan.</string>
+    <string name="pending_operations_blocked_message_internal">Proses yang tertunda dari versi sebelumnya mungkin memblokir pengindeksan ROM. Anda dapat terus menunggu atau membuka pengaturan untuk meninjau konfigurasi penyimpanan Anda.</string>
+    <string name="pending_operations_clear_data">Hapus data aplikasi</string>
+    <string name="pending_operations_keep_waiting">Terus menunggu</string>
+    <string name="pending_operations_clear_data_confirm_title">Hapus data aplikasi?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor akan mengatur ulang data aplikasinya sekarang. File ROM Anda tidak akan dihapus, tetapi Anda perlu memilih folder ROM lagi.</string>
+    <string name="pending_operations_clear_data_confirm_button">Hapus data</string>
+    <string name="mobile_settings_help">Bantuan</string>
+    <string name="mobile_settings_support">Dukungan</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Tentang EmulAItor&lt;/b&gt;&lt;br/&gt;
+        Aplikasi ini adalah fork dari proyek sumber terbuka &lt;b&gt;Lemuroid&lt;/b&gt;, yang didistribusikan di bawah lisensi &lt;b&gt;GPL-3.0&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Pemberitahuan Penting&lt;/b&gt;&lt;br/&gt;
+        Aplikasi ini tidak menyertakan game dan tidak secara otomatis mengunduh konten apa pun. Fitur penelusuran menampilkan konten yang tersedia untuk umum di Archive.org dan game homebrew gratis dari itch.io. Pengguna bertanggung jawab untuk memverifikasi hak mereka untuk mengakses atau menggunakan ROM apa pun dari sumber eksternal.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Bagaimana cara menggunakan aplikasi ini?&lt;/b&gt;&lt;br/&gt;
+        Salin file ROM Anda ke direktori di perangkat Anda dan pilih di dalam aplikasi. Direktori ini dapat memiliki subdirektori. Setelah pemindaian selesai, Anda akan melihat game Anda.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Mengapa game saya tidak terdeteksi?&lt;/b&gt;&lt;br/&gt;
+        Jika game Anda terkompresi, coba dekompresi. Jika ini tidak berhasil, tempatkan ROM di direktori terpisah, satu per sistem dengan nama berikut: $SYSTEMS.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Lisensi&lt;/b&gt;&lt;br/&gt;
+        Lemuroid: GPL-3.0 (Swordfish90)&lt;br/&gt;
+        LibretroDroid: GPL-3.0&lt;br/&gt;
+        Libretro Cores: Berbagai lisensi</string>
+    <string name="lemuroid_crash_disclamer">Sepertinya inti Libretro mengalami masalah tak terduga. Jika ini terus berlanjut, coba hal berikut:
+
+
+• Nonaktifkan simpan otomatis dan jalankan kembali game
+
+• Buka pengaturan Android dan hapus cache aplikasi
+
+• Buka pengaturan Lemuroid dan lakukan Reset Pabrik
+
+
+ Jika tidak ada di atas yang berhasil, mungkin saja Game/Core ini tidak didukung oleh perangkat ini.</string>
+    <string name="error_message_incompatible_state">Status simpan ini tidak kompatibel dengan versi inti saat ini. Silakan muat simpanan dalam game terbaru atau gunakan versi Lemuroid sebelumnya.</string>
+    <string name="shader_filter_names_auto">Otomatis</string>
+    <string name="shader_filter_names_sharp">Tajam</string>
+    <string name="shader_filter_names_smooth">Halus</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Tidak ada</string>
+    <string name="haptic_feedback_mode_names_press">Tekan</string>
+    <string name="haptic_feedback_mode_names_press_release">Tekan &amp; lepas</string>
+    <string name="tilt_configuration_disabled">Dinonaktifkan</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Analog Kiri</string>
+    <string name="tilt_configuration_analog_right">Analog Kanan</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+    <string name="disclaimer_title">Pemberitahuan Penting</string>
+    <string name="disclaimer_software_origin_title">Asal Perangkat Lunak</string>
+    <string name="disclaimer_software_origin_text">Aplikasi ini adalah fork dari proyek open source Lemuroid, yang didistribusikan di bawah lisensi GPL-3.0.</string>
+    <string name="disclaimer_no_content_title">Tidak Ada Konten yang Disertakan</string>
+    <string name="disclaimer_no_content_text">Aplikasi ini tidak menyertakan game dan tidak mengunduh file apa pun secara otomatis.</string>
+    <string name="disclaimer_archive_title">Sumber Katalog Publik</string>
+    <string name="disclaimer_archive_text">Fitur jelajah menampilkan konten yang tersedia untuk umum di Archive.org dan game homebrew gratis dari itch.io. EmulAItor tidak berafiliasi dengan layanan mana pun. Pengguna bertanggung jawab untuk memverifikasi hak mereka untuk mengakses atau menggunakan ROM apa pun.</string>
+    <string name="disclaimer_user_responsibility_title">Tanggung Jawab Pengguna</string>
+    <string name="disclaimer_user_responsibility_text">Anda bertanggung jawab untuk memastikan bahwa Anda memiliki hak hukum untuk menggunakan file ROM apa pun dengan aplikasi ini.</string>
+    <string name="disclaimer_accept">Saya Mengerti dan Menerima</string>
+    <string name="disclaimer_terms">Dengan melanjutkan, Anda menerima syarat penggunaan aplikasi ini.</string>
+    <string name="game_context_menu_edit">Edit</string>
+    <string name="game_edit_title">Edit Game</string>
+    <string name="game_edit_field_title">Judul</string>
+    <string name="game_edit_field_system">Sistem</string>
+    <string name="game_edit_field_developer">Pengembang</string>
+    <string name="game_edit_file_label">File:</string>
+    <string name="game_edit_save">Simpan</string>
+    <string name="game_edit_search_online">Cari metadata online</string>
+    <string name="game_edit_searching">Mencari…</string>
+    <string name="game_edit_no_results">Tidak ada hasil yang ditemukan</string>
+    <string name="game_edit_apply_metadata">Terapkan metadata</string>
+    <string name="game_edit_unlock_metadata">Buka kunci metadata (izinkan pembaruan otomatis)</string>
+    <string name="catalog_search_placeholder">Cari ROM...</string>
+    <string name="catalog_filter_all_sources">Semua Sumber</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Lokal</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Tidak ada hasil yang ditemukan</string>
+    <string name="catalog_downloads">Unduhan</string>
+    <string name="catalog_clear_completed">Hapus Semua</string>
+    <string name="catalog_downloading">Mengunduh...</string>
+    <string name="catalog_downloaded">Terunduh</string>
+    <string name="sources_manage_title">Kelola Sumber</string>
+    <string name="sources_add_title">Tambah Sumber</string>
+    <string name="sources_add_local">Tambah Folder Lokal</string>
+    <string name="sources_add_smb">Tambah SMB/NAS</string>
+    <string name="sources_smb_name">Nama</string>
+    <string name="sources_smb_server">Server</string>
+    <string name="sources_smb_path">Jalur</string>
+    <string name="sources_smb_username">Nama pengguna (opsional)</string>
+    <string name="sources_smb_password">Kata sandi (opsional)</string>
+    <string name="sources_smb_domain">Domain (opsional)</string>
+    <string name="sources_edit">Edit</string>
+    <string name="sources_delete">Hapus</string>
+    <string name="sources_save">Simpan</string>
+    <string name="sources_cancel">Batal</string>
+    <string name="sources_add">Tambah</string>
+    <string name="sources_smb_display_name">Nama Tampilan</string>
+    <string name="sources_smb_display_name_placeholder">NAS Saya</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Jalur lengkap termasuk nama share</string>
+    <string name="sources_smb_use_auth">Gunakan otentikasi</string>
+    <string name="sources_smb_username_label">Nama Pengguna</string>
+    <string name="sources_smb_password_label">Kata Sandi</string>
+    <string name="sources_smb_edit_title">Edit Sumber SMB</string>
+    <string name="sources_smb_connection_title">Koneksi SMB</string>
+    <string name="sources_smb_test_connection">Uji Koneksi</string>
+    <string name="sources_smb_testing">Menguji koneksi...</string>
+    <string name="sources_smb_connection_success">Koneksi berhasil!</string>
+    <string name="sources_smb_connection_failed">Koneksi gagal: %1$s</string>
+    <string name="sources_no_custom">Tidak ada sumber kustom yang dikonfigurasi</string>
+    <string name="sources_local_permission_error">Folder ini tidak dapat ditambahkan karena Android tidak memberikan akses. Pilih folder lain.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 File Lokal</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Cari ROM...</string>
+    <string name="catalog_packs_count">%1$d dari %2$d paket</string>
+    <string name="catalog_games_count">%1$d game</string>
+    <string name="catalog_load_more">Muat lebih banyak...</string>
+    <string name="catalog_load_more_packs">Muat lebih banyak paket</string>
+    <string name="catalog_no_packs_found">Tidak ada paket ROM yang ditemukan</string>
+    <string name="catalog_no_files_found">Tidak ada file yang dapat diunduh ditemukan</string>
+    <string name="catalog_files_count">File (%1$d):</string>
+    <string name="catalog_download_all">Semua</string>
+    <string name="catalog_downloads_title">Unduhan (%1$d)</string>
+    <string name="catalog_downloads_clear">Hapus</string>
+    <string name="catalog_no_downloads">Tidak ada unduhan</string>
+    <string name="catalog_error_retry">Coba lagi</string>
+    <string name="catalog_error_occurred">Terjadi kesalahan</string>
+    <string name="catalog_invalid_download_title">File katalog tidak valid</string>
+    <string name="catalog_invalid_download_message">File yang diunduh tampaknya bukan ROM yang valid untuk sistem ini. Penyedia mungkin telah menerbitkan file yang salah atau tidak didukung. Jika Anda tidak dapat menemukan ROM ini di katalog, Anda dapat mengunduhnya secara manual dan menambahkannya ke folder ROM Anda.</string>
+    <string name="catalog_region_all">🌍 Semua</string>
+    <string name="catalog_region_usa">🇺🇸 USA</string>
+    <string name="catalog_region_europe">🇪🇺 Eropa</string>
+    <string name="catalog_region_japan">🇯🇵 Jepang</string>
+    <string name="catalog_region_spain">🇪🇸 Spanyol</string>
+    <string name="catalog_region_france">🇫🇷 Prancis</string>
+    <string name="catalog_region_germany">🇩🇪 Jerman</string>
+    <string name="catalog_region_italy">🇮🇹 Italia</string>
+    <string name="catalog_region_brazil">🇧🇷 Brasil</string>
+    <string name="catalog_region_korea">🇰🇷 Korea</string>
+    <string name="catalog_region_china">🇨🇳 Tiongkok</string>
+    <string name="catalog_region_australia">🇦🇺 Australia</string>
+    <string name="catalog_sort_downloads">Paling banyak diunduh</string>
+    <string name="catalog_sort_name">Nama A-Z</string>
+    <string name="catalog_sort_size">Ukuran terbesar</string>
+    <string name="catalog_error_503">Archive.org sedang tidak aktif atau dalam pemeliharaan. Coba lagi nanti.</string>
+    <string name="catalog_error_502">Archive.org mengalami masalah. Coba lagi nanti.</string>
+    <string name="catalog_error_500">Archive.org memiliki kesalahan internal. Coba lagi nanti.</string>
+    <string name="catalog_error_ssl">Kesalahan sertifikat SSL. Pastikan tanggal dan waktu perangkat Anda benar.</string>
+    <string name="catalog_error_timeout">Koneksi ke Archive.org habis waktu. Periksa koneksi internet Anda.</string>
+    <string name="catalog_error_no_internet">Tidak ada koneksi internet. Periksa koneksi Anda.</string>
+    <string name="catalog_error_unknown">Kesalahan tidak diketahui</string>
+    <string name="catalog_storage_warning_title">Ruang Tidak Cukup</string>
+    <string name="catalog_storage_too_large">Paket yang ingin Anda unduh terlalu besar.</string>
+    <string name="catalog_storage_download_size">Ukuran unduhan:</string>
+    <string name="catalog_storage_available">Ruang tersedia:</string>
+    <string name="catalog_storage_needed">Ruang tambahan dibutuhkan:</string>
+    <string name="catalog_storage_free_space">Kosongkan ruang di perangkat Anda atau pilih lebih sedikit file untuk diunduh.</string>
+    <string name="catalog_storage_understood">Dimengerti</string>
+    <string name="catalog_path_warning_title">Jalur Belum Dikonfigurasi!</string>
+    <string name="catalog_path_select_folder">Untuk mengunduh game, Anda perlu memilih folder untuk menyimpannya.</string>
+    <string name="catalog_path_select_button">Pilih Folder</string>
+    <string name="delete_games_title">Hapus %1$d game?</string>
+    <string name="delete_games_warning">Ini akan menghapus game yang dipilih dari pustaka Anda dan menghapus file ROM mereka dari disk.</string>
+    <string name="delete_games_list_header">Game yang akan dihapus:</string>
+    <string name="delete_games_and_more">...dan %1$d lainnya</string>
+    <string name="delete_games_confirm">Hapus</string>
+    <string name="delete_mode_title">Pilih game untuk dihapus</string>
+    <string name="delete_selected">Hapus yang dipilih (%1$d)</string>
+    <string name="settings_category_metadata">Metadata / Scraper</string>
+    <string name="settings_title_thegamesdb_apikey">Kunci API TheGamesDB</string>
+    <string name="settings_description_thegamesdb_apikey">Dapatkan kunci gratis di thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Masukkan Kunci API TheGamesDB Anda untuk mengambil sampul game, deskripsi, dan genre.</string>
+    <string name="settings_thegamesdb_configured">Dikonfigurasi</string>
+    <string name="settings_thegamesdb_not_configured">Tidak dikonfigurasi</string>
+    <string name="metadata_dialog_apikey_title">Masukkan Kunci API</string>
+    <string name="rom_migration_title">Pindahkan ROM</string>
+    <string name="rom_migration_message">%1$d ROM akan dipindahkan ke:
+
+%2$s
+
+Apakah Anda ingin melanjutkan?</string>
+    <string name="rom_migration_progress_title">Memindahkan ROM…</string>
+    <string name="rom_migration_progress">Memindahkan %1$s (%2$d dari %3$d)</string>
+    <string name="rom_migration_success">%1$d ROM berhasil dipindahkan</string>
+    <string name="rom_migration_partial">Memindahkan %1$d dari %2$d ROM. Beberapa file tidak dapat dipindahkan.</string>
+    <string name="rom_migration_failed">Tidak dapat memindahkan ROM: %1$s</string>
+    <string name="rom_migration_cancel">Batal</string>
+    <string name="rom_migration_confirm">Pindahkan</string>
+    <string name="rom_migration_smb_not_supported">Migrasi ROM otomatis tidak tersedia untuk pustaka jaringan (SMB)</string>
+    <string name="manual_header">Panduan Pengguna</string>
+    <string name="manual_section_first_steps">🚀 Langkah Awal</string>
+    <string name="manual_content_first_steps">1. Pilih folder untuk menyimpan ROM Anda dari Pengaturan → Direktori.
+
+2. Salin file ROM Anda ke folder tersebut.
+
+3. Aplikasi akan secara otomatis memindai dan menampilkan game Anda di layar beranda.</string>
+    <string name="manual_section_archive">🌐 Jelajahi Katalog</string>
+    <string name="manual_content_archive">Bagian Katalog memungkinkan Anda menjelajahi koleksi ROM dari berbagai sumber publik:
+
+• Archive.org: Koleksi besar ROM klasik.
+• itch.io: Game homebrew gratis (memerlukan kunci API gratis).
+
+• Jelajahi berdasarkan sistem atau cari game tertentu.
+• Ketuk game untuk mengunduhnya ke folder ROM Anda.
+• Game yang diunduh akan otomatis muncul di pustaka Anda.</string>
+    <string name="manual_section_controls">🎮 Konfigurasi Kontroler</string>
+    <string name="manual_content_controls">Hubungkan kontroler Bluetooth atau USB dan buka Pengaturan → Pengaturan Kontroler.
+
+• Pilih kontroler Anda dari daftar.
+• Petakan tombol sesuai preferensi Anda.
+• Aktifkan getaran jika kontroler Anda mendukungnya.</string>
+    <string name="manual_section_bios">💾 BIOS yang Diperlukan</string>
+    <string name="manual_content_bios">Beberapa sistem (PlayStation, Game Boy Advance, dll.) memerlukan file BIOS untuk berfungsi.
+
+• Buka Pengaturan → Informasi BIOS untuk melihat file apa yang Anda butuhkan.
+• Tempatkan file BIOS di folder yang sama dengan ROM Anda.
+• Nama file harus cocok persis dengan yang dibutuhkan.</string>
+    <string name="manual_section_saves">💾 Game yang Disimpan</string>
+    <string name="manual_content_saves">Simpan otomatis diaktifkan secara default.
+
+• Saat keluar dari game, progres Anda akan disimpan secara otomatis.
+• Saat membuka kembali game, Anda akan melanjutkan dari tempat Anda berhenti.
+• Anda juga dapat menggunakan sistem simpan game itu sendiri (menu dalam game).</string>
+    <string name="manual_section_sync">☁️ Sinkronisasi Cloud</string>
+    <string name="manual_content_sync">Anda dapat menyinkronkan game yang disimpan dengan Google Drive.
+
+• Buka Pengaturan → Sinkronisasi Simpan.
+• Masuk dengan akun Google Anda.
+• Simpanan Anda akan otomatis disinkronkan di berbagai perangkat.</string>
+    <string name="manual_section_gameplay">🕹️ Selama Bermain</string>
+    <string name="manual_content_gameplay">Untuk mengakses menu selama bermain:
+
+• Tekan tombol menu (☰) atau gesek dari tepi layar.
+• Dari sana Anda dapat: menyimpan/memuat status, mengubah slot simpan, mengakses opsi cepat, atau keluar dari game.</string>
+    <string name="about_version">Versi %1$s</string>
+    <string name="about_section_origin">Asal Perangkat Lunak</string>
+    <string name="about_content_origin_1">Aplikasi ini adalah fork dari proyek Lemuroid sumber terbuka, didistribusikan di bawah lisensi GPL-3.0.</string>
+    <string name="about_content_origin_2">Fitur eksplorasi untuk konten yang tersedia untuk umum di Archive.org dan game homebrew gratis dari itch.io telah ditambahkan.</string>
+    <string name="about_section_source">Kode Sumber</string>
+    <string name="about_content_source">Kode sumber versi modifikasi ini tersedia di bawah lisensi GPL-3.0.</string>
+    <string name="about_button_github">Lihat kode sumber (GitHub)</string>
+    <string name="about_section_licenses">Lisensi Pihak Ketiga</string>
+    <string name="about_section_legal">Pemberitahuan Hukum</string>
+    <string name="about_content_legal">Aplikasi ini tidak menyertakan ROM dan tidak mengunduh konten secara otomatis. Fitur eksplorasi hanya menampilkan koleksi yang tersedia untuk umum di Archive.org dan game homebrew gratis dari itch.io. Pengguna bertanggung jawab untuk memverifikasi hak mereka untuk mengakses atau menggunakan file eksternal apa pun.</string>
+    <string name="about_section_report">Laporkan Bug</string>
+    <string name="about_content_report">Menemukan kesalahan atau punya saran? Bantu kami meningkatkan dengan mengirimkan laporan anonim.</string>
+    <string name="about_button_report">🐛 Laporkan bug</string>
+    <string name="about_no_browser">Tidak ada peramban web yang terpasang untuk membuka tautan</string>
+    <string name="about_no_browser_report">Tidak ada peramban web yang terpasang untuk membuka halaman laporan bug</string>
+    <string name="bug_report_error">Gagal memuat formulir laporan bug. Periksa koneksi internet Anda.</string>
+    <string name="bug_report_select_images">Pilih gambar</string>
+    <string name="about_open_with">Buka dengan</string>
+    <string name="catalog_disclaimer">⚠️ Katalog ini terhubung ke repositori publik (Archive.org dan itch.io) yang tidak berafiliasi dengan EmulAItor. Hanya konten homebrew gratis yang terdaftar dari itch.io. Penggunaan, pengunduhan, dan kepemilikan materi ini adalah tanggung jawab pengguna sepenuhnya. 🧠 Meskipun EmulAItor secara cerdas memfilter file, mungkin ada tautan rusak, file yang tidak kompatibel, atau konten yang bukan ROM.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">Homebrew itch.io</string>
+    <string name="itch_api_key_title">Kunci API itch.io</string>
+    <string name="itch_api_key_subtitle">Diperlukan untuk mengunduh game dari itch.io</string>
+    <string name="itch_api_key_instructions">Untuk mengunduh game homebrew gratis dari itch.io, Anda memerlukan kunci API:
+
+1. Buka &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; dan buat akun gratis
+2. Buka &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Pengaturan → Kunci API&lt;/a&gt;
+3. Hasilkan kunci baru dan salin
+4. Tempel di bawah ini</string>
+    <string name="itch_api_key_hint">Tempel kunci API itch.io Anda di sini</string>
+    <string name="itch_api_key_validating">Memvalidasi kunci API…</string>
+    <string name="itch_api_key_valid">Kunci API valid ✓</string>
+    <string name="itch_api_key_invalid">Kunci API tidak valid. Periksa dan coba lagi.</string>
+    <string name="itch_api_key_saved">Kunci API berhasil disimpan</string>
+    <string name="itch_api_key_required_title">Kunci API Diperlukan</string>
+    <string name="itch_api_key_required_message">Anda memerlukan kunci API itch.io untuk mengunduh game. Apakah Anda ingin mengonfigurasinya sekarang?</string>
+    <string name="itch_no_results">Tidak ada game homebrew yang ditemukan untuk sistem ini di itch.io</string>
+    <string name="itch_unsupported_system">itch.io tidak memiliki konten homebrew untuk sistem ini. Coba NES, SNES, GBA, GBC, atau Genesis.</string>
+    <string name="itch_game_free">Gratis</string>
+    <string name="itch_game_by">oleh %1$s</string>
+    <string name="pack_fully_downloaded">Terunduh sepenuhnya</string>
+    <string name="itch_uploads_title">File yang tersedia</string>
+    <string name="itch_no_rom_uploads">Tidak ada file ROM yang dapat diunduh ditemukan untuk game ini</string>
+    <string name="itch_download_error">Gagal mengunduh dari itch.io: %1$s</string>
+    <string name="itch_settings_edit_key">Edit Kunci</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Buka Akses Penuh</string>
+    <string name="paywall_description">Masa uji coba gratis telah berakhir. Untuk melanjutkan, pilih salah satu opsi berikut.</string>
+<string name="paywall_buy_button">Beli versi Pro</string>
+    <string name="paywall_restore_title">Sudah pernah membeli sebelumnya?</string>
+    <string name="paywall_restore_description">Jika Anda membeli EmulAItor sebelum menjadi gratis, masukkan ID Pesanan Google Play Anda (GPA...) untuk memulihkan akses Anda.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Pulihkan Pembelian</string>
+    <string name="paywall_where_is_receipt">Di mana saya bisa menemukan tanda terima saya?</string>
+    <string name="paywall_receipt_instructions_title">Cara menemukan ID Pesanan Anda</string>
+    <string name="paywall_receipt_instructions_1">Opsi A: Cari \"Google Play Receipt EmulAItor\" di Gmail Anda.</string>
+    <string name="paywall_receipt_instructions_2">Opsi B: Buka pay.google.com, periksa Aktivitas Anda, dan cari EmulAItor.</string>
+    <string name="paywall_receipt_open_web">Buka pay.google.com</string>
+    <string name="paywall_support_fallback">Jika Anda tidak dapat menemukannya, hubungi dukungan.</string>
+    <string name="paywall_success">Pembelian berhasil dipulihkan. Terima kasih!</string>
+    <string name="paywall_error_invalid_gpa">Kode GPA tidak valid atau sudah digunakan.</string>
+    <string name="paywall_error_limit_exceeded">Kode ini sudah digunakan pada jumlah perangkat maksimum yang diizinkan. Harap beli lisensi baru dari opsi di atas.</string>
+<string name="paywall_error_network">Kesalahan jaringan. Harap periksa koneksi Anda.</string>
+    <string name="paywall_error_unknown">Terjadi kesalahan yang tidak diketahui.</string>
+    <string name="paywall_restoring">Memulihkan...</string>
+    <string name="paywall_buy_subscription">Langganan Bulanan</string>
+    <string name="paywall_buy_lifetime">Buka Kunci Permanen</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>

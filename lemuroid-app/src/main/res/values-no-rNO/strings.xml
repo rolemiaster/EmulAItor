@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">Hjem</string>
+    <string name="title_search">Søk</string>
+    <string name="title_systems">Systemer</string>
+    <string name="title_games">Spill</string>
+    <string name="title_settings">Innstillinger</string>
+    <string name="recent">Nylig</string>
+    <string name="favorites">Favoritter</string>
+    <string name="discover">Utforsk</string>
+    <string name="rescan">Skann</string>
+    <string name="stop">Stopp</string>
+    <string name="none">Ingen</string>
+    <string name="directory">Katalog</string>
+    <string name="display_filter">Vis filter</string>
+    <string name="roms">ROM</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Avbryt</string>
+    <string name="settings">Innstillinger</string>
+    <string name="save_sync">Lagre synkronisering</string>
+    <string name="show_all">Vis alle</string>
+    <string name="back">Tilbake</string>
+    <string name="close">Lukk</string>
+    <string name="game_page_search_suggestion">Søk etter spill</string>
+    <string name="settings_category_general">Generelt</string>
+    <string name="settings_category_input">Inndata</string>
+    <string name="settings_category_misc">Diverse</string>
+    <string name="settings_title_enable_autosave">Automatisk lagring av tilstand</string>
+    <string name="settings_description_enable_autosave">Lagre status når du avslutter via spillmenyen</string>
+    <string name="settings_title_enable_touch_feedback">Vibrer ved berøring</string>
+    <string name="settings_title_tilt_sensitivity">Følsomhet for tilt sensor</string>
+    <string name="settings_title_hd_quality">HD-modus kvalitet</string>
+    <string name="settings_title_maximum_cache_usage">Størrelsesgrense for mellomlager</string>
+    <string name="settings_title_hd_mode">HD modus</string>
+    <string name="settings_description_hd_mode">Bruk oppskaleringsfilter for etterbehandling</string>
+    <string name="settings_description_hd_quality">Juster kvaliteten til HD-modus</string>
+    <string name="settings_title_immersive_mode">Fullskjermsmodus</string>
+    <string name="settings_description_immersive_mode">Dynamisk farger bakgrunnen basert på spillbilder</string>
+    <string name="settings_title_gamepad_settings">Eksterne enheter</string>
+    <string name="settings_description_gamepad_settings">Konfigurer ekstern spillkontroller eller tastatur</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Aktiverte enheter</string>
+    <string name="settings_gamepad_category_general">Generelt</string>
+    <string name="settings_gamepad_title_reset_bindings">Tilbakestill knappetildelinger</string>
+    <string name="settings_gamepad_title_game_menu">Meny</string>
+    <string name="settings_title_open_cores_selection">Endre kjerner</string>
+    <string name="settings_description_open_cores_selection">Velg hvilken kjerne som er tilknyttet et system</string>
+    <string name="settings_core_selection_ds_info">DeSmuME er foreldet og vil bli fjernet snart. Lagre i spillet, så bytt til melonDS: Under spillet lastes det automatisk, men lagre stater, bli i kjernen som opprettet dem.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Vis oppdagede og støttede BIOS-filer</string>
+    <string name="settings_bios_category_detected">Oppdaget</string>
+    <string name="settings_bios_category_not_detected">Supportert</string>
+    <string name="settings_title_reset_settings">Fabrikkgjennoppretting</string>
+    <string name="settings_description_reset_settings">Tilbakestill Lemuroid til fabrikkinnstillinger</string>
+    <string name="settings_title_advanced_settings">Avanserte innstillinger</string>
+    <string name="settings_description_advanced_settings">Vis avanserte innstillinger</string>
+    <string name="settings_title_low_latency_audio">Foretrekk lyd med lav forsinkelse</string>
+    <string name="settings_description_low_latency_audio">Reduser lydforsinkelse på støttede enheter. Kan øke lydfeil.</string>
+    <string name="settings_title_direct_game_load">Direkte spillinnlasting</string>
+    <string name="settings_description_direct_game_load">(Eksperimentell) Reduser lastetiden og bruk av bufferminne på støttede konsoller.</string>
+    <string name="settings_title_enable_rumble">Vibrasjon</string>
+    <string name="settings_description_enable_rumble">Aktiver vibrasjon på støttede spill og kontrollere</string>
+    <string name="settings_title_enable_device_rumble">Enhets vibrasjon</string>
+    <string name="settings_description_enable_device_rumble">Bruk vibrasjon på enheten når ingen kontroller er koblet til</string>
+    <string name="reset_settings_warning_message_title">Er du sikker?</string>
+    <string name="reset_settings_warning_message_description">Dette vil tilbakestille Lemuroid til fabrikkinnstillingene. Lagrede filer og hurtiglagring vil bli bevart.</string>
+    <string name="settings_title_save_sync">Sky lagring</string>
+    <string name="settings_description_save_sync">Sikkerhetskopier og synkroniser lagringer i skyen</string>
+    <string name="settings_save_sync_refresh">Manuell synkronisering</string>
+    <string name="settings_save_sync_refresh_description">Utfør en manuell synkronisering nå.\n%1$s</string>
+    <string name="settings_save_sync_enable_auto">Automatisk synkronisering</string>
+    <string name="settings_save_sync_enable_auto_description">Automatisk synkronisere før og etter en spillesesjon når wifi er koblet til</string>
+    <string name="settings_save_sync_configure">Konfigurer %1$s</string>
+    <string name="settings_save_sync_include_saves">Synkroniser spillets interne lagring</string>
+    <string name="settings_save_sync_include_saves_description">%1$s på enheten</string>
+    <string name="settings_save_sync_include_states">Synkroniser hurtiglagringer</string>
+    <string name="settings_save_sync_include_states_description">Mer praktisk, men tyngre og mindre pålitelig. Velg hvilke kjerner/systemer du vil synkronisere</string>
+    <string name="game_context_menu_add_to_favorites">Legg til favoritter</string>
+    <string name="game_context_menu_remove_from_favorites">Fjern fra favoritter</string>
+    <string name="game_context_menu_resume">Fortsett</string>
+    <string name="game_context_menu_restart">Start på nytt</string>
+    <string name="game_context_menu_create_shortcut">Fest til hjemskjermen</string>
+    <string name="home_notification_title">Aktiver varsler</string>
+    <string name="home_notification_message">Lemuroid bruker varsler for å fortelle deg når et spill eller en operasjon kjører i bakgrunnen.</string>
+    <string name="home_notification_action">Aktiver</string>
+    <string name="home_microphone_title">Aktiver mikrofon</string>
+    <string name="home_microphone_message">Nintendo DS spill kan bruke mikrofonen til å gi funksjonalitet.</string>
+    <string name="home_microphone_action">Aktiver</string>
+    <string name="home_empty_title">Velg ROM-katalog</string>
+    <string name="home_empty_message">Lemuroid trenger å skanne en mappe som inneholder ROM-filer.\nDette kan ta opptil noen få minutter.</string>
+    <string name="home_empty_action">Velg mappe</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME injeksjonsvæske snart</string>
+    <string name="home_notification_desmume_deprecated_message">Lagre i spillet, bytt til melonDS, og fremgangen din vil fortsette. Lagre stater forblir knyttet til DeSmuME.</string>
+    <string name="home_notification_desmume_deprecated_action">Bytt til melonDS</string>
+    <string name="game_menu_save">Lagre</string>
+    <string name="game_menu_load">Last inn</string>
+    <string name="game_menu_restart">Start på nytt</string>
+    <string name="game_menu_quit">Avslutt</string>
+    <string name="game_menu_settings">Innstillinger</string>
+    <string name="game_menu_state">Hurtiglager %1$s</string>
+    <string name="game_menu_change_disk_button">Endre disk</string>
+    <string name="game_menu_edit_touch_controls">Rediger kontroller</string>
+    <string name="game_menu_mute_audio">Lydløs</string>
+    <string name="game_menu_fast_forward">Spol fremover</string>
+    <string name="game_menu_change_disk_disk">Disk %1$s</string>
+    <string name="game_menu_tilt_sensor">Vipp sensor</string>
+    <string name="game_loading_preparing_game">Klargjør spill…</string>
+    <string name="game_toast_settings_button_using_gamepad">Spillkontroller oppdaget. Gå til innstillings meny med %1$s.</string>
+    <string name="game_toast_load_state_failed">Kunne ikke laste inn denne hurtiglagringen</string>
+    <string name="game_toast_quick_save_loaded">Hurtig lastet</string>
+    <string name="game_toast_quick_save_saved">Rask lagret</string>
+    <string name="empty_view_default">Ingen elementer</string>
+    <string name="core_settings_title">Kjerne innstillinger</string>
+    <string name="core_settings_category_preferences">Preferanser</string>
+    <string name="core_settings_category_controllers">Kontrollere</string>
+    <string name="core_settings_controller">Kontroller %1$s</string>
+    <string name="game_menu_title">Spill meny</string>
+    <string name="notification_channel_name">Alle varsler</string>
+    <string name="library_index_notification_title">Skanning av ROM-filer pågår</string>
+    <string name="library_index_notification_message">Dette kan ta noen minutter</string>
+    <string name="save_sync_notification_title">Synkronisering av lagringsfiler i skyen pågår</string>
+    <string name="save_sync_notification_message">Dette kan ta opp til flere minutter</string>
+    <string name="game_running_notification_title">%1$s kjører</string>
+    <string name="game_running_notification_title_alternative">Spillet kjører</string>
+    <string name="game_running_notification_message">Husk å lagre fremgangen din</string>
+    <string name="game_loader_error_gl_incompatible">Denne kjernen krever en OpenGL ES-versjon som ikke støttes av enheten din.</string>
+    <string name="game_loader_error_load_game">Noe gikk galt under innlasting av spillet ditt. Sørg for at ROMen støttes av Lemuroid og skann spillene dine på nytt.</string>
+    <string name="game_loader_error_save">Noe gikk galt med lagringsfilen din. Hvis problemet vedvarer, kan du prøve å deaktivere automatisk lagring.</string>
+    <string name="game_loader_error_unsupported_architecture">Denne kjernen støttes ikke av enheten din.</string>
+    <string name="game_loader_error_generic">Noe gikk galt. Prøv følgende:\n
+        \n• Deaktiver automatisk lagring og start spillet på nytt
+        \n• Gå inn i Android-innstillinger og tøm appbufferen
+        \n• Gå inn i Lemuroid-innstillinger og utfør en fabrikkgjenoppretting
+        \n\n Hvis ingen av de ovennevnte alternativene fungerer, kan det være mulig at dette spillet / kjernen ikke støttes av denne enheten.</string>
+    <string name="game_loader_error_missing_bios">Det ser ut som om du mangler nødvendig BIOS. Legg dem i ROM-katalogen din og skann på nytt. Påkrevde filer: %1$s</string>
+    <string name="game_shortcut_error">Noe gikk galt mens spillet ble lastet inn. Sørg for at spillet fortsatt eksisterer i biblioteket ditt.</string>
+    <string name="dialog_saf_not_found">Denne enheten støtter ikke filvelgeren for tilgangsrammeverk for lagring. Kopier ukomprimerte ROM-filer manuelt til %1$s og trykk Skann på nytt.</string>
+    <string name="system_grid_details">%1$s spill</string>
+    <string name="tv_folder_picker_title">Velg ROM katalog</string>
+    <string name="tv_folder_picker_action_choose">Velg</string>
+    <string name="tv_folder_picker_action_cancel">Avbryt</string>
+    <string name="tv_folder_storage_primary">Primærlagring</string>
+    <string name="tv_folder_storage_secondary">Sekundærlagring %1$s</string>
+    <string name="tv_folder_storage_title">Velg lagring</string>
+    <string name="tv_home_section_favorites">Favoritter</string>
+    <string name="tv_home_section_recents">Nylig</string>
+    <string name="tv_home_section_systems">Systemer</string>
+    <string name="tv_home_section_settings">Innstillinger</string>
+    <string name="gamepad_binding_update_title">Tilknytt \"RetroPad %1$s\"</string>
+    <string name="gamepad_binding_update_description">Trykk en knapp på din \"%1$s\"</string>
+    <string name="shortcut_binding_update_title">Assosiert \"Snarvei %1$s\"</string>
+    <string name="shortcut_binding_update_description">Trykk først og så andre-knappen for å binde en combo på din \"%1$s\"</string>
+    <string name="tv_search_results">Spill</string>
+    <string name="tv_game_message_missing_gamepad">Spillkontroller er påkrevd for å spille. Vennligst koble til en.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Koble fra kontrolleren for å redigere berøringsskjerm-kontrollene dine</string>
+    <string name="game_interactory_busy">Vent på at pågående operasjoner fullføres</string>
+    <string name="mobile_settings_help">Hjelp</string>
+    <string name="mobile_settings_support">Brukerstøtte</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Hvordan bruker jeg Lemuroid?&lt;/b&gt;&lt;br/&gt;
+        Kopier alle ROM-filene dine til en mappe på enheten din og velg denne mappen i Lemuroid. Undermapper i denne mappen støttes også. Etter at skanningen er fullført, skal du se spillene dine.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Hvorfor blir ikke spillene mine oppdaget?&lt;/b&gt;&lt;br/&gt;
+        Hvis spillene dine er komprimerte, kan du prøve å pakke de ut. Hvis dette ikke fungerer, kan du prøve å legge ROM-filene i separate mapper, en for hvert system, med følgende navn: $SYSTEMS.</string>
+    <string name="lemuroid_crash_disclamer">Det ser ut til at Libretro-kjernen har støtt på et uventet problem. Hvis dette vedvarer, kan du prøve følgende:\n
+        \n• Deaktiver automatisk lagring og start spillet på nytt
+        \n• Gå til Android-innstillinger og tøm appbufferen
+        \n• Gå til Lemuroid-innstillinger og utfør en fabrikkgjenoppretting
+        \n\n Hvis ingen av disse fungerer, kan det hende at denne spillkjernen ikke støttes av enheten din.</string>
+    <string name="error_message_incompatible_state">Denne lagrede tilstand er ikke kompatibel med gjeldende kjerneversjon. Vennligst last inn den nyeste lagringen inne i spillet, eller bruk en tidligere versjon av Lemuroid.</string>
+    <string name="shader_filter_names_auto">Auto</string>
+    <string name="shader_filter_names_sharp">Skarp</string>
+    <string name="shader_filter_names_smooth">Jevn</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Ingen</string>
+    <string name="haptic_feedback_mode_names_press">Trykk</string>
+    <string name="haptic_feedback_mode_names_press_release">Trykk &amp; slipp</string>
+    <string name="tilt_configuration_disabled">Deaktivert</string>
+    <string name="tilt_configuration_cross">BESTILT</string>
+    <string name="tilt_configuration_analog_left">Analog til venstre</string>
+    <string name="tilt_configuration_analog_right">Høyre Analog</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+<!-- Added by local i18n tool. -->
+    <string name="title_catalog">Katalog</string>
+    <string name="settings_title_about">Om</string>
+    <string name="settings_title_manual">Brukermanual</string>
+    <string name="settings_description_manual">Hvordan bruke EmulAItor</string>
+    <string name="license_not_verified_title">Lisens ikke bekreftet</string>
+    <string name="home_hd_mode_enabled">HD-modus på</string>
+    <string name="home_hd_mode_disabled">HD-modus av</string>
+    <string name="settings_bios_help">For å legge til BIOS-filer, plasser de støttede filene i ROMs-mappen din og skann på nytt. Filnavnet må samsvare nøyaktig.</string>
+    <string name="game_context_menu_delete">Slett</string>
+    <string name="game_delete_confirmation">Er du sikker på at du vil slette \"%1$s\"? Dette vil fjerne spillet fra biblioteket ditt og slette filen.</string>
+    <string name="game_deleted">Spill slettet</string>
+    <string name="home_storage_inaccessible_title">ROMs-katalogen er ikke tilgjengelig</string>
+    <string name="home_storage_inaccessible_message">Android tillater ikke at EmulAItor får tilgang til den valgte ROMs-katalogen. Mappen kan ha blitt flyttet, slettet eller blokkert av systemtillatelser. Velg mappen på nytt eller velg en annen.</string>
+    <string name="home_storage_inaccessible_action">Velg en annen katalog</string>
+    <string name="update_available_banner">En nyere versjon av EmulAItor er tilgjengelig. Trykk for å oppdatere.</string>
+    <string name="library_metadata_enrichment_in_progress">Oppdaterer ROM-detaljer i bakgrunnen. Du kan fortsette å spille.</string>
+    <string name="tv_folder_error_access">Denne mappen er ikke tilgjengelig. Vennligst velg en undermappe eller en annen plassering.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">ROMs-katalog</string>
+    <string name="settings_description_choose_directory">Velg mappen som inneholder spillene dine</string>
+    <string name="pending_operations_blocked_title">Operasjoner kan ha stoppet opp</string>
+    <string name="pending_operations_blocked_message_external">En ventende prosess fra en tidligere versjon kan blokkere ROM-indeksering. Du kan fortsette å vente eller tømme appdata for å gjenopprette. ROM-filene dine blir ikke slettet, men du må velge ROM-mappen på nytt. Hvis dette varer i mer enn 5 minutter, anbefales det å tømme appdata.</string>
+    <string name="pending_operations_blocked_message_internal">En ventende prosess fra en tidligere versjon kan blokkere ROM-indeksering. Du kan fortsette å vente eller åpne innstillinger for å se over lagringskonfigurasjonen din.</string>
+    <string name="pending_operations_clear_data">Tøm appdata</string>
+    <string name="pending_operations_keep_waiting">Fortsett å vente</string>
+    <string name="pending_operations_clear_data_confirm_title">Tøm appdata?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor vil nå tilbakestille appdataene sine. ROM-filene dine blir ikke slettet, men du må velge ROM-mappen på nytt.</string>
+    <string name="pending_operations_clear_data_confirm_button">Tøm data</string>
+    <string name="disclaimer_title">Viktig melding</string>
+    <string name="disclaimer_software_origin_title">Programvareopprinnelse</string>
+    <string name="disclaimer_software_origin_text">Denne applikasjonen er en forgrening (fork) av åpen kildekode-prosjektet Lemuroid, distribuert under GPL-3.0-lisensen.</string>
+    <string name="disclaimer_no_content_title">Innhold er ikke inkludert</string>
+    <string name="disclaimer_no_content_text">Denne appen inkluderer ikke spill og laster ikke ned noen filer automatisk.</string>
+    <string name="disclaimer_archive_title">Offentlige katalogkilder</string>
+    <string name="disclaimer_archive_text">Bla-funksjonen viser innhold som er offentlig tilgjengelig på Archive.org og gratis homebrew-spill fra itch.io. EmulAItor er ikke tilknyttet noen av tjenestene. Brukeren er selv ansvarlig for å verifisere sine rettigheter til å få tilgang til eller bruke en ROM.</string>
+    <string name="disclaimer_user_responsibility_title">Brukeransvar</string>
+    <string name="disclaimer_user_responsibility_text">Du er ansvarlig for å sikre at du har juridisk rett til å bruke ROM-filer med denne applikasjonen.</string>
+    <string name="disclaimer_accept">Jeg forstår og aksepterer</string>
+    <string name="disclaimer_terms">Ved å fortsette aksepterer du vilkårene for bruk av denne applikasjonen.</string>
+    <string name="game_context_menu_edit">Rediger</string>
+    <string name="game_edit_title">Rediger spill</string>
+    <string name="game_edit_field_title">Tittel</string>
+    <string name="game_edit_field_system">System</string>
+    <string name="game_edit_field_developer">Utvikler</string>
+    <string name="game_edit_file_label">Fil:</string>
+    <string name="game_edit_save">Lagre</string>
+    <string name="game_edit_search_online">Søk etter metadata på nettet</string>
+    <string name="game_edit_searching">Søker…</string>
+    <string name="game_edit_no_results">Ingen resultater funnet</string>
+    <string name="game_edit_apply_metadata">Bruk metadata</string>
+    <string name="game_edit_unlock_metadata">Lås opp metadata (tillat automatisk oppdatering)</string>
+    <string name="catalog_search_placeholder">Søk i ROMs...</string>
+    <string name="catalog_filter_all_sources">Alle kilder</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Lokal</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Ingen resultater funnet</string>
+    <string name="catalog_downloads">Nedlastinger</string>
+    <string name="catalog_clear_completed">Fjern alle</string>
+    <string name="catalog_downloading">Laster ned...</string>
+    <string name="catalog_downloaded">Lastet ned</string>
+    <string name="sources_manage_title">Administrer kilder</string>
+    <string name="sources_add_title">Legg til kilde</string>
+    <string name="sources_add_local">Legg til lokal mappe</string>
+    <string name="sources_add_smb">Legg til SMB/NAS</string>
+    <string name="sources_smb_name">Navn</string>
+    <string name="sources_smb_server">Server</string>
+    <string name="sources_smb_path">Sti</string>
+    <string name="sources_smb_username">Brukernavn (valgfritt)</string>
+    <string name="sources_smb_password">Passord (valgfritt)</string>
+    <string name="sources_smb_domain">Domene (valgfritt)</string>
+    <string name="sources_edit">Rediger</string>
+    <string name="sources_delete">Slett</string>
+    <string name="sources_save">Lagre</string>
+    <string name="sources_cancel">Avbryt</string>
+    <string name="sources_add">Legg til</string>
+    <string name="sources_smb_display_name">Visningsnavn</string>
+    <string name="sources_smb_display_name_placeholder">Min NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Fullstendig bane inkludert delingsnavn</string>
+    <string name="sources_smb_use_auth">Bruk autentisering</string>
+    <string name="sources_smb_username_label">Brukernavn</string>
+    <string name="sources_smb_password_label">Passord</string>
+    <string name="sources_smb_edit_title">Rediger SMB-kilde</string>
+    <string name="sources_smb_connection_title">SMB-tilkobling</string>
+    <string name="sources_smb_test_connection">Test tilkobling</string>
+    <string name="sources_smb_testing">Tester tilkobling...</string>
+    <string name="sources_smb_connection_success">Tilkobling vellykket!</string>
+    <string name="sources_smb_connection_failed">Tilkobling mislyktes: %1$s</string>
+    <string name="sources_no_custom">Ingen egendefinerte kilder konfigurert</string>
+    <string name="sources_local_permission_error">Denne mappen kan ikke legges til fordi Android ikke ga tilgang. Velg en annen mappe.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Lokale filer</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Søk i ROMs...</string>
+    <string name="catalog_packs_count">%1$d av %2$d pakker</string>
+    <string name="catalog_games_count">%1$d spill</string>
+    <string name="catalog_load_more">Last inn mer...</string>
+    <string name="catalog_load_more_packs">Last inn flere pakker</string>
+    <string name="catalog_no_packs_found">Ingen ROM-pakker funnet</string>
+    <string name="catalog_no_files_found">Ingen nedlastbare filer funnet</string>
+    <string name="catalog_files_count">Filer (%1$d):</string>
+    <string name="catalog_download_all">Alle</string>
+    <string name="catalog_downloads_title">Nedlastinger (%1$d)</string>
+    <string name="catalog_downloads_clear">Tøm</string>
+    <string name="catalog_no_downloads">Ingen nedlastinger</string>
+    <string name="catalog_error_retry">Prøv igjen</string>
+    <string name="catalog_error_occurred">En feil oppstod</string>
+    <string name="catalog_invalid_download_title">Ugyldig katalogfil</string>
+    <string name="catalog_invalid_download_message">Den nedlastede filen ser ikke ut til å være en gyldig ROM for dette systemet. Leverandøren kan ha publisert en feilaktig eller ustøttet fil. Hvis du ikke finner denne ROM-en i katalogen, kan du laste den ned manuelt og legge den til i ROM-mappen din.</string>
+    <string name="catalog_region_all">🌍 Alle</string>
+    <string name="catalog_region_usa">🇺🇸 USA</string>
+    <string name="catalog_region_europe">🇪🇺 Europa</string>
+    <string name="catalog_region_japan">🇯🇵 Japan</string>
+    <string name="catalog_region_spain">🇪🇸 Spania</string>
+    <string name="catalog_region_france">🇫🇷 Frankrike</string>
+    <string name="catalog_region_germany">🇩🇪 Tyskland</string>
+    <string name="catalog_region_italy">🇮🇹 Italia</string>
+    <string name="catalog_region_brazil">🇧🇷 Brasil</string>
+    <string name="catalog_region_korea">🇰🇷 Korea</string>
+    <string name="catalog_region_china">🇨🇳 Kina</string>
+    <string name="catalog_region_australia">🇦🇺 Australia</string>
+    <string name="catalog_sort_downloads">Mest nedlastet</string>
+    <string name="catalog_sort_name">Navn A-Å</string>
+    <string name="catalog_sort_size">Største størrelse</string>
+    <string name="catalog_error_503">Archive.org er nede eller under vedlikehold. Prøv igjen senere.</string>
+    <string name="catalog_error_502">Archive.org opplever problemer. Prøv igjen senere.</string>
+    <string name="catalog_error_500">Archive.org har en intern feil. Prøv igjen senere.</string>
+    <string name="catalog_error_ssl">SSL-sertifikatfeil. Bekreft at dato og klokkeslett på enheten din er riktig.</string>
+    <string name="catalog_error_timeout">Tilkoblingen til Archive.org ble tidsavbrutt. Sjekk internettforbindelsen din.</string>
+    <string name="catalog_error_no_internet">Ingen internettforbindelse. Sjekk tilkoblingen din.</string>
+    <string name="catalog_error_unknown">Ukjent feil</string>
+    <string name="catalog_storage_warning_title">Ikke nok plass</string>
+    <string name="catalog_storage_too_large">Pakken du vil laste ned er for stor.</string>
+    <string name="catalog_storage_download_size">Nedlastingsstørrelse:</string>
+    <string name="catalog_storage_available">Tilgjengelig plass:</string>
+    <string name="catalog_storage_needed">Ekstra plass nødvendig:</string>
+    <string name="catalog_storage_free_space">Frigjør plass på enheten din eller velg færre filer å laste ned.</string>
+    <string name="catalog_storage_understood">Forstått</string>
+    <string name="catalog_path_warning_title">Sti ikke konfigurert!</string>
+    <string name="catalog_path_select_folder">For å laste ned spill må du velge en mappe å lagre dem i.</string>
+    <string name="catalog_path_select_button">Velg mappe</string>
+    <string name="delete_games_title">Slette %1$d spill?</string>
+    <string name="delete_games_warning">Dette vil fjerne de valgte spillene fra biblioteket ditt og slette ROM-filene deres fra disken.</string>
+    <string name="delete_games_list_header">Spill som skal slettes:</string>
+    <string name="delete_games_and_more">...og %1$d til</string>
+    <string name="delete_games_confirm">Slett</string>
+    <string name="delete_mode_title">Velg spill som skal slettes</string>
+    <string name="delete_selected">Slett valgte (%1$d)</string>
+    <string name="settings_category_metadata">Metadata / Skraper</string>
+    <string name="settings_title_thegamesdb_apikey">TheGamesDB API-nøkkel</string>
+    <string name="settings_description_thegamesdb_apikey">Få en gratis nøkkel på thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Skriv inn din TheGamesDB API-nøkkel for å hente spillomslag, beskrivelser og sjangre.</string>
+    <string name="settings_thegamesdb_configured">Konfigurert</string>
+    <string name="settings_thegamesdb_not_configured">Ikke konfigurert</string>
+    <string name="metadata_dialog_apikey_title">Skriv inn API-nøkkel</string>
+    <string name="rom_migration_title">Flytt ROMs</string>
+    <string name="rom_migration_message">%1$d ROMs vil bli flyttet til:
+
+%2$s
+
+Vil du fortsette?</string>
+    <string name="rom_migration_progress_title">Flytter ROM-er…</string>
+    <string name="rom_migration_progress">Flytter %1$s (%2$d av %3$d)</string>
+    <string name="rom_migration_success">%1$d ROM-er flyttet vellykket</string>
+    <string name="rom_migration_partial">Flyttet %1$d av %2$d ROM-er. Noen filer kunne ikke flyttes.</string>
+    <string name="rom_migration_failed">Kunne ikke flytte ROM-er: %1$s</string>
+    <string name="rom_migration_cancel">Avbryt</string>
+    <string name="rom_migration_confirm">Flytt</string>
+    <string name="rom_migration_smb_not_supported">Automatisk ROM-migrering er ikke tilgjengelig for biblioteker på nettverket (SMB)</string>
+    <string name="manual_header">Brukerhåndbok</string>
+    <string name="manual_section_first_steps">🚀 Første steg</string>
+    <string name="manual_content_first_steps">1. Velg en mappe for å lagre ROM-ene dine fra Innstillinger → Katalog.
+
+2. Kopier ROM-filene dine til den mappen.
+
+3. Appen vil automatisk skanne og vise spillene dine på startskjermen.</string>
+    <string name="manual_section_archive">🌐 Utforsk kataloger</string>
+    <string name="manual_content_archive">Katalog-seksjonen lar deg utforske ROM-samlinger fra flere offentlige kilder:
+
+• Archive.org: Store samlinger av klassiske ROM-er.
+• itch.io: Gratis hjemmelagde spill (krever gratis API-nøkkel).
+
+• Bla etter system eller søk etter spesifikke spill.
+• Trykk på et spill for å laste det ned til ROM-mappen din.
+• Nedlastede spill vil automatisk vises i biblioteket ditt.</string>
+    <string name="manual_section_controls">🎮 Konfigurer kontrollere</string>
+    <string name="manual_content_controls">Koble til en Bluetooth- eller USB-kontroller og gå til Innstillinger → Kontrollerinnstillinger.
+
+• Velg kontrolleren din fra listen.
+• Kartlegg knapper i henhold til dine preferanser.
+• Aktiver vibrasjon hvis kontrolleren din støtter det.</string>
+    <string name="manual_section_bios">💾 Nødvendig BIOS</string>
+    <string name="manual_content_bios">Noen systemer (PlayStation, Game Boy Advance, osv.) krever BIOS-filer for å fungere.
+
+• Gå til Innstillinger → BIOS-informasjon for å se hvilke filer du trenger.
+• Plasser BIOS-filer i samme mappe som ROM-ene dine.
+• Filnavnet må stemme nøyaktig overens med det som kreves.</string>
+    <string name="manual_section_saves">💾 Lagrede spill</string>
+    <string name="manual_content_saves">Autolagring er aktivert som standard.
+
+• Når du avslutter et spill, lagres fremgangen din automatisk.
+• Når du åpner spillet igjen, fortsetter du der du slapp.
+• Du kan også bruke spillets eget lagringssystem (meny i spillet).</string>
+    <string name="manual_section_sync">☁️ Skysynkronisering</string>
+    <string name="manual_content_sync">Du kan synkronisere lagrede spill med Google Drive.
+
+• Gå til Innstillinger → Lagringssynkronisering.
+• Logg inn med Google-kontoen din.
+• Lagringene dine vil automatisk synkroniseres på tvers av enheter.</string>
+    <string name="manual_section_gameplay">🕹️ Under spilling</string>
+    <string name="manual_content_gameplay">For å få tilgang til menyen under spilling:
+
+• Trykk på menyknappen (☰) eller sveip fra kanten av skjermen.
+• Derfra kan du: lagre/laste tilstander, endre lagringsplass, få tilgang til hurtigvalg eller avslutte spillet.</string>
+    <string name="about_version">Versjon %1$s</string>
+    <string name="about_section_origin">Programvarens opprinnelse</string>
+    <string name="about_content_origin_1">Denne applikasjonen er en forgrening av det åpen kildekode Lemuroid-prosjektet, distribuert under GPL-3.0-lisensen.</string>
+    <string name="about_content_origin_2">Utforskningsfunksjoner for offentlig tilgjengelig innhold på Archive.org og gratis hjemmelagde spill fra itch.io er lagt til.</string>
+    <string name="about_section_source">Kildekode</string>
+    <string name="about_content_source">Kildekoden til denne modifiserte versjonen er tilgjengelig under GPL-3.0-lisensen.</string>
+    <string name="about_button_github">Se kildekode (GitHub)</string>
+    <string name="about_section_licenses">Tredjepartslisenser</string>
+    <string name="about_section_legal">Juridisk merknad</string>
+    <string name="about_content_legal">Denne applikasjonen inkluderer ikke ROM-er og laster ikke ned innhold automatisk. Utforskningsfunksjonen viser kun samlinger som er offentlig tilgjengelige på Archive.org og gratis hjemmelagde spill fra itch.io. Brukeren er ansvarlig for å verifisere sine rettigheter til å få tilgang til eller bruke eksterne filer.</string>
+    <string name="about_section_report">Rapporter en feil</string>
+    <string name="about_content_report">Fant du en feil eller har du et forslag? Hjelp oss med å forbedre oss ved å sende en anonym rapport.</string>
+    <string name="about_button_report">🐛 Rapporter en feil</string>
+    <string name="about_no_browser">Ingen nettleser installert for å åpne lenken</string>
+    <string name="about_no_browser_report">Ingen nettleser installert for å åpne siden for feilrapportering</string>
+    <string name="bug_report_error">Kunne ikke laste inn skjemaet for feilrapportering. Vennligst sjekk internettforbindelsen din.</string>
+    <string name="bug_report_select_images">Velg bilder</string>
+    <string name="about_open_with">Åpne med</string>
+    <string name="catalog_disclaimer">⚠️ Denne katalogen kobler til offentlige arkiver (Archive.org og itch.io) som ikke er tilknyttet EmulAItor. Kun gratis hjemmelaget innhold er listet fra itch.io. Bruk, nedlasting og besittelse av dette materialet er brukerens eget ansvar. 🧠 Selv om EmulAItor intelligent filtrerer filer, kan det være ødelagte lenker, inkompatible filer eller innhold som ikke er ROM-er.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io Hjemmelaget</string>
+    <string name="itch_api_key_title">itch.io API-nøkkel</string>
+    <string name="itch_api_key_subtitle">Nødvendig for å laste ned spill fra itch.io</string>
+    <string name="itch_api_key_instructions">For å laste ned gratis hjemmelagde spill fra itch.io, trenger du en API-nøkkel:
+
+1. Gå til &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; og opprett en gratis konto
+2. Gå til &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Innstillinger → API-nøkler&lt;/a&gt;
+3. Generer en ny nøkkel og kopier den
+4. Lim den inn nedenfor</string>
+    <string name="itch_api_key_hint">Lim inn din itch.io API-nøkkel her</string>
+    <string name="itch_api_key_validating">Validerer API-nøkkel…</string>
+    <string name="itch_api_key_valid">API-nøkkel gyldig ✓</string>
+    <string name="itch_api_key_invalid">Ugyldig API-nøkkel. Vennligst sjekk og prøv igjen.</string>
+    <string name="itch_api_key_saved">API-nøkkel lagret vellykket</string>
+    <string name="itch_api_key_required_title">API-nøkkel kreves</string>
+    <string name="itch_api_key_required_message">Du trenger en itch.io API-nøkkel for å laste ned spill. Vil du konfigurere den nå?</string>
+    <string name="itch_no_results">Ingen hjemmelagde spill funnet for dette systemet på itch.io</string>
+    <string name="itch_unsupported_system">itch.io har ikke hjemmelaget innhold for dette systemet. Prøv NES, SNES, GBA, GBC eller Genesis.</string>
+    <string name="itch_game_free">Gratis</string>
+    <string name="itch_game_by">av %1$s</string>
+    <string name="pack_fully_downloaded">Fullstendig nedlastet</string>
+    <string name="itch_uploads_title">Tilgjengelige filer</string>
+    <string name="itch_no_rom_uploads">Ingen nedlastbare ROM-filer funnet for dette spillet</string>
+    <string name="itch_download_error">Kunne ikke laste ned fra itch.io: %1$s</string>
+    <string name="itch_settings_edit_key">Rediger nøkkel</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Lås opp full tilgang</string>
+    <string name="paywall_description">Den gratis prøveperioden er over. For å fortsette, velg ett av følgende alternativer.</string>
+<string name="paywall_buy_button">Kjøp Pro-versjon</string>
+    <string name="paywall_restore_title">Har du kjøpt den tidligere?</string>
+    <string name="paywall_restore_description">Hvis du kjøpte EmulAItor før den ble gratis, skriv inn din Google Play-ordre-ID (GPA...) for å gjenopprette tilgangen.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Gjenopprett kjøp</string>
+    <string name="paywall_where_is_receipt">Hvor finner jeg kvitteringen min?</string>
+    <string name="paywall_receipt_instructions_title">Slik finner du din ordre-ID</string>
+    <string name="paywall_receipt_instructions_1">Alternativ A: Søk etter \"Google Play Receipt EmulAItor\" i Gmail-innboksen din.</string>
+    <string name="paywall_receipt_instructions_2">Alternativ B: Gå til pay.google.com, sjekk aktiviteten din, og se etter EmulAItor.</string>
+    <string name="paywall_receipt_open_web">Åpne pay.google.com</string>
+    <string name="paywall_support_fallback">Hvis du ikke finner den, kontakt kundestøtte.</string>
+    <string name="paywall_success">Kjøp gjenopprettet. Takk!</string>
+    <string name="paywall_error_invalid_gpa">Ugyldig GPA-kode eller allerede brukt.</string>
+    <string name="paywall_error_limit_exceeded">Denne koden er allerede i bruk på maksimalt antall tillatte enheter. Vennligst kjøp en ny lisens fra alternativene ovenfor.</string>
+<string name="paywall_error_network">Nettverksfeil. Vennligst sjekk tilkoblingen din.</string>
+    <string name="paywall_error_unknown">En ukjent feil oppstod.</string>
+    <string name="paywall_restoring">Gjenoppretter...</string>
+    <string name="paywall_buy_subscription">Månedsabonnement</string>
+    <string name="paywall_buy_lifetime">Permanent opplåsing</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>

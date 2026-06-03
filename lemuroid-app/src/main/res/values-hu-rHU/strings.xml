@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">Kezdőlap</string>
+    <string name="title_search">Keresés</string>
+    <string name="title_systems">Konzolok</string>
+    <string name="title_games">Játékok</string>
+    <string name="title_settings">Beállítások</string>
+    <string name="recent">Legutóbbiak</string>
+    <string name="favorites">Kedvencek</string>
+    <string name="discover">Felfedezés</string>
+    <string name="rescan">Beolvasás</string>
+    <string name="stop">Megállítás</string>
+    <string name="none">Semmi</string>
+    <string name="directory">Könyvtár</string>
+    <string name="display_filter">Színmód</string>
+    <string name="roms">ROM-ok</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Mégse</string>
+    <string name="settings">Beállítások</string>
+    <string name="save_sync">Mentés szinkronizáció</string>
+    <string name="show_all">Összes</string>
+    <string name="settings_category_general">Általános</string>
+    <string name="settings_category_input">Bemenet</string>
+    <string name="settings_category_misc">Egyéb</string>
+    <string name="settings_title_enable_autosave">Automatikus mentés</string>
+    <string name="settings_title_enable_touch_feedback">Érintéskor vibrálás</string>
+    <string name="settings_title_tilt_sensitivity">Döntés-szenzor érzékenység</string>
+    <string name="settings_title_maximum_cache_usage">Cache méret</string>
+    <string name="settings_title_gamepad_settings">Külső eszközök</string>
+    <string name="settings_description_gamepad_settings">Külső eszközök konfigurálása</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Eszközök engedélyezése</string>
+    <string name="settings_gamepad_category_general">Általános</string>
+    <string name="settings_gamepad_title_reset_bindings">Alaphelyzetbe állítás</string>
+    <string name="settings_gamepad_title_game_menu">Menü</string>
+    <string name="settings_title_open_cores_selection">Váltás a Core-ok között</string>
+    <string name="settings_description_open_cores_selection">Core társítása egyes konzolokhoz</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="haptic_feedback_mode_names_none">Semmi</string>
+    <string name="haptic_feedback_mode_names_press">Nyomd</string>
+<!-- Added by local i18n tool. -->
+    <string name="title_catalog">Katalógus</string>
+    <string name="settings_title_about">Névjegy</string>
+    <string name="settings_title_manual">Felhasználói kézikönyv</string>
+    <string name="settings_description_manual">Az EmulAItor használata</string>
+    <string name="back">Vissza</string>
+    <string name="close">Bezárás</string>
+    <string name="license_not_verified_title">Licenc nem ellenőrzött</string>
+    <string name="game_page_search_suggestion">Játékok keresése</string>
+    <string name="settings_description_enable_autosave">Állapot mentése kilépéskor a játékon belüli menün keresztül</string>
+    <string name="settings_title_hd_quality">HD mód minőség</string>
+    <string name="settings_title_hd_mode">HD mód</string>
+    <string name="settings_description_hd_mode">Alkalmazzon utófeldolgozási felskálázási szűrőt</string>
+    <string name="settings_description_hd_quality">Állítsa be a HD mód minőségét</string>
+    <string name="home_hd_mode_enabled">HD mód bekapcsolva</string>
+    <string name="home_hd_mode_disabled">HD mód kikapcsolva</string>
+    <string name="settings_title_immersive_mode">Impozáns mód</string>
+    <string name="settings_description_immersive_mode">Dinamikusan színezi a hátteret a játék vizuális elemei alapján</string>
+    <string name="settings_core_selection_ds_info">A DeSmuME elavult, és a következő frissítések egyikében eltávolításra kerül. Mentse el a folyamatot a játékon belül, majd váltson melonDS-re. A játékon belüli mentések automatikusan betöltődnek a melonDS-ben, de a mentett állapotok csak a létrehozó maggal használhatók.</string>
+    <string name="settings_description_display_bios_info">Észlelt és támogatott BIOS fájlok megjelenítése</string>
+    <string name="settings_bios_help">BIOS fájlok hozzáadásához helyezze a támogatott fájlokat a ROM mappájába, és szkennelje újra. A fájlnévnek pontosan meg kell egyeznie.</string>
+    <string name="settings_bios_category_detected">Észlelt</string>
+    <string name="settings_bios_category_not_detected">Támogatott</string>
+    <string name="settings_title_reset_settings">Gyári beállítások visszaállítása</string>
+    <string name="settings_description_reset_settings">Állítsa vissza az EmulAItor gyári beállításait</string>
+    <string name="settings_title_advanced_settings">Speciális beállítások</string>
+    <string name="settings_description_advanced_settings">Speciális beállítások megjelenítése</string>
+    <string name="settings_title_low_latency_audio">Alacsony késleltetésű hang előnyben részesítése</string>
+    <string name="settings_description_low_latency_audio">Csökkentse a hangkésleltetést a támogatott eszközökön. Növelheti a hanghibákat.</string>
+    <string name="settings_title_direct_game_load">Közvetlen játék betöltés</string>
+    <string name="settings_description_direct_game_load">(Kísérleti) Csökkentse a betöltési időt és a gyorsítótár használatát a támogatott konzolokon.</string>
+    <string name="settings_title_enable_rumble">Rázás</string>
+    <string name="settings_description_enable_rumble">Engedélyezze a rázást a támogatott játékokban és vezérlőkben</string>
+    <string name="settings_title_enable_device_rumble">Eszköz rázása</string>
+    <string name="settings_description_enable_device_rumble">Ha nincs csatlakoztatva vezérlő, rezegtesse helyette az eszközt</string>
+    <string name="reset_settings_warning_message_title">Biztos benne?</string>
+    <string name="reset_settings_warning_message_description">Ez visszaállítja az EmulAItor gyári beállításait. A mentések és állapotok megmaradnak.</string>
+    <string name="settings_title_save_sync">Felhőmentések</string>
+    <string name="settings_description_save_sync">Biztonsági mentés és szinkronizálás a mentésekről a felhőben</string>
+    <string name="settings_save_sync_refresh">Manuális szinkronizálás</string>
+    <string name="settings_save_sync_refresh_description">Végezzen manuális szinkronizálást most.
+%1$s</string>
+    <string name="settings_save_sync_enable_auto">Automatikus szinkronizálás</string>
+    <string name="settings_save_sync_enable_auto_description">Automatikus szinkronizálás játékmenet előtt és után, ha Wi-Fi-hez csatlakozik</string>
+    <string name="settings_save_sync_configure">%1$s konfigurálása</string>
+    <string name="settings_save_sync_include_saves">Játékmentések szinkronizálása</string>
+    <string name="settings_save_sync_include_saves_description">%1$s a készüléken</string>
+    <string name="settings_save_sync_include_states">Állapotok szinkronizálása</string>
+    <string name="settings_save_sync_include_states_description">Kényelmesebb, de nagyobb és kevésbé megbízható. Válassza ki, mely magokat/rendszereket szeretne szinkronizálni</string>
+    <string name="game_context_menu_add_to_favorites">Hozzáadás a kedvencekhez</string>
+    <string name="game_context_menu_remove_from_favorites">Eltávolítás a kedvencek közül</string>
+    <string name="game_context_menu_resume">Folytatás</string>
+    <string name="game_context_menu_restart">Újraindítás</string>
+    <string name="game_context_menu_create_shortcut">Hozzáadás az indítóhoz</string>
+    <string name="game_context_menu_delete">Törlés</string>
+    <string name="game_delete_confirmation">Biztosan törölni szeretné a(z) \"%1$s\" játékot? Ez eltávolítja a játékot a könyvtárából és törli a fájlt.</string>
+    <string name="game_deleted">Játék törölve</string>
+    <string name="home_notification_title">Értesítések engedélyezése</string>
+    <string name="home_notification_message">Az EmulAItor értesítéseket használ, hogy tájékoztassa, ha egy játék vagy művelet fut a háttérben.</string>
+    <string name="home_notification_action">Engedélyezés</string>
+    <string name="home_microphone_title">Mikrofon engedélyezése</string>
+    <string name="home_microphone_message">A Nintendo DS játékok használhatják a mikrofont bizonyos funkciók biztosításához.</string>
+    <string name="home_microphone_action">Engedélyezés</string>
+    <string name="home_empty_title">ROM-ok könyvtárának kiválasztása</string>
+    <string name="home_empty_message">Az EmulAItornek be kell olvasnia egy ROM fájlokat tartalmazó könyvtárat.
+Ez néhány percig is eltarthat.</string>
+    <string name="home_empty_action">Könyvtár kiválasztása</string>
+    <string name="home_storage_inaccessible_title">ROM-ok könyvtára nem elérhető</string>
+    <string name="home_storage_inaccessible_message">Az Android nem engedélyezi az EmulAItor számára a kiválasztott ROM-ok könyvtárának elérését. Lehet, hogy a mappa áthelyezésre, törlésre került, vagy a rendszer engedélyei blokkolták. Válassza ki újra a mappát, vagy válasszon másikat.</string>
+    <string name="home_storage_inaccessible_action">Másik könyvtár kiválasztása</string>
+    <string name="update_available_banner">Az EmulAItor újabb verziója érhető el. Érintse meg a frissítéshez.</string>
+    <string name="home_notification_desmume_deprecated_title">A DeSmuME nyugdíjazásra kerül</string>
+    <string name="home_notification_desmume_deprecated_message">Mentse el a játékban, majd váltson melonDS-re a haladás megőrzéséhez. Az állapotmentések nem lesznek átvihetők, és csak a DeSmuME-ben maradnak használhatók.</string>
+    <string name="home_notification_desmume_deprecated_action">Váltás melonDS-re</string>
+    <string name="game_menu_save">Mentés</string>
+    <string name="game_menu_load">Betöltés</string>
+    <string name="game_menu_restart">Újraindítás</string>
+    <string name="game_menu_quit">Kilépés</string>
+    <string name="game_menu_settings">Beállítások</string>
+    <string name="game_menu_state">Állapot %1$s</string>
+    <string name="game_menu_change_disk_button">Lemezcsere</string>
+    <string name="game_menu_edit_touch_controls">Vezérlők szerkesztése</string>
+    <string name="game_menu_mute_audio">Némítás</string>
+    <string name="game_menu_fast_forward">Gyorsítás</string>
+    <string name="game_menu_change_disk_disk">Lemez %1$s</string>
+    <string name="game_menu_tilt_sensor">Döntésérzékelő</string>
+    <string name="game_loading_preparing_game">Játék előkészítése…</string>
+    <string name="game_toast_settings_button_using_gamepad">Gamepad észlelve. A beállítások menü eléréséhez használd a(z) %1$s gombot.</string>
+    <string name="game_toast_load_state_failed">Nem sikerült betölteni ezt az állapotot</string>
+    <string name="game_toast_quick_save_loaded">Gyors betöltés megtörtént</string>
+    <string name="game_toast_quick_save_saved">Gyors mentés megtörtént</string>
+    <string name="empty_view_default">Nincs elem</string>
+    <string name="core_settings_title">Mag beállításai</string>
+    <string name="core_settings_category_preferences">Beállítások</string>
+    <string name="core_settings_category_controllers">Vezérlők</string>
+    <string name="core_settings_controller">Vezérlő %1$s</string>
+    <string name="game_menu_title">Játékmegnyitó menü</string>
+    <string name="notification_channel_name">Minden értesítés</string>
+    <string name="library_index_notification_title">ROM-ok beolvasása folyamatban</string>
+    <string name="library_index_notification_message">Ez néhány percig is eltarthat</string>
+    <string name="library_metadata_enrichment_in_progress">ROM részletek frissítése a háttérben. Folytathatod a játékot.</string>
+    <string name="save_sync_notification_title">Felhőmentés szinkronizálása folyamatban</string>
+    <string name="save_sync_notification_message">Ez néhány percig is eltarthat</string>
+    <string name="game_running_notification_title">%1$s fut</string>
+    <string name="game_running_notification_title_alternative">Játék fut</string>
+    <string name="game_running_notification_message">Ne felejtsd el elmenteni a haladásodat</string>
+    <string name="game_loader_error_gl_incompatible">Ez a mag OpenGL ES verziót igényel, amelyet az eszközöd nem támogat.</string>
+    <string name="game_loader_error_load_game">Valami hiba történt a játék betöltése közben. Győződj meg róla, hogy a ROM-ot támogatja a Lemuroid, és olvasd be újra a játékaidat.</string>
+    <string name="game_loader_error_save">Valami hiba történt a mentési fájloddal. Ha a probléma továbbra is fennáll, próbáld meg kikapcsolni az automatikus mentést.</string>
+    <string name="game_loader_error_unsupported_architecture">Ez a mag nem támogatott az eszközödön.</string>
+    <string name="game_loader_error_generic">Valami hiba történt. Próbáld meg a következőket:
+
+
+• Kapcsold ki az automatikus mentést és futtasd újra a játékot
+
+• Lépj be az Android beállításaiba, és töröld az alkalmazás gyorsítótárát
+
+• Lépj be a Lemuroid beállításaiba, és végezz gyári visszaállítást
+
+
+Ha a fentiek egyike sem működik, lehetséges, hogy ezt a játékot/magot nem támogatja ez az eszköz.</string>
+    <string name="game_loader_error_missing_bios">Úgy tűnik, hiányzik a szükséges BIOS. Tedd őket a ROM-könyvtáradba, és olvasd be újra. Szükséges fájlok: %1$s</string>
+    <string name="game_shortcut_error">Valami hiba történt a játék betöltése közben. Kérlek, győződj meg róla, hogy ez a játék még létezik a könyvtáradban.</string>
+    <string name="dialog_saf_not_found">Ez az eszköz nem támogatja a StorageAccessFramework fájlválasztót. Kérlek, manuálisan másold a tömörítetlen ROM fájlokat ide: %1$s, majd nyomj a Beolvasás gombra.</string>
+    <string name="system_grid_details">%1$s játék</string>
+    <string name="tv_folder_picker_title">ROM-ok könyvtárának kiválasztása</string>
+    <string name="tv_folder_picker_action_choose">Kiválasztás</string>
+    <string name="tv_folder_picker_action_cancel">Mégse</string>
+    <string name="tv_folder_storage_primary">Elsődleges tárhely</string>
+    <string name="tv_folder_storage_secondary">Másodlagos tárhely %1$s</string>
+    <string name="tv_folder_storage_title">Tárhely kiválasztása</string>
+    <string name="tv_folder_error_access">Ez a mappa nem elérhető. Kérlek, válassz egy almappát vagy egy másik helyet.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">ROM-mappa</string>
+    <string name="settings_description_choose_directory">Válaszd ki a játékokat tartalmazó mappát</string>
+    <string name="tv_home_section_favorites">Kedvencek</string>
+    <string name="tv_home_section_recents">Legutóbbiak</string>
+    <string name="tv_home_section_systems">Rendszerek</string>
+    <string name="tv_home_section_settings">Beállítások</string>
+    <string name="gamepad_binding_update_title">„RetroPad %1$s” társítása</string>
+    <string name="gamepad_binding_update_description">Nyomj meg egy gombot a „%1$s” készülékeden</string>
+    <string name="shortcut_binding_update_title">„Parancsikon %1$s” társítása</string>
+    <string name="shortcut_binding_update_description">Nyomj meg először az első, majd a második gombot egy kombó társításához a „%1$s” készülékeden</string>
+    <string name="tv_search_results">Játékok</string>
+    <string name="tv_game_message_missing_gamepad">Játékvezérlő szükséges a játékhoz. Kérlek, csatlakoztass egyet.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Húzd ki a vezérlőt az érintőképernyős vezérlők szerkesztéséhez</string>
+    <string name="game_interactory_busy">Várj a függőben lévő műveletek befejezésére</string>
+    <string name="pending_operations_blocked_title">A műveletek akadozhatnak</string>
+    <string name="pending_operations_blocked_message_external">Egy korábbi verzióból származó függőben lévő folyamat blokkolhatja a ROM-ok indexelését. Várhatsz, vagy törölheted az alkalmazás adatait a helyreállításhoz. A ROM-fájlok nem törlődnek, de újra ki kell választanod a ROM-mappát. Ha ez több mint 5 percig tart, az alkalmazás adatainak törlése javasolt.</string>
+    <string name="pending_operations_blocked_message_internal">Egy korábbi verzióból származó függőben lévő folyamat blokkolhatja a ROM-ok indexelését. Várhatsz, vagy megnyithatod a beállításokat a tárhelykonfiguráció áttekintéséhez.</string>
+    <string name="pending_operations_clear_data">Alkalmazásadatok törlése</string>
+    <string name="pending_operations_keep_waiting">Várj tovább</string>
+    <string name="pending_operations_clear_data_confirm_title">Töröljem az alkalmazás adatait?</string>
+    <string name="pending_operations_clear_data_confirm_message">Az EmulAItor most visszaállítja az alkalmazás adatait. A ROM-fájlok nem törlődnek, de újra ki kell választanod a ROM-mappát.</string>
+    <string name="pending_operations_clear_data_confirm_button">Adatok törlése</string>
+    <string name="mobile_settings_help">Súgó</string>
+    <string name="mobile_settings_support">Támogatás</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Az EmulAItor névjegye&lt;/b&gt;&lt;br/&gt;
+        Ez az alkalmazás a &lt;b&gt;Lemuroid&lt;/b&gt; nyílt forráskódú projekt egyik elágazása, amelyet a &lt;b&gt;GPL-3.0&lt;/b&gt; licenc alatt terjesztenek.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Fontos figyelmeztetés&lt;/b&gt;&lt;br/&gt;
+        Ez az alkalmazás nem tartalmaz játékokat, és nem tölt le automatikusan semmilyen tartalmat. A böngésző funkció az Archive.org-on nyilvánosan elérhető tartalmakat és az itch.io-ról származó ingyenes homebrew játékokat jeleníti meg. A felhasználó felelős annak ellenőrzéséért, hogy jogában áll-e ROM-okat hozzáférni vagy használni külső forrásokból.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Hogyan használjam ezt az alkalmazást?&lt;/b&gt;&lt;br/&gt;
+        Másold a ROM-fájlokat egy mappába az eszközödön, és válaszd ki az alkalmazáson belül. Ez a mappa tartalmazhat almappákat. A szkennelés befejezése után látnod kell a játékaidat.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Miért nem ismer fel a játékaimat?&lt;/b&gt;&lt;br/&gt;
+        Ha a játékaid tömörítve vannak, próbáld meg kicsomagolni őket. Ha ez nem működik, helyezd a ROM-okat külön mappákba, rendszerekenként a következő nevekkel: $SYSTEMS.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Licencek&lt;/b&gt;&lt;br/&gt;
+        Lemuroid: GPL-3.0 (Swordfish90)&lt;br/&gt;
+        LibretroDroid: GPL-3.0&lt;br/&gt;
+        Libretro magok: Különböző licencek</string>
+    <string name="lemuroid_crash_disclamer">Úgy tűnik, hogy a Libretro mag váratlan problémát tapasztalt. Ha ez tartós, próbáld meg a következőket:
+
+
+• Tiltsd le az automatikus mentést, és futtasd újra a játékot
+
+• Lépj be az Android beállításaiba, és töröld az alkalmazás gyorsítótárát
+
+• Lépj be a Lemuroid beállításaiba, és végezz gyári visszaállítást
+
+
+ Ha a fentiek egyike sem működik, lehetséges, hogy ezt a játékot/magot nem támogatja ez az eszköz.</string>
+    <string name="error_message_incompatible_state">Ez a mentett állapot nem kompatibilis az aktuális mag verzióval. Kérlek, töltsd be a legújabb játékbeli mentést, vagy használj egy korábbi Lemuroid verziót.</string>
+    <string name="shader_filter_names_auto">Automatikus</string>
+    <string name="shader_filter_names_sharp">Éles</string>
+    <string name="shader_filter_names_smooth">Sima</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_press_release">Nyomás és elengedés</string>
+    <string name="tilt_configuration_disabled">Letiltva</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Bal analóg</string>
+    <string name="tilt_configuration_analog_right">Jobb analóg</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+    <string name="disclaimer_title">Fontos figyelmeztetés</string>
+    <string name="disclaimer_software_origin_title">Szoftver eredete</string>
+    <string name="disclaimer_software_origin_text">Ez az alkalmazás az Lemuroid nyílt forráskódú projektből származó fork, amely GPL-3.0 licenc alatt terjesztett.</string>
+    <string name="disclaimer_no_content_title">Nincs mellékelt tartalom</string>
+    <string name="disclaimer_no_content_text">Ez az alkalmazás nem tartalmaz játékokat, és nem tölt le automatikusan semmilyen fájlt.</string>
+    <string name="disclaimer_archive_title">Nyilvános katalógusforrások</string>
+    <string name="disclaimer_archive_text">A böngészés funkció az Archive.org-on nyilvánosan elérhető tartalmakat és az itch.io ingyenes homebrew játékait jeleníti meg. Az EmulAItor nem áll kapcsolatban egyik szolgáltatással sem. A felhasználó felelős annak ellenőrzéséért, hogy jogában áll-e bármilyen ROM elérésére vagy használatára.</string>
+    <string name="disclaimer_user_responsibility_title">Felhasználói felelősség</string>
+    <string name="disclaimer_user_responsibility_text">Ön felelős annak biztosításáért, hogy jogilag jogosult legyen bármilyen ROM fájl használatára ezzel az alkalmazással.</string>
+    <string name="disclaimer_accept">Megértettem és elfogadom</string>
+    <string name="disclaimer_terms">A folytatással elfogadja az alkalmazás használati feltételeit.</string>
+    <string name="game_context_menu_edit">Szerkesztés</string>
+    <string name="game_edit_title">Játék szerkesztése</string>
+    <string name="game_edit_field_title">Cím</string>
+    <string name="game_edit_field_system">Rendszer</string>
+    <string name="game_edit_field_developer">Fejlesztő</string>
+    <string name="game_edit_file_label">Fájl:</string>
+    <string name="game_edit_save">Mentés</string>
+    <string name="game_edit_search_online">Metadatok keresése online</string>
+    <string name="game_edit_searching">Keresés…</string>
+    <string name="game_edit_no_results">Nincs találat</string>
+    <string name="game_edit_apply_metadata">Metadatok alkalmazása</string>
+    <string name="game_edit_unlock_metadata">Metadatok feloldása (automatikus frissítés engedélyezése)</string>
+    <string name="catalog_search_placeholder">ROM-ok keresése…</string>
+    <string name="catalog_filter_all_sources">Minden forrás</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Helyi</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Nincs találat</string>
+    <string name="catalog_downloads">Letöltések</string>
+    <string name="catalog_clear_completed">Összes törlése</string>
+    <string name="catalog_downloading">Letöltés folyamatban…</string>
+    <string name="catalog_downloaded">Letöltve</string>
+    <string name="sources_manage_title">Források kezelése</string>
+    <string name="sources_add_title">Forrás hozzáadása</string>
+    <string name="sources_add_local">Helyi mappa hozzáadása</string>
+    <string name="sources_add_smb">SMB/NAS hozzáadása</string>
+    <string name="sources_smb_name">Név</string>
+    <string name="sources_smb_server">Kiszolgáló</string>
+    <string name="sources_smb_path">Elérési út</string>
+    <string name="sources_smb_username">Felhasználónév (opcionális)</string>
+    <string name="sources_smb_password">Jelszó (opcionális)</string>
+    <string name="sources_smb_domain">Tartomány (opcionális)</string>
+    <string name="sources_edit">Szerkesztés</string>
+    <string name="sources_delete">Törlés</string>
+    <string name="sources_save">Mentés</string>
+    <string name="sources_cancel">Mégse</string>
+    <string name="sources_add">Hozzáadás</string>
+    <string name="sources_smb_display_name">Megjelenítendő név</string>
+    <string name="sources_smb_display_name_placeholder">Saját NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/megosztás/romok/snes</string>
+    <string name="sources_smb_path_hint">Teljes elérési út, beleértve a megosztás nevét</string>
+    <string name="sources_smb_use_auth">Hitelesítés használata</string>
+    <string name="sources_smb_username_label">Felhasználónév</string>
+    <string name="sources_smb_password_label">Jelszó</string>
+    <string name="sources_smb_edit_title">SMB forrás szerkesztése</string>
+    <string name="sources_smb_connection_title">SMB kapcsolat</string>
+    <string name="sources_smb_test_connection">Kapcsolat tesztelése</string>
+    <string name="sources_smb_testing">Kapcsolat tesztelése...</string>
+    <string name="sources_smb_connection_success">Sikeres kapcsolat!</string>
+    <string name="sources_smb_connection_failed">Sikertelen kapcsolat: %1$s</string>
+    <string name="sources_no_custom">Nincsenek egyéni források konfigurálva</string>
+    <string name="sources_local_permission_error">Ez a mappa nem adható hozzá, mert az Android nem adott hozzáférést. Válasszon másik mappát.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Helyi fájlok</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">ROM-ok keresése...</string>
+    <string name="catalog_packs_count">%1$d / %2$d csomag</string>
+    <string name="catalog_games_count">%1$d játék</string>
+    <string name="catalog_load_more">Továbbiak betöltése...</string>
+    <string name="catalog_load_more_packs">További csomagok betöltése</string>
+    <string name="catalog_no_packs_found">Nem található ROM csomag</string>
+    <string name="catalog_no_files_found">Nem található letölthető fájl</string>
+    <string name="catalog_files_count">Fájlok (%1$d):</string>
+    <string name="catalog_download_all">Összes</string>
+    <string name="catalog_downloads_title">Letöltések (%1$d)</string>
+    <string name="catalog_downloads_clear">Törlés</string>
+    <string name="catalog_no_downloads">Nincs letöltés</string>
+    <string name="catalog_error_retry">Újrapróbálkozás</string>
+    <string name="catalog_error_occurred">Hiba történt</string>
+    <string name="catalog_invalid_download_title">Érvénytelen katalógusfájl</string>
+    <string name="catalog_invalid_download_message">A letöltött fájl nem tűnik érvényes ROM-nak ehhez a rendszerhez. A szolgáltató esetleg helytelen vagy nem támogatott fájlt tett közzé. Ha nem találja ezt a ROM-ot a katalógusban, manuálisan is letöltheti, és hozzáadhatja a ROM mappájához.</string>
+    <string name="catalog_region_all">🌍 Minden</string>
+    <string name="catalog_region_usa">🇺🇸 USA</string>
+    <string name="catalog_region_europe">🇪🇺 Európa</string>
+    <string name="catalog_region_japan">🇯🇵 Japán</string>
+    <string name="catalog_region_spain">🇪🇸 Spanyolország</string>
+    <string name="catalog_region_france">🇫🇷 Franciaország</string>
+    <string name="catalog_region_germany">🇩🇪 Németország</string>
+    <string name="catalog_region_italy">🇮🇹 Olaszország</string>
+    <string name="catalog_region_brazil">🇧🇷 Brazília</string>
+    <string name="catalog_region_korea">🇰🇷 Korea</string>
+    <string name="catalog_region_china">🇨🇳 Kína</string>
+    <string name="catalog_region_australia">🇦🇺 Ausztrália</string>
+    <string name="catalog_sort_downloads">Legtöbbet letöltött</string>
+    <string name="catalog_sort_name">Név A-Z</string>
+    <string name="catalog_sort_size">Legnagyobb méret</string>
+    <string name="catalog_error_503">Az Archive.org leállt vagy karbantartás alatt áll. Próbálja meg később.</string>
+    <string name="catalog_error_502">Az Archive.org problémákkal küzd. Próbálja meg később.</string>
+    <string name="catalog_error_500">Az Archive.org belső hibával küzd. Próbálja meg később.</string>
+    <string name="catalog_error_ssl">SSL tanúsítvány hiba. Ellenőrizze, hogy a készülék dátuma és ideje helyes-e.</string>
+    <string name="catalog_error_timeout">Az Archive.org-hoz kapcsolódás időtúllépés miatt megszakadt. Ellenőrizze az internetkapcsolatát.</string>
+    <string name="catalog_error_no_internet">Nincs internetkapcsolat. Ellenőrizze a kapcsolatát.</string>
+    <string name="catalog_error_unknown">Ismeretlen hiba</string>
+    <string name="catalog_storage_warning_title">Nincs elég hely</string>
+    <string name="catalog_storage_too_large">A letölteni kívánt csomag túl nagy.</string>
+    <string name="catalog_storage_download_size">Letöltési méret:</string>
+    <string name="catalog_storage_available">Elérhető hely:</string>
+    <string name="catalog_storage_needed">Szükséges további hely:</string>
+    <string name="catalog_storage_free_space">Szabad hely a készülékén, vagy válasszon kevesebb fájlt a letöltéshez.</string>
+    <string name="catalog_storage_understood">Értettem</string>
+    <string name="catalog_path_warning_title">Útvonal nincs beállítva!</string>
+    <string name="catalog_path_select_folder">Játékok letöltéséhez ki kell választania egy mappát a tárolásukhoz.</string>
+    <string name="catalog_path_select_button">Mappa kiválasztása</string>
+    <string name="delete_games_title">Töröl %1$d játékot?</string>
+    <string name="delete_games_warning">Ez eltávolítja a kiválasztott játékokat a könyvtárából, és törli a ROM fájlokat a lemezről.</string>
+    <string name="delete_games_list_header">Törlendő játékok:</string>
+    <string name="delete_games_and_more">...és még %1$d</string>
+    <string name="delete_games_confirm">Törlés</string>
+    <string name="delete_mode_title">Válaszd ki a törlendő játékokat</string>
+    <string name="delete_selected">Kijelöltek törlése (%1$d)</string>
+    <string name="settings_category_metadata">Metaadatok / Scraper</string>
+    <string name="settings_title_thegamesdb_apikey">TheGamesDB API kulcs</string>
+    <string name="settings_description_thegamesdb_apikey">Szerezz ingyenes kulcsot a thegamesdb.net oldalon</string>
+    <string name="settings_thegamesdb_help">Add meg a TheGamesDB API kulcsodat a játékborítók, leírások és műfajok lekéréséhez.</string>
+    <string name="settings_thegamesdb_configured">Konfigurálva</string>
+    <string name="settings_thegamesdb_not_configured">Nincs konfigurálva</string>
+    <string name="metadata_dialog_apikey_title">API kulcs megadása</string>
+    <string name="rom_migration_title">ROM-ok áthelyezése</string>
+    <string name="rom_migration_message">%1$d ROM áthelyezésre kerül ide:
+
+%2$s
+
+Szeretnéd folytatni?</string>
+    <string name="rom_migration_progress_title">ROM-ok áthelyezése…</string>
+    <string name="rom_migration_progress">Áthelyezés: %1$s (%2$d / %3$d)</string>
+    <string name="rom_migration_success">%1$d ROM sikeresen áthelyezve</string>
+    <string name="rom_migration_partial">%1$d ROM áthelyezve a %2$d-ből. Néhány fájl nem helyezhető át.</string>
+    <string name="rom_migration_failed">ROM-ok áthelyezése sikertelen: %1$s</string>
+    <string name="rom_migration_cancel">Mégse</string>
+    <string name="rom_migration_confirm">Áthelyezés</string>
+    <string name="rom_migration_smb_not_supported">Az automatikus ROM-áthelyezés nem elérhető hálózati könyvtárakhoz (SMB)</string>
+    <string name="manual_header">Felhasználói kézikönyv</string>
+    <string name="manual_section_first_steps">🚀 Első lépések</string>
+    <string name="manual_content_first_steps">1. Válassz ki egy mappát a ROM-jaid tárolására a Beállítások → Könyvtár menüpontban.
+
+2. Másold a ROM fájlokat ebbe a mappába.
+
+3. Az alkalmazás automatikusan beolvassa és megjeleníti a játékaidat a főképernyőn.</string>
+    <string name="manual_section_archive">🌐 Böngéssz katalógusokban</string>
+    <string name="manual_content_archive">A Katalógus rész lehetővé teszi, hogy ROM-gyűjteményeket fedezz fel több nyilvános forrásból:
+
+• Archive.org: Klasszikus ROM-ok nagy gyűjteményei.
+• itch.io: Ingyenes homebrew játékok (ingyenes API kulcs szükséges).
+
+• Böngéssz rendszer szerint vagy keress specifikus játékokat.
+• Koppints egy játékra a ROM-mappádba való letöltéséhez.
+• A letöltött játékok automatikusan megjelennek a könyvtáradban.</string>
+    <string name="manual_section_controls">🎮 Vezérlők beállítása</string>
+    <string name="manual_content_controls">Csatlakoztass egy Bluetooth vagy USB vezérlőt, és menj a Beállítások → Vezérlő beállításai menüpontba.
+
+• Válaszd ki a vezérlődet a listából.
+• Rendeld hozzá a gombokat a preferenciáid szerint.
+• Engedélyezd a rezgést, ha a vezérlőd támogatja.</string>
+    <string name="manual_section_bios">💾 Szükséges BIOS</string>
+    <string name="manual_content_bios">Néhány rendszer (PlayStation, Game Boy Advance stb.) működéséhez BIOS fájlokra van szükség.
+
+• Menj a Beállítások → BIOS információk menüpontba, hogy lásd, milyen fájlokra van szükséged.
+• Helyezd a BIOS fájlokat ugyanabba a mappába, mint a ROM-jaidat.
+• A fájlnévnek pontosan meg kell egyeznie a követelménnyel.</string>
+    <string name="manual_section_saves">💾 Mentett játékok</string>
+    <string name="manual_content_saves">Az automatikus mentés alapértelmezetten be van kapcsolva.
+
+• Játékból való kilépéskor a haladásod automatikusan mentésre kerül.
+• A játék újbóli megnyitásakor onnan folytathatod, ahol abbahagytad.
+• Használhatod a játék saját mentési rendszerét is (játék közbeni menü).</string>
+    <string name="manual_section_sync">☁️ Felhő szinkronizálás</string>
+    <string name="manual_content_sync">Szinkronizálhatod a mentett játékaidat a Google Drive-ra.
+
+• Menj a Beállítások → Mentés szinkronizálás menüpontba.
+• Jelentkezz be a Google-fiókoddal.
+• A mentéseid automatikusan szinkronizálódnak az eszközök között.</string>
+    <string name="manual_section_gameplay">🕹️ Játék közben</string>
+    <string name="manual_content_gameplay">A menü eléréséhez játék közben:
+
+• Nyomd meg a menü gombot (☰) vagy húzd az ujjad a képernyő széléről.
+• Onnan tudsz: állapotot menteni/betölteni, mentési helyet váltani, gyors opciókat elérni, vagy kilépni a játékból.</string>
+    <string name="about_version">Verzió: %1$s</string>
+    <string name="about_section_origin">Szoftver eredete</string>
+    <string name="about_content_origin_1">Ez az alkalmazás az open source Lemuroid projekt egy elágazása, amely a GPL-3.0 licenc alatt terjesztett.</string>
+    <string name="about_content_origin_2">Kiegészült a nyilvánosan elérhető tartalmak felfedezési funkcióival az Archive.org-ról és az ingyenes homebrew játékokkal az itch.io-ról.</string>
+    <string name="about_section_source">Forráskód</string>
+    <string name="about_content_source">A módosított verzió forráskódja GPL-3.0 licenc alatt érhető el.</string>
+    <string name="about_button_github">Forráskód megtekintése (GitHub)</string>
+    <string name="about_section_licenses">Harmadik féltől származó licencek</string>
+    <string name="about_section_legal">Jogi nyilatkozat</string>
+    <string name="about_content_legal">Ez az alkalmazás nem tartalmaz ROM-okat és nem tölt le automatikusan tartalmat. A feltárás funkció csak az Archive.org-on nyilvánosan elérhető gyűjteményeket és az itch.io ingyenes homebrew játékait jeleníti meg. A felhasználó felelős annak ellenőrzéséért, hogy jogában áll-e külső fájlokat elérni vagy használni.</string>
+    <string name="about_section_report">Jelents egy hibát</string>
+    <string name="about_content_report">Hibát találtál vagy van egy javaslatod? Segíts nekünk fejlődni egy névtelen jelentés küldésével.</string>
+    <string name="about_button_report">🐛 Jelents egy hibát</string>
+    <string name="about_no_browser">Nincs telepítve webböngésző a hivatkozás megnyitásához</string>
+    <string name="about_no_browser_report">Nincs telepítve webböngésző a hibajelentési oldal megnyitásához</string>
+    <string name="bug_report_error">Nem sikerült betölteni a hibajelentési űrlapot. Kérjük, ellenőrizze az internetkapcsolatát.</string>
+    <string name="bug_report_select_images">Képek kiválasztása</string>
+    <string name="about_open_with">Megnyitás ezzel</string>
+    <string name="catalog_disclaimer">⚠️ Ez a katalógus nyilvános adattárakhoz (Archive.org és itch.io) kapcsolódik, amelyek nem állnak kapcsolatban az EmulAItorral. Az itch.io-ról csak ingyenes homebrew tartalom szerepel. Az anyagok használata, letöltése és birtoklása a felhasználó kizárólagos felelőssége. 🧠 Bár az EmulAItor intelligensen szűri a fájlokat, előfordulhatnak hibás hivatkozások, inkompatibilis fájlok vagy nem ROM tartalom.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io Homebrew</string>
+    <string name="itch_api_key_title">itch.io API kulcs</string>
+    <string name="itch_api_key_subtitle">Szükséges játékok letöltéséhez az itch.io-ról</string>
+    <string name="itch_api_key_instructions">Ingyenes homebrew játékok letöltéséhez az itch.io-ról szükséged van egy API kulcsra:
+
+1. Látogass el az &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; oldalra és hozz létre egy ingyenes fiókot
+2. Menj a &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Beállítások → API kulcsok&lt;/a&gt; menüpontba
+3. Hozz létre egy új kulcsot és másold ki
+4. Illeszd be ide alulra</string>
+    <string name="itch_api_key_hint">Illeszd be ide az itch.io API kulcsodat</string>
+    <string name="itch_api_key_validating">API kulcs érvényesítése…</string>
+    <string name="itch_api_key_valid">API kulcs érvényes ✓</string>
+    <string name="itch_api_key_invalid">Érvénytelen API kulcs. Kérjük, ellenőrizze és próbálja újra.</string>
+    <string name="itch_api_key_saved">API kulcs sikeresen mentve</string>
+    <string name="itch_api_key_required_title">API kulcs szükséges</string>
+    <string name="itch_api_key_required_message">Szükséged van egy itch.io API kulcsra a játékok letöltéséhez. Szeretnéd most konfigurálni?</string>
+    <string name="itch_no_results">Nem található homebrew játék ehhez a rendszerhez az itch.io-n</string>
+    <string name="itch_unsupported_system">Az itch.io-n nincs homebrew tartalom ehhez a rendszerhez. Próbáld meg NES, SNES, GBA, GBC vagy Genesis.</string>
+    <string name="itch_game_free">Ingyenes</string>
+    <string name="itch_game_by">%1$s által</string>
+    <string name="pack_fully_downloaded">Teljesen letöltve</string>
+    <string name="itch_uploads_title">Elérhető fájlok</string>
+    <string name="itch_no_rom_uploads">Nem található letölthető ROM fájl ehhez a játékhoz</string>
+    <string name="itch_download_error">Letöltés sikertelen az itch.io-ról: %1$s</string>
+    <string name="itch_settings_edit_key">Kulcs szerkesztése</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Teljes hozzáférés feloldása</string>
+    <string name="paywall_description">Az ingyenes próbaidőszak lejárt. A folytatáshoz válasszon az alábbi lehetőségek közül.</string>
+<string name="paywall_buy_button">Pro verzió vásárlása</string>
+    <string name="paywall_restore_title">Már megvásároltad korábban?</string>
+    <string name="paywall_restore_description">Ha még azelőtt vásároltad meg az EmulAItor-t, mielőtt ingyenessé vált volna, add meg a Google Play rendelési azonosítódat (GPA...) a hozzáférés visszaállításához.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Vásárlás visszaállítása</string>
+    <string name="paywall_where_is_receipt">Hol találom a nyugtámat?</string>
+    <string name="paywall_receipt_instructions_title">Hogyan találod meg a rendelési azonosítódat</string>
+    <string name="paywall_receipt_instructions_1">A lehetőség: Keress rá a „Google Play Receipt EmulAItor” kifejezésre a Gmail fiókodban.</string>
+    <string name="paywall_receipt_instructions_2">B lehetőség: Látogass el a pay.google.com oldalra, ellenőrizd a Tevékenységeidet, és keresd az EmulAItor-t.</string>
+    <string name="paywall_receipt_open_web">pay.google.com megnyitása</string>
+    <string name="paywall_support_fallback">Ha nem találod, vedd fel a kapcsolatot az ügyfélszolgálattal.</string>
+    <string name="paywall_success">A vásárlás sikeresen visszaállítva. Köszönjük!</string>
+    <string name="paywall_error_invalid_gpa">Érvénytelen GPA kód vagy már felhasználták.</string>
+    <string name="paywall_error_limit_exceeded">Ezt a kódot már a megengedett maximális számú eszközön használják. Kérjük, vásároljon új licencet a fenti lehetőségek közül.</string>
+<string name="paywall_error_network">Hálózati hiba. Kérlek, ellenőrizd a kapcsolatodat.</string>
+    <string name="paywall_error_unknown">Ismeretlen hiba történt.</string>
+    <string name="paywall_restoring">Visszaállítás...</string>
+    <string name="paywall_buy_subscription">Havi előfizetés</string>
+    <string name="paywall_buy_lifetime">Végleges feloldás</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>

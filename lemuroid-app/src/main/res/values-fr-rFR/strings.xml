@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">Accueil</string>
+    <string name="title_search">Rechercher</string>
+    <string name="title_systems">Consoles</string>
+    <string name="title_games">Jeux</string>
+    <string name="title_settings">Paramètres</string>
+    <string name="recent">Récents</string>
+    <string name="favorites">Favoris</string>
+    <string name="discover">Découvrez</string>
+    <string name="rescan">Rescanner</string>
+    <string name="stop">Arrêter</string>
+    <string name="none">Aucun élément</string>
+    <string name="directory">Dossier</string>
+    <string name="display_filter">Filtre d’affichage</string>
+    <string name="roms">ROMs</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="settings">Paramètres</string>
+    <string name="save_sync">Synchroniser la sauvegarde</string>
+    <string name="show_all">Tout afficher</string>
+    <string name="back">Retour</string>
+    <string name="close">Fermer</string>
+    <string name="game_page_search_suggestion">Rechercher des jeux</string>
+    <string name="settings_category_general">Général</string>
+    <string name="settings_category_input">Systèmes d\'interaction</string>
+    <string name="settings_category_misc">Autre</string>
+    <string name="settings_title_enable_autosave">Sauvegarde automatique</string>
+    <string name="settings_description_enable_autosave">Enregistrer l\'état lors de la sortie via le menu de jeu</string>
+    <string name="settings_title_enable_touch_feedback">Vibrer au toucher</string>
+    <string name="settings_title_tilt_sensitivity">Sensibilité du capteur d\'inclinaison</string>
+    <string name="settings_title_hd_quality">Qualité du mode HD</string>
+    <string name="settings_title_maximum_cache_usage">Limite de taille de cache</string>
+    <string name="settings_title_hd_mode">Mode HD</string>
+    <string name="settings_description_hd_mode">Appliquer le filtre d\'haute gamme post-traitement</string>
+    <string name="settings_description_hd_quality">Ajuster la qualité du mode HD</string>
+    <string name="settings_title_immersive_mode">Mode immersif</string>
+    <string name="settings_description_immersive_mode">Couleurs dynamiquement l\'arrière-plan en fonction des visuels du jeu</string>
+    <string name="settings_title_gamepad_settings">Périphériques externes</string>
+    <string name="settings_description_gamepad_settings">Configurer les manettes et claviers externes</string>
+    <string name="settings_retropad_button_name">RétroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Périphériques activés</string>
+    <string name="settings_gamepad_category_general">Général</string>
+    <string name="settings_gamepad_title_reset_bindings">Remettre par défaut</string>
+    <string name="settings_gamepad_title_game_menu">Menu</string>
+    <string name="settings_title_open_cores_selection">Gérer les cœurs</string>
+    <string name="settings_description_open_cores_selection">Sélectionnez quel cœur est associé à un système</string>
+    <string name="settings_core_selection_ds_info">DeSmuME est obsolète et sera bientôt supprimé. Sauvegardez dans le jeu, puis basculez sur melonDS: les sauvegardes en jeu y sont chargées automatiquement, mais les états de sauvegarde restent sur le cœur qui les a créés.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Affichage des fichiers BIOS détectés et pris en charge</string>
+    <string name="settings_bios_category_detected">Détecté</string>
+    <string name="settings_bios_category_not_detected">Pris en charge</string>
+    <string name="settings_title_reset_settings">Réinitialisation d\'usine</string>
+    <string name="settings_description_reset_settings">Réinitialiser Lemuroid à ses paramètres d\'origine</string>
+    <string name="settings_title_advanced_settings">Paramètres avancés</string>
+    <string name="settings_description_advanced_settings">Afficher les paramètres avancés</string>
+    <string name="settings_title_low_latency_audio">Préférer l\'audio à faible latence</string>
+    <string name="settings_description_low_latency_audio">Réduire la latence audio sur les périphériques supportés. Cela peut augmenter les bugs audio.</string>
+    <string name="settings_title_direct_game_load">Chargement direct du jeu</string>
+    <string name="settings_description_direct_game_load">(Expérimental) Réduire le temps de chargement et l\'utilisation du cache sur les consoles supportées.</string>
+    <string name="settings_title_enable_rumble">Vibrations</string>
+    <string name="settings_description_enable_rumble">Activer les vibrations dans les jeux et les contrôleurs pris en charge</string>
+    <string name="settings_title_enable_device_rumble">Vibrations de l\'appareil</string>
+    <string name="settings_description_enable_device_rumble">Quand aucun contrôleur n\'est connecté, utiliser les vibrations de l\'appareil</string>
+    <string name="reset_settings_warning_message_title">Etes-vous sûr(e)?</string>
+    <string name="reset_settings_warning_message_description">Cela réinitialisera Lemuroid à ses paramètres d\'origine. Les sauvegardes et sauvegardes automatiques seront préservés.</string>
+    <string name="settings_title_save_sync">Sauvegarde dans le Nuage</string>
+    <string name="settings_description_save_sync">Sauvegardez et synchronisez vos sauvegardes dans le nuage</string>
+    <string name="settings_save_sync_refresh">Synchronisation manuelle</string>
+    <string name="settings_save_sync_refresh_description">Effectuer une synchronisation manuelle maintenant.\n%1$s</string>
+    <string name="settings_save_sync_enable_auto">Synchronisation automatique</string>
+    <string name="settings_save_sync_enable_auto_description">Effectuer automatiquement une synchronisation avant et après une session de jeu lorsque vous êtes connecté au Wifi</string>
+    <string name="settings_save_sync_configure">Configurer %1$s</string>
+    <string name="settings_save_sync_include_saves">Synchroniser les sauvegardes du jeu</string>
+    <string name="settings_save_sync_include_saves_description">%1$s sur l\'appareil</string>
+    <string name="settings_save_sync_include_states">Synchroniser les sauvegardes automatique</string>
+    <string name="settings_save_sync_include_states_description">Plus pratique, mais plus lourd et moins fiable. Choisissez-les cœurs/systèmes que vous souhaitez synchroniser</string>
+    <string name="game_context_menu_add_to_favorites">Ajouter aux favoris</string>
+    <string name="game_context_menu_remove_from_favorites">Supprimer des favoris</string>
+    <string name="game_context_menu_resume">Reprendre</string>
+    <string name="game_context_menu_restart">Redémarrer</string>
+    <string name="game_context_menu_create_shortcut">Épingler à l\'accueil</string>
+    <string name="home_notification_title">Activer les notifications</string>
+    <string name="home_notification_message">Lemuroid utilise des notifications pour vous informer lorsqu\'un jeu ou une opération est en cours d\'exécution en arrière-plan.</string>
+    <string name="home_notification_action">Activer</string>
+    <string name="home_microphone_title">Activer le microphone</string>
+    <string name="home_microphone_message">Les jeux Nintendo DS peuvent utiliser le microphone pour fournir certaines fonctionnalités.</string>
+    <string name="home_microphone_action">Activer</string>
+    <string name="home_empty_title">Sélectionnez le dossier contenant les ROMs</string>
+    <string name="home_empty_message">Lemuroid a besoin de scanner un répertoire contenant des ROMs.\nCela peut prendre quelques minutes.</string>
+    <string name="home_empty_action">Sélectionner un dossier</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME prend bientôt sa retraite</string>
+    <string name="home_notification_desmume_deprecated_message">Sauvegardez dans le jeu, basculez sur melonDS, et votre progression sera transférée. Sauvegardez les états restent liés à DeSmuME.</string>
+    <string name="home_notification_desmume_deprecated_action">Basculer vers melonDS</string>
+    <string name="game_menu_save">Sauvegarder</string>
+    <string name="game_menu_load">Charger</string>
+    <string name="game_menu_restart">Redémarrer</string>
+    <string name="game_menu_quit">Quitter</string>
+    <string name="game_menu_settings">Paramètres</string>
+    <string name="game_menu_state">Sauvegarde Instantanée %1$s</string>
+    <string name="game_menu_change_disk_button">Changer de disque</string>
+    <string name="game_menu_edit_touch_controls">Modifier les contrôles</string>
+    <string name="game_menu_mute_audio">Silence</string>
+    <string name="game_menu_fast_forward">Avance rapide</string>
+    <string name="game_menu_change_disk_disk">Disque %1$s</string>
+    <string name="game_menu_tilt_sensor">Capteur d\'inclinaison</string>
+    <string name="game_loading_preparing_game">Préparation du jeu…</string>
+    <string name="game_toast_settings_button_using_gamepad">La manette a été détectée. Accédez au menu des paramètres avec %1$s.</string>
+    <string name="game_toast_load_state_failed">Impossible de charger cet état de sauvegarde</string>
+    <string name="game_toast_quick_save_loaded">Chargement rapide</string>
+    <string name="game_toast_quick_save_saved">Sauvegarde rapide</string>
+    <string name="empty_view_default">Aucun élément</string>
+    <string name="core_settings_title">Paramètres du noyau</string>
+    <string name="core_settings_category_preferences">Paramètres</string>
+    <string name="core_settings_category_controllers">Manettes</string>
+    <string name="core_settings_controller">Manette %1$s</string>
+    <string name="game_menu_title">Menu du jeu</string>
+    <string name="notification_channel_name">Toutes les notifications</string>
+    <string name="library_index_notification_title">Scan des ROMs en cours</string>
+    <string name="library_index_notification_message">Cela peut prendre quelques minutes</string>
+    <string name="save_sync_notification_title">Synchronisation des sauvegardes dans le Nuage en cours</string>
+    <string name="save_sync_notification_message">Cela peut prendre quelques minutes</string>
+    <string name="game_running_notification_title">%1$s est en cours d\'exécution</string>
+    <string name="game_running_notification_title_alternative">Un jeu est en marche</string>
+    <string name="game_running_notification_message">N\'oubliez pas de sauvegarder votre progression</string>
+    <string name="game_loader_error_gl_incompatible">Ce Cœur nécessite une version d\'OpenGL ES qui n\'est pas prise en charge par votre appareil.</string>
+    <string name="game_loader_error_load_game">Un problème est survenu lors du chargement de votre jeu. Assurez-vous que la ROM est compatible avec Lemuroid et réanalysez vos jeux.</string>
+    <string name="game_loader_error_save">Quelque chose s\'est mal passé avec votre fichier de sauvegarde. Si le problème persiste, essayez de désactiver la sauvegarde automatique.</string>
+    <string name="game_loader_error_unsupported_architecture">Ce noyau n\'est pas supporté par votre appareil.</string>
+    <string name="game_loader_error_generic">Il semble que le cœur de Libretro ait connu un problème inattendu. Si le problème persiste, essayez ce qui suit :\n
+        \n• Désactivez la sauvegarde automatique et relancez le jeu
+        \n• Allez dans les paramètres Android et videz le cache de l\'application
+        \n• Allez dans les paramètres de Lemuroid et effectuez une réinitialisation aux réglages d\'origine
+        \n\n Si aucun des éléments ci-dessus ne fonctionne, Il est possible que ce jeu/cœur n\'est pas pris en charge par votre appareil.</string>
+    <string name="game_loader_error_missing_bios">Il semble que vous n\'ayez pas le BIOS requis, mettez-les dans votre répertoire ROMs et effectuez un rescan. Fichiers requis : %1$s</string>
+    <string name="game_shortcut_error">Un problème est survenu lors du chargement de votre jeu. Veuillez vous assurer que ce jeu existe toujours dans votre bibliothèque.</string>
+    <string name="dialog_saf_not_found">Cet appareil ne supporte pas le sélecteur de fichiers StorageAccessFramework. Veuillez copier manuellement les fichiers ROM décompressés dans %1$s et appuyer sur Rescancer.</string>
+    <string name="system_grid_details">%1$s jeux</string>
+    <string name="tv_folder_picker_title">Sélectionnez le dossier contenant les ROMs</string>
+    <string name="tv_folder_picker_action_choose">Sélectionner</string>
+    <string name="tv_folder_picker_action_cancel">Annuler</string>
+    <string name="tv_folder_storage_primary">Stockage principal</string>
+    <string name="tv_folder_storage_secondary">Stockage secondaire %1$s</string>
+    <string name="tv_folder_storage_title">Choisir un espace de stockage</string>
+    <string name="tv_home_section_favorites">Favoris</string>
+    <string name="tv_home_section_recents">Récent</string>
+    <string name="tv_home_section_systems">Consoles</string>
+    <string name="tv_home_section_settings">Paramètres</string>
+    <string name="gamepad_binding_update_title">Associer \"RetroPad %1$s\"</string>
+    <string name="gamepad_binding_update_description">Appuyez sur un bouton sur votre \"%1$s\"</string>
+    <string name="shortcut_binding_update_title">Associer \"Raccourci %1$s\"</string>
+    <string name="shortcut_binding_update_description">Appuyez sur le premier, puis sur le deuxième bouton pour lier une combinaison sur votre «%1$s»</string>
+    <string name="tv_search_results">Jeux</string>
+    <string name="tv_game_message_missing_gamepad">Les manettes sont nécessaires pour jouer. Veuillez en connecter une.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Déconnectez votre manette pour modifier vos commandes tactiles</string>
+    <string name="game_interactory_busy">Attendez que l\'opération se termine</string>
+    <string name="mobile_settings_help">Aide</string>
+    <string name="mobile_settings_support">Soutien</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Comment utiliser Lemuroid?&lt;/b&gt;&lt;br/&gt;
+        Copiez tous vos fichiers ROMs dans un dossier de votre appareil et sélectionnez-le dans l\'onglet \'paramètres\'. Ce dossier peut avoir des sous-dossiers. Une fois l\'analyse terminée, vous verrez vos jeux apparaître dans le menu.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Pourquoi mes jeux ne sont-ils pas détectés?&lt;/b&gt;&lt;br/&gt;
+        Si vos jeux sont compressés, essayez de les décompresser. Si cela n\'aide pas, essayez de mettre les ROMs dans des dossiers séparés, un pour chaque console avec les noms suivants: $SYSTEMS.</string>
+    <string name="lemuroid_crash_disclamer">Il semble que le cœur de Libretro ait connu un problème inattendu. Si le problème persiste, essayez ce qui suit :\n
+        \n• Désactivez la sauvegarde automatique et relancez le jeu
+        \n• Allez dans les paramètres Android et videz le cache de l\'application
+        \n• Allez dans les paramètres de Lemuroid et effectuez une réinitialisation aux réglages d\'origine
+        \n\n Si aucun des éléments ci-dessus ne fonctionne, Il est possible que ce jeu/cœur n\'est pas pris en charge par votre appareil.</string>
+    <string name="error_message_incompatible_state">Cet état de mémoire n\'est pas compatible avec la version actuelle du noyau. Veuillez charger la dernière sauvegarde en jeu ou utiliser une version de Lemuroid antérieure.</string>
+    <string name="shader_filter_names_auto">Auto</string>
+    <string name="shader_filter_names_sharp">Netteté</string>
+    <string name="shader_filter_names_smooth">Adoucir</string>
+    <string name="shader_filter_names_crt">Tube cathodique</string>
+    <string name="shader_filter_names_lcd">Écran LCD</string>
+    <string name="haptic_feedback_mode_names_none">Aucun élément</string>
+    <string name="haptic_feedback_mode_names_press">Appuyer</string>
+    <string name="haptic_feedback_mode_names_press_release">Appuyer et Relâcher</string>
+    <string name="tilt_configuration_disabled">Désactivé</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Analogique gauche</string>
+    <string name="tilt_configuration_analog_right">Analogique droite</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+<!-- Added by local i18n tool. -->
+    <string name="title_catalog">Catalogue</string>
+    <string name="settings_title_about">À propos</string>
+    <string name="settings_title_manual">Manuel de l\'utilisateur</string>
+    <string name="settings_description_manual">Comment utiliser EmulAItor</string>
+    <string name="license_not_verified_title">Licence non vérifiée</string>
+    <string name="home_hd_mode_enabled">Mode HD activé</string>
+    <string name="home_hd_mode_disabled">Mode HD désactivé</string>
+    <string name="settings_bios_help">Pour ajouter des fichiers BIOS, placez les fichiers pris en charge dans votre dossier ROMs et réanalyser. Le nom du fichier doit correspondre exactement.</string>
+    <string name="game_context_menu_delete">Supprimer</string>
+    <string name="game_delete_confirmation">Êtes-vous sûr de vouloir supprimer \"%1$s\" ? Cela supprimera le jeu de votre bibliothèque et le fichier.</string>
+    <string name="game_deleted">Jeu supprimé</string>
+    <string name="home_storage_inaccessible_title">Répertoire ROMs inaccessible</string>
+    <string name="home_storage_inaccessible_message">Android n\'autorise pas EmulAItor à accéder au répertoire ROMs sélectionné. Le dossier a peut-être été déplacé, supprimé ou bloqué par les autorisations système. Sélectionnez à nouveau le dossier ou choisissez-en un autre.</string>
+    <string name="home_storage_inaccessible_action">Choisir un autre répertoire</string>
+    <string name="update_available_banner">Une nouvelle version d\'EmulAItor est disponible. Appuyez pour mettre à jour.</string>
+    <string name="library_metadata_enrichment_in_progress">Mise à jour des détails des ROMs en arrière-plan. Vous pouvez continuer à jouer.</string>
+    <string name="tv_folder_error_access">Ce dossier n\'est pas accessible. Veuillez sélectionner un sous-répertoire ou un autre emplacement.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">Répertoire ROMs</string>
+    <string name="settings_description_choose_directory">Sélectionnez le dossier contenant vos jeux</string>
+    <string name="pending_operations_blocked_title">Les opérations peuvent être bloquées</string>
+    <string name="pending_operations_blocked_message_external">Un processus en attente d\'une version antérieure peut bloquer l\'indexation des ROMs. Vous pouvez continuer à attendre ou effacer les données de l\'application pour récupérer. Vos fichiers ROM ne seront pas supprimés, mais vous devrez choisir à nouveau le dossier ROM. Si cela dure plus de 5 minutes, l\'effacement des données de l\'application est recommandé.</string>
+    <string name="pending_operations_blocked_message_internal">Un processus en attente d\'une version antérieure peut bloquer l\'indexation des ROMs. Vous pouvez continuer à attendre ou ouvrir les paramètres pour examiner votre configuration de stockage.</string>
+    <string name="pending_operations_clear_data">Effacer les données de l\'application</string>
+    <string name="pending_operations_keep_waiting">Continuer à attendre</string>
+    <string name="pending_operations_clear_data_confirm_title">Effacer les données de l\'application ?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor réinitialisera ses données d\'application maintenant. Vos fichiers ROM ne seront pas supprimés, mais vous devrez sélectionner à nouveau le dossier ROM.</string>
+    <string name="pending_operations_clear_data_confirm_button">Effacer les données</string>
+    <string name="disclaimer_title">Avis important</string>
+    <string name="disclaimer_software_origin_title">Origine du logiciel</string>
+    <string name="disclaimer_software_origin_text">Cette application est un fork du projet open source Lemuroid, distribué sous licence GPL-3.0.</string>
+    <string name="disclaimer_no_content_title">Aucun contenu inclus</string>
+    <string name="disclaimer_no_content_text">Cette application n\'inclut pas de jeux et ne télécharge automatiquement aucun fichier.</string>
+    <string name="disclaimer_archive_title">Sources de catalogue publiques</string>
+    <string name="disclaimer_archive_text">La fonction de navigation affiche le contenu publiquement disponible sur Archive.org et les jeux homebrew gratuits d\'itch.io. EmulAItor n\'est affilié à aucun de ces services. L\'utilisateur est responsable de la vérification de ses droits d\'accès ou d\'utilisation de toute ROM.</string>
+    <string name="disclaimer_user_responsibility_title">Responsabilité de l\'utilisateur</string>
+    <string name="disclaimer_user_responsibility_text">Il vous incombe de vous assurer que vous avez le droit légal d\'utiliser les fichiers ROM avec cette application.</string>
+    <string name="disclaimer_accept">Je comprends et j\'accepte</string>
+    <string name="disclaimer_terms">En continuant, vous acceptez les conditions d\'utilisation de cette application.</string>
+    <string name="game_context_menu_edit">Modifier</string>
+    <string name="game_edit_title">Modifier le jeu</string>
+    <string name="game_edit_field_title">Titre</string>
+    <string name="game_edit_field_system">Système</string>
+    <string name="game_edit_field_developer">Développeur</string>
+    <string name="game_edit_file_label">Fichier :</string>
+    <string name="game_edit_save">Enregistrer</string>
+    <string name="game_edit_search_online">Rechercher les métadonnées en ligne</string>
+    <string name="game_edit_searching">Recherche en cours...</string>
+    <string name="game_edit_no_results">Aucun résultat trouvé</string>
+    <string name="game_edit_apply_metadata">Appliquer les métadonnées</string>
+    <string name="game_edit_unlock_metadata">Déverrouiller les métadonnées (autoriser la mise à jour automatique)</string>
+    <string name="catalog_search_placeholder">Rechercher des ROMs...</string>
+    <string name="catalog_filter_all_sources">Toutes les sources</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Local</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Aucun résultat trouvé</string>
+    <string name="catalog_downloads">Téléchargements</string>
+    <string name="catalog_clear_completed">Tout effacer</string>
+    <string name="catalog_downloading">Téléchargement en cours...</string>
+    <string name="catalog_downloaded">Téléchargé</string>
+    <string name="sources_manage_title">Gérer les sources</string>
+    <string name="sources_add_title">Ajouter une source</string>
+    <string name="sources_add_local">Ajouter un dossier local</string>
+    <string name="sources_add_smb">Ajouter SMB/NAS</string>
+    <string name="sources_smb_name">Nom</string>
+    <string name="sources_smb_server">Serveur</string>
+    <string name="sources_smb_path">Chemin</string>
+    <string name="sources_smb_username">Nom d\'utilisateur (facultatif)</string>
+    <string name="sources_smb_password">Mot de passe (facultatif)</string>
+    <string name="sources_smb_domain">Domaine (facultatif)</string>
+    <string name="sources_edit">Modifier</string>
+    <string name="sources_delete">Supprimer</string>
+    <string name="sources_save">Enregistrer</string>
+    <string name="sources_cancel">Annuler</string>
+    <string name="sources_add">Ajouter</string>
+    <string name="sources_smb_display_name">Nom d\'affichage</string>
+    <string name="sources_smb_display_name_placeholder">Mon NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/partage/roms/snes</string>
+    <string name="sources_smb_path_hint">Chemin complet incluant le nom du partage</string>
+    <string name="sources_smb_use_auth">Utiliser l\'authentification</string>
+    <string name="sources_smb_username_label">Nom d\'utilisateur</string>
+    <string name="sources_smb_password_label">Mot de passe</string>
+    <string name="sources_smb_edit_title">Modifier la source SMB</string>
+    <string name="sources_smb_connection_title">Connexion SMB</string>
+    <string name="sources_smb_test_connection">Tester la connexion</string>
+    <string name="sources_smb_testing">Test de la connexion en cours...</string>
+    <string name="sources_smb_connection_success">Connexion réussie !</string>
+    <string name="sources_smb_connection_failed">Échec de la connexion : %1$s</string>
+    <string name="sources_no_custom">Aucune source personnalisée configurée</string>
+    <string name="sources_local_permission_error">Ce dossier ne peut pas être ajouté car Android n\'a pas accordé l\'accès. Choisissez un autre dossier.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Fichiers locaux</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Rechercher des ROMs...</string>
+    <string name="catalog_packs_count">%1$d sur %2$d packs</string>
+    <string name="catalog_games_count">%1$d jeux</string>
+    <string name="catalog_load_more">Charger plus...</string>
+    <string name="catalog_load_more_packs">Charger plus de packs</string>
+    <string name="catalog_no_packs_found">Aucun pack de ROMs trouvé</string>
+    <string name="catalog_no_files_found">Aucun fichier téléchargeable trouvé</string>
+    <string name="catalog_files_count">Fichiers (%1$d) :</string>
+    <string name="catalog_download_all">Tous</string>
+    <string name="catalog_downloads_title">Téléchargements (%1$d)</string>
+    <string name="catalog_downloads_clear">Effacer</string>
+    <string name="catalog_no_downloads">Aucun téléchargement</string>
+    <string name="catalog_error_retry">Réessayer</string>
+    <string name="catalog_error_occurred">Une erreur s\'est produite</string>
+    <string name="catalog_invalid_download_title">Fichier de catalogue invalide</string>
+    <string name="catalog_invalid_download_message">Le fichier téléchargé ne semble pas être une ROM valide pour ce système. Le fournisseur a peut-être publié un fichier incorrect ou non pris en charge. Si vous ne trouvez pas cette ROM dans le catalogue, vous pouvez la télécharger manuellement et l\'ajouter à votre dossier ROM.</string>
+    <string name="catalog_region_all">🌍 Tous</string>
+    <string name="catalog_region_usa">🇺🇸 USA</string>
+    <string name="catalog_region_europe">🇪🇺 Europe</string>
+    <string name="catalog_region_japan">🇯🇵 Japon</string>
+    <string name="catalog_region_spain">🇪🇸 Espagne</string>
+    <string name="catalog_region_france">🇫🇷 France</string>
+    <string name="catalog_region_germany">🇩🇪 Allemagne</string>
+    <string name="catalog_region_italy">🇮🇹 Italie</string>
+    <string name="catalog_region_brazil">🇧🇷 Brésil</string>
+    <string name="catalog_region_korea">🇰🇷 Corée</string>
+    <string name="catalog_region_china">🇨🇳 Chine</string>
+    <string name="catalog_region_australia">🇦🇺 Australie</string>
+    <string name="catalog_sort_downloads">Plus téléchargés</string>
+    <string name="catalog_sort_name">Nom A-Z</string>
+    <string name="catalog_sort_size">Plus grande taille</string>
+    <string name="catalog_error_503">Archive.org est hors service ou en maintenance. Veuillez réessayer plus tard.</string>
+    <string name="catalog_error_502">Archive.org rencontre des problèmes. Veuillez réessayer plus tard.</string>
+    <string name="catalog_error_500">Archive.org a une erreur interne. Veuillez réessayer plus tard.</string>
+    <string name="catalog_error_ssl">Erreur de certificat SSL. Vérifiez que la date et l\'heure de votre appareil sont correctes.</string>
+    <string name="catalog_error_timeout">La connexion à Archive.org a expiré. Vérifiez votre connexion Internet.</string>
+    <string name="catalog_error_no_internet">Pas de connexion Internet. Vérifiez votre connexion.</string>
+    <string name="catalog_error_unknown">Erreur inconnue</string>
+    <string name="catalog_storage_warning_title">Espace insuffisant</string>
+    <string name="catalog_storage_too_large">Le pack que vous souhaitez télécharger est trop volumineux.</string>
+    <string name="catalog_storage_download_size">Taille du téléchargement :</string>
+    <string name="catalog_storage_available">Espace disponible :</string>
+    <string name="catalog_storage_needed">Espace supplémentaire nécessaire :</string>
+    <string name="catalog_storage_free_space">Libérez de l\'espace sur votre appareil ou sélectionnez moins de fichiers à télécharger.</string>
+    <string name="catalog_storage_understood">Compris</string>
+    <string name="catalog_path_warning_title">Chemin non configuré !</string>
+    <string name="catalog_path_select_folder">Pour télécharger des jeux, vous devez sélectionner un dossier pour les stocker.</string>
+    <string name="catalog_path_select_button">Sélectionner un dossier</string>
+    <string name="delete_games_title">Supprimer %1$d jeux ?</string>
+    <string name="delete_games_warning">Cela supprimera les jeux sélectionnés de votre bibliothèque et supprimera leurs fichiers ROM du disque.</string>
+    <string name="delete_games_list_header">Jeux à supprimer :</string>
+    <string name="delete_games_and_more">...et %1$d de plus</string>
+    <string name="delete_games_confirm">Supprimer</string>
+    <string name="delete_mode_title">Sélectionnez les jeux à supprimer</string>
+    <string name="delete_selected">Supprimer la sélection (%1$d)</string>
+    <string name="settings_category_metadata">Métadonnées / Scraper</string>
+    <string name="settings_title_thegamesdb_apikey">Clé API TheGamesDB</string>
+    <string name="settings_description_thegamesdb_apikey">Obtenez une clé gratuite sur thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Entrez votre clé API TheGamesDB pour récupérer les jaquettes, descriptions et genres des jeux.</string>
+    <string name="settings_thegamesdb_configured">Configuré</string>
+    <string name="settings_thegamesdb_not_configured">Non configuré</string>
+    <string name="metadata_dialog_apikey_title">Entrez la clé API</string>
+    <string name="rom_migration_title">Déplacer les ROMs</string>
+    <string name="rom_migration_message">%1$d ROMs seront déplacées vers :
+
+%2$s
+
+Voulez-vous continuer ?</string>
+    <string name="rom_migration_progress_title">Déplacement des ROMs…</string>
+    <string name="rom_migration_progress">Déplacement de %1$s (%2$d sur %3$d)</string>
+    <string name="rom_migration_success">%1$d ROMs déplacées avec succès</string>
+    <string name="rom_migration_partial">%1$d ROMs sur %2$d déplacées. Certains fichiers n\'ont pas pu être déplacés.</string>
+    <string name="rom_migration_failed">Impossible de déplacer les ROMs : %1$s</string>
+    <string name="rom_migration_cancel">Annuler</string>
+    <string name="rom_migration_confirm">Déplacer</string>
+    <string name="rom_migration_smb_not_supported">La migration automatique des ROMs n\'est pas disponible pour les bibliothèques réseau (SMB)</string>
+    <string name="manual_header">Manuel d\'utilisation</string>
+    <string name="manual_section_first_steps">🚀 Premiers pas</string>
+    <string name="manual_content_first_steps">1. Sélectionnez un dossier pour stocker vos ROMs dans Paramètres → Répertoire.
+
+2. Copiez vos fichiers ROM dans ce dossier.
+
+3. L\'application analysera automatiquement et affichera vos jeux sur l\'écran d\'accueil.</string>
+    <string name="manual_section_archive">🌐 Explorer les catalogues</string>
+    <string name="manual_content_archive">La section Catalogue vous permet d\'explorer des collections de ROMs provenant de plusieurs sources publiques :
+
+• Archive.org : Vastes collections de ROMs classiques.
+• itch.io : Jeux homebrew gratuits (nécessite une clé API gratuite).
+
+• Naviguez par système ou recherchez des jeux spécifiques.
+• Appuyez sur un jeu pour le télécharger dans votre dossier ROMs.
+• Les jeux téléchargés apparaîtront automatiquement dans votre bibliothèque.</string>
+    <string name="manual_section_controls">🎮 Configurer les manettes</string>
+    <string name="manual_content_controls">Connectez une manette Bluetooth ou USB et allez dans Paramètres → Paramètres de la manette.
+
+• Sélectionnez votre manette dans la liste.
+• Mappez les boutons selon vos préférences.
+• Activez la vibration si votre manette la prend en charge.</string>
+    <string name="manual_section_bios">💾 BIOS requis</string>
+    <string name="manual_content_bios">Certains systèmes (PlayStation, Game Boy Advance, etc.) nécessitent des fichiers BIOS pour fonctionner.
+
+• Allez dans Paramètres → Informations BIOS pour voir les fichiers dont vous avez besoin.
+• Placez les fichiers BIOS dans le même dossier que vos ROMs.
+• Le nom du fichier doit correspondre exactement à ce qui est requis.</string>
+    <string name="manual_section_saves">💾 Parties sauvegardées</string>
+    <string name="manual_content_saves">La sauvegarde automatique est activée par défaut.
+
+• En quittant un jeu, votre progression est sauvegardée automatiquement.
+• En rouvrant le jeu, vous reprendrez là où vous vous étiez arrêté.
+• Vous pouvez également utiliser le système de sauvegarde propre au jeu (menu en jeu).</string>
+    <string name="manual_section_sync">☁️ Synchronisation Cloud</string>
+    <string name="manual_content_sync">Vous pouvez synchroniser vos parties sauvegardées avec Google Drive.
+
+• Allez dans Paramètres → Synchronisation des sauvegardes.
+• Connectez-vous avec votre compte Google.
+• Vos sauvegardes seront automatiquement synchronisées sur tous vos appareils.</string>
+    <string name="manual_section_gameplay">🕹️ Pendant le jeu</string>
+    <string name="manual_content_gameplay">Pour accéder au menu pendant le jeu :
+
+• Appuyez sur le bouton de menu (☰) ou balayez depuis le bord de l\'écran.
+• À partir de là, vous pouvez : sauvegarder/charger des états, changer de slot de sauvegarde, accéder aux options rapides ou quitter le jeu.</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_section_origin">Origine du logiciel</string>
+    <string name="about_content_origin_1">Cette application est un fork du projet open source Lemuroid, distribué sous licence GPL-3.0.</string>
+    <string name="about_content_origin_2">Des fonctionnalités d\'exploration pour le contenu publiquement disponible sur Archive.org et les jeux homebrew gratuits d\'itch.io ont été ajoutées.</string>
+    <string name="about_section_source">Code source</string>
+    <string name="about_content_source">Le code source de cette version modifiée est disponible sous licence GPL-3.0.</string>
+    <string name="about_button_github">Voir le code source (GitHub)</string>
+    <string name="about_section_licenses">Licences tierces</string>
+    <string name="about_section_legal">Mentions légales</string>
+    <string name="about_content_legal">Cette application n\'inclut pas de ROMs et ne télécharge pas de contenu automatiquement. La fonctionnalité d\'exploration ne montre que les collections publiquement disponibles sur Archive.org et les jeux homebrew gratuits d\'itch.io. L\'utilisateur est responsable de vérifier ses droits d\'accès ou d\'utilisation de tout fichier externe.</string>
+    <string name="about_section_report">Signaler un bug</string>
+    <string name="about_content_report">Vous avez trouvé une erreur ou avez une suggestion ? Aidez-nous à nous améliorer en envoyant un rapport anonyme.</string>
+    <string name="about_button_report">🐛 Signaler un bug</string>
+    <string name="about_no_browser">Aucun navigateur web installé pour ouvrir le lien</string>
+    <string name="about_no_browser_report">Aucun navigateur web installé pour ouvrir la page de rapport de bug</string>
+    <string name="bug_report_error">Impossible de charger le formulaire de rapport de bug. Veuillez vérifier votre connexion Internet.</string>
+    <string name="bug_report_select_images">Sélectionner des images</string>
+    <string name="about_open_with">Ouvrir avec</string>
+    <string name="catalog_disclaimer">⚠️ Ce catalogue se connecte à des dépôts publics (Archive.org et itch.io) non affiliés à EmulAItor. Seul le contenu homebrew gratuit est répertorié sur itch.io. L\'utilisation, le téléchargement et la possession de ce matériel relèvent de la seule responsabilité de l\'utilisateur. 🧠 Bien qu\'EmulAItor filtre intelligemment les fichiers, il peut y avoir des liens brisés, des fichiers incompatibles ou du contenu qui ne sont pas des ROMs.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">Homebrew itch.io</string>
+    <string name="itch_api_key_title">Clé API itch.io</string>
+    <string name="itch_api_key_subtitle">Requise pour télécharger des jeux depuis itch.io</string>
+    <string name="itch_api_key_instructions">Pour télécharger des jeux homebrew gratuits depuis itch.io, vous avez besoin d\'une clé API :
+
+1. Allez sur &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; et créez un compte gratuit
+2. Allez dans &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Paramètres → Clés API&lt;/a&gt;
+3. Générez une nouvelle clé et copiez-la
+4. Collez-la ci-dessous</string>
+    <string name="itch_api_key_hint">Collez votre clé API itch.io ici</string>
+    <string name="itch_api_key_validating">Validation de la clé API...</string>
+    <string name="itch_api_key_valid">Clé API valide ✓</string>
+    <string name="itch_api_key_invalid">Clé API invalide. Veuillez vérifier et réessayer.</string>
+    <string name="itch_api_key_saved">Clé API enregistrée avec succès</string>
+    <string name="itch_api_key_required_title">Clé API requise</string>
+    <string name="itch_api_key_required_message">Vous avez besoin d\'une clé API itch.io pour télécharger des jeux. Souhaitez-vous la configurer maintenant ?</string>
+    <string name="itch_no_results">Aucun jeu homebrew trouvé pour ce système sur itch.io</string>
+    <string name="itch_unsupported_system">itch.io n\'a pas de contenu homebrew pour ce système. Essayez NES, SNES, GBA, GBC ou Genesis.</string>
+    <string name="itch_game_free">Gratuit</string>
+    <string name="itch_game_by">par %1$s</string>
+    <string name="pack_fully_downloaded">Entièrement téléchargé</string>
+    <string name="itch_uploads_title">Fichiers disponibles</string>
+    <string name="itch_no_rom_uploads">Aucun fichier ROM téléchargeable trouvé pour ce jeu</string>
+    <string name="itch_download_error">Échec du téléchargement depuis itch.io : %1$s</string>
+    <string name="itch_settings_edit_key">Modifier la clé</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Débloquer l\'accès complet</string>
+    <string name="paywall_description">La période d\'essai gratuite est terminée. Pour continuer, veuillez sélectionner l\'une des options suivantes.</string>
+<string name="paywall_buy_button">Acheter la version Pro</string>
+    <string name="paywall_restore_title">Déjà acheté par le passé ?</string>
+    <string name="paywall_restore_description">Si vous avez acheté EmulAItor avant qu\'il ne devienne gratuit, saisissez votre identifiant de commande Google Play (GPA...) pour restaurer votre accès.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Restaurer l\'achat</string>
+    <string name="paywall_where_is_receipt">Où trouver mon reçu ?</string>
+    <string name="paywall_receipt_instructions_title">Comment trouver votre identifiant de commande</string>
+    <string name="paywall_receipt_instructions_1">Option A : Recherchez « Google Play Receipt EmulAItor » dans votre Gmail.</string>
+    <string name="paywall_receipt_instructions_2">Option B : Allez sur pay.google.com, vérifiez votre activité et recherchez EmulAItor.</string>
+    <string name="paywall_receipt_open_web">Ouvrir pay.google.com</string>
+    <string name="paywall_support_fallback">Si vous ne le trouvez pas, contactez le support.</string>
+    <string name="paywall_success">Achat restauré avec succès. Merci !</string>
+    <string name="paywall_error_invalid_gpa">Code GPA invalide ou déjà utilisé.</string>
+    <string name="paywall_error_limit_exceeded">Ce code est déjà utilisé sur le nombre maximal d\'appareils autorisés. Veuillez acheter une nouvelle licence parmi les options ci-dessus.</string>
+<string name="paywall_error_network">Erreur réseau. Veuillez vérifier votre connexion.</string>
+    <string name="paywall_error_unknown">Une erreur inconnue est survenue.</string>
+    <string name="paywall_restoring">Restauration en cours...</string>
+    <string name="paywall_buy_subscription">Abonnement mensuel</string>
+    <string name="paywall_buy_lifetime">Déverrouillage permanent</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="disclaimer_freetrial_title">EmulAItor Gratuit</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Gratuit inclut une période d\'essai cumulée de 3 heures de jeu. Une fois cette période d\'essai expirée, vous devrez déverrouiller l\'application avec l\'un des plans disponibles pour continuer à en profiter pleinement et sans limites.</string>
+</resources>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">Αρχική σελίδα</string>
+    <string name="title_search">Αναζήτηση</string>
+    <string name="title_systems">Συστήματα</string>
+    <string name="title_games">Παιχνίδια</string>
+    <string name="title_settings">Ρυθμίσεις</string>
+    <string name="recent">Πρόσφατα</string>
+    <string name="favorites">Αγαπημένα</string>
+    <string name="discover">Ανακαλύψτε</string>
+    <string name="rescan">Επανασάρωση</string>
+    <string name="stop">Διακοπή</string>
+    <string name="none">Κανένα</string>
+    <string name="directory">Κατάλογος</string>
+    <string name="display_filter">Φίλτρο οθόνης</string>
+    <string name="roms">ROMs</string>
+    <string name="ok">Εντάξει</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="save_sync">Συγχρονισμός αρχείων αποθήκευσης</string>
+    <string name="show_all">Εμφάνιση Όλων</string>
+    <string name="back">Πίσω</string>
+    <string name="close">Κλείσιμο</string>
+    <string name="game_page_search_suggestion">Αναζήτηση παιχνιδιών</string>
+    <string name="settings_category_general">Γενικά</string>
+    <string name="settings_category_input">Είσοδος</string>
+    <string name="settings_category_misc">Διάφορα</string>
+    <string name="settings_title_enable_autosave">Κατάσταση Αυτόματης Αποθήκευσης</string>
+    <string name="settings_description_enable_autosave">Αποθήκευση κατάστασης κατά την έξοδο από το μενού παιχνιδιού</string>
+    <string name="settings_title_enable_touch_feedback">Δόνηση κατά το άγγιγμα</string>
+    <string name="settings_title_tilt_sensitivity">Ευαισθησία αισθητήρα κλίσης</string>
+    <string name="settings_title_hd_quality">HD Ποιότητα λειτουργίας</string>
+    <string name="settings_title_maximum_cache_usage">Περιορισμός μεγέθους της Cache</string>
+    <string name="settings_title_hd_mode">Λειτουργία HD</string>
+    <string name="settings_description_hd_mode">Εφαρμογή upscaling φίλτρου μετά την επεξεργασία</string>
+    <string name="settings_description_hd_quality">Προσαρμογή της ποιότητας της HD λειτουργίας</string>
+    <string name="settings_title_immersive_mode">Immersive λειτουργία</string>
+    <string name="settings_description_immersive_mode">Δυναμικά χρωματίζει το φόντο που βασίζεται σε οπτικά παιχνίδια</string>
+    <string name="settings_title_gamepad_settings">Εξωτερικές συσκευές</string>
+    <string name="settings_description_gamepad_settings">Ρύθμιση εξωτερικών gamepads και πληκτρολογίων</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Ενεργοποιημένες συσκευές</string>
+    <string name="settings_gamepad_category_general">Γενικά</string>
+    <string name="settings_gamepad_title_reset_bindings">Επαναφορά Συντομεύσεων Πληκτρολογίου</string>
+    <string name="settings_gamepad_title_game_menu">Μενού</string>
+    <string name="settings_title_open_cores_selection">Αλλαγή Πυρήνων</string>
+    <string name="settings_description_open_cores_selection">Επιλέξτε τον πυρήνα που σχετίζεται με ένα σύστημα</string>
+    <string name="settings_core_selection_ds_info">DeSmuME είναι παρωχημένη και θα αφαιρεθεί σύντομα. Αποθηκεύστε μέσα στο παιχνίδι, στη συνέχεια, μεταβείτε σε πεπόνια: εντός του παιχνιδιού αποθηκεύει το φορτίο εκεί αυτόματα, αλλά αποθηκεύστε τα κράτη να παραμείνουν στον πυρήνα που τα δημιούργησε.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Εμφάνιση εντοπισμένων και υποστηριζόμενων αρχείων BIOS</string>
+    <string name="settings_bios_category_detected">Ανιχνεύθηκαν</string>
+    <string name="settings_bios_category_not_detected">Υποστηριζόμενο</string>
+    <string name="settings_title_reset_settings">Επαναφορά εργοστασιακών ρυθμίσεων</string>
+    <string name="settings_description_reset_settings">Επαναφορά του Lemuroid στις εργοστασιακές του ρυθμίσεις</string>
+    <string name="settings_title_advanced_settings">Σύνθετες ρυθμίσεις</string>
+    <string name="settings_description_advanced_settings">Εμφάνιση σύνθετων ρυθμίσεων</string>
+    <string name="settings_title_low_latency_audio">Προτιμήστε low-latency ήχο</string>
+    <string name="settings_description_low_latency_audio">Μείωση καθυστέρησης ήχου σε υποστηριζόμενες συσκευές. Μπορεί να αυξήσει τα glitches στον ήχο.</string>
+    <string name="settings_title_direct_game_load">Άμεση φόρτωση παιχνιδιού</string>
+    <string name="settings_description_direct_game_load">(Πειραματικό) Μειώστε το χρόνο φόρτωσης και τη χρήση cache σε υποστηριζόμενες κονσόλες.</string>
+    <string name="settings_title_enable_rumble">Δόνηση</string>
+    <string name="settings_description_enable_rumble">Ενεργοποίηση δόνησης σε υποστηριζόμενα παιχνίδια και χειριστήρια</string>
+    <string name="settings_title_enable_device_rumble">Δόνηση συσκευής</string>
+    <string name="settings_description_enable_device_rumble">Όταν κανένας controller δεν είναι συνδεδεμένος, δονείται η συσκευή</string>
+    <string name="reset_settings_warning_message_title">Είστε σίγουρος/η;</string>
+    <string name="reset_settings_warning_message_description">Αυτό θα επαναφέρει το Lemuroid στις εργοστασιακές του ρυθμίσεις. Τα saves και τα states θα διατηρηθούν.</string>
+    <string name="settings_title_save_sync">Αποθηκευμένα στο Cloud</string>
+    <string name="settings_description_save_sync">Δημιουργία αντίγραφου ασφαλείας και συγχρονισμός των saves στο cloud</string>
+    <string name="settings_save_sync_refresh">Χειροκίνητος συγχρονισμός</string>
+    <string name="settings_save_sync_refresh_description">Εκτέλεση χειροκίνητου συγχρονισμού τώρα.\n%1$s</string>
+    <string name="settings_save_sync_enable_auto">Αυτόματος Συγχρονισμός</string>
+    <string name="settings_save_sync_enable_auto_description">Αυτόματη εκτέλεση συγχρονισμού πριν και μετά από μια συνεδρία κατά τη σύνδεση με το Wifi</string>
+    <string name="settings_save_sync_configure">Διαμόρφωση %1$s</string>
+    <string name="settings_save_sync_include_saves">Συγχρονισμός των saves εντός του παιχνιδιού</string>
+    <string name="settings_save_sync_include_saves_description">%1$s στη συσκευή</string>
+    <string name="settings_save_sync_include_states">Συγχρονισμός καταστάσεων</string>
+    <string name="settings_save_sync_include_states_description">Πιο βολικό, αλλά βαρύτερο και λιγότερο αξιόπιστο. Επιλέξτε ποιό πυρήνα/συστήματα θέλετε να συγχρονίσετε</string>
+    <string name="game_context_menu_add_to_favorites">Προσθήκη στα αγαπημένα</string>
+    <string name="game_context_menu_remove_from_favorites">Αφαίρεση από τα αγαπημένα</string>
+    <string name="game_context_menu_resume">Συνέχεια</string>
+    <string name="game_context_menu_restart">Επανεκκίνηση</string>
+    <string name="game_context_menu_create_shortcut">Καρφίτσωμα στον launcher</string>
+    <string name="home_notification_title">Ενεργοποίηση ειδοποιήσεων</string>
+    <string name="home_notification_message">Το Lemuroid χρησιμοποιεί ειδοποιήσεις για να σας ενημερώνει όταν ένα παιχνίδι ή μια λειτουργία τρέχει στο παρασκήνιο.</string>
+    <string name="home_notification_action">Ενεργοποίηση</string>
+    <string name="home_microphone_title">Ενεργοποίηση μικροφώνου</string>
+    <string name="home_microphone_message">Τα παιχνίδια Nintendo DS μπορούν να χρησιμοποιήσουν το μικρόφωνο για να παρέχουν ορισμένες λειτουργίες.</string>
+    <string name="home_microphone_action">Ενεργοποίηση</string>
+    <string name="home_empty_title">Επιλέξτε ένα ευρετήριο με ROMs</string>
+    <string name="home_empty_message">Το Lemuroid χρειάζεται να σαρώσει έναν φάκελο οπού περιέχει ROMs.\nΑυτό μπορεί να διαρκέσει μερικά λεπτά.</string>
+    <string name="home_empty_action">Επιλογή φακέλου</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME αποσύρθηκε σύντομα</string>
+    <string name="home_notification_desmume_deprecated_message">Αποθηκεύστε σε-παιχνίδι, μεταβείτε στο melonDS, και η πρόοδός σας θα φέρει πάνω.</string>
+    <string name="home_notification_desmume_deprecated_action">Εναλλαγή σε melonDS</string>
+    <string name="game_menu_save">Αποθήκευση</string>
+    <string name="game_menu_load">Φόρτωση</string>
+    <string name="game_menu_restart">Επανεκκίνηση</string>
+    <string name="game_menu_quit">Έξοδος</string>
+    <string name="game_menu_settings">Ρυθμίσεις</string>
+    <string name="game_menu_state">Κατάσταση: %1$s</string>
+    <string name="game_menu_change_disk_button">Αλλαγή Δίσκου</string>
+    <string name="game_menu_edit_touch_controls">Επεξεργασία Εικονικών Κουμπιών</string>
+    <string name="game_menu_mute_audio">Σίγαση</string>
+    <string name="game_menu_fast_forward">Γρήγορη κίνηση</string>
+    <string name="game_menu_change_disk_disk">Δίσκος %1$s</string>
+    <string name="game_menu_tilt_sensor">Αισθητήρας Κλίσης</string>
+    <string name="game_loading_preparing_game">Προετοιμασία παιχνιδιού…</string>
+    <string name="game_toast_settings_button_using_gamepad">Εντοπίστηκε Gamepad. Πρόσβαση στο μενού ρυθμίσεων με %1$s.</string>
+    <string name="game_toast_load_state_failed">Αδυναμία φόρτωσης αυτού του state</string>
+    <string name="game_toast_quick_save_loaded">Γρήγορη φόρτωση</string>
+    <string name="game_toast_quick_save_saved">Γρήγορη αποθήκευση</string>
+    <string name="empty_view_default">Δεν υπάρχουν στοιχεία</string>
+    <string name="core_settings_title">Ρυθμίσεις Πυρήνα</string>
+    <string name="core_settings_category_preferences">Προτιμήσεις</string>
+    <string name="core_settings_category_controllers">Χειριστήρια</string>
+    <string name="core_settings_controller">Χειριστήριο %1$s</string>
+    <string name="game_menu_title">Μενού παιχνιδιού</string>
+    <string name="notification_channel_name">Όλες οι ειδοποιήσεις</string>
+    <string name="library_index_notification_title">Η Σάρωση των ROMs βρίσκεται σε εξέλιξη</string>
+    <string name="library_index_notification_message">H διαδικασία ίσως διαρκέσει μερικά λεπτά</string>
+    <string name="save_sync_notification_title">Συγχρονισμός αποθήκευσης στο Cloud σε εξέλιξη</string>
+    <string name="save_sync_notification_message">H διαδικασία ίσως διαρκέσει μερικά λεπτά</string>
+    <string name="game_running_notification_title">%1$s εκτελείται</string>
+    <string name="game_running_notification_title_alternative">Το παιχνίδι τρέχει</string>
+    <string name="game_running_notification_message">Βεβαιωθείτε ότι αποθηκεύσατε την πρόοδό σας</string>
+    <string name="game_loader_error_gl_incompatible">Αυτός ο πυρήνας απαιτεί μια έκδοση OpenGL ES η οποία δεν υποστηρίζεται από τη συσκευή σας.</string>
+    <string name="game_loader_error_load_game">Κάτι κακό συνέβη κατά τη φόρτωση του παιχνιδιού σας. Βεβαιωθείτε ότι η ROM υποστηρίζεται από to Lemuroid και κάνετε σάρωση ξανά των παιχνιδιών σας.</string>
+    <string name="game_loader_error_save">Κάτι κακό συνέβη με το αρχείο αποθήκευσης. Αν το πρόβλημα παραμένει, δοκιμάστε να απενεργοποιήσετε την αυτόματη αποθήκευση.</string>
+    <string name="game_loader_error_unsupported_architecture">Αυτός ο πυρήνας δεν υποστηρίζεται από τη συσκευή σας.</string>
+    <string name="game_loader_error_generic">Κάτι άσχημο συνέβη. Δοκιμάστε τα παρακάτω:\n
+        \n• Απενεργοποιήστε την αυτόματη αποθήκευση και εκτελέστε ξανά το παιχνίδι
+        \n• Μεταβείτε στις ρυθμίσεις του Android και καθαρίστε την προσωρινή μνήμη της εφαρμογής
+        \n• Μεταβείτε στις ρυθμίσεις Lemuroid και εκτελέστε Επαναφορά εργοστασιακών ρυθμίσεων
+        \n\nΕάν δεν λειτουργήσει καμία από τις παραπάνω λύσεις, μπορεί να μην υποστηρίζεται αυτό το Παιχνίδι/Πυρήνας από αυτή τη συσκευή.</string>
+    <string name="game_loader_error_missing_bios">Φαίνεται ότι λείπουν τα απαιτούμενα από το BIOS, παρακαλώ προσθέστε τα στον φάκελο με τις ROMs και κάνετε επανασάρωση. Απαιτούμενα αρχεία: %1$s</string>
+    <string name="game_shortcut_error">Κάτι κακό συνέβη κατά τη φόρτωση του παιχνιδιού σας. Βεβαιωθείτε ότι αυτό το παιχνίδι εξακολουθεί να υπάρχει στη βιβλιοθήκη σας.</string>
+    <string name="dialog_saf_not_found">Αυτή η συσκευή δεν υποστηρίζει τον επιλογέα αρχείων StorageAccessframe. Παρακαλώ αντιγράψτε μη συμπιεσμένα αρχεία ROM στο %1$s και πατήστε Επανασάρωση.</string>
+    <string name="system_grid_details">%1$s παιχνίδια</string>
+    <string name="tv_folder_picker_title">Επιλέξτε ένα φάκελο με ROMs</string>
+    <string name="tv_folder_picker_action_choose">Επιλέξτε</string>
+    <string name="tv_folder_picker_action_cancel">Ακύρωση</string>
+    <string name="tv_folder_storage_primary">Κύριος αποθηκευτικός χώρος</string>
+    <string name="tv_folder_storage_secondary">Δευτερεύων χώρος αποθήκευσης %1$s</string>
+    <string name="tv_folder_storage_title">Επιλογή αποθηκευτικού χώρου</string>
+    <string name="tv_home_section_favorites">Αγαπημένα</string>
+    <string name="tv_home_section_recents">Πρόσφατα</string>
+    <string name="tv_home_section_systems">Συστήματα</string>
+    <string name="tv_home_section_settings">Ρυθμίσεις</string>
+    <string name="gamepad_binding_update_title">Συσχετισμός \"RetroPad %1$s\"</string>
+    <string name="gamepad_binding_update_description">Πατήστε ένα κουμπί στο \"%1$s \" σας</string>
+    <string name="shortcut_binding_update_title">Συσχετισμός \"Συντόμευση %1$s\"</string>
+    <string name="shortcut_binding_update_description">Πάτησε πρώτα και δεύτερο κουμπί για να συνδέσεις ένα combo στο \"%1$s\"</string>
+    <string name="tv_search_results">Παιχνίδια</string>
+    <string name="tv_game_message_missing_gamepad">Aπαιτείται σύνδεση με Gamepads απαιτείται για να παίξετε. Παρακαλώ συνδέστε ένα.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Αποσυνδέστε το Gamepad σας για να επεξεργαστείτε τα touch controls</string>
+    <string name="game_interactory_busy">Αναμονή για την ολοκλήρωση των εκκρεμών εργασιών</string>
+    <string name="mobile_settings_help">Βοήθεια</string>
+    <string name="mobile_settings_support">Υποστήριξη</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Πώς μπορώ να χρησιμοποιήσω το Lemuroid?&lt;/b&gt;&lt;br/&gt;
+        Αντιγράψτε όλα τα αρχεία ROMs σας σε έναν φάκελο στη συσκευή σας και επιλέξτε τον μέσω του Lemuroid. Αυτός ο φάκελος επιτρέπεται να έχει υποφακέλους. Μετά την ολοκλήρωση της σάρωσης θα πρέπει να μποείτε να δείτε τα παιχνίδια σας.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Γιατί δεν έχουν εντοπιστεί τα παιχνίδια μου?&lt;/b&gt;&lt;br/&gt;
+        Αν τα παιχνίδια σας είναι συμπιεσμένα, δοκιμάστε να τα αποσυμπιέσετε. Αν αυτό δεν λειτουργήσει, δοκιμάστε να βάλετε τα ROMs σε ξεχωριστούς καταλόγους, ένα για κάθε σύστημα με τα ακόλουθα ονόματα: $SYSTEMS.</string>
+    <string name="lemuroid_crash_disclamer">Φαίνεται ότι ο πυρήνας του Libretro αντιμετωπίζει ένα απροσδόκητο πρόβλημα. Αν το πρόβλημα παραμείνει, δοκιμάστε τα εξής:\n
+        \n• Απενεργοποιήστε την αυτόματη αποθήκευση και εκτελέστε ξανά το παιχνίδι
+        \n• Πηγαίνετε στις ρυθμίσεις Android και καθαρίστε την μνήμη cache της εφαρμογής
+        \n• Πηγαίνετε στις ρυθμίσεις Lemuroid και εκτελέστε την Επαναφορά Εργοστασίων Ρυθμίσεων
+        \n\n Αν καμία από τις παραπάνω λειτουργίες δεν λειτουργήσει, τότε ενδεχομένως το παιχνίδι/πυρήνας δεν υποστηρίζεται από αυτήν τη συσκευή.</string>
+    <string name="error_message_incompatible_state">Αυτό το save state δεν είναι συμβατό με την τρέχουσα έκδοση του πυρήνα. Παρακαλώ φορτώστε προηγούμενο save του παιχνιδιού ή χρησιμοποιήστε μια προηγούμενη έκδοση Lemuroid.</string>
+    <string name="shader_filter_names_auto">Αυτόματο</string>
+    <string name="shader_filter_names_sharp">Κοφτερό</string>
+    <string name="shader_filter_names_smooth">Ομαλό</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Κανένα</string>
+    <string name="haptic_feedback_mode_names_press">Πιέστε</string>
+    <string name="haptic_feedback_mode_names_press_release">Πίεστε &amp; αφήστε</string>
+    <string name="tilt_configuration_disabled">Απενεργοποιημένο</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Αριστερό Αναλογικό</string>
+    <string name="tilt_configuration_analog_right">Δεξί Αναλογικό</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+<!-- Added by local i18n tool. -->
+    <string name="title_catalog">Κατάλογος</string>
+    <string name="settings_title_about">Σχετικά</string>
+    <string name="settings_title_manual">Εγχειρίδιο χρήσης</string>
+    <string name="settings_description_manual">Πώς να χρησιμοποιήσετε το EmulAItor</string>
+    <string name="license_not_verified_title">Η άδεια δεν επαληθεύτηκε</string>
+    <string name="home_hd_mode_enabled">Λειτουργία HD ενεργοποιημένη</string>
+    <string name="home_hd_mode_disabled">Λειτουργία HD απενεργοποιημένη</string>
+    <string name="settings_bios_help">Για να προσθέσετε αρχεία BIOS, τοποθετήστε τα υποστηριζόμενα αρχεία στον φάκελο ROMs και κάντε επανασάρωση. Το όνομα του αρχείου πρέπει να ταιριάζει ακριβώς.</string>
+    <string name="game_context_menu_delete">Διαγραφή</string>
+    <string name="game_delete_confirmation">Είστε βέβαιοι ότι θέλετε να διαγράψετε το \"%1$s\"? Αυτό θα αφαιρέσει το παιχνίδι από τη βιβλιοθήκη σας και θα διαγράψει το αρχείο.</string>
+    <string name="game_deleted">Το παιχνίδι διαγράφηκε</string>
+    <string name="home_storage_inaccessible_title">Ο κατάλογος ROMs δεν είναι προσβάσιμος</string>
+    <string name="home_storage_inaccessible_message">Το Android δεν επιτρέπει στο EmulAItor να αποκτήσει πρόσβαση στον επιλεγμένο κατάλογο ROMs. Ο φάκελος ενδέχεται να έχει μετακινηθεί, διαγραφεί ή αποκλειστεί από τα δικαιώματα συστήματος. Επιλέξτε ξανά τον φάκελο ή επιλέξτε έναν διαφορετικό.</string>
+    <string name="home_storage_inaccessible_action">Επιλογή άλλου καταλόγου</string>
+    <string name="update_available_banner">Μια νεότερη έκδοση του EmulAItor είναι διαθέσιμη. Πατήστε για ενημέρωση.</string>
+    <string name="library_metadata_enrichment_in_progress">Ενημέρωση λεπτομερειών ROM στο παρασκήνιο. Μπορείτε να συνεχίσετε να παίζετε.</string>
+    <string name="tv_folder_error_access">Αυτός ο φάκελος δεν είναι προσβάσιμος. Παρακαλούμε επιλέξτε έναν υποφάκελο ή μια διαφορετική τοποθεσία.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">Κατάλογος ROMs</string>
+    <string name="settings_description_choose_directory">Επιλέξτε τον φάκελο που περιέχει τα παιχνίδια σας</string>
+    <string name="pending_operations_blocked_title">Οι λειτουργίες ενδέχεται να έχουν κολλήσει</string>
+    <string name="pending_operations_blocked_message_external">Μια εκκρεμής διαδικασία από παλαιότερη έκδοση ενδέχεται να εμποδίζει την ευρετηρίαση των ROM. Μπορείτε να συνεχίσετε να περιμένετε ή να διαγράψετε τα δεδομένα της εφαρμογής για αποκατάσταση. Τα αρχεία ROM σας δεν θα διαγραφούν, αλλά θα χρειαστεί να επιλέξετε ξανά τον φάκελο ROM. Εάν αυτό διαρκέσει περισσότερο από 5 λεπτά, συνιστάται η διαγραφή των δεδομένων της εφαρμογής.</string>
+    <string name="pending_operations_blocked_message_internal">Μια εκκρεμής διαδικασία από παλαιότερη έκδοση ενδέχεται να εμποδίζει την ευρετηρίαση των ROM. Μπορείτε να συνεχίσετε να περιμένετε ή να ανοίξετε τις ρυθμίσεις για να ελέγξετε τη διαμόρφωση του αποθηκευτικού σας χώρου.</string>
+    <string name="pending_operations_clear_data">Διαγραφή δεδομένων εφαρμογής</string>
+    <string name="pending_operations_keep_waiting">Συνέχιση αναμονής</string>
+    <string name="pending_operations_clear_data_confirm_title">Διαγραφή δεδομένων εφαρμογής;</string>
+    <string name="pending_operations_clear_data_confirm_message">Το EmulAItor θα επαναφέρει τα δεδομένα της εφαρμογής του τώρα. Τα αρχεία ROM σας δεν θα διαγραφούν, αλλά θα χρειαστεί να επιλέξετε ξανά τον φάκελο ROM.</string>
+    <string name="pending_operations_clear_data_confirm_button">Διαγραφή δεδομένων</string>
+    <string name="disclaimer_title">Σημαντική σημείωση</string>
+    <string name="disclaimer_software_origin_title">Προέλευση λογισμικού</string>
+    <string name="disclaimer_software_origin_text">Αυτή η εφαρμογή είναι ένα fork του έργου ανοιχτού κώδικα Lemuroid, που διανέμεται υπό την άδεια GPL-3.0.</string>
+    <string name="disclaimer_no_content_title">Δεν περιλαμβάνεται περιεχόμενο</string>
+    <string name="disclaimer_no_content_text">Αυτή η εφαρμογή δεν περιλαμβάνει παιχνίδια και δεν κατεβάζει αυτόματα κανένα αρχείο.</string>
+    <string name="disclaimer_archive_title">Πηγές δημόσιου καταλόγου</string>
+    <string name="disclaimer_archive_text">Η λειτουργία περιήγησης εμφανίζει περιεχόμενο που είναι δημόσια διαθέσιμο στο Archive.org και δωρεάν homebrew παιχνίδια από το itch.io. Το EmulAItor δεν συνδέεται με καμία από τις δύο υπηρεσίες. Ο χρήστης είναι υπεύθυνος για την επαλήθευση των δικαιωμάτων του για πρόσβαση ή χρήση οποιουδήποτε ROM.</string>
+    <string name="disclaimer_user_responsibility_title">Ευθύνη χρήστη</string>
+    <string name="disclaimer_user_responsibility_text">Είστε υπεύθυνοι για τη διασφάλιση ότι έχετε το νόμιμο δικαίωμα χρήσης οποιωνδήποτε αρχείων ROM με αυτήν την εφαρμογή.</string>
+    <string name="disclaimer_accept">Κατανοώ και αποδέχομαι</string>
+    <string name="disclaimer_terms">Συνεχίζοντας, αποδέχεστε τους όρους χρήσης αυτής της εφαρμογής.</string>
+    <string name="game_context_menu_edit">Επεξεργασία</string>
+    <string name="game_edit_title">Επεξεργασία παιχνιδιού</string>
+    <string name="game_edit_field_title">Τίτλος</string>
+    <string name="game_edit_field_system">Σύστημα</string>
+    <string name="game_edit_field_developer">Προγραμματιστής</string>
+    <string name="game_edit_file_label">Αρχείο:</string>
+    <string name="game_edit_save">Αποθήκευση</string>
+    <string name="game_edit_search_online">Αναζήτηση μεταδεδομένων στο διαδίκτυο</string>
+    <string name="game_edit_searching">Αναζήτηση…</string>
+    <string name="game_edit_no_results">Δεν βρέθηκαν αποτελέσματα</string>
+    <string name="game_edit_apply_metadata">Εφαρμογή μεταδεδομένων</string>
+    <string name="game_edit_unlock_metadata">Ξεκλείδωμα μεταδεδομένων (επιτρέπεται η αυτόματη ενημέρωση)</string>
+    <string name="catalog_search_placeholder">Αναζήτηση ROMs...</string>
+    <string name="catalog_filter_all_sources">Όλες οι πηγές</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Τοπικά</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Δεν βρέθηκαν αποτελέσματα</string>
+    <string name="catalog_downloads">Λήψεις</string>
+    <string name="catalog_clear_completed">Εκκαθάριση όλων</string>
+    <string name="catalog_downloading">Λήψη...</string>
+    <string name="catalog_downloaded">Λήφθηκε</string>
+    <string name="sources_manage_title">Διαχείριση πηγών</string>
+    <string name="sources_add_title">Προσθήκη πηγής</string>
+    <string name="sources_add_local">Προσθήκη τοπικού φακέλου</string>
+    <string name="sources_add_smb">Προσθήκη SMB/NAS</string>
+    <string name="sources_smb_name">Όνομα</string>
+    <string name="sources_smb_server">Διακομιστής</string>
+    <string name="sources_smb_path">Διαδρομή</string>
+    <string name="sources_smb_username">Όνομα χρήστη (προαιρετικό)</string>
+    <string name="sources_smb_password">Κωδικός πρόσβασης (προαιρετικός)</string>
+    <string name="sources_smb_domain">Τομέας (προαιρετικό)</string>
+    <string name="sources_edit">Επεξεργασία</string>
+    <string name="sources_delete">Διαγραφή</string>
+    <string name="sources_save">Αποθήκευση</string>
+    <string name="sources_cancel">Άκυρο</string>
+    <string name="sources_add">Προσθήκη</string>
+    <string name="sources_smb_display_name">Εμφανιζόμενο όνομα</string>
+    <string name="sources_smb_display_name_placeholder">Το NAS μου</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Πλήρης διαδρομή συμπεριλαμβανομένου του ονόματος κοινόχρηστου πόρου</string>
+    <string name="sources_smb_use_auth">Χρήση ελέγχου ταυτότητας</string>
+    <string name="sources_smb_username_label">Όνομα χρήστη</string>
+    <string name="sources_smb_password_label">Κωδικός πρόσβασης</string>
+    <string name="sources_smb_edit_title">Επεξεργασία πηγής SMB</string>
+    <string name="sources_smb_connection_title">Σύνδεση SMB</string>
+    <string name="sources_smb_test_connection">Δοκιμή σύνδεσης</string>
+    <string name="sources_smb_testing">Δοκιμή σύνδεσης...</string>
+    <string name="sources_smb_connection_success">Η σύνδεση ήταν επιτυχής!</string>
+    <string name="sources_smb_connection_failed">Η σύνδεση απέτυχε: %1$s</string>
+    <string name="sources_no_custom">Δεν έχουν ρυθμιστεί προσαρμοσμένες πηγές</string>
+    <string name="sources_local_permission_error">Αυτός ο φάκελος δεν μπορεί να προστεθεί επειδή το Android δεν παραχώρησε πρόσβαση. Επιλέξτε άλλον φάκελο.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Τοπικά αρχεία</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Αναζήτηση ROMs...</string>
+    <string name="catalog_packs_count">%1$d από %2$d πακέτα</string>
+    <string name="catalog_games_count">%1$d παιχνίδια</string>
+    <string name="catalog_load_more">Φόρτωση περισσότερων...</string>
+    <string name="catalog_load_more_packs">Φόρτωση περισσότερων πακέτων</string>
+    <string name="catalog_no_packs_found">Δεν βρέθηκαν πακέτα ROM</string>
+    <string name="catalog_no_files_found">Δεν βρέθηκαν αρχεία προς λήψη</string>
+    <string name="catalog_files_count">Αρχεία (%1$d):</string>
+    <string name="catalog_download_all">Όλα</string>
+    <string name="catalog_downloads_title">Λήψεις (%1$d)</string>
+    <string name="catalog_downloads_clear">Εκκαθάριση</string>
+    <string name="catalog_no_downloads">Καμία λήψη</string>
+    <string name="catalog_error_retry">Επανάληψη</string>
+    <string name="catalog_error_occurred">Παρουσιάστηκε σφάλμα</string>
+    <string name="catalog_invalid_download_title">Μη έγκυρο αρχείο καταλόγου</string>
+    <string name="catalog_invalid_download_message">Το αρχείο που κατεβάσατε δεν φαίνεται να είναι έγκυρο ROM για αυτό το σύστημα. Ο πάροχος ενδέχεται να έχει δημοσιεύσει ένα λανθασμένο ή μη υποστηριζόμενο αρχείο. Εάν δεν μπορείτε να βρείτε αυτό το ROM στον κατάλογο, μπορείτε να το κατεβάσετε χειροκίνητα και να το προσθέσετε στον φάκελο ROMs σας.</string>
+    <string name="catalog_region_all">🌍 Όλες</string>
+    <string name="catalog_region_usa">🇺🇸 ΗΠΑ</string>
+    <string name="catalog_region_europe">🇪🇺 Ευρώπη</string>
+    <string name="catalog_region_japan">🇯🇵 Ιαπωνία</string>
+    <string name="catalog_region_spain">🇪🇸 Ισπανία</string>
+    <string name="catalog_region_france">🇫🇷 Γαλλία</string>
+    <string name="catalog_region_germany">🇩🇪 Γερμανία</string>
+    <string name="catalog_region_italy">🇮🇹 Ιταλία</string>
+    <string name="catalog_region_brazil">🇧🇷 Βραζιλία</string>
+    <string name="catalog_region_korea">🇰🇷 Κορέα</string>
+    <string name="catalog_region_china">🇨🇳 Κίνα</string>
+    <string name="catalog_region_australia">🇦🇺 Αυστραλία</string>
+    <string name="catalog_sort_downloads">Περισσότερες λήψεις</string>
+    <string name="catalog_sort_name">Όνομα Α-Ω</string>
+    <string name="catalog_sort_size">Μεγαλύτερο μέγεθος</string>
+    <string name="catalog_error_503">Το Archive.org είναι εκτός λειτουργίας ή υπό συντήρηση. Δοκιμάστε ξανά αργότερα.</string>
+    <string name="catalog_error_502">Το Archive.org αντιμετωπίζει προβλήματα. Δοκιμάστε ξανά αργότερα.</string>
+    <string name="catalog_error_500">Το Archive.org παρουσίασε εσωτερικό σφάλμα. Δοκιμάστε ξανά αργότερα.</string>
+    <string name="catalog_error_ssl">Σφάλμα πιστοποιητικού SSL. Βεβαιωθείτε ότι η ημερομηνία και η ώρα της συσκευής σας είναι σωστές.</string>
+    <string name="catalog_error_timeout">Η σύνδεση με το Archive.org έληξε. Ελέγξτε τη σύνδεσή σας στο διαδίκτυο.</string>
+    <string name="catalog_error_no_internet">Δεν υπάρχει σύνδεση στο διαδίκτυο. Ελέγξτε τη σύνδεσή σας.</string>
+    <string name="catalog_error_unknown">Άγνωστο σφάλμα</string>
+    <string name="catalog_storage_warning_title">Δεν υπάρχει αρκετός χώρος</string>
+    <string name="catalog_storage_too_large">Το πακέτο που θέλετε να κατεβάσετε είναι πολύ μεγάλο.</string>
+    <string name="catalog_storage_download_size">Μέγεθος λήψης:</string>
+    <string name="catalog_storage_available">Διαθέσιμος χώρος:</string>
+    <string name="catalog_storage_needed">Απαιτείται επιπλέον χώρος:</string>
+    <string name="catalog_storage_free_space">Ελευθερώστε χώρο στη συσκευή σας ή επιλέξτε λιγότερα αρχεία για λήψη.</string>
+    <string name="catalog_storage_understood">Κατάλαβα</string>
+    <string name="catalog_path_warning_title">Η διαδρομή δεν έχει ρυθμιστεί!</string>
+    <string name="catalog_path_select_folder">Για να κατεβάσετε παιχνίδια, πρέπει να επιλέξετε έναν φάκελο για την αποθήκευσή τους.</string>
+    <string name="catalog_path_select_button">Επιλογή φακέλου</string>
+    <string name="delete_games_title">Διαγραφή %1$d παιχνιδιών;</string>
+    <string name="delete_games_warning">Αυτό θα αφαιρέσει τα επιλεγμένα παιχνίδια από τη βιβλιοθήκη σας και θα διαγράψει τα αρχεία ROM τους από τον δίσκο.</string>
+    <string name="delete_games_list_header">Παιχνίδια προς διαγραφή:</string>
+    <string name="delete_games_and_more">...και άλλα %1$d</string>
+    <string name="delete_games_confirm">Διαγραφή</string>
+    <string name="delete_mode_title">Επιλέξτε παιχνίδια για διαγραφή</string>
+    <string name="delete_selected">Διαγραφή επιλεγμένων (%1$d)</string>
+    <string name="settings_category_metadata">Μεταδεδομένα / Scraper</string>
+    <string name="settings_title_thegamesdb_apikey">Κλειδί API TheGamesDB</string>
+    <string name="settings_description_thegamesdb_apikey">Αποκτήστε ένα δωρεάν κλειδί στο thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Εισαγάγετε το κλειδί API TheGamesDB για να ανακτήσετε εξώφυλλα παιχνιδιών, περιγραφές και είδη.</string>
+    <string name="settings_thegamesdb_configured">Ρυθμίστηκε</string>
+    <string name="settings_thegamesdb_not_configured">Δεν έχει ρυθμιστεί</string>
+    <string name="metadata_dialog_apikey_title">Εισαγωγή κλειδιού API</string>
+    <string name="rom_migration_title">Μετακίνηση ROMs</string>
+    <string name="rom_migration_message">%1$d ROMs θα μετακινηθούν στο:\n\n%2$s\n\nΘέλετε να συνεχίσετε;</string>
+    <string name="rom_migration_progress_title">Μετακίνηση ROMs…</string>
+    <string name="rom_migration_progress">Μετακίνηση %1$s (%2$d από %3$d)</string>
+    <string name="rom_migration_success">%1$d ROMs μετακινήθηκαν με επιτυχία</string>
+    <string name="rom_migration_partial">Μετακινήθηκαν %1$d από %2$d ROMs. Ορισμένα αρχεία δεν ήταν δυνατον να μετακινηθούν.</string>
+    <string name="rom_migration_failed">Δεν ήταν δυνατον να μετακινηθούν οι ROMs: %1$s</string>
+    <string name="rom_migration_cancel">Ακύρωση</string>
+    <string name="rom_migration_confirm">Μετακίνηση</string>
+    <string name="rom_migration_smb_not_supported">Η αυτόματη μετακίνηση ROM δεν είναι διαθέσιμη για βιβλιοθήκες δικτύου (SMB)</string>
+    <string name="manual_header">Εγχειρίδιο χρήσης</string>
+    <string name="manual_section_first_steps">🚀 Πρώτα Βήματα</string>
+    <string name="manual_content_first_steps">1. Επιλέξτε έναν φάκελο για την αποθήκευση των ROMs σας από τις Ρυθμίσεις → Κατάλογος.
+
+2. Αντιγράψτε τα αρχεία ROM σας σε αυτόν τον φάκελο.
+
+3. Η εφαρμογή θα σαρώσει αυτόματα και θα εμφανίσει τα παιχνίδια σας στην αρχική οθόνη.</string>
+    <string name="manual_section_archive">🌐 Εξερεύνηση Καταλόγων</string>
+    <string name="manual_content_archive">Η ενότητα Κατάλογος σας επιτρέπει να εξερευνήσετε συλλογές ROM από πολλαπλές δημόσιες πηγές:
+
+• Archive.org: Μεγάλες συλλογές κλασικών ROMs.
+• itch.io: Δωρεάν homebrew παιχνίδια (απαιτείται δωρεάν κλειδί API).
+
+• Περιηγηθείτε ανά σύστημα ή αναζητήστε συγκεκριμένα παιχνίδια.
+• Πατήστε σε ένα παιχνίδι για να το κατεβάσετε στον φάκελο ROMs σας.
+• Τα κατεβασμένα παιχνίδια θα εμφανιστούν αυτόματα στη βιβλιοθήκη σας.</string>
+    <string name="manual_section_controls">🎮 Ρύθμιση Χειριστηρίων</string>
+    <string name="manual_content_controls">Συνδέστε ένα χειριστήριο Bluetooth ή USB και μεταβείτε στις Ρυθμίσεις → Ρυθμίσεις χειριστηρίου.
+
+• Επιλέξτε το χειριστήριό σας από τη λίστα.
+• Αντιστοιχίστε τα κουμπιά σύμφωνα με τις προτιμήσεις σας.
+• Ενεργοποιήστε τη δόνηση εάν το χειριστήριό σας την υποστηρίζει.</string>
+    <string name="manual_section_bios">💾 Απαιτούμενα BIOS</string>
+    <string name="manual_content_bios">Ορισμένα συστήματα (PlayStation, Game Boy Advance, κ.λπ.) απαιτούν αρχεία BIOS για να λειτουργήσουν.
+
+• Μεταβείτε στις Ρυθμίσεις → Πληροφορίες BIOS για να δείτε ποια αρχεία χρειάζεστε.
+• Τοποθετήστε τα αρχεία BIOS στον ίδιο φάκελο με τις ROMs σας.
+• Το όνομα του αρχείου πρέπει να ταιριάζει ακριβώς με αυτό που απαιτείται.</string>
+    <string name="manual_section_saves">💾 Αποθηκευμένα Παιχνίδια</string>
+    <string name="manual_content_saves">Η αυτόματη αποθήκευση είναι ενεργοποιημένη από προεπιλογή.
+
+• Κατά την έξοδο από ένα παιχνίδι, η πρόοδός σας αποθηκεύεται αυτόματα.
+• Κατά το άνοιγμα ξανά του παιχνιδιού, θα συνεχίσετε από εκεί που σταματήσατε.
+• Μπορείτε επίσης να χρησιμοποιήσετε το δικό του σύστημα αποθήκευσης του παιχνιδιού (μενού εντός παιχνιδιού).</string>
+    <string name="manual_section_sync">☁️ Συγχρονισμός Cloud</string>
+    <string name="manual_content_sync">Μπορείτε να συγχρονίσετε τα αποθηκευμένα παιχνίδια σας με το Google Drive.
+
+• Μεταβείτε στις Ρυθμίσεις → Συγχρονισμός Αποθηκεύσεων.
+• Συνδεθείτε με τον λογαριασμό σας Google.
+• Οι αποθηκεύσεις σας θα συγχρονιστούν αυτόματα σε όλες τις συσκευές.</string>
+    <string name="manual_section_gameplay">🕹️ Κατά τη διάρκεια του παιχνιδιού</string>
+    <string name="manual_content_gameplay">Για να αποκτήσετε πρόσβαση στο μενού κατά τη διάρκεια του παιχνιδιού:
+
+• Πατήστε το κουμπί μενού (☰) ή σύρετε από την άκρη της οθόνης.
+• Από εκεί μπορείτε: να αποθηκεύσετε/φορτώσετε καταστάσεις, να αλλάξετε θέση αποθήκευσης, να αποκτήσετε πρόσβαση σε γρήγορες επιλογές ή να εξέλθετε από το παιχνίδι.</string>
+    <string name="about_version">Έκδοση %1$s</string>
+    <string name="about_section_origin">Προέλευση Λογισμικού</string>
+    <string name="about_content_origin_1">Αυτή η εφαρμογή είναι ένα fork του έργου ανοιχτού κώδικα Lemuroid, που διανέμεται υπό την άδεια GPL-3.0.</string>
+    <string name="about_content_origin_2">Προστέθηκαν δυνατότητες εξερεύνησης για δημόσια διαθέσιμο περιεχόμενο στο Archive.org και δωρεάν homebrew παιχνίδια από το itch.io.</string>
+    <string name="about_section_source">Κώδικας Πηγής</string>
+    <string name="about_content_source">Ο κώδικας πηγής αυτής της τροποποιημένης έκδοσης είναι διαθέσιμος υπό την άδεια GPL-3.0.</string>
+    <string name="about_button_github">Προβολή κώδικα πηγής (GitHub)</string>
+    <string name="about_section_licenses">Άδειες Τρίτων</string>
+    <string name="about_section_legal">Νομική Σημείωση</string>
+    <string name="about_content_legal">Αυτή η εφαρμογή δεν περιλαμβάνει ROMs και δεν κατεβάζει περιεχόμενο αυτόματα. Η δυνατότητα εξερεύνησης εμφανίζει μόνο συλλογές που είναι δημόσια διαθέσιμες στο Archive.org και δωρεάν homebrew παιχνίδια από το itch.io. Ο χρήστης είναι υπεύθυνος για την επαλήθευση των δικαιωμάτων του για πρόσβαση ή χρήση οποιωνδήποτε εξωτερικών αρχείων.</string>
+    <string name="about_section_report">Αναφορά Σφάλματος</string>
+    <string name="about_content_report">Βρήκατε κάποιο σφάλμα ή έχετε μια πρόταση; Βοηθήστε μας να βελτιωθούμε στέλνοντας μια ανώνυμη αναφορά.</string>
+    <string name="about_button_report">🐛 Αναφορά σφάλματος</string>
+    <string name="about_no_browser">Δεν υπάρχει εγκατεστημένο πρόγραμμα περιήγησης για το άνοιγμα του συνδέσμου</string>
+    <string name="about_no_browser_report">Δεν υπάρχει εγκατεστημένο πρόγραμμα περιήγησης για το άνοιγμα της σελίδας αναφοράς σφαλμάτων</string>
+    <string name="bug_report_error">Δεν ήταν δυνατον να φορτωθεί η φόρμα αναφοράς σφαλμάτων. Ελέγξτε τη σύνδεσή σας στο διαδίκτυο.</string>
+    <string name="bug_report_select_images">Επιλογή εικόνων</string>
+    <string name="about_open_with">Άνοιγμα με</string>
+    <string name="catalog_disclaimer">⚠️ Αυτός ο κατάλογος συνδέεται με δημόσια αποθετήρια (Archive.org και itch.io) που δεν σχετίζονται με το EmulAItor. Μόνο δωρεάν περιεχόμενο homebrew αναφέρεται από το itch.io. Η χρήση, λήψη και κατοχή αυτού του υλικού είναι αποκλειστική ευθύνη του χρήστη. 🧠 Παρόλο που το EmulAItor φιλτράρει έξυπνα τα αρχεία, ενδέχεται να υπάρχουν σπασμένοι σύνδεσμοι, μη συμβατά αρχεία ή περιεχόμενο που δεν είναι ROM.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io Homebrew</string>
+    <string name="itch_api_key_title">Κλειδί API itch.io</string>
+    <string name="itch_api_key_subtitle">Απαιτείται για τη λήψη παιχνιδιών από το itch.io</string>
+    <string name="itch_api_key_instructions">Για να κατεβάσετε δωρεάν παιχνίδια homebrew από το itch.io, χρειάζεστε ένα κλειδί API:
+
+1. Μεταβείτε στο &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; και δημιουργήστε δωρεάν λογαριασμό
+2. Μεταβείτε στις &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Ρυθμίσεις → Κλειδιά API&lt;/a&gt;
+3. Δημιουργήστε ένα νέο κλειδί και αντιγράψτε το
+4. Επικολλήστε το παρακάτω</string>
+    <string name="itch_api_key_hint">Επικολλήστε το κλειδί API του itch.io εδώ</string>
+    <string name="itch_api_key_validating">Επικύρωση κλειδιού API…</string>
+    <string name="itch_api_key_valid">Το κλειδί API είναι έγκυρο ✓</string>
+    <string name="itch_api_key_invalid">Μη έγκυρο κλειδί API. Ελέγξτε και δοκιμάστε ξανά.</string>
+    <string name="itch_api_key_saved">Το κλειδί API αποθηκεύτηκε με επιτυχία</string>
+    <string name="itch_api_key_required_title">Απαιτείται κλειδί API</string>
+    <string name="itch_api_key_required_message">Χρειάζεστε ένα κλειδί API του itch.io για να κατεβάσετε παιχνίδια. Θέλετε να το ρυθμίσετε τώρα;</string>
+    <string name="itch_no_results">Δεν βρέθηκαν παιχνίδια homebrew για αυτό το σύστημα στο itch.io</string>
+    <string name="itch_unsupported_system">Το itch.io δεν έχει περιεχόμενο homebrew για αυτό το σύστημα. Δοκιμάστε NES, SNES, GBA, GBC ή Genesis.</string>
+    <string name="itch_game_free">Δωρεάν</string>
+    <string name="itch_game_by">από %1$s</string>
+    <string name="pack_fully_downloaded">Πλήρως λήφθηκε</string>
+    <string name="itch_uploads_title">Διαθέσιμα αρχεία</string>
+    <string name="itch_no_rom_uploads">Δεν βρέθηκαν αρχεία ROM για λήψη για αυτό το παιχνίδι</string>
+    <string name="itch_download_error">Αποτυχία λήψης από το itch.io: %1$s</string>
+    <string name="itch_settings_edit_key">Επεξεργασία κλειδιού</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Ξεκλειδώστε την πλήρη πρόσβαση</string>
+    <string name="paywall_description">Η δωρεάν δοκιμαστική περίοδος έληξε. Για να συνεχίσετε, επιλέξτε μία από τις παρακάτω επιλογές.</string>
+<string name="paywall_buy_button">Αγορά έκδοσης Pro</string>
+    <string name="paywall_restore_title">Το έχετε ήδη αγοράσει στο παρελθόν;</string>
+    <string name="paywall_restore_description">Εάν αγοράσατε το EmulAItor πριν γίνει δωρεάν, εισαγάγετε το Google Play Order ID (GPA...) για να επαναφέρετε την πρόσβασή σας.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Επαναφορά αγοράς</string>
+    <string name="paywall_where_is_receipt">Πού μπορώ να βρω την απόδειξή μου;</string>
+    <string name="paywall_receipt_instructions_title">Πώς να βρείτε το Order ID σας</string>
+    <string name="paywall_receipt_instructions_1">Επιλογή Α: Αναζητήστε το \"Google Play Receipt EmulAItor\" στο Gmail σας.</string>
+    <string name="paywall_receipt_instructions_2">Επιλογή Β: Μεταβείτε στο pay.google.com, ελέγξτε τη Δραστηριότητά σας και αναζητήστε το EmulAItor.</string>
+    <string name="paywall_receipt_open_web">Άνοιγμα του pay.google.com</string>
+    <string name="paywall_support_fallback">Εάν δεν μπορείτε να το βρείτε, επικοινωνήστε με την υποστήριξη.</string>
+    <string name="paywall_success">Η αγορά αποκαταστάθηκε με επιτυχία. Σας ευχαριστούμε!</string>
+    <string name="paywall_error_invalid_gpa">Μη έγκυρος κωδικός GPA ή έχει ήδη χρησιμοποιηθεί.</string>
+    <string name="paywall_error_limit_exceeded">Αυτός ο κωδικός χρησιμοποιείται ήδη στον μέγιστο επιτρεπόμενο αριθμό συσκευών. Παρακαλούμε αγοράστε μια νέα άδεια από τις παραπάνω επιλογές.</string>
+<string name="paywall_error_network">Σφάλμα δικτύου. Ελέγξτε τη σύνδεσή σας.</string>
+    <string name="paywall_error_unknown">Παρουσιάστηκε ένα άγνωστο σφάλμα.</string>
+    <string name="paywall_restoring">Επαναφορά...</string>
+    <string name="paywall_buy_subscription">Μηνιαία συνδρομή</string>
+    <string name="paywall_buy_lifetime">Μόνιμο ξεκλείδωμα</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generated/maintained by .agent/scripts/i18n_tool. -->
+    <string name="title_home">Domov</string>
+    <string name="title_search">Iskanje</string>
+    <string name="title_systems">Sistemi</string>
+    <string name="title_games">Igre</string>
+    <string name="title_settings">Nastavitve</string>
+    <string name="title_catalog">Katalog</string>
+    <string name="settings_title_about">O aplikaciji</string>
+    <string name="settings_title_manual">Uporabniški priročnik</string>
+    <string name="settings_description_manual">Kako uporabljati EmulAItor</string>
+    <string name="recent">Nedavno</string>
+    <string name="favorites">Priljubljene</string>
+    <string name="discover">Odkrijte</string>
+    <string name="rescan">Ponovno skeniraj</string>
+    <string name="stop">Ustavi</string>
+    <string name="none">Brez</string>
+    <string name="directory">Mapa</string>
+    <string name="display_filter">Filter prikaza</string>
+    <string name="roms">ROM-i</string>
+    <string name="ok">V redu</string>
+    <string name="cancel">Prekliči</string>
+    <string name="settings">Nastavitve</string>
+    <string name="save_sync">Sinhronizacija shranjenih datotek</string>
+    <string name="show_all">Prikaži vse</string>
+    <string name="back">Nazaj</string>
+    <string name="close">Zapri</string>
+    <string name="license_not_verified_title">Licenca ni preverjena</string>
+    <string name="game_page_search_suggestion">Išči igre</string>
+    <string name="settings_category_general">Splošno</string>
+    <string name="settings_category_input">Vnos</string>
+    <string name="settings_category_misc">Razno</string>
+    <string name="settings_title_enable_autosave">Samodejno shranjevanje stanja</string>
+    <string name="settings_description_enable_autosave">Shrani stanje ob izhodu prek menija igre</string>
+    <string name="settings_title_enable_touch_feedback">Vibriranje ob dotiku</string>
+    <string name="settings_title_tilt_sensitivity">Občutljivost senzorja nagiba</string>
+    <string name="settings_title_hd_quality">Kakovost HD načina</string>
+    <string name="settings_title_maximum_cache_usage">Omejitev velikosti predpomnilnika</string>
+    <string name="settings_title_hd_mode">HD način</string>
+    <string name="settings_description_hd_mode">Uporabi filter za povečavo ločljivosti (upscaling)</string>
+    <string name="settings_description_hd_quality">Prilagodite kakovost HD načina</string>
+    <string name="home_hd_mode_enabled">HD način vklopljen</string>
+    <string name="home_hd_mode_disabled">HD način izklopljen</string>
+    <string name="settings_title_immersive_mode">Poglobljeni način</string>
+    <string name="settings_description_immersive_mode">Dinamično obarva ozadje glede na vizualno podobo igre</string>
+    <string name="settings_title_gamepad_settings">Zunanje naprave</string>
+    <string name="settings_description_gamepad_settings">Konfigurirajte zunanje igralne ploščke in tipkovnice</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">Omogočene naprave</string>
+    <string name="settings_gamepad_category_general">Splošno</string>
+    <string name="settings_gamepad_title_reset_bindings">Ponastavi vezave</string>
+    <string name="settings_gamepad_title_game_menu">Meni</string>
+    <string name="settings_title_open_cores_selection">Spremeni jedra</string>
+    <string name="settings_description_open_cores_selection">Izberite, katero jedro je povezano s sistemom</string>
+    <string name="settings_core_selection_ds_info">DeSmuME je zastarel in bo odstranjen v eni od naslednjih posodobitev. Shranite svoj napredek v igri in nato preklopite na melonDS. Shranjevanje v igri se bo samodejno naložilo v melonDS, vendar lahko stanja shranjevanja (save states) uporabljate le z jedrom, ki jih je ustvarilo.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">Prikaži zaznane in podprte datoteke BIOS</string>
+    <string name="settings_bios_help">Če želite dodati datoteke BIOS, jih postavite v mapo ROMs in ponovno skenirajte. Ime datoteke se mora popolnoma ujemati.</string>
+    <string name="settings_bios_category_detected">Zaznano</string>
+    <string name="settings_bios_category_not_detected">Podprto</string>
+    <string name="settings_title_reset_settings">Tovarniška ponastavitev</string>
+    <string name="settings_description_reset_settings">Ponastavi EmulAItor na tovarniške nastavitve</string>
+    <string name="settings_title_advanced_settings">Napredne nastavitve</string>
+    <string name="settings_description_advanced_settings">Prikaži napredne nastavitve</string>
+    <string name="settings_title_low_latency_audio">Prednost zvoka z nizko zakasnitvijo</string>
+    <string name="settings_description_low_latency_audio">Zmanjšajte zakasnitev zvoka na podprtih napravah. Lahko poveča število zvočnih napak.</string>
+    <string name="settings_title_direct_game_load">Neposredno nalaganje igre</string>
+    <string name="settings_description_direct_game_load">(Eksperimentalno) Zmanjšajte čas nalaganja in uporabo predpomnilnika na podprtih konzolah.</string>
+    <string name="settings_title_enable_rumble">Tresenje (Rumble)</string>
+    <string name="settings_description_enable_rumble">Omogoči tresenje v podprtih igrah in krmilnikih</string>
+    <string name="settings_title_enable_device_rumble">Tresenje naprave</string>
+    <string name="settings_description_enable_device_rumble">Ko ni povezan noben krmilnik, namesto tega vibrira naprava</string>
+    <string name="reset_settings_warning_message_title">Ste prepričani?</string>
+    <string name="reset_settings_warning_message_description">To bo ponastavilo EmulAItor na tovarniške nastavitve. Shranjene igre in stanja bodo ohranjeni.</string>
+    <string name="settings_title_save_sync">Shranjevanje v oblaku</string>
+    <string name="settings_description_save_sync">Varnostno kopirajte in sinhronizirajte svoje shranjene igre v oblaku</string>
+    <string name="settings_save_sync_refresh">Ročna sinhronizacija</string>
+    <string name="settings_save_sync_refresh_description">Izvedite ročno sinhronizacijo zdaj.
+%1$s</string>
+    <string name="settings_save_sync_enable_auto">Samodejna sinhronizacija</string>
+    <string name="settings_save_sync_enable_auto_description">Samodejno izvedi sinhronizacijo pred in po igranju, ko ste povezani v Wi-Fi</string>
+    <string name="settings_save_sync_configure">Konfiguriraj %1$s</string>
+    <string name="settings_save_sync_include_saves">Sinhroniziraj shranjene igre</string>
+    <string name="settings_save_sync_include_saves_description">%1$s v napravi</string>
+    <string name="settings_save_sync_include_states">Sinhroniziraj stanja</string>
+    <string name="settings_save_sync_include_states_description">Bolj priročno, vendar zahtevnejše in manj zanesljivo. Izberite, katera jedra/sisteme želite sinhronizirati</string>
+    <string name="game_context_menu_add_to_favorites">Dodaj med priljubljene</string>
+    <string name="game_context_menu_remove_from_favorites">Odstrani iz priljubljenih</string>
+    <string name="game_context_menu_resume">Nadaljuj</string>
+    <string name="game_context_menu_restart">Ponovni zagon</string>
+    <string name="game_context_menu_create_shortcut">Pripni na začetni zaslon</string>
+    <string name="game_context_menu_delete">Izbriši</string>
+    <string name="game_delete_confirmation">Ali ste prepričani, da želite izbrisati »%1$s«? To bo odstranilo igro iz vaše knjižnice in izbrisalo datoteko.</string>
+    <string name="game_deleted">Igra izbrisana</string>
+    <string name="home_notification_title">Omogoči obvestila</string>
+    <string name="home_notification_message">EmulAItor uporablja obvestila, da vas obvesti, ko igra ali postopek deluje v ozadju.</string>
+    <string name="home_notification_action">Omogoči</string>
+    <string name="home_microphone_title">Omogoči mikrofon</string>
+    <string name="home_microphone_message">Igre za Nintendo DS lahko uporabljajo mikrofon za zagotavljanje nekaterih funkcij.</string>
+    <string name="home_microphone_action">Omogoči</string>
+    <string name="home_empty_title">Izberite mapo z ROM-i</string>
+    <string name="home_empty_message">EmulAItor mora pregledati mapo, ki vsebuje datoteke ROM.
+To lahko traja nekaj minut.</string>
+    <string name="home_empty_action">Izberi mapo</string>
+    <string name="home_storage_inaccessible_title">Mapa z ROM-i ni dostopna</string>
+    <string name="home_storage_inaccessible_message">Android ne dovoljuje, da bi EmulAItor dostopal do izbrane mape z ROM-i. Mapa je bila morda premaknjena, izbrisana ali blokirana s sistemskimi dovoljenji. Ponovno izberite mapo ali izberite drugo.</string>
+    <string name="home_storage_inaccessible_action">Izberi drugo mapo</string>
+    <string name="update_available_banner">Na voljo je novejša različica EmulAItor. Tapnite za posodobitev.</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME se upokojuje</string>
+    <string name="home_notification_desmume_deprecated_message">Shranite igro in preklopite na melonDS, da ohranite svoj napredek. Shranjena stanja se ne bodo prenesla in bodo ostala uporabna samo v DeSmuME.</string>
+    <string name="home_notification_desmume_deprecated_action">Preklopi na melonDS</string>
+    <string name="game_menu_save">Shrani</string>
+    <string name="game_menu_load">Naloži</string>
+    <string name="game_menu_restart">Ponovni zagon</string>
+    <string name="game_menu_quit">Izhod</string>
+    <string name="game_menu_settings">Nastavitve</string>
+    <string name="game_menu_state">Stanje %1$s</string>
+    <string name="game_menu_change_disk_button">Zamenjaj disk</string>
+    <string name="game_menu_edit_touch_controls">Uredi kontrole</string>
+    <string name="game_menu_mute_audio">Utišaj</string>
+    <string name="game_menu_fast_forward">Hitro naprej</string>
+    <string name="game_menu_change_disk_disk">Disk %1$s</string>
+    <string name="game_menu_tilt_sensor">Senzor nagiba</string>
+    <string name="game_loading_preparing_game">Priprava igre...</string>
+    <string name="game_toast_settings_button_using_gamepad">Zaznan igralni plošček. Do menija z nastavitvami dostopate s %1$s.</string>
+    <string name="game_toast_load_state_failed">Tega stanja ni mogoče naložiti</string>
+    <string name="game_toast_quick_save_loaded">Hitro naloženo</string>
+    <string name="game_toast_quick_save_saved">Hitro shranjeno</string>
+    <string name="empty_view_default">Ni elementov</string>
+    <string name="core_settings_title">Nastavitve jedra</string>
+    <string name="core_settings_category_preferences">Nastavitve</string>
+    <string name="core_settings_category_controllers">Krmilniki</string>
+    <string name="core_settings_controller">Krmilnik %1$s</string>
+    <string name="game_menu_title">Meni igre</string>
+    <string name="notification_channel_name">Vsa obvestila</string>
+    <string name="library_index_notification_title">Poteka iskanje ROM-ov</string>
+    <string name="library_index_notification_message">To lahko traja nekaj minut</string>
+    <string name="library_metadata_enrichment_in_progress">Posodabljanje podrobnosti ROM-ov v ozadju. Lahko nadaljujete z igranjem.</string>
+    <string name="save_sync_notification_title">Poteka sinhronizacija shranjenih iger v oblaku</string>
+    <string name="save_sync_notification_message">To lahko traja nekaj minut</string>
+    <string name="game_running_notification_title">%1$s se izvaja</string>
+    <string name="game_running_notification_title_alternative">Igra se izvaja</string>
+    <string name="game_running_notification_message">Ne pozabite shraniti svojega napredka</string>
+    <string name="game_loader_error_gl_incompatible">To jedro zahteva različico OpenGL ES, ki je vaša naprava ne podpira.</string>
+    <string name="game_loader_error_load_game">Pri nalaganju igre je prišlo do napake. Prepričajte se, da Lemuroid podpira ta ROM, in ponovno preglejte svoje igre.</string>
+    <string name="game_loader_error_save">Prišlo je do težave z vašo datoteko shranjevanja. Če se težava ponavlja, poskusite onemogočiti samodejno shranjevanje.</string>
+    <string name="game_loader_error_unsupported_architecture">Vaša naprava ne podpira tega jedra.</string>
+    <string name="game_loader_error_generic">Prišlo je do napake. Poskusite naslednje:
+
+
+• Onemogočite samodejno shranjevanje in ponovno zaženite igro
+
+• Pojdite v nastavitve Androida in počistite predpomnilnik aplikacije
+
+• Pojdite v nastavitve Lemuroid in izvedite ponastavitev na tovarniške nastavitve
+
+
+Če nič od naštetega ne deluje, morda ta igra/jedro ni podprto na tej napravi.</string>
+    <string name="game_loader_error_missing_bios">Videti je, da manjkajo zahtevani BIOS-i. Postavite jih v mapo z ROM-i in ponovno zaženite iskanje. Zahtevane datoteke: %1$s</string>
+    <string name="game_shortcut_error">Pri nalaganju igre je prišlo do napake. Prepričajte se, da igra še vedno obstaja v vaši knjižnici.</string>
+    <string name="dialog_saf_not_found">Ta naprava ne podpira izbirnika datotek StorageAccessFramework. Ročno kopirajte nestisnjene datoteke ROM v %1$s in pritisnite Ponovno iskanje.</string>
+    <string name="system_grid_details">%1$s iger</string>
+    <string name="tv_folder_picker_title">Izberite mapo z ROM-i</string>
+    <string name="tv_folder_picker_action_choose">Izberi</string>
+    <string name="tv_folder_picker_action_cancel">Prekliči</string>
+    <string name="tv_folder_storage_primary">Primarni pomnilnik</string>
+    <string name="tv_folder_storage_secondary">Sekundarni pomnilnik %1$s</string>
+    <string name="tv_folder_storage_title">Izberite pomnilnik</string>
+    <string name="tv_folder_error_access">Do te mape ni mogoče dostopati. Izberite podmapo ali drugo lokacijo.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">Mapa z ROM-i</string>
+    <string name="settings_description_choose_directory">Izberite mapo, ki vsebuje vaše igre</string>
+    <string name="tv_home_section_favorites">Priljubljene</string>
+    <string name="tv_home_section_recents">Nedavno</string>
+    <string name="tv_home_section_systems">Sistemi</string>
+    <string name="tv_home_section_settings">Nastavitve</string>
+    <string name="gamepad_binding_update_title">Poveži »RetroPad %1$s«</string>
+    <string name="gamepad_binding_update_description">Pritisnite gumb na svojem »%1$s«</string>
+    <string name="shortcut_binding_update_title">Poveži »Bližnjica %1$s«</string>
+    <string name="shortcut_binding_update_description">Pritisnite prvi in nato drugi gumb, da povežete kombinacijo na svojem »%1$s«</string>
+    <string name="tv_search_results">Igre</string>
+    <string name="tv_game_message_missing_gamepad">Za igranje so potrebni igralni ploščki. Prosimo, povežite enega.</string>
+    <string name="game_edit_touch_controls_error_not_visible">Odklopite plošček, da uredite kontrole na dotik</string>
+    <string name="game_interactory_busy">Počakajte, da se čakajoče operacije zaključijo</string>
+    <string name="pending_operations_blocked_title">Operacije so morda obtičale</string>
+    <string name="pending_operations_blocked_message_external">Čakajoč proces iz starejše različice morda blokira indeksiranje ROM-ov. Lahko počakate ali počistite podatke aplikacije za obnovitev. Vaše datoteke ROM ne bodo izbrisane, vendar boste morali znova izbrati mapo z ROM-i. Če to traja več kot 5 minut, priporočamo čiščenje podatkov aplikacije.</string>
+    <string name="pending_operations_blocked_message_internal">Čakajoč proces iz starejše različice morda blokira indeksiranje ROM-ov. Lahko počakate ali odprete nastavitve in preverite konfiguracijo shranjevanja.</string>
+    <string name="pending_operations_clear_data">Počisti podatke aplikacije</string>
+    <string name="pending_operations_keep_waiting">Počakaj</string>
+    <string name="pending_operations_clear_data_confirm_title">Počistiti podatke aplikacije?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor bo zdaj ponastavil svoje podatke. Vaše datoteke ROM ne bodo izbrisane, vendar boste morali znova izbrati mapo z ROM-i.</string>
+    <string name="pending_operations_clear_data_confirm_button">Počisti podatke</string>
+    <string name="mobile_settings_help">Pomoč</string>
+    <string name="mobile_settings_support">Podpora</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;O EmulAItor&lt;/b&gt;&lt;br/&gt;
+        Ta aplikacija je izpeljanka odprtokodnega projekta &lt;b&gt;Lemuroid&lt;/b&gt;, distribuiranega pod licenco &lt;b&gt;GPL-3.0&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Pomembno obvestilo&lt;/b&gt;&lt;br/&gt;
+        Ta aplikacija ne vključuje iger in ne prenaša samodejno nobene vsebine. Funkcija brskanja prikazuje vsebino, ki je javno dostopna na Archive.org, in brezplačne homebrew igre z itch.io. Uporabnik je odgovoren za preverjanje svojih pravic do dostopa ali uporabe katerega koli ROM-a iz zunanjih virov.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Kako uporabljam to aplikacijo?&lt;/b&gt;&lt;br/&gt;
+        Kopirajte svoje datoteke ROM v mapo na svoji napravi in jo izberite v aplikaciji. Ta mapa ima lahko podmape. Po končanem skeniranju bi morali videti svoje igre.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Zakaj moje igre niso zaznane?&lt;/b&gt;&lt;br/&gt;
+        Če so vaše igre stisnjene, jih poskusite razširiti. Če to ne deluje, postavite ROM-e v ločene mape, eno za vsak sistem z naslednjimi imeni: $SYSTEMS.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;Licence&lt;/b&gt;&lt;br/&gt;
+        Lemuroid: GPL-3.0 (Swordfish90)&lt;br/&gt;
+        LibretroDroid: GPL-3.0&lt;br/&gt;
+        Libretro Cores: Različne licence</string>
+    <string name="lemuroid_crash_disclamer">Videti je, da je jedro Libretro naletelo na nepričakovano težavo. Če se težava ponavlja, poskusite naslednje:
+
+        \n• Onemogočite samodejno shranjevanje in znova zaženite igro
+        \n• Pojdite v nastavitve Androida in počistite predpomnilnik aplikacije
+        \n• Pojdite v nastavitve Lemuroid in izvedite tovarniško ponastavitev
+        \n\n Če nič od naštetega ne deluje, je možno, da ta igra/jedro ni podprto s strani te naprave.</string>
+    <string name="error_message_incompatible_state">To stanje shranjevanja ni združljivo s trenutno različico jedra. Prosimo, naložite najnovejše shranjevanje v igri ali uporabite prejšnjo različico Lemuroid.</string>
+    <string name="shader_filter_names_auto">Samodejno</string>
+    <string name="shader_filter_names_sharp">Ostro</string>
+    <string name="shader_filter_names_smooth">Gladko</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">Brez</string>
+    <string name="haptic_feedback_mode_names_press">Pritisk</string>
+    <string name="haptic_feedback_mode_names_press_release">Pritisk in sprostitev</string>
+    <string name="tilt_configuration_disabled">Onemogočeno</string>
+    <string name="tilt_configuration_cross">DPAD</string>
+    <string name="tilt_configuration_analog_left">Levi analogni krmilnik</string>
+    <string name="tilt_configuration_analog_right">Desni analogni krmilnik</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+    <string name="disclaimer_title">Pomembno obvestilo</string>
+    <string name="disclaimer_software_origin_title">Izvor programske opreme</string>
+    <string name="disclaimer_software_origin_text">Ta aplikacija je izpeljanka odprtokodnega projekta Lemuroid, distribuiranega pod licenco GPL-3.0.</string>
+    <string name="disclaimer_no_content_title">Vsebina ni vključena</string>
+    <string name="disclaimer_no_content_text">Ta aplikacija ne vključuje iger in ne prenaša samodejno nobenih datotek.</string>
+    <string name="disclaimer_archive_title">Viri javnega kataloga</string>
+    <string name="disclaimer_archive_text">Funkcija brskanja prikazuje vsebino, ki je javno dostopna na Archive.org, in brezplačne homebrew igre z itch.io. EmulAItor ni povezan z nobeno od teh storitev. Uporabnik je odgovoren za preverjanje svojih pravic do dostopa ali uporabe katere koli ROM datoteke.</string>
+    <string name="disclaimer_user_responsibility_title">Odgovornost uporabnika</string>
+    <string name="disclaimer_user_responsibility_text">Sami ste odgovorni za to, da imate zakonsko pravico do uporabe datotek ROM s to aplikacijo.</string>
+    <string name="disclaimer_accept">Razumem in sprejemam</string>
+    <string name="disclaimer_terms">Z nadaljevanjem sprejemate pogoje uporabe te aplikacije.</string>
+    <string name="game_context_menu_edit">Uredi</string>
+    <string name="game_edit_title">Uredi igro</string>
+    <string name="game_edit_field_title">Naslov</string>
+    <string name="game_edit_field_system">Sistem</string>
+    <string name="game_edit_field_developer">Razvijalec</string>
+    <string name="game_edit_file_label">Datoteka:</string>
+    <string name="game_edit_save">Shrani</string>
+    <string name="game_edit_search_online">Išči metapodatke na spletu</string>
+    <string name="game_edit_searching">Iskanje...</string>
+    <string name="game_edit_no_results">Ni najdenih rezultatov</string>
+    <string name="game_edit_apply_metadata">Uporabi metapodatke</string>
+    <string name="game_edit_unlock_metadata">Odkleni metapodatke (omogoči samodejno posodabljanje)</string>
+    <string name="catalog_search_placeholder">Išči ROM-e...</string>
+    <string name="catalog_filter_all_sources">Vsi viri</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">Lokalno</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">Ni najdenih rezultatov</string>
+    <string name="catalog_downloads">Prenosi</string>
+    <string name="catalog_clear_completed">Počisti vse</string>
+    <string name="catalog_downloading">Prenašanje...</string>
+    <string name="catalog_downloaded">Preneseno</string>
+    <string name="sources_manage_title">Upravljanje virov</string>
+    <string name="sources_add_title">Dodaj vir</string>
+    <string name="sources_add_local">Dodaj lokalno mapo</string>
+    <string name="sources_add_smb">Dodaj SMB/NAS</string>
+    <string name="sources_smb_name">Ime</string>
+    <string name="sources_smb_server">Strežnik</string>
+    <string name="sources_smb_path">Pot</string>
+    <string name="sources_smb_username">Uporabniško ime (neobvezno)</string>
+    <string name="sources_smb_password">Geslo (neobvezno)</string>
+    <string name="sources_smb_domain">Domena (izbirno)</string>
+    <string name="sources_edit">Uredi</string>
+    <string name="sources_delete">Izbriši</string>
+    <string name="sources_save">Shrani</string>
+    <string name="sources_cancel">Prekliči</string>
+    <string name="sources_add">Dodaj</string>
+    <string name="sources_smb_display_name">Prikazno ime</string>
+    <string name="sources_smb_display_name_placeholder">Moj NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">Celotna pot, vključno z imenom skupne rabe</string>
+    <string name="sources_smb_use_auth">Uporabi avtentikacijo</string>
+    <string name="sources_smb_username_label">Uporabniško ime</string>
+    <string name="sources_smb_password_label">Geslo</string>
+    <string name="sources_smb_edit_title">Uredi SMB vir</string>
+    <string name="sources_smb_connection_title">SMB povezava</string>
+    <string name="sources_smb_test_connection">Preizkusi povezavo</string>
+    <string name="sources_smb_testing">Preizkušanje povezave...</string>
+    <string name="sources_smb_connection_success">Povezava uspešna!</string>
+    <string name="sources_smb_connection_failed">Povezava ni uspela: %1$s</string>
+    <string name="sources_no_custom">Ni konfiguriranih virov po meri</string>
+    <string name="sources_local_permission_error">Te mape ni mogoče dodati, ker Android ni odobril dostopa. Izberite drugo mapo.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 Lokalne datoteke</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">Išči ROM-e...</string>
+    <string name="catalog_packs_count">%1$d od %2$d paketov</string>
+    <string name="catalog_games_count">%1$d iger</string>
+    <string name="catalog_load_more">Naloži več...</string>
+    <string name="catalog_load_more_packs">Naloži več paketov</string>
+    <string name="catalog_no_packs_found">Ni najdenih ROM paketov</string>
+    <string name="catalog_no_files_found">Ni najdenih datotek za prenos</string>
+    <string name="catalog_files_count">Datoteke (%1$d):</string>
+    <string name="catalog_download_all">Vse</string>
+    <string name="catalog_downloads_title">Prenosi (%1$d)</string>
+    <string name="catalog_downloads_clear">Počisti</string>
+    <string name="catalog_no_downloads">Ni prenosov</string>
+    <string name="catalog_error_retry">Poskusi znova</string>
+    <string name="catalog_error_occurred">Prišlo je do napake</string>
+    <string name="catalog_invalid_download_title">Neveljavna datoteka kataloga</string>
+    <string name="catalog_invalid_download_message">Prenesena datoteka ni veljavna ROM datoteka za ta sistem. Ponudnik je morda objavil napačno ali nepodprto datoteko. Če tega ROM-a ne najdete v katalogu, ga lahko prenesete ročno in dodate v svojo mapo z ROM-i.</string>
+    <string name="catalog_region_all">🌍 Vse</string>
+    <string name="catalog_region_usa">🇺🇸 ZDA</string>
+    <string name="catalog_region_europe">🇪🇺 Evropa</string>
+    <string name="catalog_region_japan">🇯🇵 Japonska</string>
+    <string name="catalog_region_spain">🇪🇸 Španija</string>
+    <string name="catalog_region_france">🇫🇷 Francija</string>
+    <string name="catalog_region_germany">🇩🇪 Nemčija</string>
+    <string name="catalog_region_italy">🇮🇹 Italija</string>
+    <string name="catalog_region_brazil">🇧🇷 Brazilija</string>
+    <string name="catalog_region_korea">🇰🇷 Koreja</string>
+    <string name="catalog_region_china">🇨🇳 Kitajska</string>
+    <string name="catalog_region_australia">🇦🇺 Avstralija</string>
+    <string name="catalog_sort_downloads">Najbolj preneseno</string>
+    <string name="catalog_sort_name">Ime A-Ž</string>
+    <string name="catalog_sort_size">Največja velikost</string>
+    <string name="catalog_error_503">Archive.org ne deluje ali je v vzdrževanju. Poskusite znova pozneje.</string>
+    <string name="catalog_error_502">Archive.org ima težave. Poskusite znova pozneje.</string>
+    <string name="catalog_error_500">Archive.org ima notranjo napako. Poskusite znova pozneje.</string>
+    <string name="catalog_error_ssl">Napaka SSL potrdila. Preverite, ali sta datum in čas v vaši napravi pravilna.</string>
+    <string name="catalog_error_timeout">Povezava z Archive.org je potekla. Preverite svojo internetno povezavo.</string>
+    <string name="catalog_error_no_internet">Ni internetne povezave. Preverite svojo povezavo.</string>
+    <string name="catalog_error_unknown">Neznana napaka</string>
+    <string name="catalog_storage_warning_title">Premalo prostora</string>
+    <string name="catalog_storage_too_large">Paket, ki ga želite prenesti, je prevelik.</string>
+    <string name="catalog_storage_download_size">Velikost prenosa:</string>
+    <string name="catalog_storage_available">Razpoložljiv prostor:</string>
+    <string name="catalog_storage_needed">Potreben dodaten prostor:</string>
+    <string name="catalog_storage_free_space">Sprostite prostor v svoji napravi ali izberite manj datotek za prenos.</string>
+    <string name="catalog_storage_understood">Razumem</string>
+    <string name="catalog_path_warning_title">Pot ni nastavljena!</string>
+    <string name="catalog_path_select_folder">Za prenos iger morate izbrati mapo, v katero jih želite shraniti.</string>
+    <string name="catalog_path_select_button">Izberi mapo</string>
+    <string name="delete_games_title">Izbrišem %1$d iger?</string>
+    <string name="delete_games_warning">To bo odstranilo izbrane igre iz vaše knjižnice in izbrisalo njihove ROM datoteke z diska.</string>
+    <string name="delete_games_list_header">Igre za izbris:</string>
+    <string name="delete_games_and_more">...in še %1$d</string>
+    <string name="delete_games_confirm">Izbriši</string>
+    <string name="delete_mode_title">Izberite igre za izbris</string>
+    <string name="delete_selected">Izbriši izbrano (%1$d)</string>
+    <string name="settings_category_metadata">Metapodatki / Iskalnik</string>
+    <string name="settings_title_thegamesdb_apikey">API ključ TheGamesDB</string>
+    <string name="settings_description_thegamesdb_apikey">Pridobite brezplačen ključ na thegamesdb.net</string>
+    <string name="settings_thegamesdb_help">Vnesite svoj API ključ TheGamesDB za pridobitev naslovnic iger, opisov in žanrov.</string>
+    <string name="settings_thegamesdb_configured">Konfigurirano</string>
+    <string name="settings_thegamesdb_not_configured">Ni konfigurirano</string>
+    <string name="metadata_dialog_apikey_title">Vnesite API ključ</string>
+    <string name="rom_migration_title">Premakni ROM-e</string>
+    <string name="rom_migration_message">%1$d ROM-ov bo premaknjenih v:
+
+%2$s
+
+Ali želite nadaljevati?</string>
+    <string name="rom_migration_progress_title">Premikanje ROM-ov…</string>
+    <string name="rom_migration_progress">Premikanje %1$s (%2$d od %3$d)</string>
+    <string name="rom_migration_success">%1$d ROM-ov je bilo uspešno premaknjenih</string>
+    <string name="rom_migration_partial">Premaknjenih %1$d od %2$d ROM-ov. Nekaterih datotek ni bilo mogoče premakniti.</string>
+    <string name="rom_migration_failed">ROM-ov ni bilo mogoče premakniti: %1$s</string>
+    <string name="rom_migration_cancel">Prekliči</string>
+    <string name="rom_migration_confirm">Premakni</string>
+    <string name="rom_migration_smb_not_supported">Samodejna migracija ROM-ov ni na voljo za omrežne knjižnice (SMB)</string>
+    <string name="manual_header">Uporabniški priročnik</string>
+    <string name="manual_section_first_steps">🚀 Prvi koraki</string>
+    <string name="manual_content_first_steps">1. V Nastavitve → Imenik izberite mapo za shranjevanje vaših ROM-ov.
+
+2. Kopirajte svoje datoteke ROM v to mapo.
+
+3. Aplikacija bo samodejno poiskala in prikazala vaše igre na začetnem zaslonu.</string>
+    <string name="manual_section_archive">🌐 Raziščite kataloge</string>
+    <string name="manual_content_archive">Razdelek Katalog vam omogoča raziskovanje zbirk ROM-ov iz več javnih virov:
+
+• Archive.org: Velike zbirke klasičnih ROM-ov.
+• itch.io: Brezplačne igre homebrew (zahteva brezplačen API ključ).
+
+• Brskajte po sistemu ali iščite določene igre.
+• Tapnite igro, da jo prenesete v svojo mapo z ROM-i.
+• Prenesene igre se bodo samodejno prikazale v vaši knjižnici.</string>
+    <string name="manual_section_controls">🎮 Konfiguracija krmilnikov</string>
+    <string name="manual_content_controls">Povežite krmilnik Bluetooth ali USB in pojdite v Nastavitve → Nastavitve krmilnika.
+
+• S seznama izberite svoj krmilnik.
+• Preslikajte gumbe glede na svoje želje.
+• Omogočite vibriranje, če ga vaš krmilnik podpira.</string>
+    <string name="manual_section_bios">💾 Zahtevan BIOS</string>
+    <string name="manual_content_bios">Nekateri sistemi (PlayStation, Game Boy Advance itd.) za delovanje potrebujejo datoteke BIOS.
+
+• Pojdite v Nastavitve → Informacije o BIOS-u, da vidite, katere datoteke potrebujete.
+• Datoteke BIOS postavite v isto mapo kot svoje ROM-e.
+• Ime datoteke se mora natančno ujemati z zahtevanim.</string>
+    <string name="manual_section_saves">💾 Shranjene igre</string>
+    <string name="manual_content_saves">Samodejno shranjevanje je privzeto omogočeno.
+
+• Ko zapustite igro, se vaš napredek samodejno shrani.
+• Ko igro znova odprete, boste nadaljevali tam, kjer ste končali.
+• Uporabite lahko tudi lasten sistem shranjevanja igre (meni v igri).</string>
+    <string name="manual_section_sync">☁️ Sinhronizacija v oblaku</string>
+    <string name="manual_content_sync">Svoje shranjene igre lahko sinhronizirate z Google Drive.
+
+• Pojdite v Nastavitve → Sinhronizacija shranjevanj.
+• Prijavite se s svojim Google računom.
+• Vaša shranjevanja se bodo samodejno sinhronizirala med napravami.</string>
+    <string name="manual_section_gameplay">🕹️ Med igranjem</string>
+    <string name="manual_content_gameplay">Za dostop do menija med igranjem:
+
+• Pritisnite gumb menija (☰) ali povlecite z roba zaslona.
+• Od tam lahko: shranite/naložite stanja, spremenite režo za shranjevanje, dostopate do hitrih možnosti ali zapustite igro.</string>
+    <string name="about_version">Različica %1$s</string>
+    <string name="about_section_origin">Izvor programske opreme</string>
+    <string name="about_content_origin_1">Ta aplikacija je izpeljanka odprtokodnega projekta Lemuroid, distribuirana pod licenco GPL-3.0.</string>
+    <string name="about_content_origin_2">Dodane so funkcije raziskovanja javno dostopne vsebine na Archive.org in brezplačne igre homebrew z itch.io.</string>
+    <string name="about_section_source">Izvorna koda</string>
+    <string name="about_content_source">Izvorna koda te spremenjene različice je na voljo pod licenco GPL-3.0.</string>
+    <string name="about_button_github">Ogled izvorne kode (GitHub)</string>
+    <string name="about_section_licenses">Licence tretjih oseb</string>
+    <string name="about_section_legal">Pravno obvestilo</string>
+    <string name="about_content_legal">Ta aplikacija ne vključuje ROM-ov in ne prenaša vsebine samodejno. Funkcija raziskovanja prikazuje le zbirke, ki so javno dostopne na Archive.org, in brezplačne igre homebrew s platforme itch.io. Uporabnik je odgovoren za preverjanje svojih pravic do dostopa ali uporabe kakršnih koli zunanjih datotek.</string>
+    <string name="about_section_report">Prijavi napako</string>
+    <string name="about_content_report">Ste našli napako ali imate predlog? Pomagajte nam izboljšati aplikacijo s pošiljanjem anonimnega poročila.</string>
+    <string name="about_button_report">🐛 Prijavi napako</string>
+    <string name="about_no_browser">Za odpiranje povezave ni nameščen noben spletni brskalnik</string>
+    <string name="about_no_browser_report">Za odpiranje strani za prijavo napak ni nameščen noben spletni brskalnik</string>
+    <string name="bug_report_error">Obrazca za prijavo napake ni bilo mogoče naložiti. Preverite svojo internetno povezavo.</string>
+    <string name="bug_report_select_images">Izberite slike</string>
+    <string name="about_open_with">Odpri z</string>
+    <string name="catalog_disclaimer">⚠️ Ta katalog se povezuje z javnimi repozitoriji (Archive.org in itch.io), ki niso povezani z EmulAItorjem. S platforme itch.io so navedene le brezplačne vsebine homebrew. Uporaba, prenos in posedovanje tega gradiva so izključna odgovornost uporabnika. 🧠 Čeprav EmulAItor inteligentno filtrira datoteke, lahko pride do nedelujočih povezav, nezdružljivih datotek ali vsebin, ki niso ROM-i.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io Homebrew</string>
+    <string name="itch_api_key_title">API ključ za itch.io</string>
+    <string name="itch_api_key_subtitle">Potreben za prenos iger s platforme itch.io</string>
+    <string name="itch_api_key_instructions">Za prenos brezplačnih iger homebrew s platforme itch.io potrebujete API ključ:\n\n1. Pojdite na &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt; in ustvarite brezplačen račun\n2. Pojdite na &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;Nastavitve → API ključi&lt;/a&gt;\n3. Ustvarite nov ključ in ga kopirajte\n4. Prilepite ga spodaj</string>
+    <string name="itch_api_key_hint">Tukaj prilepite svoj API ključ za itch.io</string>
+    <string name="itch_api_key_validating">Preverjanje API ključa…</string>
+    <string name="itch_api_key_valid">API ključ je veljaven ✓</string>
+    <string name="itch_api_key_invalid">Neveljaven API ključ. Preverite ga in poskusite znova.</string>
+    <string name="itch_api_key_saved">API ključ je bil uspešno shranjen</string>
+    <string name="itch_api_key_required_title">Potreben je API ključ</string>
+    <string name="itch_api_key_required_message">Za prenos iger potrebujete API ključ za itch.io. Ali ga želite konfigurirati zdaj?</string>
+    <string name="itch_no_results">Za ta sistem na itch.io ni najdenih iger homebrew</string>
+    <string name="itch_unsupported_system">itch.io nima vsebine homebrew za ta sistem. Poskusite z NES, SNES, GBA, GBC ali Genesis.</string>
+    <string name="itch_game_free">Brezplačno</string>
+    <string name="itch_game_by">avtor: %1$s</string>
+    <string name="pack_fully_downloaded">V celoti preneseno</string>
+    <string name="itch_uploads_title">Razpoložljive datoteke</string>
+    <string name="itch_no_rom_uploads">Za to igro ni najdenih datotek ROM za prenos</string>
+    <string name="itch_download_error">Prenos s platforme itch.io ni uspel: %1$s</string>
+    <string name="itch_settings_edit_key">Uredi ključ</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">Odkleni popoln dostop</string>
+    <string name="paywall_description">Brezplačno preizkusno obdobje se je izteklo. Za nadaljevanje izberite eno od naslednjih možnosti.</string>
+<string name="paywall_buy_button">Kupi različico Pro</string>
+    <string name="paywall_restore_title">Ste ga že kupili v preteklosti?</string>
+    <string name="paywall_restore_description">Če ste kupili EmulAItor, preden je postal brezplačen, vnesite svojo ID številko naročila Google Play (GPA...), da obnovite dostop.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">Obnovi nakup</string>
+    <string name="paywall_where_is_receipt">Kje najdem svoje potrdilo?</string>
+    <string name="paywall_receipt_instructions_title">Kako najti ID naročila</string>
+    <string name="paywall_receipt_instructions_1">Možnost A: V svojem Gmailu poiščite \"Google Play Receipt EmulAItor\".</string>
+    <string name="paywall_receipt_instructions_2">Možnost B: Pojdite na pay.google.com, preverite svojo dejavnost in poiščite EmulAItor.</string>
+    <string name="paywall_receipt_open_web">Odpri pay.google.com</string>
+    <string name="paywall_support_fallback">Če ga ne najdete, se obrnite na podporo.</string>
+    <string name="paywall_success">Nakup je bil uspešno obnovljen. Hvala!</string>
+    <string name="paywall_error_invalid_gpa">Neveljavna koda GPA ali pa je že bila uporabljena.</string>
+    <string name="paywall_error_limit_exceeded">Ta koda se že uporablja na največjem dovoljenem številu naprav. Prosimo, kupite novo licenco z zgornjimi možnostmi.</string>
+<string name="paywall_error_network">Omrežna napaka. Preverite svojo povezavo.</string>
+    <string name="paywall_error_unknown">Prišlo je do neznane napake.</string>
+    <string name="paywall_restoring">Obnavljanje...</string>
+    <string name="paywall_buy_subscription">Mesečna naročnina</string>
+    <string name="paywall_buy_lifetime">Trajno odklepanje</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>

@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">홈</string>
+    <string name="title_search">검색</string>
+    <string name="title_systems">시스템</string>
+    <string name="title_games">게임</string>
+    <string name="title_settings">설정</string>
+    <string name="recent">최근 실행</string>
+    <string name="favorites">즐겨찾기</string>
+    <string name="discover">발견하기</string>
+    <string name="rescan">다시 검색</string>
+    <string name="stop">중단</string>
+    <string name="none">없음</string>
+    <string name="directory">디렉토리</string>
+    <string name="display_filter">디스플레이 필터</string>
+    <string name="roms">ROM</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="settings">설정</string>
+    <string name="save_sync">세이브 동기화</string>
+    <string name="show_all">모두 표시</string>
+    <string name="back">뒤로</string>
+    <string name="close">닫기</string>
+    <string name="game_page_search_suggestion">게임 검색</string>
+    <string name="settings_category_general">일반</string>
+    <string name="settings_category_input">입력</string>
+    <string name="settings_category_misc">기타</string>
+    <string name="settings_title_enable_autosave">상태 자동 저장</string>
+    <string name="settings_description_enable_autosave">게임 메뉴를 통해 종료 시 상태저장 생성</string>
+    <string name="settings_title_enable_touch_feedback">터치 시 진동</string>
+    <string name="settings_title_tilt_sensitivity">기울임 센서 감도</string>
+    <string name="settings_title_hd_quality">HD 모드 품질</string>
+    <string name="settings_title_maximum_cache_usage">캐시 크기 제한</string>
+    <string name="settings_title_hd_mode">HD 모드</string>
+    <string name="settings_description_hd_mode">업스케일링 후처리 필터를 적용합니다</string>
+    <string name="settings_description_hd_quality">HD 모드의 품질을 설정합니다</string>
+    <string name="settings_title_immersive_mode">몰입형 모드</string>
+    <string name="settings_description_immersive_mode">게임 화면에 따라 배경 색상을 동적으로 변경합니다</string>
+    <string name="settings_title_gamepad_settings">외장 장치</string>
+    <string name="settings_description_gamepad_settings">외장 게임패드와 키보드를 설정합니다</string>
+    <string name="settings_retropad_button_name">RetroPad %1$s</string>
+    <string name="settings_gamepad_category_enabled">활성화된 장치</string>
+    <string name="settings_gamepad_category_general">일반</string>
+    <string name="settings_gamepad_title_reset_bindings">매핑 초기화</string>
+    <string name="settings_gamepad_title_game_menu">메뉴</string>
+    <string name="settings_title_open_cores_selection">코어 변경</string>
+    <string name="settings_description_open_cores_selection">시스템에 연결된 코어를 변경합니다</string>
+    <string name="settings_core_selection_ds_info">DeSmuME는 지원이 중단되었으며 이후 업데이트에서 삭제될 예정입니다. 게임 내에서 진행 상황을 저장하고, melonDS로 갈아타세요. 게임 내에서 한 저장은 melonDS에서 불러올 수 있지만, 상태저장은 생성된 코어에서만 사용할 수 있습니다.</string>
+    <string name="settings_title_display_bios_info">BIOS</string>
+    <string name="settings_description_display_bios_info">인식된 BIOS 파일을 표시합니다</string>
+    <string name="settings_bios_category_detected">감지됨</string>
+    <string name="settings_bios_category_not_detected">지원됨</string>
+    <string name="settings_title_reset_settings">설정 초기화</string>
+    <string name="settings_description_reset_settings">Lemuroid를 초기 설정으로 되돌립니다</string>
+    <string name="settings_title_advanced_settings">고급 설정</string>
+    <string name="settings_description_advanced_settings">고급 설정 표시</string>
+    <string name="settings_title_low_latency_audio">저지연 오디오 선호</string>
+    <string name="settings_description_low_latency_audio">지원되는 기기에서 오디오 레이턴시를 줄입니다. 오디오 문제가 발생할 수 있습니다.</string>
+    <string name="settings_title_direct_game_load">게임 직접 불러오기</string>
+    <string name="settings_description_direct_game_load">(실험적 기능) 지원되는 콘솔에 대해 로딩 시간과 캐시 사용량을 감소시킵니다.</string>
+    <string name="settings_title_enable_rumble">진동</string>
+    <string name="settings_description_enable_rumble">지원되는 게임과 컨트롤러에서 진동을 사용합니다</string>
+    <string name="settings_title_enable_device_rumble">장치 진동</string>
+    <string name="settings_description_enable_device_rumble">연결된 컨트롤러가 없을 경우 장치를 진동합니다</string>
+    <string name="reset_settings_warning_message_title">확실한가요?</string>
+    <string name="reset_settings_warning_message_description">Lemuroid 설정을 초기 설정으로 되돌립니다. 게임 세이브와 상태저장은 보존됩니다.</string>
+    <string name="settings_title_save_sync">클라우드 저장</string>
+    <string name="settings_description_save_sync">세이브 데이터를 클라우드에 백업 및 동기화합니다</string>
+    <string name="settings_save_sync_refresh">수동 동기화</string>
+    <string name="settings_save_sync_refresh_description">지금 바로 수동 동기화를 수행합니다.\n%1$s</string>
+    <string name="settings_save_sync_enable_auto">자동 동기화</string>
+    <string name="settings_save_sync_enable_auto_description">Wi-Fi에 연결되어 있을 때 게임을 종료하면 자동으로 동기화를 수행합니다</string>
+    <string name="settings_save_sync_configure">%1$s 설정</string>
+    <string name="settings_save_sync_include_saves">게임 세이브 데이터 동기화</string>
+    <string name="settings_save_sync_include_saves_description">%1$s 사용 중</string>
+    <string name="settings_save_sync_include_states">상태저장 동기화</string>
+    <string name="settings_save_sync_include_states_description">더 편리하지만, 더 무겁고 불안정합니다. 동기화할 코어/시스템을 선택합니다</string>
+    <string name="game_context_menu_add_to_favorites">즐겨찾기에 추가</string>
+    <string name="game_context_menu_remove_from_favorites">즐겨찾기에서 제거</string>
+    <string name="game_context_menu_resume">계속하기</string>
+    <string name="game_context_menu_restart">다시 시작</string>
+    <string name="game_context_menu_create_shortcut">런처에 고정</string>
+    <string name="home_notification_title">알림 사용</string>
+    <string name="home_notification_message">Lemuroid가 게임 또는 배경 작업을 실행 중일 때 알림을 표시합니다.</string>
+    <string name="home_notification_action">활성화</string>
+    <string name="home_microphone_title">마이크 활성화</string>
+    <string name="home_microphone_message">Nintendo DS 게임들의 마이크를 활용하는 기능을 사용할 수 있습니다.</string>
+    <string name="home_microphone_action">활성화</string>
+    <string name="home_empty_title">ROM 디렉토리 선택</string>
+    <string name="home_empty_message">Lemuroid가 검색할 ROM 파일이 담긴 디렉토리가 필요합니다.\n이 과정은 몇 분 정도 걸립니다.</string>
+    <string name="home_empty_action">디렉토리 선택</string>
+    <string name="home_notification_desmume_deprecated_title">DeSmuME의 지원이 중단됩니다</string>
+    <string name="home_notification_desmume_deprecated_message">게임 내에서 저장하고, melonDS로 갈아타 진행 상황을 보존하세요. 상태저장은 다른 코어로 가져갈 수 없으며 DeSmuME에서밖에 사용할 수 없습니다.</string>
+    <string name="home_notification_desmume_deprecated_action">melonDS로 갈아타기</string>
+    <string name="game_menu_save">저장</string>
+    <string name="game_menu_load">불러오기</string>
+    <string name="game_menu_restart">다시 시작</string>
+    <string name="game_menu_quit">종료</string>
+    <string name="game_menu_settings">설정</string>
+    <string name="game_menu_state">상태 %1$s</string>
+    <string name="game_menu_change_disk_button">디스크 변경</string>
+    <string name="game_menu_edit_touch_controls">컨트롤 변경</string>
+    <string name="game_menu_mute_audio">음소거</string>
+    <string name="game_menu_fast_forward">빨리 감기</string>
+    <string name="game_menu_change_disk_disk">디스크 %1$s</string>
+    <string name="game_menu_tilt_sensor">기울기 센서</string>
+    <string name="game_loading_preparing_game">게임 준비 중…</string>
+    <string name="game_toast_settings_button_using_gamepad">게임패드가 감지되었습니다. %1$s(으)로 설정 메뉴를 열 수 있습니다.</string>
+    <string name="game_toast_load_state_failed">이 상태저장을 열 수 없습니다</string>
+    <string name="game_toast_quick_save_loaded">빠른 저장 불러옴</string>
+    <string name="game_toast_quick_save_saved">빠른 저장 생성됨</string>
+    <string name="empty_view_default">항목 없음</string>
+    <string name="core_settings_title">코어 설정</string>
+    <string name="core_settings_category_preferences">설정</string>
+    <string name="core_settings_category_controllers">컨트롤러</string>
+    <string name="core_settings_controller">컨트롤러 %1$s</string>
+    <string name="game_menu_title">게임 메뉴</string>
+    <string name="notification_channel_name">모든 알림</string>
+    <string name="library_index_notification_title">ROM 검색 중</string>
+    <string name="library_index_notification_message">몇 분 정도 걸립니다</string>
+    <string name="save_sync_notification_title">클라우드 동기화 진행 중</string>
+    <string name="save_sync_notification_message">몇 분 정도 걸립니다</string>
+    <string name="game_running_notification_title">%1$s 실행 중</string>
+    <string name="game_running_notification_title_alternative">게임 실행 중</string>
+    <string name="game_running_notification_message">진행 상황 저장을 잊지 마세요</string>
+    <string name="game_loader_error_gl_incompatible">이 장치에서는 이 코어가 요구하는 OpenGL ES 버전이 지원되지 않습니다.</string>
+    <string name="game_loader_error_load_game">게임을 불러오는 도중 문제가 발생했습니다. ROM 파일이 Lemuroid에서 지원되는 파일인지 확인한 뒤 게임을 다시 검색해주세요.</string>
+    <string name="game_loader_error_save">세이브 파일에 문제가 발생했습니다. 문제가 지속될 경우 자동 저장을 비활성화하는 것이 좋습니다.</string>
+    <string name="game_loader_error_unsupported_architecture">이 장치에서 지원되지 않는 코어입니다.</string>
+    <string name="game_loader_error_generic">문제가 발생했습니다. 다음 조치를 취해보세요:\n
+        \n• 자동 저장을 비활성화하고 게임 다시 실행
+        \n• 안드로이드 설정에서 앱 캐시 초기화
+        \n• Lemuroid 설정에서 설정 초기화
+        \n\n이후에도 계속 문제가 발생할 경우, 이 장치에서 이 게임 또는 코어가 지원되지 않는 것일 수도 있습니다.</string>
+    <string name="game_loader_error_missing_bios">필요한 BIOS 파일이 없는 것 같습니다. ROM 디렉토리에 필요한 파일을 추가한 뒤 게임을 다시 검색해주세요. 필요한 파일: %1$s</string>
+    <string name="game_shortcut_error">게임을 불러오는 중 문제가 발생했습니다. 게임이 아직 라이브러리에 존재하는지 확인해주세요.</string>
+    <string name="dialog_saf_not_found">이 장치에서는 저장소 액세스 프레임워크 파일 선택기가 지원되지 않습니다. 압축되지 않은 ROM 파일을 %1$s에 복사한 뒤 게임을 다시 검색해주세요.</string>
+    <string name="system_grid_details">%1$s개의 게임</string>
+    <string name="tv_home_section_favorites">즐겨찾기</string>
+    <string name="tv_home_section_recents">최근 실행</string>
+    <string name="tv_home_section_systems">시스템</string>
+    <string name="tv_home_section_settings">설정</string>
+    <string name="gamepad_binding_update_title">\"RetroPad %1$s\" 연결하기</string>
+    <string name="gamepad_binding_update_description">\"%1$s\"의 버튼을 눌러주세요</string>
+    <string name="shortcut_binding_update_title">\"단축키 %1$s\" 연결하기</string>
+    <string name="shortcut_binding_update_description">\"%1$s\"에서 첫 번째 버튼을 누른 뒤, 두 번째 버튼을 눌러 단축키를 설정하세요</string>
+    <string name="tv_search_results">게임</string>
+    <string name="tv_game_message_missing_gamepad">게임패드가 필요합니다. 게임패드를 연결해주세요.</string>
+    <string name="game_edit_touch_controls_error_not_visible">터치 컨트롤을 변경하려면 게임패드 연결을 해제해주세요</string>
+    <string name="game_interactory_busy">현재 작업이 완료될 때까지 기다려주세요</string>
+    <string name="mobile_settings_help">도움말</string>
+    <string name="mobile_settings_support">지원</string>
+    <string name="lemuroid_help_content">&lt;b&gt;&amp;#8226;Lemuroid는 어떻게 사용하나요?&lt;/b&gt;&lt;br/&gt;
+        ROM 파일들을 장치 내 디렉토리에 복사한 뒤 Lemuroid에서 해당 디렉토리를 선택합니다. 디렉토리 안에 디렉토리가 있어도 괜찮습니다. 검색이 끝나면 게임들을 보실 수 있습니다.&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;&amp;#8226;왜 제 게임이 감지되지 않는건가요?&lt;/b&gt;&lt;br/&gt;
+        게임 파일이 압축되어 있다면, 압축을 해제해보세요. 그래도 안 된다면 ROM들을 아래와 같은 이름의 디렉토리를 만들어서 시스템별로 따로따로 배치해보세요: $SYSTEMS.</string>
+    <string name="lemuroid_crash_disclamer">Libretro 코어에서 예기치 못한 문제가 발생했습니다. 문제가 지속된다면 다음 조치를 취해보세요:\n
+        \n• 자동 저장을 비활성화하고 게임 다시 실행
+        \n• 안드로이드 설정에서 앱 캐시 초기화
+        \n• Lemuroid 설정에서 설정 초기화
+        \n\n 이후에도 계속 문제가 발생할 경우, 이 장치에서 이 게임 또는 코어가 지원되지 않는 것일 수도 있습니다.</string>
+    <string name="error_message_incompatible_state">이 상태저장은 현재 코어 버전과 호환되지 않습니다. 가장 최근의 인게임 세이브 데이터를 사용하거나 이전 버전의 Lemuroid를 사용하세요.</string>
+    <string name="shader_filter_names_auto">자동</string>
+    <string name="shader_filter_names_sharp">선명하게</string>
+    <string name="shader_filter_names_smooth">부드럽게</string>
+    <string name="shader_filter_names_crt">CRT</string>
+    <string name="shader_filter_names_lcd">LCD</string>
+    <string name="haptic_feedback_mode_names_none">없음</string>
+    <string name="haptic_feedback_mode_names_press">누를 때</string>
+    <string name="haptic_feedback_mode_names_press_release">누를 때 &amp; 뗄 때</string>
+    <string name="tilt_configuration_disabled">사용 안 함</string>
+    <string name="tilt_configuration_cross">방향 패드</string>
+    <string name="tilt_configuration_analog_left">왼쪽 아날로그</string>
+    <string name="tilt_configuration_analog_right">오른쪽 아날로그</string>
+    <string name="tilt_configuration_buttons_l_r">L - R</string>
+    <string name="tilt_configuration_buttons_l1_r1">L1 - R1</string>
+    <string name="tilt_configuration_buttons_l2_r2">L2 - R2</string>
+<!-- Added by local i18n tool. -->
+    <string name="title_catalog">카탈로그</string>
+    <string name="settings_title_about">정보</string>
+    <string name="settings_title_manual">사용자 설명서</string>
+    <string name="settings_description_manual">EmulAItor 사용 방법</string>
+    <string name="license_not_verified_title">라이선스가 확인되지 않음</string>
+    <string name="home_hd_mode_enabled">HD 모드 켜짐</string>
+    <string name="home_hd_mode_disabled">HD 모드 꺼짐</string>
+    <string name="settings_bios_help">BIOS 파일을 추가하려면 지원되는 파일을 ROMs 폴더에 넣고 다시 스캔하세요. 파일 이름이 정확히 일치해야 합니다.</string>
+    <string name="game_context_menu_delete">삭제</string>
+    <string name="game_delete_confirmation">\"%1$s\"을(를) 삭제하시겠습니까? 라이브러리에서 게임이 제거되고 파일이 삭제됩니다.</string>
+    <string name="game_deleted">게임이 삭제되었습니다</string>
+    <string name="home_storage_inaccessible_title">ROMs 디렉토리에 액세스할 수 없음</string>
+    <string name="home_storage_inaccessible_message">Android가 EmulAItor의 선택된 ROMs 디렉토리 액세스를 허용하지 않습니다. 폴더가 이동되었거나 삭제되었거나 시스템 권한에 의해 차단되었을 수 있습니다. 폴더를 다시 선택하거나 다른 폴더를 선택하세요.</string>
+    <string name="home_storage_inaccessible_action">다른 디렉토리 선택</string>
+    <string name="update_available_banner">더 최신 버전의 EmulAItor를 사용할 수 있습니다. 탭하여 업데이트하세요.</string>
+    <string name="library_metadata_enrichment_in_progress">백그라운드에서 ROM 세부 정보를 업데이트 중입니다. 계속 게임을 즐기실 수 있습니다.</string>
+    <string name="tv_folder_picker_title">ROMs 디렉토리 선택</string>
+    <string name="tv_folder_picker_action_choose">선택</string>
+    <string name="tv_folder_picker_action_cancel">취소</string>
+    <string name="tv_folder_storage_primary">기본 저장소</string>
+    <string name="tv_folder_storage_secondary">보조 저장소 %1$s</string>
+    <string name="tv_folder_storage_title">저장소 선택</string>
+    <string name="tv_folder_error_access">이 폴더에 액세스할 수 없습니다. 하위 디렉토리나 다른 위치를 선택하세요.</string>
+    <string name="pref_key_choose_directory">choose_directory</string>
+    <string name="settings_title_choose_directory">ROMs 디렉토리</string>
+    <string name="settings_description_choose_directory">게임이 포함된 폴더를 선택하세요</string>
+    <string name="pending_operations_blocked_title">작업이 중단되었을 수 있습니다</string>
+    <string name="pending_operations_blocked_message_external">이전 버전의 보류 중인 프로세스가 ROM 인덱싱을 차단하고 있을 수 있습니다. 계속 기다리거나 앱 데이터를 삭제하여 복구할 수 있습니다. ROM 파일은 삭제되지 않지만 ROM 폴더를 다시 선택해야 합니다. 이 상태가 5분 이상 지속되면 앱 데이터를 삭제하는 것이 좋습니다.</string>
+    <string name="pending_operations_blocked_message_internal">이전 버전의 보류 중인 프로세스가 ROM 인덱싱을 차단하고 있을 수 있습니다. 계속 기다리거나 설정을 열어 저장소 구성을 검토하세요.</string>
+    <string name="pending_operations_clear_data">앱 데이터 삭제</string>
+    <string name="pending_operations_keep_waiting">계속 기다리기</string>
+    <string name="pending_operations_clear_data_confirm_title">앱 데이터를 삭제하시겠습니까?</string>
+    <string name="pending_operations_clear_data_confirm_message">EmulAItor의 앱 데이터가 지금 초기화됩니다. ROM 파일은 삭제되지 않지만 ROM 폴더를 다시 선택해야 합니다.</string>
+    <string name="pending_operations_clear_data_confirm_button">데이터 삭제</string>
+    <string name="disclaimer_title">중요 공지</string>
+    <string name="disclaimer_software_origin_title">소프트웨어 출처</string>
+    <string name="disclaimer_software_origin_text">이 애플리케이션은 GPL-3.0 라이선스에 따라 배포되는 오픈 소스 프로젝트 Lemuroid의 포크 버전입니다.</string>
+    <string name="disclaimer_no_content_title">포함된 콘텐츠 없음</string>
+    <string name="disclaimer_no_content_text">이 앱은 게임을 포함하지 않으며 파일을 자동으로 다운로드하지 않습니다.</string>
+    <string name="disclaimer_archive_title">공개 카탈로그 소스</string>
+    <string name="disclaimer_archive_text">탐색 기능은 Archive.org에서 공개적으로 이용 가능한 콘텐츠와 itch.io의 무료 홈브류 게임을 보여줍니다. EmulAItor는 두 서비스와 제휴 관계가 아닙니다. ROM에 액세스하거나 사용할 권리가 있는지 확인하는 책임은 사용자에게 있습니다.</string>
+    <string name="disclaimer_user_responsibility_title">사용자 책임</string>
+    <string name="disclaimer_user_responsibility_text">이 애플리케이션에서 사용하는 모든 ROM 파일에 대한 법적 사용 권한을 확보할 책임은 사용자에게 있습니다.</string>
+    <string name="disclaimer_accept">이해하고 동의합니다</string>
+    <string name="disclaimer_terms">계속 진행하면 이 애플리케이션의 이용 약관에 동의하는 것으로 간주됩니다.</string>
+    <string name="game_context_menu_edit">편집</string>
+    <string name="game_edit_title">게임 편집</string>
+    <string name="game_edit_field_title">제목</string>
+    <string name="game_edit_field_system">시스템</string>
+    <string name="game_edit_field_developer">개발자</string>
+    <string name="game_edit_file_label">파일:</string>
+    <string name="game_edit_save">저장</string>
+    <string name="game_edit_search_online">온라인 메타데이터 검색</string>
+    <string name="game_edit_searching">검색 중…</string>
+    <string name="game_edit_no_results">결과를 찾을 수 없습니다</string>
+    <string name="game_edit_apply_metadata">메타데이터 적용</string>
+    <string name="game_edit_unlock_metadata">메타데이터 잠금 해제 (자동 업데이트 허용)</string>
+    <string name="catalog_search_placeholder">ROM 검색...</string>
+    <string name="catalog_filter_all_sources">모든 소스</string>
+    <string name="catalog_filter_archive_org">Archive.org</string>
+    <string name="catalog_filter_local">로컬</string>
+    <string name="catalog_filter_smb">SMB</string>
+    <string name="catalog_no_results">결과를 찾을 수 없습니다</string>
+    <string name="catalog_downloads">다운로드</string>
+    <string name="catalog_clear_completed">모두 지우기</string>
+    <string name="catalog_downloading">다운로드 중...</string>
+    <string name="catalog_downloaded">다운로드 완료</string>
+    <string name="sources_manage_title">소스 관리</string>
+    <string name="sources_add_title">소스 추가</string>
+    <string name="sources_add_local">로컬 폴더 추가</string>
+    <string name="sources_add_smb">SMB/NAS 추가</string>
+    <string name="sources_smb_name">이름</string>
+    <string name="sources_smb_server">서버</string>
+    <string name="sources_smb_path">경로</string>
+    <string name="sources_smb_username">사용자 이름 (선택 사항)</string>
+    <string name="sources_smb_password">비밀번호 (선택 사항)</string>
+    <string name="sources_smb_domain">도메인 (선택 사항)</string>
+    <string name="sources_edit">편집</string>
+    <string name="sources_delete">삭제</string>
+    <string name="sources_save">저장</string>
+    <string name="sources_cancel">취소</string>
+    <string name="sources_add">추가</string>
+    <string name="sources_smb_display_name">표시 이름</string>
+    <string name="sources_smb_display_name_placeholder">내 NAS</string>
+    <string name="sources_smb_server_placeholder">192.168.1.100</string>
+    <string name="sources_smb_path_placeholder">/share/roms/snes</string>
+    <string name="sources_smb_path_hint">공유 이름을 포함한 전체 경로</string>
+    <string name="sources_smb_use_auth">인증 사용</string>
+    <string name="sources_smb_username_label">사용자 이름</string>
+    <string name="sources_smb_password_label">비밀번호</string>
+    <string name="sources_smb_edit_title">SMB 소스 편집</string>
+    <string name="sources_smb_connection_title">SMB 연결</string>
+    <string name="sources_smb_test_connection">연결 테스트</string>
+    <string name="sources_smb_testing">연결 테스트 중...</string>
+    <string name="sources_smb_connection_success">연결 성공!</string>
+    <string name="sources_smb_connection_failed">연결 실패: %1$s</string>
+    <string name="sources_no_custom">구성된 사용자 지정 소스가 없습니다</string>
+    <string name="sources_local_permission_error">Android에서 액세스 권한을 부여하지 않아 이 폴더를 추가할 수 없습니다. 다른 폴더를 선택하세요.</string>
+    <string name="catalog_filter_cloud">Archive.org</string>
+    <string name="catalog_section_archive_org">☁️ Archive.org</string>
+    <string name="catalog_section_local_files">📁 로컬 파일</string>
+    <string name="catalog_section_smb_nas">🖥️ SMB/NAS</string>
+    <string name="catalog_search_roms">ROM 검색...</string>
+    <string name="catalog_packs_count">팩 %1$d/%2$d</string>
+    <string name="catalog_games_count">게임 %1$d개</string>
+    <string name="catalog_load_more">더 보기...</string>
+    <string name="catalog_load_more_packs">팩 더 보기</string>
+    <string name="catalog_no_packs_found">ROM 팩을 찾을 수 없습니다</string>
+    <string name="catalog_no_files_found">다운로드 가능한 파일을 찾을 수 없습니다</string>
+    <string name="catalog_files_count">파일 (%1$d):</string>
+    <string name="catalog_download_all">모두</string>
+    <string name="catalog_downloads_title">다운로드 (%1$d)</string>
+    <string name="catalog_downloads_clear">지우기</string>
+    <string name="catalog_no_downloads">다운로드 없음</string>
+    <string name="catalog_error_retry">재시도</string>
+    <string name="catalog_error_occurred">오류가 발생했습니다</string>
+    <string name="catalog_invalid_download_title">잘못된 카탈로그 파일</string>
+    <string name="catalog_invalid_download_message">다운로드한 파일이 이 시스템에 유효한 ROM이 아닌 것으로 보입니다. 제공자가 잘못되었거나 지원되지 않는 파일을 게시했을 수 있습니다. 카탈로그에서 이 ROM을 찾을 수 없는 경우, 수동으로 다운로드하여 ROM 폴더에 추가할 수 있습니다.</string>
+    <string name="catalog_region_all">🌍 전체</string>
+    <string name="catalog_region_usa">🇺🇸 미국</string>
+    <string name="catalog_region_europe">🇪🇺 유럽</string>
+    <string name="catalog_region_japan">🇯🇵 일본</string>
+    <string name="catalog_region_spain">🇪🇸 스페인</string>
+    <string name="catalog_region_france">🇫🇷 프랑스</string>
+    <string name="catalog_region_germany">🇩🇪 독일</string>
+    <string name="catalog_region_italy">🇮🇹 이탈리아</string>
+    <string name="catalog_region_brazil">🇧🇷 브라질</string>
+    <string name="catalog_region_korea">🇰🇷 한국</string>
+    <string name="catalog_region_china">🇨🇳 중국</string>
+    <string name="catalog_region_australia">🇦🇺 호주</string>
+    <string name="catalog_sort_downloads">다운로드 순</string>
+    <string name="catalog_sort_name">이름순 (A-Z)</string>
+    <string name="catalog_sort_size">용량 큰 순</string>
+    <string name="catalog_error_503">Archive.org가 점검 중이거나 다운되었습니다. 나중에 다시 시도하세요.</string>
+    <string name="catalog_error_502">Archive.org에 문제가 발생했습니다. 나중에 다시 시도하세요.</string>
+    <string name="catalog_error_500">Archive.org 내부 오류가 발생했습니다. 나중에 다시 시도하세요.</string>
+    <string name="catalog_error_ssl">SSL 인증서 오류입니다. 기기의 날짜와 시간이 올바른지 확인하세요.</string>
+    <string name="catalog_error_timeout">Archive.org 연결 시간이 초과되었습니다. 인터넷 연결을 확인하세요.</string>
+    <string name="catalog_error_no_internet">인터넷에 연결되어 있지 않습니다. 연결 상태를 확인하세요.</string>
+    <string name="catalog_error_unknown">알 수 없는 오류</string>
+    <string name="catalog_storage_warning_title">공간 부족</string>
+    <string name="catalog_storage_too_large">다운로드하려는 팩의 용량이 너무 큽니다.</string>
+    <string name="catalog_storage_download_size">다운로드 크기:</string>
+    <string name="catalog_storage_available">사용 가능한 공간:</string>
+    <string name="catalog_storage_needed">추가로 필요한 공간:</string>
+    <string name="catalog_storage_free_space">기기의 여유 공간을 확보하거나 더 적은 수의 파일을 선택하여 다운로드하세요.</string>
+    <string name="catalog_storage_understood">확인</string>
+    <string name="catalog_path_warning_title">경로가 설정되지 않았습니다!</string>
+    <string name="catalog_path_select_folder">게임을 다운로드하려면 게임을 저장할 폴더를 선택해야 합니다.</string>
+    <string name="catalog_path_select_button">폴더 선택</string>
+    <string name="delete_games_title">%1$d개의 게임을 삭제하시겠습니까?</string>
+    <string name="delete_games_warning">선택한 게임이 라이브러리에서 제거되며 디스크에서 ROM 파일이 삭제됩니다.</string>
+    <string name="delete_games_list_header">삭제할 게임:</string>
+    <string name="delete_games_and_more">...외 %1$d개</string>
+    <string name="delete_games_confirm">삭제</string>
+    <string name="delete_mode_title">삭제할 게임 선택</string>
+    <string name="delete_selected">선택 항목 삭제 (%1$d)</string>
+    <string name="settings_category_metadata">메타데이터 / 스크레이퍼</string>
+    <string name="settings_title_thegamesdb_apikey">TheGamesDB API 키</string>
+    <string name="settings_description_thegamesdb_apikey">thegamesdb.net에서 무료 키를 받으세요</string>
+    <string name="settings_thegamesdb_help">TheGamesDB API 키를 입력하여 게임 표지, 설명 및 장르를 가져옵니다.</string>
+    <string name="settings_thegamesdb_configured">설정됨</string>
+    <string name="settings_thegamesdb_not_configured">설정되지 않음</string>
+    <string name="metadata_dialog_apikey_title">API 키 입력</string>
+    <string name="rom_migration_title">ROM 이동</string>
+    <string name="rom_migration_message">%1$d개의 ROM이 다음 위치로 이동됩니다:
+
+%2$s
+
+계속하시겠습니까?</string>
+    <string name="rom_migration_progress_title">ROM 이동 중…</string>
+    <string name="rom_migration_progress">%1$s 이동 중 (%2$d / %3$d)</string>
+    <string name="rom_migration_success">%1$d개의 ROM이 성공적으로 이동되었습니다</string>
+    <string name="rom_migration_partial">%1$d / %2$d개의 ROM이 이동되었습니다. 일부 파일을 이동할 수 없습니다.</string>
+    <string name="rom_migration_failed">ROM을 이동할 수 없습니다: %1$s</string>
+    <string name="rom_migration_cancel">취소</string>
+    <string name="rom_migration_confirm">이동</string>
+    <string name="rom_migration_smb_not_supported">네트워크 라이브러리(SMB)에서는 자동 ROM 이동을 사용할 수 없습니다</string>
+    <string name="manual_header">사용자 매뉴얼</string>
+    <string name="manual_section_first_steps">🚀 시작하기</string>
+    <string name="manual_content_first_steps">1. 설정 → 디렉토리에서 ROM을 저장할 폴더를 선택하세요.
+
+2. ROM 파일을 해당 폴더로 복사하세요.
+
+3. 앱이 자동으로 스캔하여 홈 화면에 게임을 표시합니다.</string>
+    <string name="manual_section_archive">🌐 카탈로그 탐색</string>
+    <string name="manual_content_archive">카탈로그 섹션에서 여러 공개 소스의 ROM 컬렉션을 탐색할 수 있습니다:
+
+• Archive.org: 고전 ROM의 대규모 컬렉션.
+• itch.io: 무료 홈브류 게임 (무료 API 키 필요).
+
+• 시스템별로 탐색하거나 특정 게임을 검색하세요.
+• 게임을 탭하여 ROM 폴더로 다운로드하세요.
+• 다운로드한 게임은 라이브러리에 자동으로 나타납니다.</string>
+    <string name="manual_section_controls">🎮 컨트롤러 설정</string>
+    <string name="manual_content_controls">Bluetooth 또는 USB 컨트롤러를 연결하고 설정 → 컨트롤러 설정으로 이동하세요.
+
+• 목록에서 컨트롤러를 선택하세요.
+• 원하는 대로 버튼을 매핑하세요.
+• 컨트롤러가 지원하는 경우 진동을 활성화하세요.</string>
+    <string name="manual_section_bios">💾 필수 BIOS</string>
+    <string name="manual_content_bios">일부 시스템(PlayStation, Game Boy Advance 등)은 작동을 위해 BIOS 파일이 필요합니다.
+
+• 설정 → BIOS 정보로 이동하여 필요한 파일을 확인하세요.
+• BIOS 파일을 ROM과 같은 폴더에 넣으세요.
+• 파일 이름은 요구되는 이름과 정확히 일치해야 합니다.</string>
+    <string name="manual_section_saves">💾 저장된 게임</string>
+    <string name="manual_content_saves">자동 저장이 기본적으로 활성화되어 있습니다.
+
+• 게임을 종료하면 진행 상황이 자동으로 저장됩니다.
+• 게임을 다시 열면 중단했던 지점부터 계속할 수 있습니다.
+• 게임 자체의 저장 시스템(게임 내 메뉴)을 사용할 수도 있습니다.</string>
+    <string name="manual_section_sync">☁️ 클라우드 동기화</string>
+    <string name="manual_content_sync">Google Drive를 통해 저장된 게임을 동기화할 수 있습니다.
+
+• 설정 → 저장 동기화로 이동하세요.
+• Google 계정으로 로그인하세요.
+• 저장 데이터가 기기 간에 자동으로 동기화됩니다.</string>
+    <string name="manual_section_gameplay">🕹️ 게임 플레이 중</string>
+    <string name="manual_content_gameplay">게임 플레이 중에 메뉴에 액세스하려면:
+
+• 메뉴 버튼(☰)을 누르거나 화면 가장자리에서 스와이프하세요.
+• 여기에서 상태 저장/불러오기, 저장 슬롯 변경, 빠른 옵션 액세스 또는 게임 종료를 할 수 있습니다.</string>
+    <string name="about_version">버전 %1$s</string>
+    <string name="about_section_origin">소프트웨어 출처</string>
+    <string name="about_content_origin_1">이 애플리케이션은 GPL-3.0 라이선스에 따라 배포되는 오픈 소스 Lemuroid 프로젝트의 포크입니다.</string>
+    <string name="about_content_origin_2">Archive.org의 공개 콘텐츠 및 itch.io의 무료 홈브류 게임을 위한 탐색 기능이 추가되었습니다.</string>
+    <string name="about_section_source">소스 코드</string>
+    <string name="about_content_source">이 수정된 버전의 소스 코드는 GPL-3.0 라이선스에 따라 제공됩니다.</string>
+    <string name="about_button_github">소스 코드 보기 (GitHub)</string>
+    <string name="about_section_licenses">타사 라이선스</string>
+    <string name="about_section_legal">법적 고지</string>
+    <string name="about_content_legal">이 애플리케이션은 ROM을 포함하지 않으며 콘텐츠를 자동으로 다운로드하지 않습니다. 탐색 기능은 Archive.org에서 공개적으로 사용 가능한 컬렉션과 itch.io의 무료 홈브류 게임만 표시합니다. 외부 파일에 액세스하거나 사용할 권리를 확인하는 것은 사용자의 책임입니다.</string>
+    <string name="about_section_report">버그 신고</string>
+    <string name="about_content_report">오류를 발견하셨나요? 제안할 내용이 있으신가요? 익명 보고서를 보내 개선에 도움을 주세요.</string>
+    <string name="about_button_report">🐛 버그 보고</string>
+    <string name="about_no_browser">링크를 열 수 있는 웹 브라우저가 설치되어 있지 않습니다.</string>
+    <string name="about_no_browser_report">버그 보고 페이지를 열 수 있는 웹 브라우저가 설치되어 있지 않습니다.</string>
+    <string name="bug_report_error">버그 보고 양식을 불러올 수 없습니다. 인터넷 연결을 확인해 주세요.</string>
+    <string name="bug_report_select_images">이미지 선택</string>
+    <string name="about_open_with">다음으로 열기</string>
+    <string name="catalog_disclaimer">⚠️ 이 카탈로그는 EmulAItor와 관련이 없는 공개 저장소(Archive.org 및 itch.io)에 연결됩니다. itch.io에서는 무료 홈브류 콘텐츠만 나열됩니다. 이 자료의 사용, 다운로드 및 소유에 대한 책임은 전적으로 사용자에게 있습니다. 🧠 EmulAItor는 파일을 지능적으로 필터링하지만, 깨진 링크, 호환되지 않는 파일 또는 ROM이 아닌 콘텐츠가 포함되어 있을 수 있습니다.</string>
+    <string name="itch_source_name">itch.io</string>
+    <string name="itch_filter_label">itch.io 홈브류</string>
+    <string name="itch_api_key_title">itch.io API 키</string>
+    <string name="itch_api_key_subtitle">itch.io에서 게임을 다운로드하려면 필요합니다</string>
+    <string name="itch_api_key_instructions">itch.io에서 무료 홈브류 게임을 다운로드하려면 API 키가 필요합니다:\n\n1. &lt;a href=\"https://itch.io/\"&gt;itch.io&lt;/a&gt;에 접속하여 무료 계정을 만드세요\n2. &lt;a href=\"https://itch.io/user/settings/api-keys\"&gt;설정 → API 키&lt;/a&gt;로 이동하세요\n3. 새 키를 생성하고 복사하세요\n4. 아래에 붙여넣으세요</string>
+    <string name="itch_api_key_hint">여기에 itch.io API 키를 붙여넣으세요</string>
+    <string name="itch_api_key_validating">API 키 확인 중…</string>
+    <string name="itch_api_key_valid">API 키 유효함 ✓</string>
+    <string name="itch_api_key_invalid">유효하지 않은 API 키입니다. 확인 후 다시 시도해 주세요.</string>
+    <string name="itch_api_key_saved">API 키가 성공적으로 저장되었습니다</string>
+    <string name="itch_api_key_required_title">API 키 필요</string>
+    <string name="itch_api_key_required_message">게임을 다운로드하려면 itch.io API 키가 필요합니다. 지금 설정하시겠습니까?</string>
+    <string name="itch_no_results">itch.io에서 이 시스템에 대한 홈브류 게임을 찾을 수 없습니다</string>
+    <string name="itch_unsupported_system">itch.io에는 이 시스템을 위한 홈브류 콘텐츠가 없습니다. NES, SNES, GBA, GBC 또는 Genesis를 시도해 보세요.</string>
+    <string name="itch_game_free">무료</string>
+    <string name="itch_game_by">제작자: %1$s</string>
+    <string name="pack_fully_downloaded">모두 다운로드됨</string>
+    <string name="itch_uploads_title">사용 가능한 파일</string>
+    <string name="itch_no_rom_uploads">이 게임에 대해 다운로드 가능한 ROM 파일을 찾을 수 없습니다</string>
+    <string name="itch_download_error">itch.io에서 다운로드 실패: %1$s</string>
+    <string name="itch_settings_edit_key">키 편집</string>
+
+    <!-- Added by local i18n tool. -->
+    <string name="paywall_title">전체 액세스 잠금 해제</string>
+    <string name="paywall_description">무료 체험 기간이 종료되었습니다. 계속하려면 다음 옵션 중 하나를 선택하세요.</string>
+<string name="paywall_buy_button">Pro 버전 구매</string>
+    <string name="paywall_restore_title">이미 구매하셨나요?</string>
+    <string name="paywall_restore_description">EmulAItor가 무료로 전환되기 전에 구매하셨다면, Google Play 주문 번호(GPA...)를 입력하여 액세스 권한을 복원하세요.</string>
+    <string name="paywall_gpa_hint">GPA.XXXX-XXXX-XXXX-XXXXX</string>
+    <string name="paywall_restore_button">구매 복원</string>
+    <string name="paywall_where_is_receipt">영수증은 어디서 찾나요?</string>
+    <string name="paywall_receipt_instructions_title">주문 번호 찾는 방법</string>
+    <string name="paywall_receipt_instructions_1">옵션 A: Gmail에서 \"Google Play Receipt EmulAItor\"를 검색하세요.</string>
+    <string name="paywall_receipt_instructions_2">옵션 B: pay.google.com에 접속하여 활동 내역에서 EmulAItor를 확인하세요.</string>
+    <string name="paywall_receipt_open_web">pay.google.com 열기</string>
+    <string name="paywall_support_fallback">찾을 수 없는 경우 고객 지원팀에 문의하세요.</string>
+    <string name="paywall_success">구매가 성공적으로 복원되었습니다. 감사합니다!</string>
+    <string name="paywall_error_invalid_gpa">유효하지 않은 GPA 코드이거나 이미 사용되었습니다.</string>
+    <string name="paywall_error_limit_exceeded">이 코드는 이미 허용된 최대 기기 수에서 사용 중입니다. 위의 옵션에서 새 라이선스를 구매해 주세요.</string>
+<string name="paywall_error_network">네트워크 오류입니다. 연결 상태를 확인하세요.</string>
+    <string name="paywall_error_unknown">알 수 없는 오류가 발생했습니다.</string>
+    <string name="paywall_restoring">복원 중...</string>
+    <string name="paywall_buy_subscription">월간 구독</string>
+    <string name="paywall_buy_lifetime">영구 잠금 해제</string>
+
+    <string name="disclaimer_freetrial_title">EmulAItor Free</string>
+    <string name="disclaimer_freetrial_text">EmulAItor Free includes a cumulative 3-hour playtime trial. Once this trial period expires, you must unlock the app with one of the available plans to continue enjoying it fully without limits.</string>
+</resources>
